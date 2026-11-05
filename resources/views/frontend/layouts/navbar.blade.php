@@ -66,14 +66,14 @@
 
 
                     {{-- Courses Dropdown --}}
-                    <div id="dropdownHover" class="z-10  top-full left-0 w-full bg-white shadow-xl capitalize ">
+                    <div id="dropdownHover" class="z-10 hidden top-full left-0 w-full bg-white shadow-xl capitalize ">
 
                         <div class="max-w-7xl mx-auto px-4 md:px-6 py-5 md:py-6 text-[#1C2826] font-sans antialiased">
 
                             <div class="grid gap-x-6 lg:gap-x-8 grid-cols-1 md:grid-cols-3 border-t border-brand-300 pt-4">
 
                                 @foreach ($categories as $category)
-                                    <a href="/industry/{{ $category['slug'] }}"
+                                    <a href="{{ route('category-courses', ['categoryslug' => $category['slug']]) }}"
                                         class="group/item relative flex items-start gap-3.5 p-3 rounded-xl border border-transparent bg-slate-50/50 hover:bg-brand-50/40 hover:border-brand-200/60 transition-all duration-200">
 
                                         <!-- Category Icon -->
@@ -108,7 +108,7 @@
 
 
                     {{-- how-we-works --}}
-                    <a href="{{ route('how-we-works') }}"
+                    <a href=""
                         class="relative font-medium transition-all duration-300
                         {{ request()->routeIs('how-we-works') ? 'text-brand-600 font-medium after:w-full' : 'text-neutral-600 hover:text-brand-600 after:w-0 hover:after:w-full' }}
                         after:absolute after:left-0 after:-bottom-1.5
@@ -116,7 +116,7 @@
                         How It Works
                     </a>
                     {{-- patners --}}
-                    <a href="{{ route('patners') }}"
+                    <a href=""
                         class="relative font-medium transition-all duration-300
                         {{ request()->routeIs('patners') ? 'text-brand-600 font-medium after:w-full' : 'text-neutral-600 hover:text-brand-600 after:w-0 hover:after:w-full' }}
                         after:absolute after:left-0 after:-bottom-1.5

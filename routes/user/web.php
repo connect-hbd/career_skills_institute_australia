@@ -31,10 +31,10 @@ Route::get('/terms-conditions', [FrontendController::class, 'termsConditions'])-
 
 Route::post('/inquiry-us', [ContactController::class, 'store'])->name('contact.store');
 
-Route::get('/industries/{slug}', [IndustryController::class, 'index'])
-    ->name('industries.index');
-Route::get('/courses/{slug}', [IndustryController::class, 'show'])
-    ->name('course.show');
+Route::get('/courses', [IndustryController::class, 'index'])->name('courses.index');
+Route::get('/courses/categories/{categoryslug}', [IndustryController::class, 'categoryCourses'])->name('category-courses');
+Route::get('/courses/{courseslug}', [IndustryController::class, 'show'])->name('course.show');
+
 
 Route::get('/check-eligibility', [CheckEligibilityController::class, 'index'])
     ->name('eligibility');

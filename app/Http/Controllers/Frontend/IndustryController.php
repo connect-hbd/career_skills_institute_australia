@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\File;
 
 class IndustryController extends Controller
 {
-    public function index(string $slug)
+    public function index()
     {
         $categories = json_decode(
             File::get(resource_path('data/categories.json')),
@@ -18,76 +18,75 @@ class IndustryController extends Controller
             File::get(resource_path('data/courses.json')),
             true
         );
-
-        // Find category
-        $industry = collect($categories)
-            ->firstWhere('slug', $slug);
-
-        abort_if(!$industry, 404);
-
-        // Get courses for this category
-        $categoryCourses = collect($courses)
-            ->where('category_slug', $slug)
-            ->values()
-            ->all();
-
-        $courseLevels = [
-            'All',
-            'Certificate II',
-            'Certificate III',
-            'Certificate IV',
-            'Diploma',
-            'Advance Diploma',
-            'Graduate Diploma',
-        ];
-
-        // return $categoryCourses;
 
         return view('frontend.pages.industry.index', [
-            'industry' => $industry,
-            'courses' => $categoryCourses,
-            'courseLevels' => $courseLevels,
+            'category' => null,
+            'categories' => $categories,
+            'courses' => $courses,
         ]);
     }
 
-    public function show(string $slug)
-    {
-        $courses = json_decode(
-            File::get(resource_path('data/courses.json')),
-            true
-        );
+  public function categoryCourses(string $slug)
+{
+    // Load categories
+    $categories = json_decode(
+        File::get(resource_path('data/categories.json')),
+        true
+    );
 
-        $categories = json_decode(
-            File::get(resource_path('data/categories.json')),
-            true
-        );
+    // Load courses
+    $allCourses = json_decode(
+        File::get(resource_path('data/courses.json')),
+        true
+    );
 
-        // Find course by slug
-        $course = collect($courses)
-            ->firstWhere('slug', $slug);
+    // Find selected industry by slug
+    $industry = collect($categories)->firstWhere('slug', $slug);
 
-        abort_if(!$course, 404);
+    abort_if(!$industry, 404);
 
-        // Find category
-        $category = collect($categories)
-            ->firstWhere('slug', $course['category_slug']);
+    // Get courses belonging to this industry
+    $courses = collect($allCourses)
+        ->where('category_slug', $slug)
+        ->values();
 
-        abort_if(!$category, 404);
+    // Get available course levels
+    $courseLevels = $courses
+        ->pluck('level')
+        ->filter()
+        ->unique()
+        ->values()
+        ->prepend('All');
 
+    return view('frontend.pages.industry.index', [
+        'industry' => $industry,
+        'courses' => $courses->all(),
+        'courseLevels' => $courseLevels,
+    ]);
+}
+
+public function show(string $courseslug)
+{
+   
+    $courses = json_decode(
+        File::get(resource_path('data/courses.json')),
+        true
+    );
+
+    $course = collect($courses)->firstWhere('slug', $courseslug);
+
+    abort_if(!$course, 404);
         // return $course;
 
-        return view('frontend.pages.industry.show', [
-            'course' => $course,
-            'category' => $category,
-        ]);
-    }
+    return view('frontend.pages.industry.show', compact('course'));
+}
 
     public function industryEnrollment()
     {
         return view('frontend.pages.industry.enrollment');
     }
 
-        public function courseEnrollment()
+    public function courseEnrollment()
     {
         return view('frontend.pages.industry.enrollment');
     }

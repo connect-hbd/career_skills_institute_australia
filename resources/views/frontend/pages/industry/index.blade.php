@@ -1,379 +1,249 @@
 @extends('frontend.layouts.app')
 
-@section('title', $industry['name'])
+@section('title', $category['name'] ?? 'Courses')
 
 @section('content')
-    {{-- Hero Section --}}
-    <section class="relative isolate overflow-hidden bg-brand-950 text-white">
 
-        {{-- Background Image --}}
-        <div class="absolute inset-0 -z-20">
-            <img src="{{ $industry['image'] }}" alt="{{ $industry['name'] }}" class="h-full w-full object-cover">
-        </div>
-
-        {{-- Brand Overlay --}}
+    {{-- HERO SECTION --}}
+    <section class="relative overflow-hidden bg-[#0A0F1D] py-14 lg:py-20 text-white">
+        <!-- Ambient Background Radial Glows -->
+        <div class="pointer-events-none absolute -top-20 -left-20 h-96 w-96 rounded-full bg-[#1968b2]/20 blur-[120px]"></div>
         <div
-            class="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(2,17,38,0.88)_0%,rgba(4,25,59,0.65)_45%,rgba(13,82,181,0.35)_100%)]">
+            class="pointer-events-none absolute top-1/2 -right-20 h-96 w-96 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-[120px]">
         </div>
 
-        {{-- Bottom Fade --}}
-        <div class="absolute inset-x-0 bottom-0 -z-10 h-32  bg-gradient-to-t from-brand-950/50 to-transparent">
-        </div>
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
 
-
-        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-
-            {{-- Breadcrumb --}}
-            <nav class="mb-6 flex items-center gap-2 text-xs font-semibold text-brand-200">
-
-                <a href="{{ url('/') }}" class="transition hover:text-white">
-                    Home
-                </a>
-
-                <span class="text-brand-400">/</span>
-
-                <a href="{{ url('/industries') }}" class="transition hover:text-white">
-                    Industries
-                </a>
-
-                <span class="text-brand-400">/</span>
-
-                <span class="text-secondary-400">
-                    {{ $industry['short_name'] }}
-                </span>
-
-            </nav>
-
-
-            {{-- Hero Content --}}
-            <div class="max-w-3xl">
-
-                {{-- Badge --}}
-                <span
-                    class="inline-block rounded-full bg-brand-500/20   px-3 py-1 text-xs font-bold uppercase tracking-wider text-secondary-400 ring-1 ring-inset ring-brand-400/30">
-                    Industry Qualifications Pathways
-                </span>
-
-
-                {{-- Heading --}}
-                <h1 class="mt-4 text-2xl font-extrabold leading-tight tracking-tight  sm:text-3xl lg:text-4xl">
-                    {{ $industry['name'] }}
-                </h1>
-
-
-                {{-- Description --}}
-                <p class="mt-4 max-w-2xl text-base leading-relaxed text-brand-100">
-                    {{ $industry['description'] }}
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    {{-- INDUSTRY DETAILS & OVERVIEW --}}
-    <section class="relative  bg-slate-50/50 pt-12 md:pt-16 lg:pt-20">
-
-        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
-            <div class="grid grid-cols-1 items-stretch gap-6 md:gap-8 lg:grid-cols-12 lg:gap-12">
-
-                {{-- =================================================
-                LEFT — INDUSTRY OVERVIEW
-            ================================================== --}}
-                <div class="flex flex-col justify-center lg:col-span-7">
-
-                    {{-- Section Badge --}}
-                    <div class="mb-6 flex items-center">
-                        <span
-                            class="inline-flex items-center gap-2 rounded-full border border-brand-200/60 bg-brand-50/80 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wider text-brand-700 shadow-sm backdrop-blur-md">
-                            <span class="h-1.5 w-1.5 rounded-full bg-brand-600"></span>
-                            Industry Background
-                        </span>
+                <!-- Left Text Content -->
+                <div class="lg:col-span-8 space-y-4 animate-fade-in-left">
+                    <div
+                        class="inline-flex items-center gap-2 rounded-full bg-[#1968b2]/10 border border-[#1968b2]/30 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#1968b2]">
+                        <span class="flex h-2 w-2 rounded-full bg-[#1968b2] animate-pulse"></span>
+                        <span>01 Disciplines & Sectors</span>
                     </div>
 
-                    {{-- Main Heading --}}
-                    <h2
-                        class="max-w-2xl text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px] lg:leading-[1.15]">
-                        Understanding the
-                        <span
-                            class="bg-gradient-to-r from-brand-600 via-brand-600 to-brand-700 bg-clip-text text-transparent">
-                            Industry
-                        </span>
-                    </h2>
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
+                        {{ $category['name'] ?? 'Vocational Courses & Qualifications' }}
+                    </h1>
 
-                    {{-- Subtitle / Intro --}}
-                    <p class="mt-5 max-w-2xl text-sm font-medium leading-relaxed text-slate-600 sm:text-base">
-                        Discover the skills, knowledge, and professional capabilities recognised across the
-                        <span class="font-bold text-slate-900   ">
-                            {{ $industry['name'] }}
-                        </span>
-                        sector.
+                    <p class="max-w-2xl text-sm sm:text-base lg:text-lg text-slate-300 font-normal leading-relaxed">
+                        {{ $category['description'] ?? 'Explore nationally recognised qualifications and develop practical skills tailored for immediate industry application and RPL credit pathways.' }}
                     </p>
 
-                    {{-- Overview Content Block --}}
-                    <div class="relative mt-4 ">
-                        <p class="text-sm leading-8 text-slate-600 sm:text-base sm:leading-8">
-                            {{ $industry['overview'] }}
+                    <div class="flex flex-wrap items-center gap-4 pt-2">
+                        <a href="#courses"
+                            class="inline-flex items-center justify-center gap-2 rounded-xl bg-[#1968b2] hover:bg-[#155b9d] text-white font-semibold px-6 py-3 text-sm shadow-lg shadow-[#1968b2]/30 transition-all duration-300 hover:scale-[1.02] active:scale-95">
+                            <span>Explore Courses</span>
+                            <iconify-icon icon="lucide:arrow-down" class="text-lg"></iconify-icon>
+                        </a>
+
+                        <div
+                            class="flex items-center gap-6 px-4 py-2 rounded-xl bg-slate-900/60 border border-slate-800 text-xs text-slate-300 backdrop-blur-md">
+                            <div class="flex items-center gap-2">
+                                <iconify-icon icon="lucide:award" class="text-[#1968b2] text-base"></iconify-icon>
+                                <span>AQF Accredited</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <iconify-icon icon="lucide:shield-check" class="text-emerald-400 text-base"></iconify-icon>
+                                <span>ASQA Verified</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    {{-- MAIN COURSES SECTION WITH FILTER BAR --}}
+    <section id="courses" class="py-12 md:py-16 bg-slate-50/50 min-h-[60vh]">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+            {{-- SECTION HEADER & DYNAMIC FILTER TABS --}}
+            <div class="mb-10 space-y-6">
+                <!-- Section Header (Optional Context) -->
+                <div class="mb-8 flex flex-col gap-3">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-[#1968b2]">Explore Industries</span>
+                    <div class="flex gap-2 flex-col">
+                        <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mt-1">
+                            Nationally Recognised Training Pathways
+                        </h2>
+                        <p class="text-sm text-slate-600 ">
+                            Filter by qualification tier to find the right entry-level or advanced training path for your
+                            career goals.
                         </p>
                     </div>
 
                 </div>
 
+                <!-- Interactive Filter Tabs -->
+                <div x-data="{ activeFilter: 'all' }" class="space-y-6">
+                    <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+                        <button @click="activeFilter = 'all'"
+                            :class="activeFilter === 'all' ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20' :
+                                'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
+                            class="px-4 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-200 whitespace-nowrap">
+                            All Qualifications
+                        </button>
 
-                {{-- =================================================
-                RIGHT — SKILLS & PROFICIENCIES
-            ================================================== --}}
-                <div class="flex flex-col justify-center lg:col-span-5">
+                        <button @click="activeFilter = 'cert1'"
+                            :class="activeFilter === 'cert1' ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20' :
+                                'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
+                            class="px-4 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-200 whitespace-nowrap">
+                            Certificate I
+                        </button>
 
-                    <div class="grid gap-4 sm:gap-5">
+                        <button @click="activeFilter = 'cert2'"
+                            :class="activeFilter === 'cert2' ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20' :
+                                'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
+                            class="px-4 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-200 whitespace-nowrap">
+                            Certificate II
+                        </button>
 
-                        {{-- Card 1: Industry Skills --}}
-                        <div
-                            class="group relative overflow-hidden rounded-2xl border border-slate-200/80 bg-white/80 p-6 shadow-sm backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-brand-300 hover:shadow-xl hover:shadow-brand-500/5">
-                            <div class="flex items-start gap-4">
-                                <div
-                                    class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600 ring-1 ring-brand-500/10 transition-all duration-300 group-hover:scale-110 group-hover:bg-brand-600 group-hover:text-white group-hover:shadow-md group-hover:shadow-brand-500/20">
-                                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h3
-                                        class="text-base font-bold text-slate-900 group-hover:text-brand-600 transition-colors">
-                                        Industry Skills
-                                    </h3>
-                                    <p class="mt-1 text-sm leading-relaxed text-slate-500">
-                                        Practical skills aligned directly with modern workplace requirements.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        <button @click="activeFilter = 'cert3'"
+                            :class="activeFilter === 'cert3' ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20' :
+                                'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
+                            class="px-4 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-200 whitespace-nowrap">
+                            Certificate III
+                        </button>
 
-                        {{-- Card 2: Recognition --}}
-                        <div
-                            class="group relative overflow-hidden rounded-2xl border border-slate-200/80 bg-white/80 p-6 shadow-sm backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-300 hover:shadow-xl hover:shadow-emerald-500/5">
-                            <div class="flex items-start gap-4">
-                                <div
-                                    class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 ring-1 ring-emerald-500/10 transition-all duration-300 group-hover:scale-110 group-hover:bg-emerald-600 group-hover:text-white group-hover:shadow-md group-hover:shadow-emerald-500/20">
-                                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h3
-                                        class="text-base font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
-                                        Formal Recognition
-                                    </h3>
-                                    <p class="mt-1 text-sm leading-relaxed text-slate-500">
-                                        Official recognition pathways for your existing skills and prior experience.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        <button @click="activeFilter = 'cert4'"
+                            :class="activeFilter === 'cert4' ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20' :
+                                'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
+                            class="px-4 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-200 whitespace-nowrap">
+                            Certificate IV
+                        </button>
 
-                        {{-- Card 3: Career Growth --}}
-                        <div
-                            class="group relative overflow-hidden rounded-2xl border border-slate-200/80 bg-white/80 p-6 shadow-sm backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-violet-300 hover:shadow-xl hover:shadow-violet-500/5">
-                            <div class="flex items-start gap-4">
-                                <div
-                                    class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-violet-50 text-violet-600 ring-1 ring-violet-500/10 transition-all duration-300 group-hover:scale-110 group-hover:bg-violet-600 group-hover:text-white group-hover:shadow-md group-hover:shadow-violet-500/20">
-                                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h3
-                                        class="text-base font-bold text-slate-900 group-hover:text-violet-600 transition-colors">
-                                        Career Growth
-                                    </h3>
-                                    <p class="mt-1 text-sm leading-relaxed text-slate-500">
-                                        Qualification pathways designed strategically to accelerate your career.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
+                        <button @click="activeFilter = 'diploma'"
+                            :class="activeFilter === 'diploma' ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20' :
+                                'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
+                            class="px-4 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-200 whitespace-nowrap">
+                            Diploma & Above
+                        </button>
                     </div>
 
-                </div>
+                    {{-- COURSES GRID --}}
+                    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
 
-            </div>
+                        @forelse ($courses as $course)
+                            @php
+                                // Normalize level string for Alpine filter matching
+                                $levelStr = strtolower($course['level'] ?? ($course['name'] ?? ''));
+                                $filterKey = 'all';
+                                if (str_contains($levelStr, 'certificate i') || str_contains($levelStr, 'cert i ')) {
+                                    $filterKey = 'cert1';
+                                } elseif (
+                                    str_contains($levelStr, 'certificate ii') ||
+                                    str_contains($levelStr, 'cert ii ')
+                                ) {
+                                    $filterKey = 'cert2';
+                                } elseif (
+                                    str_contains($levelStr, 'certificate iii') ||
+                                    str_contains($levelStr, 'cert iii ')
+                                ) {
+                                    $filterKey = 'cert3';
+                                } elseif (
+                                    str_contains($levelStr, 'certificate iv') ||
+                                    str_contains($levelStr, 'cert iv ')
+                                ) {
+                                    $filterKey = 'cert4';
+                                } elseif (str_contains($levelStr, 'diploma')) {
+                                    $filterKey = 'diploma';
+                                }
+                            @endphp
 
-        </div>
+                            <article x-show="activeFilter === 'all' || activeFilter === '{{ $filterKey }}'"
+                                x-transition:enter="transition ease-out duration-300"
+                                x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
+                                class="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-[#1968b2]/40">
 
-    </section>
+                                <!-- Top Image Container -->
+                                <div>
+                                    <div class="relative h-52 overflow-hidden bg-slate-900">
+                                        <img src="{{ !empty($course['image']) ? asset($course['image']) : asset('images/course-placeholder.webp') }}"
+                                            alt="{{ $course['name'] ?? 'Course' }}" loading="lazy"
+                                            class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
 
-    {{-- COURSE SECTION --}}
-    <section id="courses" x-data="{
-        activeFilter: 'All',
-    
-        courses: {{ Illuminate\Support\Js::from($courses) }},
-    
-        get filteredCourses() {
-            if (this.activeFilter === 'All') {
-                return this.courses;
-            }
-    
-            return this.courses.filter(
-                course => course.level === this.activeFilter
-            );
-        }
-    }" class="bg-slate-50 py-12 md:py-16 lg:py-20">
+                                        <div
+                                            class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent">
+                                        </div>
 
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                                        <!-- Qualification Level Badge -->
+                                        <div
+                                            class="absolute top-3 left-3 flex items-center gap-1.5 rounded-lg bg-slate-900/90 border border-slate-700/80 px-2.5 py-1 backdrop-blur-md">
+                                            <span class="h-2 w-2 rounded-full bg-[#1968b2] animate-pulse"></span>
+                                            <span class="text-[11px] font-bold text-white uppercase tracking-wider">
+                                                {{ $course['level'] ?? 'Nationally Recognised' }}
+                                            </span>
+                                        </div>
 
-            {{-- Section header --}}
-            <div class="mb-10 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+                                        <!-- Course Code Tag (Top Right) -->
+                                        @if (!empty($course['code']))
+                                            <div
+                                                class="absolute top-3 right-3 rounded-lg bg-white/90 border border-white/40 px-2.5 py-1 text-[11px] font-mono font-bold text-slate-900 shadow-sm backdrop-blur-md">
+                                                {{ $course['code'] }}
+                                            </div>
+                                        @endif
+                                    </div>
 
-                <div class="max-w-2xl mx-auto text-center">
+                                    <!-- Content Body -->
+                                    <div class="p-6 space-y-3">
+                                        <h3
+                                            class="text-lg font-bold tracking-tight text-slate-900 group-hover:text-[#1968b2] transition-colors duration-200 line-clamp-2">
+                                            <a href="">
+                                                {{ $course['name'] ?? 'Untitled Qualification' }}
+                                            </a>
+                                        </h3>
 
-                    <span
-                        class="inline-flex rounded-full bg-brand-100 px-4 py-1.5 text-[10px] font-black uppercase tracking-[0.18em] text-brand-700">
-                        Available Qualifications
-                    </span>
-
-                    <h2 class="mt-4 text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-                        Choose Your
-                        <span class="text-brand-600">
-                            Qualification
-                        </span>
-                    </h2>
-
-                    <p class="mt-4 text-sm leading-7 text-slate-600">
-                        Explore qualifications available within the
-                        <span class="font-bold text-black"> {{ $industry['name'] }}</span>
-                        industry and find the pathway that best matches your skills and experience.
-                    </p>
-
-                </div>
-
-            </div>
-            {{--  FILTER --}}
-            <div class="mb-10 rounded-xl border border-slate-200 bg-white p-2">
-
-                <div class="flex gap-2 overflow-x-auto p-1 scrollbar-hide">
-
-                    @foreach ($courseLevels as $level)
-                        <button type="button" @click="activeFilter = '{{ $level }}'"
-                            :class="activeFilter === '{{ $level }}'
-                                ?
-                                'bg-brand-600 text-white shadow-lg shadow-brand-600/20' :
-                                'bg-transparent text-slate-600 hover:bg-slate-100 hover:text-slate-900'"
-                            class="group inline-flex shrink-0 items-center gap-2 rounded-2xl px-4 py-3 text-sm font-bold transition-all duration-300">
-
-                            @if ($level === 'All')
-                                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round"
-                                        stroke-width="2" />
-                                </svg>
-                            @else
-                            @endif
-
-                            {{ $level }}
-
-                        </button>
-                    @endforeach
-
-                </div>
-
-            </div>
-            {{-- Cards Grid --}}
-            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
-
-                <template x-for="course in filteredCourses" :key="course.slug">
-                    <article
-                        class="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
-
-                        {{-- Image Header --}}
-                        <div class="relative aspect-video w-full overflow-hidden bg-brand-50">
-                            <img :src="course.image" :alt="course.name"
-                                class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
-
-                            <div
-                                class="absolute inset-0 bg-gradient-to-t from-brand-950/70 via-transparent to-transparent">
-                            </div>
-
-                            <span
-                                class="absolute left-4 top-4 rounded-full bg-brand-600 px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-white shadow-sm"
-                                x-text="course.level"></span>
-
-                            <div
-                                class="absolute bottom-3 left-4 right-4 flex items-center gap-2 text-sm font-semibold text-brand-100">
-                                <span class="rounded bg-brand-950/80 px-2 py-0.5 text-brand-300 backdrop-blur-sm"
-                                    x-text="'CODE : ' + course.code"></span>
-                            </div>
-                        </div>
-
-                        {{-- Card Body --}}
-                        <div class="flex flex-1 flex-col justify-between p-6">
-                            <div>
-                                <h3
-                                    class="text-base md:text-lg font-bold leading-snug text-slate-900 group-hover:text-brand-600 transition-colors">
-                                    <span x-text="course.level"></span>
-                                    <span x-text="course.name"></span>
-                                </h3>
-
-                                <!-- FIXED: Changed course.description to course.short_description -->
-                                <p class="mt-3 text-sm leading-relaxed text-slate-600 line-clamp-3"
-                                    x-text="course.short_description"></p>
-
-                                {{-- Provider & Assessment details --}}
-                                <div class="mt-4 space-y-2 border-t border-slate-100 pt-4 text-sm text-slate-500">
-                                    <div class="flex items-start gap-2">
-                                        <svg class="h-4 w-4 shrink-0 text-brand-500 mt-0.5" fill="none"
-                                            stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                                        </svg>
-                                        <!-- FIXED: Mapped providers array to display names correctly -->
-                                        <span class="line-clamp-1"><strong
-                                                class="font-semibold text-slate-700 uppercase">Providers : </strong> <span
-                                                x-text="course.providers.map(p => p.name).join(', ')"></span></span>
+                                        <p class="text-xs sm:text-sm text-slate-600 line-clamp-2 leading-relaxed">
+                                            {{ $course['hero']['description'] ?? ($course['short_description'] ?? 'Gain industry-standard technical competencies and certified RPL pathways.') }}
+                                        </p>
                                     </div>
                                 </div>
-                            </div>
 
-                            {{-- Card Footer CTA --}}
-                            <div class="mt-6 flex items-center justify-between border-t border-slate-100 pt-4">
-                                <div class="flex items-center gap-2">
-                                    <svg class="h-4 w-4 shrink-0 text-emerald-500" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                    </svg>
-                                    <!-- FIXED: Mapped rto_codes from the providers array -->
-                                    <span class="text-sm"><strong class="font-semibold text-slate-700 uppercase">RTO CODE :</strong>
-                                        <span x-text="course.providers.map(p => p.rto_code).join(' & ')"></span></span>
+                                <!-- Card Footer -->
+                                <div class="px-6 pb-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                                    <div class="flex items-center gap-2 text-xs font-semibold text-slate-500">
+                                        <iconify-icon icon="lucide:clock" class="text-base text-[#1968b2]"></iconify-icon>
+                                        <span>{{ $course['key_information']['duration'] ?? 'Flexible Duration' }}</span>
+                                    </div>
+{{-- {{ route('course.show', ['courseslug' => $course['slug']]) }} --}}
+                                    <a href=""
+                                        class="inline-flex items-center gap-1.5 rounded-xl bg-[#1968b2] hover:bg-[#155b9d] px-4 py-2 text-xs font-bold text-white shadow-sm transition-all duration-200 hover:scale-105">
+                                        <span>View Details</span>
+                                        <iconify-icon icon="lucide:arrow-up-right" class="text-sm"></iconify-icon>
+                                    </a>
                                 </div>
 
-                                <a :href="'{{ route('course.show', ['slug' => '__SLUG__']) }}'.replace('__SLUG__', course.slug)"
-                                    class="inline-flex items-center gap-1.5 rounded-lg bg-brand-600 px-4 py-2 text-sm font-bold text-white shadow-sm transition-all hover:bg-brand-700 hover:shadow">
-                                    Read More
-                                    <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                    </svg>
+                            </article>
+
+                        @empty
+
+                            <div
+                                class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-white p-12 text-center">
+                                <div
+                                    class="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-100 text-slate-400 mb-4">
+                                    <iconify-icon icon="lucide:book-open" class="text-2xl"></iconify-icon>
+                                </div>
+                                <h3 class="text-lg font-bold text-slate-900">No Courses Listed Yet</h3>
+                                <p class="mt-1 text-sm text-slate-500 max-w-sm mx-auto">
+                                    There are currently no active courses available under this discipline filter.
+                                </p>
+                                <a href="{{ url('/industries') }}"
+                                    class="mt-4 inline-flex items-center gap-2 rounded-xl bg-[#1968b2] px-5 py-2.5 text-xs font-bold text-white transition hover:bg-[#155b9d]">
+                                    <span>Browse All Sectors</span>
+                                    <iconify-icon icon="lucide:arrow-right" class="text-sm"></iconify-icon>
                                 </a>
                             </div>
-                        </div>
+                        @endforelse
 
-                    </article>
-                </template>
-            </div>
+                    </div>
+                </div>
 
-            {{-- Empty State --}}
-            <div x-show="filteredCourses.length === 0" x-cloak class="mt-8 rounded-2xl  p-12 text-center">
-                <h3 class="text-base font-bold text-slate-800">No qualifications found</h3>
-                <p class="mt-1 text-xs text-slate-500">There are currently no active courses listed under this level.</p>
             </div>
 
         </div>
-
     </section>
+
 @endsection

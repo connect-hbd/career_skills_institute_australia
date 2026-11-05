@@ -1,0 +1,2188 @@
+[
+    {
+        "code": "AUR30320",
+        "category_slug": "automotive-retail-service-and-repair",
+        "level": "Certificate III",
+        "name": "Automotive Electrical Technology",
+        "slug": "certificate-iii-in-automotive-electrical-technology-aur30320",
+
+        "image": "/industry/automotive/AUR30320.jpg",
+
+        "short_description": "This qualification reflects the role of individuals who perform a broad range of tasks on a variety of light vehicles in the automotive retail, service and repair industry.",
+
+        "hero_description": "Are you working 20+ hours per week performing automotive electrical services in vehicles? With Recognition of Prior Learning (RPL), you can use your existing skills and work experience to gain this qualification without classroom study.",
+
+        "key_information": {
+            "duration": "Estimated 4–12 weeks",
+            "delivery": "RPL"
+        },
+
+        "providers": [
+            {
+                "name": "Australis College",
+                "rto_code": "31518"
+            }
+        ],
+
+        "course_url": "https://training.gov.au/training/details/AUR30320/qualdetails",      
+          "overview": "If your work involves performing a range of services, diagnosing and repairing electrical systems and components in vehicles in the automotive electrical service and repair industry, then, certifying your skills with an AUR30320 – Certificate III in Automotive Electrical Technology qualification can significantly enhance your career prospects. This qualification can open doors to roles such as Automotive Electrical Technician. These positions not only come with greater responsibilities but also offer higher pay, as many employers prefer and reward employees with recognized qualifications. By formalizing your experience through Recognition of Prior Learning (RPL), you position yourself for long-term success and advancement in this expanding sector.",
+               "graduate_outcomes": {
+            "label": "Graduate Outcomes",
+            "title": "Career Outcomes That Show the Value of Qualification",
+            "description": "Did you know that 88.1% of Certificate III in Automotive Electrical Technology graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay after obtaining their qualification?",
+            "source_note": "Verified Australian Vocational Education and Training (NCVER) industry graduate outcome benchmarks.",
+
+            "overall_outcome": {
+                "percentage": "88.1%",
+                "description": "Graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay."
+            },
+
+            "statistics": [
+                {
+                    "icon": "lucide:briefcase-business",
+                    "label": "Top Occupation Outcome",
+                    "value": "41.3%",
+                    "description": "Community, Mining & Automotive Technicians"
+                },
+                {
+                    "icon": "lucide:building-2",
+                    "label": "Automotive & Heavy Industry",
+                    "value": "86%",
+                    "description": "Fleet Repair, Dealerships & Field Service"
+                },
+                {
+                    "icon": "lucide:graduation-cap",
+                    "label": "Training & Technical Roles",
+                    "value": "8%",
+                    "description": "Supervisory, Mentorship & Training"
+                },
+                {
+                    "icon": "lucide:package-search",
+                    "label": "Retail & Aftermarket Parts",
+                    "value": "3%",
+                    "description": "Automotive Parts & Supply Consultancies"
+                }
+            ]
+        },
+        "career_pathways": {
+            "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+            "description": "Gaining a Certificate III in Individual Support can also be a stepping stone to more specialized roles and can open up opportunities for professional development and career pathways.",
+            "related_category": "Mechanical and Electrical, Body Repair Technology, Refinishing or Management and Technologies"
+        },
+
+       "faq": [
+    {
+        "question": "Who can apply for RPL?",
+        "answer": [
+            "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+            "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+            "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+            "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+            "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+        ]
+    },
+    {
+        "question": "Comprehensive Evidence for RPL in Certificate III in Automotive Electrical Technology?",
+        "answer": [
+            "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+            "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+            "Updated Resume: With your current skills, experiences, and employment history (more info)",
+            "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+            "Employment Contracts or Job Offer Letters",
+            "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+            "Pay slips or invoices (optional) with your name.",
+            "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate ii, iii, iv, year 12 certificate etc.)",
+            "Working with Children Check (if applicable)",
+            "Additional Supporting Evidence: This could include: Excel files, plans, other work samples, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+            "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+        ]
+    },
+    {
+        "question": "Regulatory Requirements",
+        "answer": "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+    },
+    {
+        "question": "What Are the Benefits of RPL?",
+        "answer": [
+            "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+            "Fast, Easy and cost-effective",
+            "Career Advancement",
+            "Continuous Professional Development (CPD)",
+            "Meet Industry and Licensing Standards and prerequisites",
+            "Can Assist in Immigration and Visa Applications",
+            "Recognize volunteer experience",
+            "Best Price Guaranteed by Career Skills Institute"
+        ]
+    }
+]        
+    },
+
+     {
+        "code": "AUR30620",
+        "category_slug": "automotive-retail-service-and-repair",
+        "level": "Certificate III",
+        "name": "Light Vehicle Mechanical",
+        "slug": "certificate-iii-in-light-vehicle-mechanical-aur30620",
+        "image": "/industry/automotive/AUR30620.jpg",
+        "short_description": "This qualification reflects the role of individuals who perform a broad range of tasks on a variety of light vehicles in the automotive retail, service and repair industry.",
+        "hero_description": "Are you working 20+ hours per week performing automotive electrical services in vehicles? With Recognition of Prior Learning (RPL), you can use your existing skills and work experience to gain this qualification without classroom study.",
+        "key_information": {
+            "duration": "Estimated 4–12 weeks",
+            "delivery": "RPL"
+        },
+        "providers": [
+            {
+                "name": "Australis College",
+                "rto_code": "31518"
+            },
+            {
+                "name": "AVM Skills Institute",
+                "rto_code": "46359"
+            }
+        ],
+
+        "course_url": "https://www.yourcareer.gov.au/learn-and-train/courses/AUR30620",
+      
+          "overview": "If your work involves performing a range of services, diagnosing and repairing electrical systems and components in vehicles in the automotive electrical service and repair industry, then, certifying your skills with an AUR30320 – Certificate III in Automotive Electrical Technology qualification can significantly enhance your career prospects. This qualification can open doors to roles such as Automotive Electrical Technician. These positions not only come with greater responsibilities but also offer higher pay, as many employers prefer and reward employees with recognized qualifications. By formalizing your experience through Recognition of Prior Learning (RPL), you position yourself for long-term success and advancement in this expanding sector.",
+               "graduate_outcomes": {
+            "label": "Graduate Outcomes",
+            "title": "Career Outcomes That Show the Value of Qualification",
+            "description": "Did you know that 88.1% of Certificate III in Automotive Electrical Technology graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay after obtaining their qualification?",
+            "source_note": "Verified Australian Vocational Education and Training (NCVER) industry graduate outcome benchmarks.",
+
+            "overall_outcome": {
+                "percentage": "88.1%",
+                "description": "Graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay."
+            },
+
+            "statistics": [
+                {
+                    "icon": "lucide:briefcase-business",
+                    "label": "Top Occupation Outcome",
+                    "value": "41.3%",
+                    "description": "Community, Mining & Automotive Technicians"
+                },
+                {
+                    "icon": "lucide:building-2",
+                    "label": "Automotive & Heavy Industry",
+                    "value": "86%",
+                    "description": "Fleet Repair, Dealerships & Field Service"
+                },
+                {
+                    "icon": "lucide:graduation-cap",
+                    "label": "Training & Technical Roles",
+                    "value": "8%",
+                    "description": "Supervisory, Mentorship & Training"
+                },
+                {
+                    "icon": "lucide:package-search",
+                    "label": "Retail & Aftermarket Parts",
+                    "value": "3%",
+                    "description": "Automotive Parts & Supply Consultancies"
+                }
+            ]
+        },
+        "career_pathways": {
+            "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+            "description": "Gaining a Certificate III in Individual Support can also be a stepping stone to more specialized roles and can open up opportunities for professional development and career pathways.",
+            "related_category": "Mechanical and Electrical, Body Repair Technology, Refinishing or Management and Technologies"
+        },
+
+       "faq": [
+    {
+        "question": "Who can apply for RPL?",
+        "answer": [
+            "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+            "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+            "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+            "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+            "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+        ]
+    },
+    {
+        "question": "Comprehensive Evidence for RPL in Certificate III in Automotive Electrical Technology?",
+        "answer": [
+            "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+            "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+            "Updated Resume: With your current skills, experiences, and employment history (more info)",
+            "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+            "Employment Contracts or Job Offer Letters",
+            "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+            "Pay slips or invoices (optional) with your name.",
+            "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate ii, iii, iv, year 12 certificate etc.)",
+            "Working with Children Check (if applicable)",
+            "Additional Supporting Evidence: This could include: Excel files, plans, other work samples, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+            "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+        ]
+    },
+    {
+        "question": "Regulatory Requirements",
+        "answer": "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+    },
+    {
+        "question": "What Are the Benefits of RPL?",
+        "answer": [
+            "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+            "Fast, Easy and cost-effective",
+            "Career Advancement",
+            "Continuous Professional Development (CPD)",
+            "Meet Industry and Licensing Standards and prerequisites",
+            "Can Assist in Immigration and Visa Applications",
+            "Recognize volunteer experience",
+            "Best Price Guaranteed by Career Skills Institute"
+        ]
+    }
+]
+        
+    },
+
+        {
+        "code": "AUR40226",
+        "category_slug": "automotive-retail-service-and-repair",
+        "level": "Certificate IV",
+        "name": "Automotive Mechanical Diagnosis",
+        "slug": "automotive-mechanical-diagnosis-aur40226",
+        "image": "/industry/automotive/AUR40226.jpg",
+        "short_description": "This qualification reflects the role of individuals who perform a broad range of tasks on a variety of light vehicles in the automotive retail, service and repair industry.",
+        "hero_description": "Are you working 20+ hours per week performing automotive electrical services in vehicles? With Recognition of Prior Learning (RPL), you can use your existing skills and work experience to gain this qualification without classroom study.",
+        "key_information": {
+            "duration": "Estimated 4–12 weeks",
+            "delivery": "RPL"
+        },
+        "providers": [
+            {
+                "name": "AVM Skills Institute",
+                "rto_code": "46359"
+            }
+        ],
+
+        "course_url": "https://training.gov.au/training/details/AUR40226/qualdetails",
+      
+          "overview": "If your work involves performing a range of services, diagnosing and repairing electrical systems and components in vehicles in the automotive electrical service and repair industry, then, certifying your skills with an AUR30320 – Certificate III in Automotive Electrical Technology qualification can significantly enhance your career prospects. This qualification can open doors to roles such as Automotive Electrical Technician. These positions not only come with greater responsibilities but also offer higher pay, as many employers prefer and reward employees with recognized qualifications. By formalizing your experience through Recognition of Prior Learning (RPL), you position yourself for long-term success and advancement in this expanding sector.",
+               "graduate_outcomes": {
+            "label": "Graduate Outcomes",
+            "title": "Career Outcomes That Show the Value of Qualification",
+            "description": "Did you know that 88.1% of Certificate III in Automotive Electrical Technology graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay after obtaining their qualification?",
+            "source_note": "Verified Australian Vocational Education and Training (NCVER) industry graduate outcome benchmarks.",
+
+            "overall_outcome": {
+                "percentage": "88.1%",
+                "description": "Graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay."
+            },
+
+            "statistics": [
+                {
+                    "icon": "lucide:briefcase-business",
+                    "label": "Top Occupation Outcome",
+                    "value": "41.3%",
+                    "description": "Community, Mining & Automotive Technicians"
+                },
+                {
+                    "icon": "lucide:building-2",
+                    "label": "Automotive & Heavy Industry",
+                    "value": "86%",
+                    "description": "Fleet Repair, Dealerships & Field Service"
+                },
+                {
+                    "icon": "lucide:graduation-cap",
+                    "label": "Training & Technical Roles",
+                    "value": "8%",
+                    "description": "Supervisory, Mentorship & Training"
+                },
+                {
+                    "icon": "lucide:package-search",
+                    "label": "Retail & Aftermarket Parts",
+                    "value": "3%",
+                    "description": "Automotive Parts & Supply Consultancies"
+                }
+            ]
+        },
+        "career_pathways": {
+            "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+            "description": "Gaining a Certificate III in Individual Support can also be a stepping stone to more specialized roles and can open up opportunities for professional development and career pathways.",
+            "related_category": "Mechanical and Electrical, Body Repair Technology, Refinishing or Management and Technologies"
+        },
+
+       "faq": [
+    {
+        "question": "Who can apply for RPL?",
+        "answer": [
+            "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+            "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+            "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+            "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+            "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+        ]
+    },
+    {
+        "question": "Comprehensive Evidence for RPL in Certificate III in Automotive Electrical Technology?",
+        "answer": [
+            "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+            "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+            "Updated Resume: With your current skills, experiences, and employment history (more info)",
+            "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+            "Employment Contracts or Job Offer Letters",
+            "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+            "Pay slips or invoices (optional) with your name.",
+            "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate ii, iii, iv, year 12 certificate etc.)",
+            "Working with Children Check (if applicable)",
+            "Additional Supporting Evidence: This could include: Excel files, plans, other work samples, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+            "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+        ]
+    },
+    {
+        "question": "Regulatory Requirements",
+        "answer": "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+    },
+    {
+        "question": "What Are the Benefits of RPL?",
+        "answer": [
+            "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+            "Fast, Easy and cost-effective",
+            "Career Advancement",
+            "Continuous Professional Development (CPD)",
+            "Meet Industry and Licensing Standards and prerequisites",
+            "Can Assist in Immigration and Visa Applications",
+            "Recognize volunteer experience",
+            "Best Price Guaranteed by Career Skills Institute"
+        ]
+    }
+]
+        
+    },
+        {
+        "code": "AUR50216",
+        "category_slug": "automotive-retail-service-and-repair",
+        "level": "Certificate IV",
+        "name": "Diploma of Automotive Technology",
+        "slug": "certificate-iv-in-automotive-technology-aur50216",
+        "image": "/industry/automotive/AUR50216.jpg",
+        "short_description": "This qualification reflects the role of individuals who perform a broad range of tasks on a variety of light vehicles in the automotive retail, service and repair industry.",
+        "hero_description": "Are you working 20+ hours per week performing automotive electrical services in vehicles? With Recognition of Prior Learning (RPL), you can use your existing skills and work experience to gain this qualification without classroom study.",
+        "key_information": {
+            "duration": "Estimated 4–12 weeks",
+            "delivery": "RPL"
+        },
+        "providers": [
+            {
+                "name": "AVM Skills Institute",
+                "rto_code": "46359"
+            }
+        ],
+
+        "course_url": "https://training.gov.au/training/details/AUR50216/qualdetails",
+      
+          "overview": " If your work involves diagnosing, analysing, evaluating, designing and modifying vehicle systems in the automotive retail, service and repair industry, then, certifying your skills with an AUR50216 – Diploma of Automotive Technology qualification can significantly enhance your career prospects. This qualification can open doors to roles such as Automotive Electrical Workshop Manager/Service Manager, Automotive Electrical Workshop Technical Service Advisor, and/or Automotive Master Technician. These positions not only come with greater responsibilities but also offer higher pay, as many employers prefer and reward employees with recognized qualifications. By formalizing your experience through Recognition of Prior Learning (Career Skills Institute), you position yourself for long-term success and advancement in this expanding sector.",
+            "graduate_outcomes": {
+            "label": "Graduate Outcomes",
+            "title": "Career Outcomes That Show the Value of Qualification",
+            "description": "Did you know that 75.1% of Diploma of Automotive Technology graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay after obtaining their qualification?",
+            "source_note": "Verified Australian Vocational Education and Training (NCVER) industry graduate outcome benchmarks.",
+
+            "overall_outcome": {
+                "percentage": "75.1%",
+                "description": "Graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay."
+            },
+
+            "statistics": [
+                {
+                    "icon": "lucide:briefcase-business",
+                    "label": "Top Occupation Outcome",
+                    "value": "41.3%",
+                    "description": "Community and Personal Service Workers"
+                },
+                {
+                    "icon": "lucide:building-2",
+                    "label": "Automotive & Heavy Industry",
+                    "value": "86%",
+                    "description": "Health care and social assistance"
+                },
+                {
+                    "icon": "lucide:graduation-cap",
+                    "label": "Training & Technical Roles",
+                    "value": "8%",
+                    "description": "Education and training"
+                },
+                {
+                    "icon": "lucide:package-search",
+                    "label": "Retail & Aftermarket Parts",
+                    "value": "3%",
+                    "description": "Retail trader"
+                }
+            ]
+        },
+        "career_pathways": {
+            "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+            "description": "Gaining a Certificate III in Individual Support can also be a stepping stone to more specialized roles and can open up opportunities for professional development and career pathways.",
+            "related_category": "Mechanical and Electrical, Body Repair Technology, Refinishing or Management and Technologies"
+        },
+
+       "faq": [
+    {
+        "question": "Who can apply for RPL?",
+        "answer": [
+            "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+            "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+            "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+            "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+            "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+        ]
+    },
+    {
+        "question": "Comprehensive Evidence for RPL in Certificate III in Automotive Electrical Technology?",
+        "answer": [
+            "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+            "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+            "Updated Resume: With your current skills, experiences, and employment history (more info)",
+            "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+            "Employment Contracts or Job Offer Letters",
+            "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+            "Pay slips or invoices (optional) with your name.",
+            "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate ii, iii, iv, year 12 certificate etc.)",
+            "Working with Children Check (if applicable)",
+            "Additional Supporting Evidence: This could include: Excel files, plans, other work samples, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+            "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+        ]
+    },
+    {
+        "question": "Regulatory Requirements",
+        "answer":[
+            "No licensing, legislative or certification requirements apply to this qualification at the time of publication.",
+            "AUR40216 – Certificate IV in Automotive Mechanical Diagnosis (Must be completed before AUR40816)",
+            "AUR40816 – Certificate IV in Automotive Mechanical Overhauling (Must be completed before AUR40216)"
+        ]
+    },
+    {
+        "question": "What Are the Benefits of RPL?",
+        "answer": [
+            "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+            "Fast, Easy and cost-effective",
+            "Career Advancement",
+            "Continuous Professional Development (CPD)",
+            "Meet Industry and Licensing Standards and prerequisites",
+            "Can Assist in Immigration and Visa Applications",
+            "Recognize volunteer experience",
+            "Best Price Guaranteed by Career Skills Institute"
+        ]
+    }
+]
+        
+    },
+    {
+  "code": "BSB30120",
+  "category_slug": "business-services",
+  "level": "Certificate III",
+  "name": "Business Services",
+  "slug": "certificate-iii-in-business-bsb30120",
+  "image": "/industry/business/BSB30120.jpg",
+  "short_description": "This qualification reflects the role of individuals in a variety of Business Services job roles.",
+  "hero_description": "Working 20+ hrs/week in admin or operations? Turn your experience into a recognized qualification with Career Skills Institute’s RPL pathway—delivered via partner RTOs, zero classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "The Wales Institute",
+      "rto_code": "41275"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB30120/qualdetails",
+
+  "overview": "If you are working in business services performing a range of routine procedural, clerical, administrative or operational tasks that require technology and business skills, then certifying your skills with a BSB30120 – Certificate III in Business qualification can significantly enhance your career prospects. This qualification can open doors to roles such as Administrative Assistant, Customer Service Representative, Medical Receptionist, Medical Secretary, and/or Records Clerk. These positions come with greater responsibilities and offer higher pay, as many employers prefer and reward employees with recognized qualifications. By formalizing your experience through Recognition of Prior Learning (Career Skills Institute), you position yourself for long-term success and advancement in this expanding sector.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "Did you know that 56% of Certificate III in Business graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay after obtaining their qualification?",
+    "source_note": "Verified Australian Vocational Education and Training (NCVER) industry graduate outcome benchmarks.",
+
+    "overall_outcome": {
+      "percentage": "56%",
+      "description": "Graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:briefcase-business",
+        "label": "Top Occupation Outcome",
+        "value": "41.3%",
+        "description": "Community and Personal Service Workers"
+      },
+      {
+        "icon": "lucide:building-2",
+        "label": "Top Industries Employing Graduates",
+        "value": "86%",
+        "description": "Health care and social assistance"
+      },
+      {
+        "icon": "lucide:graduation-cap",
+        "label": "Education and Training",
+        "value": "8%",
+        "description": "Education and training"
+      },
+      {
+        "icon": "lucide:shopping-bag",
+        "label": "Retail Trade",
+        "value": "3%",
+        "description": "Retail trade"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining a Certificate III in Business can also be a stepping stone to more specialized roles and can open up opportunities for professional development and career pathways.",
+    "related_category": "Business and Administration, Management and Leadership, Accounting and Finance, Marketing and Communication, Design and Creative Arts and Work Health and Safety"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Certificate III in Business?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history (more info)",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include: Excel files, plans, other work samples, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB40120",
+  "category_slug": "business-services",
+  "level": "Certificate IV",
+  "name": "Professional in Business",
+  "slug": "certificate-iv-in-business-bsb40120",
+  "image": "/industry/business/BSB40120.jpg",
+  "short_description": "This qualification reflects the role of individuals in a variety of Business Services job roles.",
+  "hero_description": "Are you working in business services performing a range of business, administrative or operational tasks that require business skills and knowledge? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "The Wales Institute",
+      "rto_code": "41275"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB40120/qualdetails",
+
+  "overview": "If you are working in business services performing a range of business, administrative or operational tasks that require business skills and knowledge, then certifying your skills with a BSB40120 – Certificate IV in Business qualification can significantly enhance your career prospects. This qualification can open doors to a variety of business and administrative roles and provide opportunities for career progression into more skilled positions. By formalizing your experience through Recognition of Prior Learning (Career Skills Institute), you can have your existing skills and workplace experience formally recognized and position yourself for long-term career growth in the business services sector.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "Certificate IV in Business graduates can use their recognized skills and qualification to pursue new employment opportunities, transition into more skilled roles, earn promotions, and progress their careers within the business services sector.",
+    "source_note": "Australian Vocational Education and Training industry graduate outcome information.",
+
+    "overall_outcome": {
+      "percentage": "",
+      "description": "Graduates can pursue new employment opportunities, transition into more skilled roles, earn promotions, and progress their careers."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:briefcase-business",
+        "label": "Business & Administrative Roles",
+        "value": "",
+        "description": "Business and administrative positions"
+      },
+      {
+        "icon": "lucide:building-2",
+        "label": "Business Services",
+        "value": "",
+        "description": "Business services and operational environments"
+      },
+      {
+        "icon": "lucide:graduation-cap",
+        "label": "Career Progression",
+        "value": "",
+        "description": "Opportunities to progress into more skilled business roles"
+      },
+      {
+        "icon": "lucide:chart-no-axes-combined",
+        "label": "Professional Development",
+        "value": "",
+        "description": "Further professional development and career advancement"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining a Certificate IV in Business can be a stepping stone to more specialized roles and can open up opportunities for professional development and further career pathways.",
+    "related_category": "Business and Administration, Management and Leadership, Accounting and Finance, Marketing and Communication, Design and Creative Arts and Work Health and Safety"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Certificate IV in Business?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history (more info)",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include: Excel files, plans, other work samples, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB40420",
+  "category_slug": "business-services",
+  "level": "Certificate IV",
+  "name": "Human Resource Management",
+  "slug": "certificate-iv-in-human-resource-management-bsb40420",
+  "image": "/industry/business/BSB40420.jpg",
+  "short_description": "This qualification reflects the role of individuals who provide leadership and support strategic direction in the human resources activities of an organisation. Their knowledge base may be highly specialised or broad within the human resources field.",
+  "hero_description": "Are you working in human resources and supporting the people, policies, systems and strategic direction of an organisation? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "The Wales Institute",
+      "rto_code": "41275"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB40420/qualdetails",
+
+  "overview": "If you are working in human resources and providing leadership, coordination and support for the strategic direction of an organisation's human resources activities, then certifying your skills with a BSB40420 – Certificate IV in Human Resource Management qualification can significantly enhance your career prospects. This qualification can support career opportunities across a range of human resources roles where specialised or broad HR knowledge is required. By formalizing your existing workplace experience through Recognition of Prior Learning (Career Skills Institute), you can have your skills formally recognised and position yourself for career advancement in the human resources sector.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "A Certificate IV in Human Resource Management can help experienced HR professionals formalise their existing skills, strengthen their career profile, transition into more specialised roles, and pursue further career advancement within human resources.",
+    "source_note": "Australian Vocational Education and Training industry graduate outcome information.",
+
+    "overall_outcome": {
+      "percentage": "",
+      "description": "Graduates can pursue human resources opportunities, transition into more specialised roles, support organisational strategy, and progress their careers."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:users",
+        "label": "Human Resources Roles",
+        "value": "",
+        "description": "Career opportunities across human resources and people management"
+      },
+      {
+        "icon": "lucide:user-cog",
+        "label": "HR Management",
+        "value": "",
+        "description": "Supporting human resources activities, systems and workplace practices"
+      },
+      {
+        "icon": "lucide:target",
+        "label": "Strategic HR Support",
+        "value": "",
+        "description": "Contributing to the strategic direction of an organisation"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "label": "Career Progression",
+        "value": "",
+        "description": "Opportunities for professional development and advancement in HR"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining a Certificate IV in Human Resource Management can be a stepping stone to more specialised human resources, business and management roles and can support further professional development.",
+    "related_category": "Business and Administration, Human Resources, Management and Leadership, Business Services and Work Health and Safety"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Certificate IV in Human Resource Management?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history (more info)",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include: HR policies, procedures, recruitment documents, onboarding materials, performance management documents, training records, workplace forms, reports, spreadsheets, work samples, or other documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB40520",
+  "category_slug": "business-services",
+  "level": "Certificate IV",
+  "name": "Leadership and Management",
+  "slug": "certificate-iv-in-leadership-and-management-bsb40520",
+  "image": "/industry/business/BSB40520.jpg",
+  "short_description": "This qualification reflects the role of individuals who apply project management skills and knowledge in a variety of contexts, across a number of industry sectors.",
+  "hero_description": "Are you working 20+ hours per week as an emerging leader or manager in a range of enterprise and industry contexts? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "Australian Scholar’s College Pty Ltd",
+      "rto_code": "45631"
+    },
+    {
+      "name": "Australis College",
+      "rto_code": "45631"
+    },
+    {
+      "name": "NOMI COLLEGE",
+      "rto_code": "31518"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB40520/qualdetails",
+
+  "overview": "If you are working as an emerging leader or manager in a range of enterprise and industry contexts with some responsibility for organising and monitoring the output of teams, then certifying your skills with a BSB40520 – Certificate IV in Leadership and Management qualification can significantly enhance your career prospects. This qualification can open doors to roles such as Coordinator (Business Operations), Distribution Centre Supervisor, Freight Administrative Supervisor, Frontline Sales Manager, Leading Hand, Line Manager, Production Supervisor, and/or Sales Team Manager. These positions come with greater responsibilities and offer higher pay, as many employers prefer and reward employees with recognized qualifications. By formalizing your experience through Recognition of Prior Learning (Career Skills Institute), you position yourself for long-term success and advancement in this expanding sector.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "Did you know that 80.9% of Certificate IV in Leadership and Management graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay after obtaining their qualification?",
+    "source_note": "Verified Australian Vocational Education and Training (NCVER) industry graduate outcome benchmarks.",
+
+    "overall_outcome": {
+      "percentage": "80.9%",
+      "description": "Graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:briefcase-business",
+        "label": "Top Occupation Outcome",
+        "value": "41.3%",
+        "description": "Community and Personal Service Workers"
+      },
+      {
+        "icon": "lucide:building-2",
+        "label": "Top Industries Employing Graduates",
+        "value": "86%",
+        "description": "Health care and social assistance"
+      },
+      {
+        "icon": "lucide:graduation-cap",
+        "label": "Education and Training",
+        "value": "8%",
+        "description": "Education and training"
+      },
+      {
+        "icon": "lucide:shopping-bag",
+        "label": "Retail Trade",
+        "value": "3%",
+        "description": "Retail trade"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining a Certificate IV in Leadership and Management can be a stepping stone to more specialized leadership and management roles and can open up opportunities for professional development and career pathways.",
+    "related_category": "Business and Administration, Management and Leadership, Accounting and Finance, Marketing and Communication, Design and Creative Arts and Work Health and Safety"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Certificate IV in Leadership and Management?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history (more info)",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include Excel files, project plans, meeting records, team management documents, workplace procedures, reports, performance records, work samples, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB40920",
+  "category_slug": "business-services",
+  "level": "Certificate IV",
+  "name": "Project Management Practice",
+  "slug": "certificate-iv-in-project-management-practice-bsb40920",
+  "image": "/industry/business/BSB40920.jpg",
+  "short_description": "This qualification reflects the role of individuals who apply project management skills and knowledge in a variety of contexts, across a number of industry sectors.",
+  "hero_description": "Are you working in project management or involved in planning, coordinating and delivering projects across your organisation? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "Australian Scholar’s College Pty Ltd",
+      "rto_code": "45631"
+    },
+    {
+      "name": "Australis College",
+      "rto_code": "45631"
+    },
+    {
+      "name": "NOMI COLLEGE",
+      "rto_code": "31518"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB40920/qualdetails",
+
+  "overview": "If you are working in project management or regularly involved in planning, coordinating, monitoring and delivering projects across a range of industry sectors, then certifying your skills with a BSB40920 – Certificate IV in Project Management Practice qualification can significantly enhance your career prospects. This qualification can support roles that involve coordinating project activities, managing project information, monitoring timelines and resources, and supporting successful project outcomes. By formalizing your existing workplace experience through Recognition of Prior Learning (Career Skills Institute), you can have your practical project management skills formally recognised and position yourself for long-term career growth across a range of industries.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "A Certificate IV in Project Management Practice can help experienced professionals formalise their project management skills, strengthen their career profile, transition into project-focused roles, and pursue further career advancement.",
+    "source_note": "Australian Vocational Education and Training industry graduate outcome information.",
+
+    "overall_outcome": {
+      "percentage": "",
+      "description": "Graduates can pursue project management opportunities, transition into more specialised roles, support project delivery, and progress their careers across a range of industries."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:folder-kanban",
+        "label": "Project Management Roles",
+        "value": "",
+        "description": "Career opportunities involving project coordination and project support"
+      },
+      {
+        "icon": "lucide:clipboard-check",
+        "label": "Project Coordination",
+        "value": "",
+        "description": "Planning, coordinating and monitoring project activities"
+      },
+      {
+        "icon": "lucide:chart-no-axes-combined",
+        "label": "Project Performance",
+        "value": "",
+        "description": "Supporting project outcomes, timelines and resource management"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "label": "Career Progression",
+        "value": "",
+        "description": "Opportunities for professional development and career advancement"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining a Certificate IV in Project Management Practice can be a stepping stone to more specialised project management, business and leadership roles and can open up opportunities for professional development and career progression.",
+    "related_category": "Business and Administration, Project Management, Management and Leadership, Business Services, Accounting and Finance, Marketing and Communication"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Certificate IV in Project Management Practice?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history (more info)",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include project plans, project schedules, risk registers, budgets, meeting records, project reports, stakeholder communication records, project documentation, spreadsheets, work samples, or other documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB50120",
+  "category_slug": "business-services",
+  "level": "Diploma",
+  "name": "Business",
+  "slug": "diploma-of-business-bsb50120",
+  "image": "/industry/business/BSB50120.jpg",
+  "short_description": "This qualification reflects the role of individuals in a variety of Business Services job roles.",
+  "hero_description": "Are you working 20+ hours per week in a business services role? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "Sydney International School",
+      "rto_code": "41487"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB50120/qualdetails",
+
+  "overview": "If you are working on moderately complex tasks in a specialist field of expertise that requires business operations skills, then certifying your skills with a BSB50120 – Diploma of Business qualification can significantly enhance your career prospects. This qualification can open doors to roles such as Administration Manager, Administration Manager (Local Government), Administrator, Business Development Manager, Business Sales Team Leader, Compliance Manager (Local Government), and/or Corporate Services Manager. These positions come with greater responsibilities and offer higher pay, as many employers prefer and reward employees with recognized qualifications. By formalizing your experience through Recognition of Prior Learning (Career Skills Institute), you position yourself for long-term success and advancement in this expanding sector.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "Did you know that 60.8% of Diploma of Business graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay after obtaining their qualification?",
+    "source_note": "Verified Australian Vocational Education and Training (NCVER) industry graduate outcome benchmarks.",
+
+    "overall_outcome": {
+      "percentage": "60.8%",
+      "description": "Graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:briefcase-business",
+        "label": "Top Occupation Outcome",
+        "value": "41.3%",
+        "description": "Community and Personal Service Workers"
+      },
+      {
+        "icon": "lucide:building-2",
+        "label": "Top Industries Employing Graduates",
+        "value": "86%",
+        "description": "Health care and social assistance"
+      },
+      {
+        "icon": "lucide:graduation-cap",
+        "label": "Education and Training",
+        "value": "8%",
+        "description": "Education and training"
+      },
+      {
+        "icon": "lucide:shopping-bag",
+        "label": "Retail Trade",
+        "value": "3%",
+        "description": "Retail trade"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining a Diploma of Business can be a stepping stone to more specialized business and management roles and can open up opportunities for professional development and career pathways.",
+    "related_category": "Business and Administration, Management and Leadership, Accounting and Finance, Marketing and Communication, Design and Creative Arts and Work Health and Safety"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Diploma of Business?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history (more info)",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include Excel files, business plans, operational plans, reports, project documents, financial records, workplace procedures, business development documents, work samples, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB50320",
+  "category_slug": "business-services",
+  "level": "Diploma",
+  "name": "Human Resource Management",
+  "slug": "diploma-of-human-resource-management-bsb50320",
+  "image": "/industry/business/BSB50320.jpg",
+  "short_description": "This qualification reflects the role of individuals who provide leadership and support strategic direction in the human resources activities of an organisation. Their knowledge base may be highly specialised or broad within the human resources field.",
+  "hero_description": "Are you working in human resources and providing leadership and support for the strategic direction of an organisation? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "The Wales Institute",
+      "rto_code": "41275"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB50320/qualdetails",
+
+  "overview": "If you are working in human resources and providing leadership and support for the strategic direction of an organisation's human resources activities, then certifying your skills with a BSB50320 – Diploma of Human Resource Management qualification can significantly enhance your career prospects. This qualification can support career opportunities across a range of human resources roles where specialised or broad HR knowledge is required. It can help experienced HR professionals formalise their workplace skills, strengthen their professional profile, take on greater responsibilities and progress into more advanced human resources roles. By formalizing your experience through Recognition of Prior Learning (Career Skills Institute), you position yourself for long-term success and advancement in the human resources sector.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "A Diploma of Human Resource Management can help experienced HR professionals formalise their existing skills, strengthen their career profile, transition into more specialised roles, and pursue further career advancement within human resources.",
+    "source_note": "Australian Vocational Education and Training industry graduate outcome information.",
+
+    "overall_outcome": {
+      "percentage": "",
+      "description": "Graduates can pursue human resources opportunities, transition into more specialised roles, support organisational strategy, and progress into more advanced HR positions."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:users",
+        "label": "Human Resources Roles",
+        "value": "",
+        "description": "Career opportunities across human resources and people management"
+      },
+      {
+        "icon": "lucide:user-cog",
+        "label": "HR Management",
+        "value": "",
+        "description": "Supporting human resources activities, systems and workplace practices"
+      },
+      {
+        "icon": "lucide:target",
+        "label": "Strategic HR Support",
+        "value": "",
+        "description": "Contributing to the strategic direction of an organisation"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "label": "Career Progression",
+        "value": "",
+        "description": "Opportunities for professional development and advancement in HR"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining a Diploma of Human Resource Management can be a stepping stone to more specialised human resources, business and management roles and can open up opportunities for professional development and career progression.",
+    "related_category": "Business and Administration, Human Resources, Management and Leadership, Business Services and Work Health and Safety"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Diploma of Human Resource Management?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history (more info)",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include HR policies, procedures, recruitment documents, onboarding materials, performance management documents, training records, employee records, workplace forms, reports, spreadsheets, HR plans, work samples, or other documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB50820",
+  "category_slug": "business-services",
+  "level": "Diploma",
+  "name": "Diploma of Project Management",
+  "slug": "diploma-of-project-management-bsb50820",
+  "image": "/industry/business/BSB50820.jpg",
+  "short_description": "This qualification reflects the role of individuals who apply project management skills and knowledge in a variety of contexts, across a number of industry sectors.",
+  "hero_description": "Are you working in project management or responsible for planning, coordinating, monitoring and delivering projects across your organisation? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "Australian Scholar’s College Pty Ltd",
+      "rto_code": "45631"
+    },
+    {
+      "name": "Australis College",
+      "rto_code": "45631"
+    },
+    {
+      "name": "NOMI COLLEGE",
+      "rto_code": "31518"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB50820/qualdetails",
+
+  "overview": "If you are working in project management and applying project management skills and knowledge across a range of contexts and industry sectors, then certifying your skills with a BSB50820 – Diploma of Project Management qualification can significantly enhance your career prospects. This qualification can support roles involving the management and delivery of projects, including planning, coordinating resources, managing stakeholders, monitoring project performance and achieving project outcomes. By formalizing your existing workplace experience through Recognition of Prior Learning (Career Skills Institute), you can have your practical project management skills formally recognised and position yourself for long-term career growth across a range of industries.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "A Diploma of Project Management can help experienced professionals formalise their project management skills, strengthen their professional profile, take on greater responsibilities and progress into advanced project management roles.",
+    "source_note": "Australian Vocational Education and Training industry graduate outcome information.",
+
+    "overall_outcome": {
+      "percentage": "",
+      "description": "Graduates can pursue project management opportunities, transition into more advanced roles, manage complex projects and progress their careers across a range of industries."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:folder-kanban",
+        "label": "Project Management Roles",
+        "value": "",
+        "description": "Career opportunities managing and delivering projects across various industries"
+      },
+      {
+        "icon": "lucide:clipboard-check",
+        "label": "Project Delivery",
+        "value": "",
+        "description": "Planning, coordinating and monitoring project activities and outcomes"
+      },
+      {
+        "icon": "lucide:users",
+        "label": "Stakeholder Management",
+        "value": "",
+        "description": "Managing project stakeholders, teams and project communication"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "label": "Career Progression",
+        "value": "",
+        "description": "Opportunities for professional development and advancement in project management"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining a Diploma of Project Management can be a stepping stone to more advanced project management, business and leadership roles and can open up opportunities for professional development and career progression.",
+    "related_category": "Business and Administration, Project Management, Management and Leadership, Business Services, Accounting and Finance, Marketing and Communication"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Diploma of Project Management?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include project plans, project schedules, project budgets, risk registers, stakeholder communication records, meeting minutes, project reports, project documentation, resource plans, work samples, spreadsheets, or other documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB60120",
+  "category_slug": "business-services",
+  "level": "Advanced Diploma",
+  "name": "Advanced Diploma of Business",
+  "slug": "advanced-diploma-of-business-bsb60120",
+  "image": "/industry/business/BSB60120.jpg",
+  "short_description": "This qualification reflects the role of individuals in a variety of Business Services job roles. These individuals may have general management accountabilities.",
+  "hero_description": "Are you working 20+ hours per week performing complex tasks in a specialist field of business? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "Sydney International School",
+      "rto_code": "41487"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB60120/qualdetails",
+
+  "overview": "If you are working on complex tasks in a specialist field of business undertaking technical research and analysis, and will often contribute to setting the strategic direction for a work area, then certifying your skills with a BSB60120 – Advanced Diploma of Business qualification can significantly enhance your career prospects. This qualification can open doors to roles such as Administrator, Business Analyst, Business Development Director, Quarry Business Manager, and/or Senior Executive. These positions come with greater responsibilities and offer higher pay, as many employers prefer and reward employees with recognized qualifications. By formalizing your experience through Recognition of Prior Learning (Career Skills Institute), you position yourself for long-term success and advancement in this expanding sector.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "Did you know that 78.8% of Advanced Diploma of Business graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay after obtaining their qualification?",
+    "source_note": "Verified Australian Vocational Education and Training (NCVER) industry graduate outcome benchmarks.",
+
+    "overall_outcome": {
+      "percentage": "78.8%",
+      "description": "Graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:briefcase-business",
+        "label": "Top Occupation Outcome",
+        "value": "41.3%",
+        "description": "Community and Personal Service Workers"
+      },
+      {
+        "icon": "lucide:building-2",
+        "label": "Top Industries Employing Graduates",
+        "value": "86%",
+        "description": "Health care and social assistance"
+      },
+      {
+        "icon": "lucide:graduation-cap",
+        "label": "Education and Training",
+        "value": "8%",
+        "description": "Education and training"
+      },
+      {
+        "icon": "lucide:shopping-bag",
+        "label": "Retail Trade",
+        "value": "3%",
+        "description": "Retail trade"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining an Advanced Diploma of Business can be a stepping stone to more specialised business, management and leadership roles and can open up opportunities for professional development and further career progression.",
+    "related_category": "Business and Administration, Management and Leadership, Accounting and Finance, Marketing and Communication, Design and Creative Arts and Work Health and Safety"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Advanced Diploma of Business?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include business plans, strategic plans, operational plans, financial reports, business analysis, project documentation, research and analysis reports, management reports, spreadsheets, work samples, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB60320",
+  "category_slug": "business-services",
+  "level": "Advanced Diploma",
+  "name": "Human Resource Management",
+  "slug": "advanced-diploma-of-human-resource-management-bsb60320",
+  "image": "/industry/business/BSB60320.jpg",
+  "short_description": "This qualification reflects the role of individuals who provide leadership and support strategic direction in the human resources activities of an organisation. Their knowledge base may be highly specialised or broad within the human resources field.",
+  "hero_description": "Are you working in human resources and providing leadership and strategic support for the people and workforce functions of an organisation? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "The Wales Institute",
+      "rto_code": "41275"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB50320/qualdetails",
+
+  "overview": "If you are working in human resources and providing leadership and support for the strategic direction of an organisation's human resources activities, then certifying your skills with a BSB60320 – Advanced Diploma of Human Resource Management qualification can significantly enhance your career prospects. This qualification can support advanced human resources roles where highly specialised or broad HR knowledge is required. It can help experienced HR professionals formalise their workplace skills, strengthen their professional profile, take on greater strategic responsibilities and progress into senior human resources and management positions. By formalizing your experience through Recognition of Prior Learning (Career Skills Institute), you can have your existing skills and workplace experience formally recognised and position yourself for long-term success and advancement in the human resources sector.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "An Advanced Diploma of Human Resource Management can help experienced HR professionals formalise their existing expertise, strengthen their professional profile, contribute to strategic workforce planning and progress into senior human resources and management roles.",
+    "source_note": "Australian Vocational Education and Training industry graduate outcome information.",
+
+    "overall_outcome": {
+      "percentage": "",
+      "description": "Graduates can pursue advanced human resources opportunities, contribute to strategic workforce direction, take on senior responsibilities and progress their careers."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:users",
+        "label": "Human Resources Leadership",
+        "value": "",
+        "description": "Advanced career opportunities across human resources and workforce management"
+      },
+      {
+        "icon": "lucide:target",
+        "label": "Strategic HR Support",
+        "value": "",
+        "description": "Supporting strategic workforce planning and organisational direction"
+      },
+      {
+        "icon": "lucide:user-cog",
+        "label": "HR Management",
+        "value": "",
+        "description": "Managing and supporting complex human resources activities and workplace practices"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "label": "Career Progression",
+        "value": "",
+        "description": "Opportunities for senior HR, management and professional advancement"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining an Advanced Diploma of Human Resource Management can be a stepping stone to senior human resources, business and management roles and can open up opportunities for professional development and further career progression.",
+    "related_category": "Business and Administration, Human Resources, Management and Leadership, Business Services and Work Health and Safety"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Advanced Diploma of Human Resource Management?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include HR policies, procedures, recruitment documents, workforce plans, performance management documentation, employee records, training and development plans, HR reports, strategic workforce documents, organisational policies, spreadsheets, work samples, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB60420",
+  "category_slug": "business-services",
+  "level": "Advanced Diploma",
+  "name": "Leadership and Management",
+  "slug": "advanced-diploma-of-leadership-and-management-bsb60420",
+  "image": "/industry/business/BSB60420.jpg",
+  "short_description": "This qualification reflects the role of individuals who apply planning and implementation skills across a range of leadership and management functions, with accountability for personal and team outcomes within broad parameters.",
+  "hero_description": "Are you working 20+ hours per week in a leadership and management role? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "The Wales Institute",
+      "rto_code": "41275"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB60420/qualdetails",
+
+  "overview": "If you are working on planning and implementing a range of leadership and management functions, with accountability for personal and team outcomes within broad parameters, then certifying your skills with a BSB60420 – Advanced Diploma of Leadership and Management qualification can significantly enhance your career prospects. This qualification can open doors to roles such as Area Manager, Business Analyst, Business Development Director, Chief Executive Officer, Department Manager, Executive Director, Manager, Managing Director, Quarry Business Manager, and/or Senior Executive. These positions come with greater responsibilities and offer higher pay, as many employers prefer and reward employees with recognized qualifications. By formalizing your experience through Recognition of Prior Learning (Career Skills Institute), you position yourself for long-term success and advancement in this expanding sector.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "An Advanced Diploma of Leadership and Management can help experienced professionals formalise their leadership and management expertise, strengthen their professional profile, take on greater organisational responsibilities and progress into senior management roles.",
+    "source_note": "Australian Vocational Education and Training industry graduate outcome information.",
+
+    "overall_outcome": {
+      "percentage": "",
+      "description": "Graduates can pursue senior leadership and management opportunities, take on greater organisational responsibilities and progress their careers across a range of industries."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:briefcase-business",
+        "label": "Top Occupation Outcome",
+        "value": "41.3%",
+        "description": "Community and Personal Service Workers"
+      },
+      {
+        "icon": "lucide:building-2",
+        "label": "Top Industries Employing Graduates",
+        "value": "86%",
+        "description": "Health care and social assistance"
+      },
+      {
+        "icon": "lucide:graduation-cap",
+        "label": "Education and Training",
+        "value": "8%",
+        "description": "Education and training"
+      },
+      {
+        "icon": "lucide:shopping-bag",
+        "label": "Retail Trade",
+        "value": "3%",
+        "description": "Retail trade"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining an Advanced Diploma of Leadership and Management can be a stepping stone to senior management, executive and business leadership roles and can open up opportunities for professional development and further career progression.",
+    "related_category": "Business and Administration, Management and Leadership, Business Services, Project Management, Accounting and Finance, Marketing and Communication"
+  },
+
+  "entry_requirements": {
+    "title": "Entry Requirements",
+    "description": "Entry to this qualification is limited to individuals who meet one of the following requirements.",
+    "requirements": [
+      "Have completed a Diploma or Advanced Diploma from the BSB Training Package, including current or superseded equivalent versions.",
+      "Have two years of equivalent full-time relevant workplace experience in an operational or leadership role in an enterprise."
+    ]
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "What are the entry requirements for the Advanced Diploma of Leadership and Management?",
+      "answer": [
+        "Have completed a Diploma or Advanced Diploma from the BSB Training Package, including current or superseded equivalent versions.",
+        "Have two years of equivalent full-time relevant workplace experience in an operational or leadership role in an enterprise."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Advanced Diploma of Leadership and Management?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include leadership plans, strategic plans, operational plans, business reports, team performance records, project documentation, meeting records, staff development plans, organisational policies, management reports, spreadsheets, work samples, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB60720",
+  "category_slug": "business-services",
+  "level": "Advanced Diploma",
+  "name": "Program Management",
+  "slug": "advanced-diploma-of-program-management-bsb60720",
+  "image": "/industry/business/BSB60720.jpg",
+  "short_description": "This qualification reflects the role of individuals who apply program and project management skills and knowledge in a variety of contexts, across a number of industry sectors.",
+  "hero_description": "Are you working in program or project management and responsible for coordinating multiple projects, managing resources and supporting strategic organisational outcomes? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "Australian Scholar’s College Pty Ltd",
+      "rto_code": "45631"
+    },
+    {
+      "name": "Australis College/NOMI COLLEGE",
+      "rto_code": "31518"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB60720/qualdetails",
+
+  "overview": "If you are working in program or project management and applying project management skills and knowledge across a variety of contexts and industry sectors, then certifying your skills with a BSB60720 – Advanced Diploma of Program Management qualification can significantly enhance your career prospects. This qualification can support advanced roles involving program planning, project coordination, resource management, stakeholder engagement, risk management and monitoring program outcomes. By formalizing your existing workplace experience through Recognition of Prior Learning (Career Skills Institute), you can have your practical program and project management skills formally recognised and position yourself for long-term career growth and advancement across a range of industries.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "An Advanced Diploma of Program Management can help experienced professionals formalise their program and project management expertise, strengthen their professional profile, take on greater responsibilities and progress into senior program and project management roles.",
+    "source_note": "Australian Vocational Education and Training industry graduate outcome information.",
+
+    "overall_outcome": {
+      "percentage": "",
+      "description": "Graduates can pursue advanced program and project management opportunities, manage complex initiatives, support strategic outcomes and progress into senior management roles."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:folder-kanban",
+        "label": "Program Management Roles",
+        "value": "",
+        "description": "Career opportunities managing programs and coordinating multiple projects"
+      },
+      {
+        "icon": "lucide:clipboard-check",
+        "label": "Project Delivery",
+        "value": "",
+        "description": "Planning, coordinating and monitoring projects and program activities"
+      },
+      {
+        "icon": "lucide:users",
+        "label": "Stakeholder Management",
+        "value": "",
+        "description": "Managing stakeholders, teams, resources and program communication"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "label": "Career Progression",
+        "value": "",
+        "description": "Opportunities for senior program management, project management and leadership roles"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining an Advanced Diploma of Program Management can be a stepping stone to senior program management, project management, business and leadership roles and can open up opportunities for professional development and career progression.",
+    "related_category": "Program Management, Project Management, Business and Administration, Management and Leadership, Business Services"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Advanced Diploma of Program Management?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include program plans, project plans, program schedules, project schedules, budgets, risk registers, stakeholder communication records, governance documents, meeting records, program reports, resource plans, project documentation, work samples, spreadsheets, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB80120",
+  "category_slug": "business-services",
+  "level": "Graduate Diploma",
+  "name": "Management (Learning)",
+  "slug": "graduate-diploma-of-management-learning-bsb80120",
+  "image": "/industry/business/BSB80120.jpg",
+  "short_description": "This qualification reflects the role of individuals who apply highly specialised knowledge and skills in the field of organisational learning and capability development. Individuals in these roles generate and evaluate complex ideas.",
+  "hero_description": "Are you working in organisational learning, training, capability development or management and applying highly specialised knowledge and skills? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "The Wales Institute",
+      "rto_code": "41275"
+    },
+    {
+      "name": "Infinity Business College Pty Ltd",
+      "rto_code": "46027"
+    },
+    {
+      "name": "Australian Scholar’s College Pty Ltd",
+      "rto_code": "45631"
+    }
+  ],
+
+  "course_url": "https://www.yourcareer.gov.au/learn-and-train/courses/BSB80120",
+
+  "overview": "If you are working in organisational learning, capability development, training or management and applying highly specialised knowledge and skills to generate and evaluate complex ideas, then certifying your skills with a BSB80120 – Graduate Diploma of Management (Learning) qualification can significantly enhance your career prospects. This qualification can support advanced roles involving organisational learning, workforce capability development, learning strategy, professional development and organisational improvement. By formalizing your existing experience through Recognition of Prior Learning (Career Skills Institute), you can have your specialised workplace skills formally recognised and position yourself for long-term professional growth and advancement in organisational learning and capability development.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "A Graduate Diploma of Management (Learning) can help experienced professionals formalise their specialised knowledge in organisational learning and capability development, strengthen their professional profile and progress into advanced learning and management roles.",
+    "source_note": "Australian Vocational Education and Training industry graduate outcome information.",
+
+    "overall_outcome": {
+      "percentage": "",
+      "description": "Graduates can pursue advanced organisational learning and capability development opportunities, contribute to strategic learning initiatives and progress into senior learning and management roles."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:graduation-cap",
+        "label": "Organisational Learning",
+        "value": "",
+        "description": "Advanced career opportunities in organisational learning and development"
+      },
+      {
+        "icon": "lucide:users",
+        "label": "Capability Development",
+        "value": "",
+        "description": "Designing and supporting workforce capability and professional development"
+      },
+      {
+        "icon": "lucide:brain",
+        "label": "Specialised Knowledge",
+        "value": "",
+        "description": "Applying highly specialised knowledge to complex organisational learning challenges"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "label": "Career Progression",
+        "value": "",
+        "description": "Opportunities for senior learning, development and management roles"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining a Graduate Diploma of Management (Learning) can be a stepping stone to senior organisational learning, capability development, training, human resources and management roles and can open up opportunities for professional development and career progression.",
+    "related_category": "Organisational Learning, Human Resources, Management and Leadership, Business and Administration, Training and Development"
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Graduate Diploma of Management (Learning)?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: first aid, diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include learning and development plans, training programs, capability frameworks, organisational learning strategies, workforce development plans, training needs analysis, evaluation reports, professional development records, learning resources, research and analysis, presentations, work samples, spreadsheets, or any documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+},
+{
+  "code": "BSB80320",
+  "category_slug": "business-services",
+  "level": "Graduate Diploma",
+  "name": "Strategic Leadership",
+  "slug": "graduate-diploma-of-strategic-leadership-bsb80320",
+  "image": "/industry/business/BSB80320.jpg",
+  "short_description": "This qualification reflects the role of individuals who apply strategic leadership and management skills and knowledge in a variety of contexts, across a number of industry sectors.",
+  "hero_description": "Are you working 20+ hours per week in a strategic leadership and management role? With Recognition of Prior Learning (Career Skills Institute), you can leverage your existing skills and work experience to gain this qualification via our partner RTOs, without classroom study.",
+  "key_information": {
+    "duration": "Estimated 4–12 weeks",
+    "delivery": "RPL"
+  },
+  "providers": [
+    {
+      "name": "Australian Scholar’s College Pty Ltd",
+      "rto_code": "45631"
+    },
+    {
+      "name": "Australis College",
+      "rto_code": "45631"
+    },
+    {
+      "name": "NOMI COLLEGE",
+      "rto_code": "31518"
+    }
+  ],
+
+  "course_url": "https://training.gov.au/training/details/BSB80320/qualdetails",
+
+  "overview": "If you are working in a strategic leadership and management role to implement a range of leadership and management functions in varied contexts, then certifying your skills with a BSB80320 – Graduate Diploma of Strategic Leadership qualification can significantly enhance your career prospects. This qualification can open doors to roles such as Director, Managing Director, and/or Small Business Manager. These positions come with greater responsibilities and offer higher pay, as many employers prefer and reward employees with recognized qualifications. By formalizing your experience through Recognition of Prior Learning (Career Skills Institute), you position yourself for long-term success and advancement in this expanding sector.",
+
+  "graduate_outcomes": {
+    "label": "Graduate Outcomes",
+    "title": "Career Outcomes That Show the Value of Qualification",
+    "description": "Did you know that 86.4% of Graduate Diploma of Strategic Leadership graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay after obtaining their qualification?",
+    "source_note": "Verified Australian Vocational Education and Training (NCVER) industry graduate outcome benchmarks.",
+
+    "overall_outcome": {
+      "percentage": "86.4%",
+      "description": "Graduates secured a new job, transitioned into more skilled roles, earned a promotion, or received higher pay."
+    },
+
+    "statistics": [
+      {
+        "icon": "lucide:briefcase-business",
+        "label": "Top Occupation Outcome",
+        "value": "41.3%",
+        "description": "Community and Personal Service Workers"
+      },
+      {
+        "icon": "lucide:building-2",
+        "label": "Top Industries Employing Graduates",
+        "value": "86%",
+        "description": "Health care and social assistance"
+      },
+      {
+        "icon": "lucide:graduation-cap",
+        "label": "Education and Training",
+        "value": "8%",
+        "description": "Education and training"
+      },
+      {
+        "icon": "lucide:shopping-bag",
+        "label": "Retail Trade",
+        "value": "3%",
+        "description": "Retail trade"
+      }
+    ]
+  },
+
+  "career_pathways": {
+    "title": "Further Career Skills Institute Qualifications (Career Pathways)",
+    "description": "Gaining a Graduate Diploma of Strategic Leadership can be a stepping stone to senior leadership, executive management and business roles and can open up opportunities for professional development and career progression.",
+    "related_category": "Business and Administration, Management and Leadership, Strategic Leadership, Business Services, Project Management, Accounting and Finance, Marketing and Communication"
+  },
+
+  "entry_requirements": {
+    "title": "Entry Requirements",
+    "description": "Entry to this qualification is limited to individuals who meet one of the following requirements:",
+    "requirements": [
+      "Have completed a Diploma or Advanced Diploma qualification in related fields of study and have 3 years equivalent full-time relevant workplace experience at a significant level of leadership and management responsibility and/or complexity in an enterprise.",
+      "Have completed a Bachelor’s degree in related fields of study and have 2 years equivalent full-time relevant workplace experience at a significant level of leadership and management responsibility and/or complexity in an enterprise.",
+      "Have 5 years of equivalent full-time relevant workplace experience at a significant level of leadership and management responsibility and/or complexity in an enterprise."
+    ]
+  },
+
+  "faq": [
+    {
+      "question": "Who can apply for Career Skills Institute?",
+      "answer": [
+        "Seasoned Professionals: Individuals with extensive experience in their field but lacking a current formal qualification.",
+        "Experienced Workers: Workers who began their careers before formal qualifications became a requirement.",
+        "Qualification Upgraders: Professionals seeking to upgrade their qualifications by having their practical experience recognized.",
+        "Career Progressors (CPD): Employees aiming to advance in their careers by formally validating their skills.",
+        "Advanced Learners: Individuals looking to pursue further education who can obtain course credits by demonstrating existing expertise in the qualification units."
+      ]
+    },
+    {
+      "question": "What are the entry requirements for the Graduate Diploma of Strategic Leadership?",
+      "answer": [
+        "Have completed a Diploma or Advanced Diploma qualification in related fields of study and have 3 years equivalent full-time relevant workplace experience at a significant level of leadership and management responsibility and/or complexity in an enterprise.",
+        "Have completed a Bachelor’s degree in related fields of study and have 2 years equivalent full-time relevant workplace experience at a significant level of leadership and management responsibility and/or complexity in an enterprise.",
+        "Have 5 years of equivalent full-time relevant workplace experience at a significant level of leadership and management responsibility and/or complexity in an enterprise."
+      ]
+    },
+    {
+      "question": "Comprehensive Evidence for Career Skills Institute in Graduate Diploma of Strategic Leadership?",
+      "answer": [
+        "Below is the list of documents we need from you to review and submit to the RTO for your RPL assessment application:",
+        "100 Points of ID: Accepted documents include: driver’s license, passport, Medicare card, proof of age card, key pass, and utility bills (For more information, refer to the guidelines on 100 Points of ID)",
+        "Updated Resume: With your current skills, experiences, and employment history",
+        "USI Number: If you don’t have one, you can create one at www.usi.gov.au",
+        "Employment Contracts or Job Offer Letters",
+        "Reference letter from your employer or senior management, detailing your job description (must be on company letterhead)",
+        "Pay slips or invoices (optional) with your name.",
+        "Academic documents with transcripts (Ex: diploma, bachelor, certificate II, certificate III, certificate IV, year 12 certificate etc.)",
+        "Working with Children Check (if applicable)",
+        "Additional Supporting Evidence: This could include strategic plans, business plans, operational plans, leadership frameworks, management reports, project documentation, organisational policies, financial reports, performance reports, stakeholder communication records, team management documentation, business analysis, research and analysis, presentations, spreadsheets, work samples, or other documentation aligned with the unit outline to demonstrate your competency in the applied qualification.",
+        "Important Notes: The RTO may contact you for further evidence. An RTO assessor might conduct a competency interview. Gap training may be required to address any areas of improvement and ensure a positive assessment outcome."
+      ]
+    },
+    {
+      "question": "Regulatory Requirements",
+      "answer": [
+        "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+      ]
+    },
+    {
+      "question": "What Are the Benefits of Career Skills Institute?",
+      "answer": [
+        "Nationally Recognized Qualification awarded by a Registered Training Organization (RTO) in Australia",
+        "Fast, Easy and cost-effective",
+        "Career Advancement",
+        "Continuous Professional Development (CPD)",
+        "Meet Industry and Licensing Standards and prerequisites",
+        "Can Assist in Immigration and Visa Applications",
+        "Recognize volunteer experience",
+        "Best Price Guaranteed by Career Skills Institute"
+      ]
+    }
+  ]
+}
+
+]

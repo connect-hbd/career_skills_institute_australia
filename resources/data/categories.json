@@ -1,0 +1,101 @@
+[
+    {
+    "id": 1,
+    "name": "Automotive Retail, Service and Repair",
+    "slug": "automotive-retail-service-and-repair",
+    "short_name": "Automotive",
+    "description": "Explore industry-focused training programs designed to build practical skills for automotive retail, servicing, maintenance and repair.",
+    "overview": " Stay ahead in the automotive industry with up-to-date, nationally recognized qualifications. RPL matches you with the right Automotive Retail, Service, and Repair training based on your real-world experience. Through Recognition of Prior Learning, we convert your hands-on skills in vehicle servicing, diagnostics, and repair into a formal qualification—fast-tracking your career without classroom study.",
+    "highlights": "Develop practical automotive skills, technical knowledge and industry experience to prepare for careers in vehicle servicing, repair, diagnostics, retail and related automotive roles.",
+    "image": "/industry/automotive/automotive.jpg",
+    "banner": "/industry/automotive/automotive.jpg"
+    },
+    {
+    "id": 2,
+    "name": "Business Services",
+    "slug": "business-services",
+    "short_name": "Business Services",
+    "description": "Build practical business skills and professional knowledge for a wide range of administrative, operational and business service roles.",
+    "overview": "Advance your career in business and administration with Career Skills Institute. We match you with the right qualification and RTO partner, using Recognition of Prior Learning (RPL) to convert your workplace experience into a nationally recognized credential—no classroom study required. Gain the skills to lead, manage, and thrive in today's competitive business landscape",
+    "highlights": "Develop communication, administration, leadership and business management skills that can support career opportunities across a variety of professional environments.",
+    "image": "/industry/business/business.jpg",
+    "banner": "/industry/business/business.jpg"
+    },
+    {
+    "id": 3,
+    "name": "Community Services",
+    "slug": "community-services",
+    "short_name": "Community Services",
+    "description": "Explore qualifications designed for people seeking meaningful careers supporting individuals, families and communities.",
+    "overview": "Make a meaningful impact in the Community Services sector with a nationally recognized qualification. Career Skills Institute matches you with the right course and RTO partner based on your career goals and hands-on experience. Through our Recognition of Prior Learning (RPL) pathway, your existing skills in family and community support are formally credited—fast-tracking your certification without traditional classroom study. Get qualified, advance your career, and continue making a difference",
+    "highlights": "Build communication, support, interpersonal and professional skills for rewarding careers focused on helping people and strengthening communities.",
+    "image": "/industry/community/community.jpg",
+    "banner": "/industry/community/community.jpg"
+    },
+    {
+    "id": 4,
+    "name": "Construction, Plumbing and Services",
+    "slug": "construction-plumbing-and-services",
+    "short_name": "Construction",
+    "description": "Develop practical skills and industry knowledge for careers across construction, plumbing, building and related trade services.",
+    "overview": "Build your future in Australia’s growing construction, plumbing, and services industry. Career Skills Institute matches you with the right qualification and trusted RTO partner based on your trade experience. Through our Recognition of Prior Learning (RPL) pathway, your on-site skills and industry knowledge are formally assessed and credited—fast-tracking your certification without classroom study. Upgrade your credentials, stay industry-compliant, and take your trade career to the next level.",
+    "highlights": "Gain practical trade skills, technical knowledge and workplace capabilities for careers in construction, plumbing, building and related service industries.",
+    "image": "/industry/construction/construction.jpg",
+    "banner": "/industry/construction/construction.jpg"
+    },
+    {
+    "id": 5,
+    "name": "Manufacturing",
+    "slug": "manufacturing",
+    "short_name": "Manufacturing",
+    "description": "Build practical technical skills for careers across modern manufacturing, production, engineering and industrial environments.",
+    "overview": "Staying ahead in the automotive industry necessitates up-to-date industrial qualifications. Career Skills Institute aids its clients in choosing from a variety of Automotive Retail, Service, and Repair Trainings to provide the necessary skills and knowledge for various industry roles. Our courses offer comprehensive insights into the field. Through the Recognition of Prior Learning process, we value your existing skills and experience, enabling a faster achievement of your qualifications. Career Skills Institute will find the best course specifically for your needs, offering an excellent learning opportunity. Join us to gain proficiency in vehicle installation, servicing, diagnostics, and repair, and unlock exciting career possibilities.",
+    "highlights": "Develop technical, production, safety and problem-solving skills that align with the needs of modern manufacturing and industrial workplaces.",
+    "image": "/industry/manufacturing/manufacturing.jpg",
+    "banner": "/industry/manufacturing/manufacturing.jpg"
+    },
+    {
+    "id": 6,
+    "name": "Information and Communications Technology",
+    "slug": "information-and-communications-technology",
+    "short_name": "Information Technology",
+    "description": "Explore technology-focused training programs that develop practical skills across information technology, communications and digital systems.",
+    "overview": "Advance your career in the fast-evolving ICT sector with a nationally recognized qualification. Career Skills Institute matches you with the right course and RTO partner across high-demand specializations like cybersecurity, cloud computing, networking, programming, web design, and IT support. Through our Recognition of Prior Learning (RPL) pathway, your hands-on tech experience is formally credited—fast-tracking your certification without classroom study. Upgrade your credentials and step into your next IT role with confidence.",
+    "highlights": "Develop practical and industry-focused ICT skills that can support careers in software, networking, cybersecurity, cloud technologies, technical support and digital services.",
+    "image": "/industry/ict/ict.jpg",
+    "banner": "/industry/ict/ict.jpg"
+    },
+    {
+    "id": 7,
+    "name": "Resources and Infrastructure Industry",
+    "slug": "resources-and-infrastructure-industry",
+    "short_name": "Resources and Infrastructure",
+    "description": "Develop practical skills for careers supporting Australia's resources, infrastructure, energy and related industries.",
+    "overview": "Build a stronger career in Australia’s resources and infrastructure sector with a nationally recognized qualification. Career Skills Institute matches you with the right course and RTO partner across civil construction, surface extraction, traffic management, and public works. Through our Recognition of Prior Learning (RPL) pathway, your on-site experience is formally credited—fast-tracking your certification without classroom study. Upgrade your credentials, stay industry-ready, and take your next career step with confidence.",
+    "highlights": "Build technical, operational, safety and workplace skills for opportunities across resources, infrastructure, energy, utilities and related industries.",
+    "image": "/industry/infrastructure/infrastructure.jpg",
+    "banner": "/industry/infrastructure/infrastructure.jpg"
+    },
+    {
+    "id": 8,
+    "name": "Hairdressing and Beauty Services",
+    "slug": "hairdressing-and-beauty-services",
+    "short_name": "Hairdressing and Beauty",
+    "description": "Develop professional and practical skills for careers in hairdressing, beauty therapy, personal care and salon services.",
+    "overview": "Turn your salon or spa experience into a nationally recognized Beauty or Hairdressing qualification. Career Skills Institute matches you with the right course and RTO partner based on your hands-on skills. Through our Recognition of Prior Learning (RPL) pathway, your existing expertise is formally credited—fast-tracking your certification without classroom study. Upgrade your credentials and grow your career in a high-demand, creative industry.",
+    "highlights": "Gain practical skills, creative techniques, customer service knowledge and professional capabilities for careers in salons, beauty businesses and personal care services.",
+    "image": "/industry/hairdressing/hairdressing.jpg",
+    "banner": "/industry/hairdressing/hairdressing.jpg"
+    },
+    {
+    "id": 9,
+    "name": "Tourism, Travel and Hospitality",
+    "slug": "tourism-travel-and-hospitality",
+    "short_name": "Tourism and Hospitality",
+    "description": "Build practical skills and professional knowledge for exciting careers across tourism, travel, hospitality, accommodation and food services.",
+    "overview": "Turn your hospitality, cookery, or travel experience into a nationally recognized qualification. Career Skills Institute matches you with the right course and RTO partner across hotels, restaurants, catering, cafes, and tourism services. Through our Recognition of Prior Learning (RPL) pathway, your hands-on industry skills are formally credited—fast-tracking your certification without classroom study. Upgrade your credentials and step into your next career opportunity with confidence.",
+    "highlights": "Develop customer service, hospitality, communication and operational skills for careers across hotels, restaurants, tourism businesses, travel services and other hospitality environments.",
+    "image": "/industry/tourism/tourism.jpg",
+    "banner": "/industry/tourism/tourism.jpg"
+    }
+]

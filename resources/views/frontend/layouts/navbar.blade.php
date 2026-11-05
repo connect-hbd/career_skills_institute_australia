@@ -1,10 +1,7 @@
     @php
-    $categories = json_decode(
-        file_get_contents(resource_path('data/categories.json')),
-        true
-    );
-    // @dd($categories);
-@endphp
+        $categories = json_decode(file_get_contents(resource_path('data/categories.json')), true);
+        // @dd($categories);
+    @endphp
     <header class="fixed top-0 left-0 w-full z-50 border-0 md:border-b bg-white backdrop-blur-md dark:bg-neutral-900/95">
 
         <nav class="max-w-7xl mx-auto px-5 lg:px-8">
@@ -51,39 +48,64 @@
                     <a href="#" id="dropdownHoverButton" data-dropdown-toggle="dropdownHover"
                         data-dropdown-trigger="hover"
                         class="flex items-center relative font-medium transition-all duration-300
-                            {{ request()->routeIs('') ? 'text-brand-600 font-medium after:w-full' : 'text-neutral-600 hover:text-brand-600 after:w-0 hover:after:w-full' }}
-                            after:absolute after:left-0 after:-bottom-1.5
-                            after:h-0.5 after:bg-brand-600 after:transition-all after:duration-300"
+                        {{ request()->routeIs('courses.*') ? 'text-brand-600 font-medium after:w-full' : 'text-neutral-600 hover:text-brand-600 after:w-0 hover:after:w-full' }}
+                        after:absolute after:left-0 after:-bottom-1.5
+                        after:h-0.5 after:bg-brand-600 after:transition-all after:duration-300"
                         type="button">
+
                         Our Courses
+
                         <svg class="w-4 h-4 ms-1.5 -me-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             width="24" height="24" fill="none" viewBox="0 0 24 24">
+
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m19 9-7 7-7-7" />
+
                         </svg>
                     </a>
-                   
 
-                    <!-- Dropdown menu -->
-                    <div id="dropdownHover" class="z-10 hidden top-full left-0 w-210 rounded-md bg-white shadow-lg">
 
-                        <ul class="grid grid-cols-2   px-3 py-5 text-sm font-medium normal-case"
-                            aria-labelledby="dropdownHoverButton">
+                    {{-- Courses Dropdown --}}
+                    <div id="dropdownHover" class="z-10  top-full left-0 w-full bg-white shadow-xl capitalize ">
 
-                            @foreach ($categories as $category)
-                                <li class="max-w-[90%]">
-                                    <a href="{{ route('industries.index', $category['slug']) }}"
-                                        class="block w-full rounded-md p-2 normal-case text-gray-700
-                           transition-colors hover:bg-gray-100 hover:text-brand-600">
+                        <div class="max-w-7xl mx-auto px-4 md:px-6 py-5 md:py-6 text-[#1C2826] font-sans antialiased">
 
-                                        {{ $category['name'] }}
+                            <div class="grid gap-x-6 lg:gap-x-8 grid-cols-1 md:grid-cols-3 border-t border-brand-300 pt-4">
 
+                                @foreach ($categories as $category)
+                                    <a href="/industry/{{ $category['slug'] }}"
+                                        class="group/item relative flex items-start gap-3.5 p-3 rounded-xl border border-transparent bg-slate-50/50 hover:bg-brand-50/40 hover:border-brand-200/60 transition-all duration-200">
+
+                                        <!-- Category Icon -->
+                                        <div
+                                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white shadow-sm border border-slate-200/60 text-brand-600 group-hover/item:bg-brand-600 group-hover/item:text-white group-hover/item:border-brand-600 transition-colors duration-200">
+                                            <iconify-icon icon="lucide:{{ $category['icon'] }}"
+                                                class="text-xl"></iconify-icon>
+                                        </div>
+
+                                        <!-- Category Content -->
+                                        <div class="flex-1 min-w-0">
+                                            <div class="flex items-center justify-between">
+                                                <h4
+                                                    class="text-sm font-bold text-slate-900 group-hover/item:text-brand-600 transition-colors duration-200 truncate">
+                                                    {{ $category['name'] }}
+                                                </h4>
+                                                <iconify-icon icon="lucide:arrow-up-right"
+                                                    class="text-slate-400 group-hover/item:text-brand-600 text-sm shrink-0 transition-transform duration-200 group-hover/item:translate-x-0.5 group-hover/item:-translate-y-0.5"></iconify-icon>
+                                            </div>
+                                            <p class="text-xs text-slate-500 mt-1 line-clamp-1 leading-relaxed">
+                                                {{ $category['short_description'] }}
+                                            </p>
+                                        </div>
                                     </a>
-                                </li>
-                            @endforeach
+                                @endforeach
 
-                        </ul>
+                            </div>
+
+                        </div>
+
                     </div>
+
 
                     {{-- how-we-works --}}
                     <a href="{{ route('how-we-works') }}"

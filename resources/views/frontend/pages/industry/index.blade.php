@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
 
-@section('title', $category['name'] ?? 'Courses')
+@section('title', $industry['name'] ?? 'Courses')
 
 @section('content')
 
@@ -24,11 +24,11 @@
                     </div>
 
                     <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
-                        {{ $category['name'] ?? 'Vocational Courses & Qualifications' }}
+                        {{ $industry['name'] ?? '' }}
                     </h1>
 
                     <p class="max-w-2xl text-sm sm:text-base lg:text-lg text-slate-300 font-normal leading-relaxed">
-                        {{ $category['description'] ?? 'Explore nationally recognised qualifications and develop practical skills tailored for immediate industry application and RPL credit pathways.' }}
+                        {{ $industry['description'] ?? 'Explore nationally recognised qualifications and develop practical skills tailored for immediate industry application and RPL credit pathways.' }}
                     </p>
 
                     <div class="flex flex-wrap items-center gap-4 pt-2">
@@ -119,7 +119,7 @@
                             :class="activeFilter === 'diploma' ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20' :
                                 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
                             class="px-4 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-200 whitespace-nowrap">
-                            Diploma & Above
+                            Diploma 
                         </button>
                     </div>
 

@@ -14,7 +14,7 @@ class FrontendController extends Controller
     public function homePage()
     {
           $industries = json_decode(
-            File::get(resource_path('data/categories.json')),
+            File::get(resource_path('data/industries.json')),
             true
         );
 

@@ -9,8 +9,8 @@ class IndustryController extends Controller
 {
     public function index()
     {
-        $categories = json_decode(
-            File::get(resource_path('data/categories.json')),
+        $industry = json_decode(
+            File::get(resource_path('data/industries.json')),
             true
         );
 
@@ -21,46 +21,46 @@ class IndustryController extends Controller
 
         return view('frontend.pages.industry.index', [
             'category' => null,
-            'categories' => $categories,
+            'industry' => $industry,
             'courses' => $courses,
         ]);
     }
 
-  public function categoryCourses(string $slug)
+  public function industryQualification(string $slug)
 {
-    // Load categories
-    $categories = json_decode(
-        File::get(resource_path('data/categories.json')),
+    // Load industries
+    $industries = json_decode(
+        File::get(resource_path('data/industries.json')),
         true
     );
 
-    // Load courses
-    $allCourses = json_decode(
-        File::get(resource_path('data/courses.json')),
+    // Load qualifications
+    $allQualifications = json_decode(
+        File::get(resource_path('data/qualifications.json')),
         true
     );
 
     // Find selected industry by slug
-    $industry = collect($categories)->firstWhere('slug', $slug);
+    $industry = collect($industries)->firstWhere('slug', $slug);
 
     abort_if(!$industry, 404);
 
-    // Get courses belonging to this industry
-    $courses = collect($allCourses)
-        ->where('category_slug', $slug)
+    // Get qualifications belonging to this industry
+    $qualifications = collect($allQualifications)
+        ->where('industry_slug', $slug)
         ->values();
 
-    // Get available course levels
-    $courseLevels = $courses
+    // Get available qualifications levels
+    $courseLevels = $qualifications
         ->pluck('level')
         ->filter()
         ->unique()
         ->values()
         ->prepend('All');
-
-    return view('frontend.pages.industry.index', [
+// return $industry;
+   return view('frontend.pages.industry.index', [
         'industry' => $industry,
-        'courses' => $courses->all(),
+        'courses' => $qualifications->all(),
         'courseLevels' => $courseLevels,
     ]);
 }

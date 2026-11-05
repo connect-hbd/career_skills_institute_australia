@@ -1,6 +1,4 @@
-@php
-    $qualifications = json_decode(File::get(resource_path('data/courses.json')), true) ?? [];
-@endphp
+
 <footer class="w-full bg-white text-slate-700 border-t border-slate-200" id="contact">
     <div class="max-w-7xl mx-auto px-6 sm:px-10 pt-10 sm:pt-12 md:pt-16 pb-6 sm:pb-8 md:pb-10">
 

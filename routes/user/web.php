@@ -31,8 +31,8 @@ Route::get('/terms-conditions', [FrontendController::class, 'termsConditions'])-
 
 Route::post('/inquiry-us', [ContactController::class, 'store'])->name('contact.store');
 
-Route::get('/courses', [IndustryController::class, 'index'])->name('courses.index');
-Route::get('/courses/categories/{categoryslug}', [IndustryController::class, 'categoryCourses'])->name('category-courses');
+Route::get('/qualifications ', [IndustryController::class, 'index'])->name('qualifications.index');
+Route::get('/qualifications/industry/{industrySlug}', [IndustryController::class, 'industryQualification'])->name('industry');
 Route::get('/courses/{courseslug}', [IndustryController::class, 'show'])->name('course.show');
 
 

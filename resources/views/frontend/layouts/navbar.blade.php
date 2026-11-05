@@ -1,6 +1,6 @@
     @php
-        $categories = json_decode(file_get_contents(resource_path('data/categories.json')), true);
-        // @dd($categories);
+        $industries = json_decode(file_get_contents(resource_path('data/industries.json')), true);
+        
     @endphp
     <header class="fixed top-0 left-0 w-full z-50 border-0 md:border-b bg-white backdrop-blur-md dark:bg-neutral-900/95">
 
@@ -72,29 +72,29 @@
 
                             <div class="grid gap-x-6 lg:gap-x-8 grid-cols-1 md:grid-cols-3 border-t border-brand-300 pt-4">
 
-                                @foreach ($categories as $category)
-                                    <a href="{{ route('category-courses', ['categoryslug' => $category['slug']]) }}"
+                                @foreach ($industries as $industry)
+                                    <a href="{{ route('industry', ['industrySlug' => $industry['slug']]) }}"
                                         class="group/item relative flex items-start gap-3.5 p-3 rounded-xl border border-transparent bg-slate-50/50 hover:bg-brand-50/40 hover:border-brand-200/60 transition-all duration-200">
 
-                                        <!-- Category Icon -->
+                                        <!-- industry Icon -->
                                         <div
                                             class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white shadow-sm border border-slate-200/60 text-brand-600 group-hover/item:bg-brand-600 group-hover/item:text-white group-hover/item:border-brand-600 transition-colors duration-200">
-                                            <iconify-icon icon="lucide:{{ $category['icon'] }}"
+                                            <iconify-icon icon="lucide:{{ $industry['icon'] }}"
                                                 class="text-xl"></iconify-icon>
                                         </div>
 
-                                        <!-- Category Content -->
+                                        <!-- industry Content -->
                                         <div class="flex-1 min-w-0">
                                             <div class="flex items-center justify-between">
                                                 <h4
                                                     class="text-sm font-bold text-slate-900 group-hover/item:text-brand-600 transition-colors duration-200 truncate">
-                                                    {{ $category['name'] }}
+                                                    {{ $industry['name'] }}
                                                 </h4>
                                                 <iconify-icon icon="lucide:arrow-up-right"
                                                     class="text-slate-400 group-hover/item:text-brand-600 text-sm shrink-0 transition-transform duration-200 group-hover/item:translate-x-0.5 group-hover/item:-translate-y-0.5"></iconify-icon>
                                             </div>
                                             <p class="text-xs text-slate-500 mt-1 line-clamp-1 leading-relaxed">
-                                                {{ $category['short_description'] }}
+                                                {{ $industry['short_description'] }}
                                             </p>
                                         </div>
                                     </a>

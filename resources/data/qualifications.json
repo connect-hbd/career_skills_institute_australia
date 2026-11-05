@@ -1,7 +1,7 @@
 [
     {
         "code": "AUR30320",
-        "category_slug": "automotive",
+        "industry_slug": "automotive",
         "level": "Certificate III",
         "name": "Automotive Electrical Technology",
         "slug": "certificate-iii-in-automotive-electrical-technology-aur30320",
@@ -119,7 +119,7 @@
 
      {
         "code": "AUR30620",
-        "category_slug": "automotive-retail-service-and-repair",
+        "industry_slug": "automotive-retail-service-and-repair",
         "level": "Certificate III",
         "name": "Light Vehicle Mechanical",
         "slug": "certificate-iii-in-light-vehicle-mechanical-aur30620",
@@ -238,7 +238,7 @@
 
         {
         "code": "AUR40226",
-        "category_slug": "automotive-retail-service-and-repair",
+        "industry_slug": "automotive-retail-service-and-repair",
         "level": "Certificate IV",
         "name": "Automotive Mechanical Diagnosis",
         "slug": "automotive-mechanical-diagnosis-aur40226",
@@ -352,7 +352,7 @@
     },
         {
         "code": "AUR50216",
-        "category_slug": "automotive-retail-service-and-repair",
+        "industry_slug": "automotive-retail-service-and-repair",
         "level": "Certificate IV",
         "name": "Diploma of Automotive Technology",
         "slug": "certificate-iv-in-automotive-technology-aur50216",
@@ -470,7 +470,7 @@
     },
     {
   "code": "BSB30120",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Certificate III",
   "name": "Business Services",
   "slug": "certificate-iii-in-business-bsb30120",
@@ -587,7 +587,7 @@
 },
 {
   "code": "BSB40120",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Certificate IV",
   "name": "Professional in Business",
   "slug": "certificate-iv-in-business-bsb40120",
@@ -704,7 +704,7 @@
 },
 {
   "code": "BSB40420",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Certificate IV",
   "name": "Human Resource Management",
   "slug": "certificate-iv-in-human-resource-management-bsb40420",
@@ -821,7 +821,7 @@
 },
 {
   "code": "BSB40520",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Certificate IV",
   "name": "Leadership and Management",
   "slug": "certificate-iv-in-leadership-and-management-bsb40520",
@@ -946,7 +946,7 @@
 },
 {
   "code": "BSB40920",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Certificate IV",
   "name": "Project Management Practice",
   "slug": "certificate-iv-in-project-management-practice-bsb40920",
@@ -1071,7 +1071,7 @@
 },
 {
   "code": "BSB50120",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Diploma",
   "name": "Business",
   "slug": "diploma-of-business-bsb50120",
@@ -1188,7 +1188,7 @@
 },
 {
   "code": "BSB50320",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Diploma",
   "name": "Human Resource Management",
   "slug": "diploma-of-human-resource-management-bsb50320",
@@ -1305,7 +1305,7 @@
 },
 {
   "code": "BSB50820",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Diploma",
   "name": "Diploma of Project Management",
   "slug": "diploma-of-project-management-bsb50820",
@@ -1430,7 +1430,7 @@
 },
 {
   "code": "BSB60120",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Advanced Diploma",
   "name": "Advanced Diploma of Business",
   "slug": "advanced-diploma-of-business-bsb60120",
@@ -1547,7 +1547,7 @@
 },
 {
   "code": "BSB60320",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Advanced Diploma",
   "name": "Human Resource Management",
   "slug": "advanced-diploma-of-human-resource-management-bsb60320",
@@ -1664,7 +1664,7 @@
 },
 {
   "code": "BSB60420",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Advanced Diploma",
   "name": "Leadership and Management",
   "slug": "advanced-diploma-of-leadership-and-management-bsb60420",
@@ -1797,7 +1797,7 @@
 },
 {
   "code": "BSB60720",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Advanced Diploma",
   "name": "Program Management",
   "slug": "advanced-diploma-of-program-management-bsb60720",
@@ -1918,7 +1918,7 @@
 },
 {
   "code": "BSB80120",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Graduate Diploma",
   "name": "Management (Learning)",
   "slug": "graduate-diploma-of-management-learning-bsb80120",
@@ -2043,7 +2043,7 @@
 },
 {
   "code": "BSB80320",
-  "category_slug": "business-services",
+  "industry_slug": "business-services",
   "level": "Graduate Diploma",
   "name": "Strategic Leadership",
   "slug": "graduate-diploma-of-strategic-leadership-bsb80320",

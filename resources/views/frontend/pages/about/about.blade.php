@@ -8,7 +8,7 @@
   {{-- @include('frontend.pages.about.why') --}}
 
   <!-- OUR MISSION ,Vision AND VALUES -->
-    <section class="relative overflow-hidden bg-white py-12 sm:py-16 lg:py-20">
+    <section class="relative overflow-hidden bg-neutral-50 py-12 sm:py-16 lg:py-20">
         <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             {{-- Section Heading --}}
             <div class="mx-auto mb-10 max-w-2xl text-center sm:mb-14 reveal">

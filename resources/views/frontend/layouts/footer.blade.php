@@ -1,187 +1,116 @@
+<footer class="bg-brand-950 text-slate-300 antialiased pt-16 pb-12 border-t border-brand-900">
+    <div class="mx-auto max-w-7xl px-4 md:px-6">
 
-<footer class="w-full bg-white text-slate-700 border-t border-slate-200" id="contact">
-    <div class="max-w-7xl mx-auto px-6 sm:px-10 pt-10 sm:pt-12 md:pt-16 pb-6 sm:pb-8 md:pb-10">
+        {{-- Top Grid Section --}}
+        <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 pb-12 border-b border-brand-900/80">
 
-        <!-- Top Grid Section -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-8 border-b border-slate-200">
-
-            <!-- Col 1: Brand & Official Info (Span 4) -->
-            <div class="lg:col-span-4 flex flex-col gap-2">
+            {{-- Column 1: Offered Courses --}}
+            <div class="flex flex-col gap-4">
                 <div class="flex items-center gap-2">
                     {{-- brightness-0 invert --}}
-                    <a href="/" class="flex items-center gap-3 group font-semibold">
-                        Career Skills Institute
+                    <a href="/" class="flex brightness-0 invert items-center gap-3 group font-semibold">
+                        <img src="{{ asset('logo.png') }}" alt="CSI Logo" class="h-16 w-auto">
                     </a>
                 </div>
                 <p class="text-sm text-neutral-500 max-w-md leading-relaxed">
                     Career Skills Institute is a registered training organisation delivering nationally recognised
                     vocational education and compliant training across Australia.
                 </p>
-                <div class="flex flex-wrap gap-2 mt-2">
-                    <div
-                        class="px-2.5 py-1 bg-white border border-neutral-300 rounded  text-[10px] uppercase font-bold">
-                        ACN: 666 035 730</div>
-                    <div
-                        class="px-2.5 py-1 bg-white border border-neutral-300 rounded  text-[10px] uppercase font-bold">
-                        ABN: 22 666 035 730</div>
-                    <div
-                        class="px-2.5 py-1 bg-white border border-neutral-300 rounded  text-[10px] uppercase font-bold">
-                        RTO 46173</div>
-                </div>
-                <div class="flex flex-col gap-1 text-sm text-neutral-500 mt-2">
-                    <p><strong class="text-brand-600">Address:</strong> 30 Campbell Street, Blacktown NSW 2148</p>
-                    <p><strong class="text-brand-600">Phone:</strong> +61 2 8677 3600</p>
-                    <p><strong class="text-brand-600">Email:</strong> admissions@csi.edu.au</p>
-                </div>
-            </div>
-
-            <!-- Col 2: Quick Links  -->
-            <div class="lg:col-span-4 flex flex-col gap-4">
-
-                <!-- Link Columns Grid -->
-                <div class="grid grid-cols-2 gap-6 sm:gap-8 w-full">
-
-                    <!-- Column 1: Student Resources -->
-                    <div class="flex flex-col gap-3.5">
-                        <h3 class="font-heading text-xs font-bold tracking-wider text-slate-900 uppercase">
-                           Quick Links
-                        </h3>
-
-                        <ul class="flex flex-col gap-2.5 text-[13px] text-slate-600">
-                           
-                             <li>
-                                <a href="https://www.usi.gov.au/"
-                                    class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
-                                    <iconify-icon icon="lucide:chevron-right"
-                                        class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
-                                    <span>Create USI</span>
-                                </a>
-                            </li>
-                             <li>
-                                <a href="https://www.advancecollege.edu.au/ndis-worker-screening-check/"
-                                    class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
-                                    <iconify-icon icon="lucide:chevron-right"
-                                        class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
-                                    <span>NDIS Check</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.checked.com.au/"
-                                    class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
-                                    <iconify-icon icon="lucide:chevron-right"
-                                        class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
-                                    <span>Create Police Report</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.service.nsw.gov.au/transaction/apply-working-children-check"
-                                    class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
-                                    <iconify-icon icon="lucide:chevron-right"
-                                        class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
-                                    <span>Check (WWCC)</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Column 2: Quick Links / Qualifications -->
-                    <div class="flex flex-col gap-3.5">
-                        <h3 class="font-heading text-xs font-bold tracking-wider text-slate-900 uppercase">
-                            Student Resources
-                        </h3>
-
-                        <ul class="flex flex-col gap-2 text-[13px] font-medium">
-                            <li>
-                                <a href="/courses"
-                                    class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
-                                    <iconify-icon icon="lucide:chevron-right"
-                                        class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
-                                    <span>Student Handbook</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/rpl-assessment"
-                                    class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
-                                    <iconify-icon icon="lucide:chevron-right"
-                                        class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
-                                    <span>Fees &amp; Payment</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/courses"
-                                    class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
-                                    <iconify-icon icon="lucide:chevron-right"
-                                        class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
-                                    <span>Assessment &amp; RPL</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/rpl-assessment"
-                                    class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
-                                    <iconify-icon icon="lucide:chevron-right"
-                                        class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
-                                    <span>Support Services</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <!-- Partner Logos Block -->
-                <div
-                    class="flex flex-col gap-3 w-full lg:w-auto shrink-0 pt-4 lg:pt-0 border-t border-slate-100 lg:border-t-0">
-                    <span class="text-[10px] font-bold tracking-wider text-slate-400 uppercase">
-                        Recognised Partners
-                    </span>
-
-                    <div class="flex items-center gap-3">
-                        <!-- Partner Logo 1 -->
-                        <div
-                            class="group flex items-center justify-center rounded-xl bg-slate-50 p-2.5 border border-slate-200/60 shadow-sm transition-all duration-300 hover:bg-white hover:border-slate-300 hover:shadow-md">
-                            <img class="h-10 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300 opacity-80 group-hover:opacity-100"
-                                src="{{ asset('patner_1.png') }}" alt="Industry Partner accreditation logo"
-                                loading="lazy" />
-                        </div>
-
-                        <!-- Partner Logo 2 -->
-                        <div
-                            class="group flex items-center justify-center rounded-xl bg-slate-50 p-2.5 border border-slate-200/60 shadow-sm transition-all duration-300 hover:bg-white hover:border-slate-300 hover:shadow-md">
-                            <img class="h-10 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300 opacity-80 group-hover:opacity-100"
-                                src="{{ asset('patner_2.png') }}" alt="Educational accreditation logo" loading="lazy" />
-                        </div>
-                    </div>
-                </div>
 
             </div>
 
-
-
-            <!-- Col 4: Admissions & Actions Card (Span 3) -->
-            <div class="lg:col-span-4 flex flex-col gap-4">
-                <h3 class="font-heading text-xs font-bold tracking-wider text-slate-900 uppercase">
-                    Admissions &amp; Support
+            {{-- Column 2: Links --}}
+            <div class="flex flex-col gap-4">
+                <h3 class="text-xs font-bold uppercase tracking-wider text-white">
+                    Quick Links
                 </h3>
-                <p class="w-full lg:w-[70%] text-xs text-slate-600 leading-relaxed">
-                    Regulated by ASQA under the Australian Qualifications Framework (AQF).
-                </p>
+                <ul class="flex flex-col gap-2.5 text-[13px] text-slate-600">
 
-                <!-- Quick Action Card -->
-                <div class="p-4 bg-slate-50 rounded-xl flex flex-col gap-3 border border-slate-200 shadow-sm w-fit">
-                    <div class="flex flex-col gap-0.5">
-                        <span class="font-heading text-xs font-bold text-slate-900">Have Enrolment Questions?</span>
-                        <span class="text-[11px] text-slate-500">Mon - Fri: 9:00 AM - 5:00 PM AEST</span>
+                    <li>
+                        <a href="https://www.usi.gov.au/"
+                            class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
+                            <iconify-icon icon="lucide:chevron-right"
+                                class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
+                            <span>Create USI</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.advancecollege.edu.au/ndis-worker-screening-check/"
+                            class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
+                            <iconify-icon icon="lucide:chevron-right"
+                                class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
+                            <span>NDIS Check</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.checked.com.au/"
+                            class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
+                            <iconify-icon icon="lucide:chevron-right"
+                                class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
+                            <span>Create Police Report</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.service.nsw.gov.au/transaction/apply-working-children-check"
+                            class="group inline-flex items-center gap-1.5 text-slate-600 hover:text-[#1968b2] transition-colors duration-200">
+                            <iconify-icon icon="lucide:chevron-right"
+                                class="text-sm text-slate-400 group-hover:text-[#1968b2] group-hover:translate-x-0.5 transition-transform duration-200"></iconify-icon>
+                            <span>Check (WWCC)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            {{-- Column 3 & 4 (Span 2): Contact Us & Locations --}}
+            <div class="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+                {{-- Contact Channels --}}
+                <div class="flex flex-col gap-6">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-white">
+                        Contact Us
+                    </h3>
+
+                    <div class="flex items-start gap-3">
+                        <iconify-icon icon="lucide:mail"
+                            class="text-secondary-400 text-base mt-0.5 shrink-0"></iconify-icon>
+                        <div class="">
+                            <span class="block text-[10px] font-bold uppercase tracking-wider text-slate-400">Admissions
+                                Enquiries</span>
+                            <a href="mailto:admissions@csi.edu.au"
+                                class="text-xs text-white hover:text-secondary-400 transition-colors">admissions@csi.edu.au</a>
+                        </div>
                     </div>
 
-                    <a class="font-heading text-xs font-bold text-brand-600 flex items-center gap-1 hover:text-brand-700 transition-colors"
-                        href="#hero-quick-enquiry">
-                        <span>ENQUIRE WITH ADMISSIONS</span>
-                        <iconify-icon icon="lucide:arrow-right"
-                            class="text-sm transition-transform duration-200 group-hover/link:translate-x-1"></iconify-icon>
-                    </a>
+                    <div class="flex items-start gap-3">
+                        <iconify-icon icon="lucide:mail"
+                            class="text-secondary-400 text-base mt-0.5 shrink-0"></iconify-icon>
+                        <div class="">
+                            <span class="block text-[10px] font-bold uppercase tracking-wider text-slate-400">General
+                                Enquiries</span>
+                            <a href="mailto:info@csi.edu.au"
+                                class="text-xs text-white hover:text-secondary-400 transition-colors">info@csi.edu.au</a>
+                        </div>
+                    </div>
+                </div>
 
-                    <!-- Buttons -->
-                    <div class="flex  gap-4 pt-2 border-t border-slate-200">
+                {{-- Campus Locations --}}
+                <div class="flex flex-col gap-6">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-opacity-0 sr-only lg:not-sr-only">
+                        &nbsp;
+                    </h3>
+
+                    <div class="flex items-start gap-3">
+                        <iconify-icon icon="lucide:map-pin"
+                            class="text-secondary-400 text-base mt-0.5 shrink-0"></iconify-icon>
+                        <div class="flex flex-col gap-1 text-sm text-neutral-500 mt-2">
+                            <p><strong class="text-brand-600">Address:</strong> 30 Campbell Street, Blacktown NSW 2148
+                            </p>
+                            <p><strong class="text-brand-600">Phone:</strong> +61 2 8677 3600</p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Action Card -->
+                    <div class="flex  gap-4 pt-2 ">
                         <a class="inline-flex items-center justify-center gap-2 px-3.5 py-2.5 rounded-lg bg-[#25D366] hover:bg-[#20ba59] text-white text-xs font-semibold transition-all shadow-sm"
                             href="https://wa.me/61400000000" rel="noopener noreferrer" target="_blank">
                             <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -203,21 +132,40 @@
 
         </div>
 
+        {{-- Bottom Compliance & Licensing Bar --}}
+        <div
+            class="mt-8 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 text-[11px] text-slate-400 font-medium tracking-wide">
 
-
-        <!-- Bottom Legal Bar -->
-        <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-            <div>
-                &copy; 2026 Career Skills Institute. All rights reserved.
+            {{-- Logo / Accreditation Mark --}}
+            <div class="flex items-center gap-4">
+                <div
+                    class="group flex items-center justify-center rounded-xl bg-slate-50 p-2.5 border border-slate-200/60 shadow-sm transition-all duration-300 hover:bg-white hover:border-slate-300 hover:shadow-md">
+                    <img class="h-14 w-auto object-contain  transition-all duration-300 opacity-100 group-hover:opacity-100"
+                        src="{{ asset('patner_2.png') }}" alt="Educational accreditation logo" loading="lazy" />
+                </div>
+                <div class="flex flex-col sm:flex-row sm:gap-6 gap-1">
+                    <span>RTO CODE: 45156</span>
+                    <span>ABN: 00 000 000 000</span>
+                </div>
             </div>
-            <div class="flex items-center gap-6">
+
+           <div class="flex items-center gap-6">
                 <a class="hover:text-slate-900 transition-colors" href="{{ route('privacy-policy') }}">Privacy
                     Policy</a>
                 <a class="hover:text-slate-900 transition-colors" href="{{ route('terms-conditions') }}">Refund
                     Policy</a>
                 <a class="hover:text-slate-900 transition-colors" href="#">Terms of Conditions</a>
             </div>
+
         </div>
 
+       
+
     </div>
+       <!-- Bottom Legal Bar -->
+        <div class="pt-6 flex items-center justify-center text-xs text-slate-500 gap-4">
+           <p> &copy; 2026 Nubex College Pty Ltd. All rights reserved.</p>
+            
+        </div>
+  
 </footer>

@@ -18,9 +18,14 @@ class FrontendController extends Controller
             true
         );
 
+           $qualifications = json_decode(
+            File::get(resource_path('data/qualifications.json')),
+            true
+        );
+
         // return $industries;
 
-        return view('frontend.pages.home.home', compact('industries'));
+        return view('frontend.pages.home.home', compact('industries', 'qualifications'));
     }
 
     public function aboutPage()

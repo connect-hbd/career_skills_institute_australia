@@ -41,9 +41,7 @@
         {{-- CARD CONTENT --}}
         <div class="space-y-3 p-6">
             <h3 class="line-clamp-2 text-lg font-bold tracking-tight text-slate-900 transition-colors duration-200 group-hover:text-[#3f8919]">
-                <a href="{{ !empty($course['slug'])
-                    ? route('course.show', ['courseslug' => $course['slug']])
-                    : '#' }}">
+                <a href="{{ route('qualification.show', ['qualificationSlug' => $course['slug']]) }}">
                     {{ $course['name'] ?? 'Untitled Qualification' }}
                 </a>
             </h3>
@@ -60,9 +58,7 @@
     <div class="flex items-center gap-4 justify-between border-t border-slate-100 px-6 pb-6 pt-4">
         {{-- Enroll Button (Primary Brand) --}}
         <a
-            href="{{ !empty($course['slug'])
-                ? route('course.show', ['courseslug' => $course['slug']])
-                : '#' }}"
+            href="{{ route('qualification.show', ['qualificationSlug' => $course['slug']]) }}"
             class="w-1/2 inline-flex items-center justify-center gap-1.5 rounded-lg bg-brand-500 px-4 py-2 text-xs font-bold text-white transition-all duration-200 hover:scale-105 hover:bg-brand-600"
         >
             <span>Enroll Now</span>
@@ -70,9 +66,7 @@
 
         {{-- View Details Button (Clean Outlined / Secondary Accent Hover) --}}
         <a
-            href="{{ !empty($course['slug'])
-                ? route('course.show', ['courseslug' => $course['slug']])
-                : '#' }}"
+            href="{{ route('qualification.show', ['qualificationSlug' => $course['slug']]) }}"
             class="w-1/2 inline-flex items-center justify-center gap-1.5 rounded-lg border border-slate-200 bg-white px-4 py-2 text-xs font-bold text-slate-700 transition-all duration-200 hover:border-secondary-500 hover:bg-secondary-500 hover:text-white"
         >
             <span>View Details</span>

@@ -2,7 +2,7 @@
         $industries = json_decode(file_get_contents(resource_path('data/industries.json')), true);
 
     @endphp
-    <header class="fixed top-0 left-0 w-full z-50 border-0 md:border-b bg-white backdrop-blur-md dark:bg-neutral-900/95">
+    <header class="fixed top-0 left-0 w-full z-50 border-0  bg-white backdrop-blur-md dark:bg-neutral-900/95">
 
         <nav class="max-w-7xl mx-auto px-5 lg:px-8">
 
@@ -155,16 +155,9 @@
                     class="{{ request()->routeIs('about') ? 'text-neutral-600 font-medium' : 'text-neutral-600' }}">About
                     Us</a>
                 <a href="{{ route('qualifications.index') }}"
-                    class="{{ request()->routeIs('qualifications.*') ? 'text-neutral-600 font-medium' : 'text-neutral-600' }}">All Qualifications</a>
-                @foreach ($industries as $industry)
-                    <a href="{{ route('industry', ['industrySlug' => $industry['slug']]) }}" class="pl-4 text-neutral-600">{{ $industry['name'] }}</a>
-                @endforeach
-                <a href="#"
-                    class="{{ request()->routeIs('how-we-works') ? 'text-neutral-600 font-medium' : 'text-neutral-600' }}">How
-                    It Works</a>
-                <a href="#"
-                    class="{{ request()->routeIs('patners') ? 'text-neutral-600 font-medium' : 'text-neutral-600' }}">Our
-                    Partners</a>
+                    class="{{ request()->routeIs('qualifications.*') ? 'text-neutral-600 font-medium' : 'text-neutral-600' }}">Qualifications</a>
+                
+               
                 <a href="{{ route('contact') }}"
                     class="{{ request()->routeIs('contact') ? 'text-neutral-600 font-medium' : 'text-neutral-600' }}">Contact
                     Us</a>

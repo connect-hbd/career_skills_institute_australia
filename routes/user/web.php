@@ -33,7 +33,7 @@ Route::post('/inquiry-us', [ContactController::class, 'store'])->name('contact.s
 
 Route::get('/qualifications', [IndustryController::class, 'index'])->name('qualifications.index');
 Route::get('/qualifications/industry/{industrySlug}', [IndustryController::class, 'industryQualification'])->name('industry');
-Route::get('/courses/{courseslug}', [IndustryController::class, 'show'])->name('course.show');
+Route::get('/qualifications/{qualificationSlug}', [IndustryController::class, 'show'])->name('qualification.show');
 
 
 Route::get('/check-eligibility', [CheckEligibilityController::class, 'index'])

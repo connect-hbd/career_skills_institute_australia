@@ -13,7 +13,6 @@ class IndustryController extends Controller
         $courseLevels = collect($courses)->pluck('level')->filter()->unique()->sort()->values();
 
         return view('frontend.pages.industry.qualifications', [
-            'category' => null,
             'industry' => null,
             'courses' => $courses,
             'courseLevels' => $courseLevels,
@@ -52,7 +51,7 @@ class IndustryController extends Controller
         ->values()
         ;
 // return $industry;
-   return view('frontend.pages.industry.index', [
+   return view('frontend.pages.industry.industries', [
         'industry' => $industry,
         'courses' => $qualifications->all(),
         'courseLevels' => $courseLevels,

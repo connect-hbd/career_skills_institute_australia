@@ -1,10 +1,6 @@
-﻿@extends('frontend.layouts.app')
-
-@section('title', $industry['name'] ?? 'Qualifications')
+@extends('frontend.layouts.app')
 
 @section('content')
-
-
     {{-- HERO SECTION --}}
     <section class="relative overflow-hidden bg-[#0A0F1D] py-14 lg:py-20 text-white">
 
@@ -32,7 +28,7 @@
                     </div>
 
                     <h1 class="text-3xl font-extrabold leading-[1.12] tracking-tight text-white sm:text-5xl lg:text-6xl">
-                        {{ $industry['name'] ?? '' }}
+                        {{ $industry['name'] ?? 'All Qualifications' }}
                     </h1>
 
                     <p class="max-w-2xl text-sm font-normal leading-relaxed text-slate-300 sm:text-base lg:text-lg">
@@ -77,7 +73,7 @@
 
 
     {{-- MAIN QUALIFICATIONS SECTION --}}
-    <section id="courses" class="min-h-[60vh] bg-slate-50/50 py-12 md:py-16">
+    <section id="courses" class=" bg-slate-50/50 py-12 md:py-16">
 
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
@@ -87,7 +83,7 @@
                 <div class="mb-8 flex flex-col gap-3">
 
                     <span class="text-xs font-semibold uppercase tracking-wider text-[#1968b2]">
-                        Explore Industries
+                        Explore Qualifications
                     </span>
 
                     <div class="flex flex-col gap-2">
@@ -106,6 +102,8 @@
                 </div>
 
 
+
+
                 {{-- FILTER + QUALIFICATIONS --}}
               @include('frontend.pages.industry.industry-filter')
 
@@ -114,5 +112,4 @@
         </div>
 
     </section>
-
 @endsection

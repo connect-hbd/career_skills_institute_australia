@@ -50,32 +50,34 @@
   --color-white: #ffffff;
   --color-black: #101828;
 
---color-brand-25:  #f4f8fe;
---color-brand-50:  #edf4fd;
---color-brand-100: #d9e8fa;
---color-brand-200: #b9d2f2;
---color-brand-300: #8eb5e6;
---color-brand-400: #5d91d4;
---color-brand-500: #0d52b5;
---color-brand-600: #0b4394;
---color-brand-700: #083372;
---color-brand-800: #062656;
---color-brand-900: #04193b;
---color-brand-950: #021126;
+/* BRAND: #3f8919 */
+--color-brand-25:  #f5f9f1;
+--color-brand-50:  #edf5e7;
+--color-brand-100: #dcebcf;
+--color-brand-200: #c1dca7;
+--color-brand-300: #9bc875;
+--color-brand-400: #70ac43;
+--color-brand-500: #3f8919;
+--color-brand-600: #347416;
+--color-brand-700: #2a5d14;
+--color-brand-800: #234b15;
+--color-brand-900: #1e3f15;
+--color-brand-950: #0e2209;
 
-/* --#182F5A */
---color-secondary-25:  #f5fcff;
---color-secondary-50:  #effaff;
---color-secondary-100: #dff5fe;
---color-secondary-200: #bce9fd;
---color-secondary-300: #84d5fc;
---color-secondary-400: #45c1fa;
---color-secondary-500: #22b5ff;
---color-secondary-600: #0284c7;
---color-secondary-700: #0369a1;
---color-secondary-800: #075985;
---color-secondary-900: #0c4a6e;
---color-secondary-950: #082f49;
+
+/* SECONDARY: #9ece1b */
+--color-secondary-25:  #fbfdf2;
+--color-secondary-50:  #f6fbe5;
+--color-secondary-100: #edf6c9;
+--color-secondary-200: #dcef98;
+--color-secondary-300: #c6e65e;
+--color-secondary-400: #aedb32;
+--color-secondary-500: #9ece1b;
+--color-secondary-600: #7eaa12;
+--color-secondary-700: #608113;
+--color-secondary-800: #4e6716;
+--color-secondary-900: #425717;
+--color-secondary-950: #223008;
 
 
 

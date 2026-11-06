@@ -271,7 +271,7 @@
                             </div>
 
                             <!-- Animated Arrow Link -->
-                            <a href="/industry/{{ $category['slug'] }}"
+                            <a href="{{ route('industry', ['industrySlug' => $category['slug']]) }}"
                                 class="flex h-9 w-9 items-center justify-center rounded-full bg-slate-50 border border-slate-200 text-slate-400 transition-all duration-300 group-hover:bg-[#1968b2] group-hover:border-[#1968b2] group-hover:text-white"
                                 aria-label="View {{ $category['name'] }}">
                                 <svg class="w-4 h-4 -translate-x-0.5 translate-y-0.5 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-200"
@@ -285,7 +285,7 @@
                         <!-- Category Title -->
                         <h3
                             class="text-lg font-bold text-slate-900 tracking-tight group-hover:text-[#1968b2] transition-colors duration-200">
-                            <a href="/industry/{{ $category['slug'] }}" class="focus:outline-none">
+                            <a href="{{ route('industry', ['industrySlug' => $category['slug']]) }}" class="focus:outline-none">
                                 <span class="absolute inset-0"></span>
                                 {{ $category['name'] }}
                             </a>
@@ -293,7 +293,7 @@
 
                         <!-- Description -->
                         <p class="text-xs sm:text-sm text-slate-600 mt-2.5 line-clamp-3 leading-relaxed">
-                            {{ $category['description'] }}
+                            {{ $category['short_description'] ?? $category['description'] ?? '' }}
                         </p>
                     </div>
 

@@ -9,20 +9,14 @@ class IndustryController extends Controller
 {
     public function index()
     {
-        $industry = json_decode(
-            File::get(resource_path('data/industries.json')),
-            true
-        );
-
-        $courses = json_decode(
-            File::get(resource_path('data/courses.json')),
-            true
-        );
+        $courses = json_decode(File::get(resource_path('data/qualifications.json')), true) ?? [];
+        $courseLevels = collect($courses)->pluck('level')->filter()->unique()->sort()->values();
 
         return view('frontend.pages.industry.qualifications', [
             'category' => null,
-            'industry' => $industry,
+            'industry' => null,
             'courses' => $courses,
+            'courseLevels' => $courseLevels,
         ]);
     }
 
@@ -56,7 +50,7 @@ class IndustryController extends Controller
         ->filter()
         ->unique()
         ->values()
-        ->prepend('All');
+        ;
 // return $industry;
    return view('frontend.pages.industry.index', [
         'industry' => $industry,

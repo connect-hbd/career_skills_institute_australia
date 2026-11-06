@@ -35,7 +35,7 @@
                     </div>
 
                     <h1 class="text-3xl font-extrabold leading-[1.12] tracking-tight text-white sm:text-5xl lg:text-6xl">
-                        {{ $industry['name'] ?? '' }}
+                        {{ $industry['name'] ?? 'All Qualifications' }}
                     </h1>
 
                     <p class="max-w-2xl text-sm font-normal leading-relaxed text-slate-300 sm:text-base lg:text-lg">
@@ -130,87 +130,14 @@
 
                     {{-- FILTER TABS --}}
                     <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
-
-                        {{-- ALL --}}
-                        <button
-                            type="button"
-                            @click="activeFilter = 'all'"
-                            :class="activeFilter === 'all'
-                                ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20'
-                                : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
-                            class="whitespace-nowrap rounded-xl px-4 py-2 text-xs font-bold tracking-wide transition-all duration-200"
-                        >
-                            All Qualifications
-                        </button>
-
-
-                        {{-- CERTIFICATE I --}}
-                        <button
-                            type="button"
-                            @click="activeFilter = 'cert1'"
-                            :class="activeFilter === 'cert1'
-                                ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20'
-                                : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
-                            class="whitespace-nowrap rounded-xl px-4 py-2 text-xs font-bold tracking-wide transition-all duration-200"
-                        >
-                            Certificate I
-                        </button>
-
-
-                        {{-- CERTIFICATE II --}}
-                        <button
-                            type="button"
-                            @click="activeFilter = 'cert2'"
-                            :class="activeFilter === 'cert2'
-                                ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20'
-                                : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
-                            class="whitespace-nowrap rounded-xl px-4 py-2 text-xs font-bold tracking-wide transition-all duration-200"
-                        >
-                            Certificate II
-                        </button>
-
-
-                        {{-- CERTIFICATE III --}}
-                        <button
-                            type="button"
-                            @click="activeFilter = 'cert3'"
-                            :class="activeFilter === 'cert3'
-                                ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20'
-                                : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
-                            class="whitespace-nowrap rounded-xl px-4 py-2 text-xs font-bold tracking-wide transition-all duration-200"
-                        >
-                            Certificate III
-                        </button>
-
-
-                        {{-- CERTIFICATE IV --}}
-                        <button
-                            type="button"
-                            @click="activeFilter = 'cert4'"
-                            :class="activeFilter === 'cert4'
-                                ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20'
-                                : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
-                            class="whitespace-nowrap rounded-xl px-4 py-2 text-xs font-bold tracking-wide transition-all duration-200"
-                        >
-                            Certificate IV
-                        </button>
-
-
-                        {{-- DIPLOMA --}}
-                        <button
-                            type="button"
-                            @click="activeFilter = 'diploma'"
-                            :class="activeFilter === 'diploma'
-                                ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20'
-                                : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'"
-                            class="whitespace-nowrap rounded-xl px-4 py-2 text-xs font-bold tracking-wide transition-all duration-200"
-                        >
-                            Diploma
-                        </button>
-
+                        <button type="button" @click="activeFilter = 'all'" :class="activeFilter === 'all' ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20' : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'" class="whitespace-nowrap rounded-xl px-4 py-2 text-xs font-bold tracking-wide transition-all duration-200">All Qualifications</button>
+                        @foreach ($courseLevels as $level)
+                            @php
+                                $levelKey = \Illuminate\Support\Str::slug($level);
+                            @endphp
+                            <button type="button" @click="activeFilter = '{{ $levelKey }}'" :class="activeFilter === '{{ $levelKey }}' ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20' : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'" class="whitespace-nowrap rounded-xl px-4 py-2 text-xs font-bold tracking-wide transition-all duration-200">{{ $level }}</button>
+                        @endforeach
                     </div>
-
-
                     {{-- QUALIFICATIONS GRID --}}
                     <div
                         x-ref="courseGrid"
@@ -221,47 +148,7 @@
 
                             @php
 
-                                /*
-                                 * Qualification Level Matching
-                                 * Check IV, III, II before I
-                                 * to avoid incorrect matching.
-                                 */
-
-                                $levelStr = strtolower(trim(
-                                    $course['level'] ?? ($course['name'] ?? '')
-                                ));
-
-                                $filterKey = 'other';
-
-                                if (
-                                    str_contains($levelStr, 'certificate iv') ||
-                                    str_contains($levelStr, 'cert iv')
-                                ) {
-                                    $filterKey = 'cert4';
-
-                                } elseif (
-                                    str_contains($levelStr, 'certificate iii') ||
-                                    str_contains($levelStr, 'cert iii')
-                                ) {
-                                    $filterKey = 'cert3';
-
-                                } elseif (
-                                    str_contains($levelStr, 'certificate ii') ||
-                                    str_contains($levelStr, 'cert ii')
-                                ) {
-                                    $filterKey = 'cert2';
-
-                                } elseif (
-                                    str_contains($levelStr, 'certificate i') ||
-                                    str_contains($levelStr, 'cert i')
-                                ) {
-                                    $filterKey = 'cert1';
-
-                                } elseif (
-                                    str_contains($levelStr, 'diploma')
-                                ) {
-                                    $filterKey = 'diploma';
-                                }
+                                $filterKey = \Illuminate\Support\Str::slug($course['level'] ?? 'other');
 
                             @endphp
 

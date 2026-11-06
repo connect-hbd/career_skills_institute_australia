@@ -36,9 +36,9 @@
                 <div class="flex flex-col gap-3 pt-1 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3 sm:pt-2">
 
                     {{-- Primary CTA --}}
-                    <a href="#courses"
+                    <a href="{{ route('qualifications.index') }}"
                        class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-brand-500 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand-500/20 transition-all duration-300 hover:scale-[1.02] hover:bg-brand-600 hover:shadow-brand-500/30 active:scale-95 sm:w-auto sm:px-6">
-                        <span>View Courses</span>
+                        <span>View Qualifications</span>
                         <iconify-icon icon="lucide:arrow-right" class="text-lg"></iconify-icon>
                     </a>
 

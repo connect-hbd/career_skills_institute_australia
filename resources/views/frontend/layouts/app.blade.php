@@ -8,7 +8,6 @@
     <link rel="shortcut icon" href="{{asset('favicon.png')}}">
     {{-- <title>{{ $title }}</title> --}}
     <x-frontend.seo-meta :page-title="trim($__env->yieldContent('title'))" />
-    <link rel="stylesheet" href="{{ asset('css/front-end-custom.css') }}">
      @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

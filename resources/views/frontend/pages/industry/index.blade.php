@@ -1,16 +1,9 @@
-﻿
-@extends('frontend.layouts.app')
+﻿@extends('frontend.layouts.app')
 
 @section('title', $industry['name'] ?? 'Qualifications')
 
 @section('content')
 
-    {{-- EMPTY STATE CSS --}}
-    <style>
-        [x-cloak] {
-            display: none !important;
-        }
-    </style>
 
     {{-- HERO SECTION --}}
     <section class="relative overflow-hidden bg-[#0A0F1D] py-14 lg:py-20 text-white">
@@ -18,7 +11,9 @@
         {{-- Ambient Background --}}
         <div class="pointer-events-none absolute -top-20 -left-20 h-96 w-96 rounded-full bg-[#1968b2]/20 blur-[120px]"></div>
 
-        <div class="pointer-events-none absolute top-1/2 -right-20 h-96 w-96 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-[120px]"></div>
+        <div
+            class="pointer-events-none absolute top-1/2 -right-20 h-96 w-96 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-[120px]">
+        </div>
 
         <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
@@ -27,7 +22,8 @@
                 {{-- Left Content --}}
                 <div class="space-y-4 lg:col-span-8">
 
-                    <div class="inline-flex items-center gap-2 rounded-full border border-[#1968b2]/30 bg-[#1968b2]/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#1968b2]">
+                    <div
+                        class="inline-flex items-center gap-2 rounded-full border border-[#1968b2]/30 bg-[#1968b2]/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#1968b2]">
 
                         <span class="flex h-2 w-2 animate-pulse rounded-full bg-[#1968b2]"></span>
 
@@ -54,7 +50,8 @@
 
                         </a>
 
-                        <div class="flex items-center gap-6 rounded-xl border border-slate-800 bg-slate-900/60 px-4 py-2 text-xs text-slate-300 backdrop-blur-md">
+                        <div
+                            class="flex items-center gap-6 rounded-xl border border-slate-800 bg-slate-900/60 px-4 py-2 text-xs text-slate-300 backdrop-blur-md">
 
                             <div class="flex items-center gap-2">
                                 <iconify-icon icon="lucide:award" class="text-base text-[#1968b2]"></iconify-icon>
@@ -100,7 +97,8 @@
                         </h2>
 
                         <p class="text-sm text-slate-600">
-                            Filter by qualification tier to find the right entry-level or advanced training path for your career goals.
+                            Filter by qualification tier to find the right entry-level or advanced training path for your
+                            career goals.
                         </p>
 
                     </div>
@@ -109,144 +107,7 @@
 
 
                 {{-- FILTER + QUALIFICATIONS --}}
-                <div
-                    x-data="{
-                        activeFilter: 'all',
-
-                        get hasVisibleCourses() {
-                            if (!this.$refs.courseGrid) {
-                                return false;
-                            }
-
-                            const cards = this.$refs.courseGrid.querySelectorAll('[data-filter-key]');
-
-                            return Array.from(cards).some(card => {
-                                return this.activeFilter === 'all' ||
-                                    card.dataset.filterKey === this.activeFilter;
-                            });
-                        }
-                    }"
-                    class="space-y-6"
-                >
-
-                    {{-- FILTER TABS --}}
-                    <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
-                        <button type="button" @click="activeFilter = 'all'" :class="activeFilter === 'all' ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20' : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'" class="whitespace-nowrap rounded-xl px-4 py-2 text-xs font-bold tracking-wide transition-all duration-200">All Qualifications</button>
-                        @foreach ($courseLevels as $level)
-                            @php
-                                $levelKey = \Illuminate\Support\Str::slug($level);
-                            @endphp
-                            <button type="button" @click="activeFilter = '{{ $levelKey }}'" :class="activeFilter === '{{ $levelKey }}' ? 'bg-[#1968b2] text-white shadow-md shadow-[#1968b2]/20' : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'" class="whitespace-nowrap rounded-xl px-4 py-2 text-xs font-bold tracking-wide transition-all duration-200">{{ $level }}</button>
-                        @endforeach
-                    </div>
-                    {{-- QUALIFICATIONS GRID --}}
-                    <div
-                        x-ref="courseGrid"
-                        class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
-                    >
-
-                        @forelse ($courses as $course)
-
-                            @php
-
-                                $filterKey = \Illuminate\Support\Str::slug($course['level'] ?? 'other');
-
-                            @endphp
-
-
-                            @include('frontend.pages.industry.qualificationCard', ['course' => $course, 'filterKey' => $filterKey])
-
-
-                        @empty
-
-                            {{-- PHP EMPTY STATE: NO QUALIFICATIONS IN INDUSTRY --}}
-                            <div
-                                class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-white p-12 text-center"
-                            >
-
-                                <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-100 text-slate-400">
-
-                                    <iconify-icon
-                                        icon="lucide:book-open"
-                                        class="text-2xl"
-                                    ></iconify-icon>
-
-                                </div>
-
-                                <h3 class="text-lg font-bold text-slate-900">
-                                    No Qualifications Listed Yet
-                                </h3>
-
-                                <p class="mx-auto mt-1 max-w-sm text-sm text-slate-500">
-                                    There are currently no active Qualifications available under this discipline filter.
-                                </p>
-
-                                <a
-                                    href="{{ url('/industries') }}"
-                                    class="mt-4 inline-flex items-center gap-2 rounded-xl bg-[#1968b2] px-5 py-2.5 text-xs font-bold text-white transition hover:bg-[#155b9d]"
-                                >
-
-                                    <span>Browse All Sectors</span>
-
-                                    <iconify-icon
-                                        icon="lucide:arrow-right"
-                                        class="text-sm"
-                                    ></iconify-icon>
-
-                                </a>
-
-                            </div>
-
-                        @endforelse
-
-
-                        {{-- ALPINE EMPTY STATE: NO QUALIFICATION IN SELECTED LEVEL --}}
-                        <div
-                            x-cloak
-                            x-show="!hasVisibleCourses"
-                            x-transition
-                            class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-white p-12 text-center"
-                        >
-
-                            <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-100 text-slate-400">
-
-                                <iconify-icon
-                                    icon="lucide:book-open"
-                                    class="text-2xl"
-                                ></iconify-icon>
-
-                            </div>
-
-
-                            <h3 class="text-lg font-bold text-slate-900">
-                                No Qualifications Listed Yet
-                            </h3>
-
-
-                            <p class="mx-auto mt-1 max-w-sm text-sm text-slate-500">
-                                There are currently no active Qualifications available under this discipline filter.
-                            </p>
-
-
-                            <a
-                                href="{{ url('/industries') }}"
-                                class="mt-4 inline-flex items-center gap-2 rounded-xl bg-[#1968b2] px-5 py-2.5 text-xs font-bold text-white transition hover:bg-[#155b9d]"
-                            >
-
-                                <span>Browse All Sectors</span>
-
-                                <iconify-icon
-                                    icon="lucide:arrow-right"
-                                    class="text-sm"
-                                ></iconify-icon>
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
+              @include('frontend.pages.industry.industry-filter')
 
             </div>
 

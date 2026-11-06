@@ -19,7 +19,7 @@ class IndustryController extends Controller
             true
         );
 
-        return view('frontend.pages.industry.index', [
+        return view('frontend.pages.industry.qualifications', [
             'category' => null,
             'industry' => $industry,
             'courses' => $courses,
@@ -65,20 +65,20 @@ class IndustryController extends Controller
     ]);
 }
 
-public function show(string $courseslug)
+public function show(string $qualificationslug)
 {
    
-    $courses = json_decode(
-        File::get(resource_path('data/courses.json')),
+    $qualifications = json_decode(
+        File::get(resource_path('data/qualifications.json')),
         true
     );
 
-    $course = collect($courses)->firstWhere('slug', $courseslug);
+    $qualification = collect($qualifications)->firstWhere('slug', $qualificationslug);
 
-    abort_if(!$course, 404);
-        // return $course;
+    abort_if(!$qualification, 404);
+        // return $qualification;
 
-    return view('frontend.pages.industry.show', compact('course'));
+    return view('frontend.pages.industry.show', compact('qualification'));
 }
 
     public function industryEnrollment()

@@ -1,70 +1,235 @@
+
 @extends('frontend.layouts.app')
 
-@section('title', $course['name'])
+@php
+    /*
+    |--------------------------------------------------------------------------
+    | SAFE QUALIFICATION DATA
+    |--------------------------------------------------------------------------
+    */
+
+    $qualification = is_array($qualification ?? null) ? $qualification : [];
+
+    $get = fn($key, $default = null) => data_get($qualification, $key, $default);
+
+    $hasValue = function ($value) {
+        if (is_string($value)) {
+            return trim($value) !== '';
+        }
+
+        if (is_array($value)) {
+            return count($value) > 0;
+        }
+
+        return $value !== null;
+    };
+
+    $code = $get('code');
+    $name = $get('name');
+    $level = $get('level');
+    $industry = $get('industry_slug');
+
+    $heroDescription = $get('hero_description');
+    $shortDescription = $get('short_description');
+
+    $description = $hasValue($heroDescription)
+        ? $heroDescription
+        : $shortDescription;
+
+    $overview = $get('overview');
+
+    $keyInformation = $get('key_information', []);
+    $keyInformation = is_array($keyInformation) ? $keyInformation : [];
+
+    $informationLabels = [
+        'duration' => 'Duration',
+        'delivery' => 'Delivery',
+        'usage_recommendation' => 'Usage Recommendation',
+        'extent' => 'Qualification Structure',
+        'start_date' => 'Start Date',
+        'end_date' => 'End Date',
+        'delivery_notification' => 'Delivery Information',
+    ];
+
+    $availableInformation = collect($informationLabels)
+        ->filter(function ($label, $key) use ($keyInformation, $hasValue) {
+            return $hasValue(data_get($keyInformation, $key));
+        });
+
+    // Providers
+    $providers = $get('providers', []);
+    $providers = is_array($providers) ? $providers : [];
+
+    $providers = collect($providers)
+        ->filter(function ($provider) use ($hasValue) {
+            return is_array($provider)
+                && $hasValue(data_get($provider, 'name'));
+        })
+        ->values();
+
+    // Graduate Outcomes: JSON contains an array of strings
+    $graduateOutcomes = $get('graduate_outcomes', []);
+    $graduateOutcomes = is_array($graduateOutcomes) ? $graduateOutcomes : [];
+
+    $graduateOutcomes = collect($graduateOutcomes)
+        ->filter(fn($item) => is_string($item) && trim($item) !== '')
+        ->values();
+
+    // Career Pathways: JSON contains objects with title and description
+    $careerPathways = $get('career_pathways', []);
+    $careerPathways = is_array($careerPathways) ? $careerPathways : [];
+
+    $careerPathways = collect($careerPathways)
+        ->filter(function ($item) use ($hasValue) {
+            return is_array($item)
+                && (
+                    $hasValue(data_get($item, 'title'))
+                    || $hasValue(data_get($item, 'description'))
+                );
+        })
+        ->values();
+
+    // FAQ: supports string and array answers
+    $faqs = $get('faq', []);
+    $faqs = is_array($faqs) ? $faqs : [];
+
+    $faqs = collect($faqs)
+        ->filter(function ($item) use ($hasValue) {
+            if (!is_array($item) || !$hasValue(data_get($item, 'question'))) {
+                return false;
+            }
+
+            $answer = data_get($item, 'answer');
+
+            if (is_array($answer)) {
+                return collect($answer)->contains(
+                    fn($value) => is_string($value) && trim($value) !== ''
+                );
+            }
+
+            return is_string($answer) && trim($answer) !== '';
+        })
+        ->values();
+
+    // Image
+    $image = $get('image');
+
+    $imageUrl = $hasValue($image)
+        ? (
+            filter_var($image, FILTER_VALIDATE_URL)
+                ? $image
+                : asset(ltrim($image, '/'))
+        )
+        : null;
+
+    // Official course URL
+    $courseUrl = $get('course_url');
+
+    $validCourseUrl = $hasValue($courseUrl)
+        && filter_var($courseUrl, FILTER_VALIDATE_URL)
+        && in_array(parse_url($courseUrl, PHP_URL_SCHEME), ['http', 'https']);
+
+    $hasHeroContent = $hasValue($code)
+        || $hasValue($name)
+        || $hasValue($level)
+        || $hasValue($description);
+
+    $hasKeyInformation = $availableInformation->isNotEmpty()
+        || $hasValue($code)
+        || $hasValue($level);
+
+@endphp
+
+@section('title', $name ?: 'Qualification Details')
 
 @section('content')
-    {{-- =========================================================
+
+{{-- =========================================================
     HERO SECTION
-========================================================== --}}
-    <section class="relative overflow-hidden bg-brand-50">
+========================================================= --}}
 
-        {{-- Small decorative color accents --}}
-        <div class="pointer-events-none absolute right-0 top-0 h-72 w-72 rounded-full bg-secondary-100/60 blur-3xl"></div>
-        <div class="pointer-events-none absolute bottom-0 left-0 h-64 w-64 rounded-full bg-brand-100/70 blur-3xl"></div>
+<section class="relative overflow-hidden bg-brand-50">
 
-        <div class="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+    {{-- Background Decorations --}}
+    <div class="pointer-events-none absolute right-0 top-0 h-72 w-72 rounded-full bg-secondary-100/60 blur-3xl"></div>
+    <div class="pointer-events-none absolute bottom-0 left-0 h-64 w-64 rounded-full bg-brand-100/70 blur-3xl"></div>
 
-            <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-14">
+    <div class="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
 
-                {{-- LEFT CONTENT --}}
-                <div class="lg:col-span-7">
+        <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-14">
 
-                    {{-- Badge --}}
-                    <div
-                        class="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white px-4 py-2 shadow-sm">
+            {{-- LEFT CONTENT --}}
+            <div class="lg:col-span-7">
 
-                        <span class="flex h-6 w-6 items-center justify-center rounded-full bg-brand-100">
-                            <iconify-icon icon="lucide:award" class="text-sm text-brand-600"></iconify-icon>
-                        </span>
+                {{-- Badge --}}
+                <div class="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white px-4 py-2 shadow-sm">
 
-                        <span class="text-[10px] font-black uppercase tracking-[0.18em] text-brand-700">
-                            Nationally Recognised Qualification
-                        </span>
+                    <span class="flex h-6 w-6 items-center justify-center rounded-full bg-brand-100">
+                        <iconify-icon icon="lucide:award" class="text-sm text-brand-600"></iconify-icon>
+                    </span>
 
-                    </div>
+                    <span class="text-[10px] font-black uppercase tracking-[0.18em] text-brand-700">
+                        Nationally Recognised Qualification
+                    </span>
 
+                </div>
 
-                    {{-- Heading --}}
-                    <h1
-                        class="mt-5 max-w-3xl text-2xl font-black leading-tight tracking-tight text-brand-950 sm:text-3xl lg:text-4xl">
+                {{-- Heading --}}
+                @if($hasValue($name) || $hasValue($code))
 
-                        {{ $course['code'] }} – {{ $course['level'] }} in
-                        <span class="text-brand-600">
-                            {{ $course['name'] }}
-                        </span>
+                    <h1 class="mt-5 max-w-3xl text-2xl font-black leading-tight tracking-tight text-brand-950 sm:text-3xl lg:text-4xl">
+
+                        @if($hasValue($code))
+                            <span>{{ $code }} – </span>
+                        @endif
+
+                        @if($hasValue($name))
+                            <span class="text-brand-600">{{ $name }}</span>
+                        @endif
 
                     </h1>
 
+                @endif
 
-                    {{-- Description --}}
+                {{-- Level --}}
+                @if($hasValue($level))
+
+                    <div class="mt-4">
+                        <span class="inline-flex items-center gap-2 rounded-lg bg-brand-100 px-3 py-2 text-xs font-bold text-brand-800">
+
+                            <iconify-icon icon="lucide:graduation-cap" class="text-base"></iconify-icon>
+
+                            {{ $level }}
+
+                        </span>
+                    </div>
+
+                @endif
+
+                {{-- Description --}}
+                @if($hasValue($description))
+
                     <p class="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-                        {{ $course['hero_description'] }}
+                        {{ $description }}
                     </p>
 
+                @endif
 
-                    {{-- CTA --}}
-                    <div class="mt-7 flex flex-col gap-3 sm:flex-row">
+                {{-- CTA --}}
+                <div class="mt-7 flex flex-col gap-3 sm:flex-row">
 
-                        <a href="#assessment-form"
-                            class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-500 px-6 py-3.5 text-sm font-extrabold text-white shadow-md shadow-brand-500/20 transition hover:bg-brand-600 hover:shadow-lg">
+                    <a href="#assessment-form"
+                        class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-500 px-6 py-3.5 text-sm font-extrabold text-white shadow-md shadow-brand-500/20 transition hover:bg-brand-600 hover:shadow-lg">
 
-                            <iconify-icon icon="lucide:arrow-right" class="text-lg"></iconify-icon>
+                        <iconify-icon icon="lucide:arrow-right" class="text-lg"></iconify-icon>
 
-                            Price Match Guarantee - Inquire Now
+                        Price Match Guarantee - Inquire Now
 
-                        </a>
+                    </a>
 
-                        <a href="{{ $course['course_url'] }}"
+                    @if($hasValue($overview))
+
+                        <a href="#qualification-overview"
                             class="inline-flex items-center justify-center gap-2 rounded-xl border border-secondary-200 bg-white px-6 py-3.5 text-sm font-bold text-secondary-700 transition hover:border-secondary-300 hover:bg-secondary-50">
 
                             <iconify-icon icon="lucide:circle-help" class="text-lg"></iconify-icon>
@@ -73,161 +238,266 @@
 
                         </a>
 
-                    </div>
+                    @elseif($validCourseUrl)
 
+                        <a href="{{ $courseUrl }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="inline-flex items-center justify-center gap-2 rounded-xl border border-secondary-200 bg-white px-6 py-3.5 text-sm font-bold text-secondary-700 transition hover:border-secondary-300 hover:bg-secondary-50">
 
-                    {{-- INFORMATION CARDS --}}
-                    <div class="mt-9 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                            <iconify-icon icon="lucide:external-link" class="text-lg"></iconify-icon>
 
-                        {{-- Course Info --}}
-                        <div
-                            class="rounded-2xl border border-secondary-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+                            Official Details
 
-                            <div class="flex items-center gap-3">
+                        </a>
 
-                                <div
-                                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-secondary-100 text-secondary-700">
-                                    <iconify-icon icon="lucide:book-open" class="text-xl"></iconify-icon>
-                                </div>
-
-                                <h3 class="text-sm font-extrabold text-secondary-950">
-                                    Key Information
-                                </h3>
-
-                            </div>
-                            <div class="mt-5 space-y-3 text-sm">
-
-                                <div class="flex items-center justify-between gap-4">
-                                    <span class="text-slate-500">Course Code</span>
-                                    <strong class="text-slate-900">
-                                        {{ $course['code'] }}
-                                    </strong>
-                                </div>
-
-                                <div class="flex items-center justify-between gap-4">
-                                    <span class="text-slate-500">Duration</span>
-                                    <strong class="text-slate-900">
-                                        {{ $course['key_information']['duration'] }}
-                                    </strong>
-                                </div>
-
-                                <div class="flex items-center justify-between gap-4">
-                                    <span class="text-slate-500">Delivery</span>
-                                    <strong class="text-slate-900">
-                                        {{ $course['key_information']['delivery'] }}
-                                    </strong>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                        {{-- RTO Info --}}
-                        <div
-                            class="rounded-2xl border border-secondary-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
-
-                            <div class="flex items-center gap-3">
-
-                                <div
-                                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-secondary-100 text-secondary-600">
-                                    <iconify-icon icon="lucide:shield-check" class="text-xl"></iconify-icon>
-                                </div>
-
-                                <h3 class="text-sm font-extrabold text-secondary-950">
-                                    Offered By
-                                </h3>
-
-                            </div>
-
-                            <div class="mt-5 space-y-3">
-                                @foreach ($course['providers'] as $provider)
-                                    <div class="flex items-center justify-between gap-4">
-                                        <p class="text-sm font-bold text-slate-900 line-clamp-1 w-[70%]">
-                                            {{ $provider['name'] }}
-                                        </p>
-
-                                        <p class="mt-0.5 text-xs text-slate-500">
-                                            RTO: {{ $provider['rto_code'] }}
-                                        </p>
-                                    </div>
-                                @endforeach
-                            </div>
-
-
-                        </div>
-
-                    </div>
+                    @endif
 
                 </div>
 
-                <div class="lg:col-span-5" id="assessment-form">
-                    <div class="bg-white text-slate-900 rounded-2xl p-6 sm:p-8 shadow-2xl border border-brand-100 relative">
-                        <div
-                            class="absolute -top-3 right-6 bg-secondary-500 text-white text-[10px] font-extrabold uppercase tracking-wider px-3 py-1 rounded-full shadow-md">
-                            Fast & Free
+                {{-- INFORMATION CARDS --}}
+                @if($hasKeyInformation || $providers->isNotEmpty())
+
+                    <div class="mt-9 grid grid-cols-1 gap-4 sm:grid-cols-2">
+
+                        {{-- Qualification Information --}}
+                        @if($hasKeyInformation)
+
+                            <div class="rounded-2xl border border-secondary-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+
+                                <div class="flex items-center gap-3">
+
+                                    <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-secondary-100 text-secondary-700">
+                                        <iconify-icon icon="lucide:book-open" class="text-xl"></iconify-icon>
+                                    </div>
+
+                                    <h3 class="text-sm font-extrabold text-secondary-950">
+                                        Key Information
+                                    </h3>
+
+                                </div>
+
+                                <div class="mt-5 space-y-3 text-sm">
+
+                                    @if($hasValue($code))
+                                        <div class="flex items-start justify-between gap-4">
+                                            <span class="shrink-0 text-slate-500">Qualification Code</span>
+                                            <strong class="text-right text-slate-900">{{ $code }}</strong>
+                                        </div>
+                                    @endif
+
+                                    @foreach($availableInformation as $key => $label)
+
+                                        <div class="flex items-start justify-between gap-4">
+                                            <span class="shrink-0 text-slate-500">{{ $label }}</span>
+
+                                            <strong class="max-w-[65%] break-words text-right text-slate-900">
+                                                {{ data_get($keyInformation, $key) }}
+                                            </strong>
+                                        </div>
+
+                                    @endforeach
+
+                                </div>
+
+                            </div>
+
+                        @endif
+
+                        {{-- RTO Providers --}}
+                        @if($providers->isNotEmpty())
+
+                            <div class="rounded-2xl border border-secondary-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+
+                                <div class="flex items-center gap-3">
+
+                                    <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-secondary-100 text-secondary-600">
+                                        <iconify-icon icon="lucide:shield-check" class="text-xl"></iconify-icon>
+                                    </div>
+
+                                    <h3 class="text-sm font-extrabold text-secondary-950">
+                                        Offered By
+                                    </h3>
+
+                                </div>
+
+                                <div class="mt-5 space-y-3">
+
+                                    @foreach($providers as $provider)
+
+                                        <div class="rounded-lg border border-slate-100 bg-slate-50 p-3">
+
+                                            <p class="break-words text-sm font-bold text-slate-900">
+                                                {{ data_get($provider, 'name') }}
+                                            </p>
+
+                                            @if($hasValue(data_get($provider, 'rto_code')))
+                                                <p class="mt-1 text-xs text-slate-500">
+                                                    RTO: {{ data_get($provider, 'rto_code') }}
+                                                </p>
+                                            @endif
+
+                                        </div>
+
+                                    @endforeach
+
+                                </div>
+
+                            </div>
+
+                        @endif
+
+                    </div>
+
+                @endif
+
+            </div>
+
+            {{-- RIGHT ASSESSMENT FORM --}}
+            <div class="lg:col-span-5" id="assessment-form">
+
+                <div class="relative rounded-2xl border border-brand-100 bg-white p-6 text-slate-900 shadow-2xl sm:p-8">
+
+                    <div class="absolute -top-3 right-6 rounded-full bg-secondary-500 px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white shadow-md">
+                        Fast & Free
+                    </div>
+
+                    <h2 class="text-xl font-extrabold leading-snug text-brand-700">
+                        Start Your Free Assessment Today!
+                    </h2>
+
+                    <p class="mb-6 mt-1 text-xs text-slate-500">
+                        Find out if you qualify for RPL in 60 seconds.
+                    </p>
+
+                    <form action="{{ url()->current() }}" method="POST" class="space-y-4">
+
+                        @csrf
+
+                        @if($hasValue($code))
+                            <input type="hidden" name="qualification_code" value="{{ $code }}">
+                        @endif
+
+                        @if($hasValue($slug = $get('slug')))
+                            <input type="hidden" name="qualification_slug" value="{{ $slug }}">
+                        @endif
+
+                        <div>
+
+                            <label for="full_name" class="mb-1 block text-xs font-bold uppercase tracking-wider text-brand-900">
+                                Full Name *
+                            </label>
+
+                            <input
+                                id="full_name"
+                                type="text"
+                                name="name"
+                                value="{{ old('name') }}"
+                                placeholder="Full Name *"
+                                autocomplete="name"
+                                required
+                                class="w-full rounded-lg border border-brand-200 bg-brand-25 px-4 py-3 text-sm transition placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-1 focus:ring-secondary-500">
+
+                            @error('name')
+                                <p class="mt-1 text-xs text-red-500">{{ $message }}</p>
+                            @enderror
+
                         </div>
 
-                        <h2 class="text-xl font-extrabold text-brand-700 leading-snug">Start Your Free Assessment Today!
-                        </h2>
-                        <p class="text-xs text-slate-500 mt-1 mb-6">Find out if you qualify for RPL in 60 seconds.</p>
+                        <div>
 
-                        <form class="space-y-4">
-                            <div>
-                                <label class="block text-xs font-bold text-brand-900 uppercase tracking-wider mb-1">Full
-                                    Name *</label>
-                                <input type="text" placeholder="Full Name *"
-                                    class="w-full px-4 py-3 rounded-lg bg-brand-25 border border-brand-200 focus:outline-none focus:ring-1 focus:ring-secondary-500 focus:bg-white text-sm transition placeholder-slate-400"
-                                    required />
-                            </div>
+                            <label for="email" class="mb-1 block text-xs font-bold uppercase tracking-wider text-brand-900">
+                                Your Email *
+                            </label>
 
-                            <div>
-                                <label class="block text-xs font-bold text-brand-900 uppercase tracking-wider mb-1">Your
-                                    Email *</label>
-                                <input type="email" placeholder="Your Email *"
-                                    class="w-full px-4 py-3 rounded-lg bg-brand-25 border border-brand-200 focus:outline-none focus:ring-1 focus:ring-secondary-500 focus:bg-white text-sm transition placeholder-slate-400"
-                                    required />
-                            </div>
+                            <input
+                                id="email"
+                                type="email"
+                                name="email"
+                                value="{{ old('email') }}"
+                                placeholder="Your Email *"
+                                autocomplete="email"
+                                required
+                                class="w-full rounded-lg border border-brand-200 bg-brand-25 px-4 py-3 text-sm transition placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-1 focus:ring-secondary-500">
 
-                            <div>
-                                <label class="block text-xs font-bold text-brand-900 uppercase tracking-wider mb-1">Phone
-                                    Number *</label>
-                                <input type="tel" placeholder="Phone Number *"
-                                    class="w-full px-4 py-3 rounded-lg bg-brand-25 border border-brand-200 focus:outline-none focus:ring-1 focus:ring-secondary-500 focus:bg-white text-sm transition placeholder-slate-400"
-                                    required />
-                            </div>
+                            @error('email')
+                                <p class="mt-1 text-xs text-red-500">{{ $message }}</p>
+                            @enderror
 
-                            <div>
-                                <label class="block text-xs font-bold text-brand-900 uppercase tracking-wider mb-1">Message
-                                    (Optional)</label>
-                                <textarea rows="3" placeholder="Message (Optional)"
-                                    class="w-full px-4 py-3 rounded-lg bg-brand-25 border border-brand-200 focus:outline-none focus:ring-1 focus:ring-secondary-500 focus:bg-white text-sm transition placeholder-slate-400"></textarea>
-                            </div>
+                        </div>
 
-                            <button type="submit"
-                                class="w-full py-3.5 px-6 rounded-lg bg-brand-500 hover:bg-brand-600 text-white font-extrabold text-sm uppercase tracking-wider transition duration-200 shadow-lg shadow-brand-500/25">
-                                Submit
-                            </button>
-                        </form>
-                    </div>
+                        <div>
+
+                            <label for="phone" class="mb-1 block text-xs font-bold uppercase tracking-wider text-brand-900">
+                                Phone Number *
+                            </label>
+
+                            <input
+                                id="phone"
+                                type="tel"
+                                name="phone"
+                                value="{{ old('phone') }}"
+                                placeholder="Phone Number *"
+                                autocomplete="tel"
+                                required
+                                class="w-full rounded-lg border border-brand-200 bg-brand-25 px-4 py-3 text-sm transition placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-1 focus:ring-secondary-500">
+
+                            @error('phone')
+                                <p class="mt-1 text-xs text-red-500">{{ $message }}</p>
+                            @enderror
+
+                        </div>
+
+                        <div>
+
+                            <label for="message" class="mb-1 block text-xs font-bold uppercase tracking-wider text-brand-900">
+                                Message (Optional)
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="3"
+                                placeholder="Message (Optional)"
+                                class="w-full rounded-lg border border-brand-200 bg-brand-25 px-4 py-3 text-sm transition placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-1 focus:ring-secondary-500">{{ old('message') }}</textarea>
+
+                            @error('message')
+                                <p class="mt-1 text-xs text-red-500">{{ $message }}</p>
+                            @enderror
+
+                        </div>
+
+                        <button type="submit"
+                            class="w-full rounded-lg bg-brand-500 px-6 py-3.5 text-sm font-extrabold uppercase tracking-wider text-white shadow-lg shadow-brand-500/25 transition duration-200 hover:bg-brand-600">
+
+                            Submit
+
+                        </button>
+
+                    </form>
+
                 </div>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    {{-- =========================================================
+{{-- =========================================================
     QUALIFICATION OVERVIEW
-========================================================== --}}
-    <section class="border-b border-slate-100 bg-white py-16 sm:py-20">
+========================================================= --}}
+
+@if($hasValue($overview))
+
+    <section id="qualification-overview" class="border-b border-slate-100 bg-white py-16 sm:py-20">
 
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-            {{-- Header --}}
-            <div class=" text-justify">
+            <div class="max-w-4xl">
 
                 <span class="text-xs font-black uppercase tracking-[0.18em] text-brand-600">
                     Qualification Overview
@@ -237,100 +507,29 @@
                     Certify Your Skills and Advance Your Career
                 </h2>
 
-                <p class="mt-5 text-sm leading-7 text-slate-600 sm:text-base">
-                    {{ $course['overview'] }}
-                    <strong class="font-bold text-brand-800">{{ $course['level'] }} {{ $course['name'] }}</strong>
-                    can help formalise your existing skills and experience.
+                <p class="mt-5 whitespace-pre-line text-sm leading-8 text-slate-600 sm:text-base">
+                    {{ $overview }}
                 </p>
 
-            </div>
+                @if($hasValue($level) || $hasValue($name))
 
+                    <p class="mt-4 text-sm leading-7 text-slate-600">
 
-            {{-- BENEFIT CARDS --}}
-            <div class="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+                        @if($hasValue($level))
+                            <strong class="font-bold text-brand-800">{{ $level }}</strong>
+                        @endif
 
-                {{-- Card 1 --}}
-                <div
-                    class="group rounded-2xl border border-brand-100 bg-brand-50/50 p-6 transition duration-200 hover:-translate-y-1 hover:border-brand-200 hover:bg-white hover:shadow-lg">
+                        @if($hasValue($level) && $hasValue($name))
+                            -
+                        @endif
 
-                    <div
-                        class="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-100 text-brand-700 transition group-hover:bg-brand-700 group-hover:text-white">
-                        <iconify-icon icon="lucide:school" class="text-xl"></iconify-icon>
-                    </div>
+                        @if($hasValue($name))
+                            <strong class="font-bold text-brand-800">{{ $name }}</strong>
+                        @endif
 
-                    <h3 class="mt-5 text-base font-black text-brand-950">
-                        No Classroom Sitting
-                    </h3>
-
-                    <p class="mt-2 text-sm leading-6 text-slate-500">
-                        Convert your existing on-the-job vehicle service experience into recognised
-                        units of competency without interrupting your paid job.
                     </p>
 
-                </div>
-
-
-                {{-- Card 2 --}}
-                <div
-                    class="group rounded-2xl border border-secondary-100 bg-secondary-50/50 p-6 transition duration-200 hover:-translate-y-1 hover:border-secondary-200 hover:bg-white hover:shadow-lg">
-
-                    <div
-                        class="flex h-12 w-12 items-center justify-center rounded-xl bg-secondary-100 text-secondary-600 transition group-hover:bg-secondary-500 group-hover:text-white">
-                        <iconify-icon icon="lucide:zap" class="text-xl"></iconify-icon>
-                    </div>
-
-                    <h3 class="mt-5 text-base font-black text-brand-950">
-                        Fast-Track Timeline
-                    </h3>
-
-                    <p class="mt-2 text-sm leading-6 text-slate-500">
-                        Achieve your certificate in an estimated 4 to 12 weeks once your workplace
-                        evidence, videos, and referee reports are compiled.
-                    </p>
-
-                </div>
-
-
-                {{-- Card 3 --}}
-                <div
-                    class="group rounded-2xl border border-brand-100 bg-brand-50/50 p-6 transition duration-200 hover:-translate-y-1 hover:border-brand-200 hover:bg-white hover:shadow-lg">
-
-                    <div
-                        class="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-100 text-brand-700 transition group-hover:bg-brand-700 group-hover:text-white">
-                        <iconify-icon icon="lucide:file-check-2" class="text-xl"></iconify-icon>
-                    </div>
-
-                    <h3 class="mt-5 text-base font-black text-brand-950">
-                        Trade Licensing Ready
-                    </h3>
-
-                    <p class="mt-2 text-sm leading-6 text-slate-500">
-                        AUR30320 provides the foundational technical qualification relevant to trade
-                        licensing and motor vehicle repair requirements.
-                    </p>
-
-                </div>
-
-
-                {{-- Card 4 --}}
-                <div
-                    class="group rounded-2xl border border-secondary-100 bg-secondary-50/50 p-6 transition duration-200 hover:-translate-y-1 hover:border-secondary-200 hover:bg-white hover:shadow-lg">
-
-                    <div
-                        class="flex h-12 w-12 items-center justify-center rounded-xl bg-secondary-100 text-secondary-600 transition group-hover:bg-secondary-500 group-hover:text-white">
-                        <iconify-icon icon="lucide:trending-up" class="text-xl"></iconify-icon>
-                    </div>
-
-                    <h3 class="mt-5 text-base font-black text-brand-950">
-                        Higher Earning Potential
-                    </h3>
-
-                    <p class="mt-2 text-sm leading-6 text-slate-500">
-                        Formal trade credentials can help position experienced automotive electricians
-                        for higher-level roles and specialist opportunities.
-                    </p>
-
-                </div>
+                @endif
 
             </div>
 
@@ -338,15 +537,20 @@
 
     </section>
 
+@endif
 
-    {{-- =========================================================
-    STATISTICS
-========================================================== --}}
+
+{{-- =========================================================
+    GRADUATE OUTCOMES
+    JSON: ARRAY OF STRINGS
+========================================================= --}}
+
+@if($graduateOutcomes->isNotEmpty())
+
     <section class="bg-brand-950 py-16 text-white sm:py-20">
 
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-            {{-- Header --}}
             <div class="mx-auto max-w-3xl text-center">
 
                 <span class="text-xs font-black uppercase tracking-[0.18em] text-secondary-400">
@@ -354,59 +558,44 @@
                 </span>
 
                 <h2 class="mt-3 text-2xl font-black leading-tight tracking-tight text-white sm:text-3xl lg:text-4xl">
-                    Career Outcomes That Show the Value of Qualification
+                    Skills You Can Develop
                 </h2>
 
-                <p class="mt-4 text-sm leading-7 text-brand-100 sm:text-base">
-                    Did you know that
-                    <strong class="font-black text-secondary-400">
-                        {{ $course['graduate_outcomes']['overall_outcome']['percentage'] }}</strong>
-                    of {{ $course['level'] }} {{ $course['name'] }} graduates
-                    secured a new job, earned a promotion, or received higher pay after obtaining their qualification?
-                </p>
-
-                <p class="mt-2 text-xs text-brand-300">
-                    {{ $course['graduate_outcomes']['source_note'] }}
-                </p>
+                @if($hasValue($name))
+                    <p class="mt-4 text-sm leading-7 text-brand-100 sm:text-base">
+                        Explore the practical skills and competencies associated with
+                        <strong class="text-secondary-400">{{ $name }}</strong>.
+                    </p>
+                @endif
 
             </div>
 
+            <div class="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
 
-            {{-- Stats --}}
-            <div class="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                @foreach($graduateOutcomes as $index => $outcome)
 
-                @foreach ($course['graduate_outcomes']['statistics'] as $index => $stat)
-                    <div
-                        class="rounded-2xl border border-brand-800 bg-brand-900 p-6 text-center transition hover:-translate-y-1 hover:border-brand-700">
+                    <div class="flex items-start gap-4 rounded-2xl border border-brand-800 bg-brand-900 p-5 transition hover:-translate-y-1 hover:border-brand-700">
 
-                        {{-- Icon --}}
-                        <div
-                            class="mx-auto flex h-12 w-12 items-center justify-center rounded-xl
-                {{ $index % 2 === 0 ? 'bg-brand-800 text-brand-200' : 'bg-secondary-500/15 text-secondary-400' }}">
+                        <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-secondary-500/15 text-secondary-400">
 
-                            <iconify-icon icon="{{ $stat['icon'] }}" class="text-xl">
-                            </iconify-icon>
+                            <iconify-icon icon="lucide:check-circle-2" class="text-xl"></iconify-icon>
 
                         </div>
 
-                        {{-- Label --}}
-                        <p class="mt-5 text-[10px] font-black uppercase tracking-wider text-brand-300">
-                            {{ $stat['label'] }}
-                        </p>
+                        <div class="min-w-0 flex-1">
 
-                        {{-- Value --}}
-                        <p
-                            class="mt-2 text-4xl font-black
-                {{ $index % 2 === 0 ? 'text-white' : 'text-secondary-400' }}">
-                            {{ $stat['value'] }}
-                        </p>
+                            <span class="text-[10px] font-black uppercase tracking-wider text-brand-400">
+                                Skill {{ str_pad($index + 1, 2, '0', STR_PAD_LEFT) }}
+                            </span>
 
-                        {{-- Description --}}
-                        <p class="mt-2 text-sm leading-6 text-brand-200">
-                            {{ $stat['description'] }}
-                        </p>
+                            <p class="mt-1 text-sm leading-7 text-brand-100">
+                                {{ $outcome }}
+                            </p>
+
+                        </div>
 
                     </div>
+
                 @endforeach
 
             </div>
@@ -415,168 +604,91 @@
 
     </section>
 
+@endif
 
-    {{-- =========================================================
-    RPL GUIDE
-========================================================== --}}
+
+{{-- =========================================================
+    CAREER PATHWAYS
+    JSON: ARRAY OF OBJECTS
+========================================================= --}}
+
+@if($careerPathways->isNotEmpty())
+
     <section class="bg-white py-16 sm:py-20">
 
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-            <div class="overflow-hidden rounded-3xl bg-brand-50">
-
-                <div class="grid grid-cols-1 lg:grid-cols-12">
-
-                    {{-- Guide Preview --}}
-                    <div class="p-6 sm:p-10 lg:col-span-5 lg:p-12">
-
-                        <div class="rounded-2xl border border-brand-200 bg-white p-7 shadow-sm">
-
-                            <div
-                                class="flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-500 text-white shadow-sm">
-                                <iconify-icon icon="lucide:book-open-check" class="text-2xl"></iconify-icon>
-                            </div>
-
-                            <span class="mt-6 block text-xs font-black uppercase tracking-[0.18em] text-brand-600">
-                                Free Comprehensive Guide
-                            </span>
-
-                            <h3 class="mt-2 text-xl font-black leading-tight text-brand-950">
-                                Master Recognition of Prior Learning
-                            </h3>
-
-                            <p class="mt-3 text-sm leading-6 text-slate-500">
-                                Learn how to document vehicle electrical competencies,
-                                work experience, evidence and assessor requirements.
-                            </p>
-
-                            <div class="mt-5 flex items-center gap-2 text-xs font-semibold text-slate-500">
-
-                                <iconify-icon icon="lucide:download" class="text-base text-secondary-500">
-                                </iconify-icon>
-
-                                Over 5,000+ trade guides downloaded
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    {{-- Content --}}
-                    <div class="flex flex-col justify-center p-6 sm:p-10 lg:col-span-7 lg:p-12">
-
-                        <span class="text-xs font-black uppercase tracking-[0.18em] text-secondary-600">
-                            Unlock Your Trade Potential
-                        </span>
-
-                        <h2
-                            class="mt-3 max-w-2xl text-2xl font-black leading-tight tracking-tight text-brand-950 sm:text-3xl lg:text-4xl">
-                            Discover the Full Potential of Career Skills Institute
-                        </h2>
-
-                        <p class="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-                            Master Recognition of Prior Learning with our comprehensive guide.
-                            Learn how your existing skills and experience can contribute toward
-                            nationally recognised qualifications.
-                        </p>
-
-                        <div class="mt-7">
-
-                            <a href="#inquiry-form"
-                                class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-500 px-6 py-3.5 text-sm font-extrabold text-white transition hover:bg-brand-800">
-
-                                <iconify-icon icon="lucide:download" class="text-lg"></iconify-icon>
-
-                                Download Free Assessment Guide
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- SECTION 1: Career Pathways & Qualification Banner -->
-
-    <section class=" bg-white text-white pb-16  lg:pb-20">
-
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
-            <div class="mx-auto max-w-3xl text-center mb-8">
+            <div class="mx-auto mb-10 max-w-3xl text-center">
 
                 <span class="text-xs font-black uppercase tracking-[0.18em] text-brand-600">
                     Career Pathways
                 </span>
 
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-                    Further RPL Qualifications <span
-                        class="text-brand font-semibold block sm:inline text-2xl sm:text-3xl">(Career Pathways)</span>
+                <h2 class="mt-3 text-2xl font-black tracking-tight text-slate-900 sm:text-3xl">
+                    Explore Your Career Opportunities
                 </h2>
 
                 <p class="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
-                    Gaining a <strong>{{$course['level']}} in {{$course['name']}}</strong> can also be a stepping stone to more specialized roles and can open up opportunities for professional development and career pathways.
+                    Discover potential career opportunities associated with this qualification.
                 </p>
 
             </div>
 
-            <div class="relative overflow-hidden rounded-3xl bg-brand-600 px-6 py-10 sm:px-10 lg:px-12">
+            <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
 
-                {{-- Subtle background image --}}
-                <div class="absolute inset-0 opacity-10">
-                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD73VTZPW1GD8oymxYSkKHoyNSM2quckKcvPe2LERChkVToRk746QL_glBYdDIhhMc4ko5Kzz3y89rVJ0FYW9hWUo2FEa7YtexPW0JfsHhMI4-nyGb3S5lwO_fY_12MtdOBC1N0KVbsuUdsn2I4hfNPe3-eRYmHozShCZ_7CXSL9LPhP69pvjFwFETcCTqlczcVS6QRXsJ1vfStGL9mysBmxFL6EEjxeXi0rSA0Q8AcdJjnd-Jsb9A0Uw"
-                        alt="" class="h-full w-full object-cover">
-                </div>
+                @foreach($careerPathways as $index => $career)
 
-                <div class="relative flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+                    <div class="group rounded-2xl border border-brand-100 bg-brand-50/50 p-6 transition duration-200 hover:-translate-y-1 hover:border-brand-200 hover:bg-white hover:shadow-lg">
 
-                    <div class="max-w-2xl">
+                        <div class="flex items-center justify-between">
 
-                        <span class="text-[10px] font-bold uppercase tracking-[0.2em] text-secondary-200">
-                            Explore Opportunities
-                        </span>
+                            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-100 text-brand-700 transition group-hover:bg-brand-600 group-hover:text-white">
 
-                        <h2 class="mt-2 text-2xl font-extrabold tracking-tight sm:text-3xl lg:text-4xl">
-                            Explore Related Qualifications
-                        </h2>
+                                <iconify-icon icon="lucide:briefcase-business" class="text-xl"></iconify-icon>
 
-                        <p class="mt-4 text-sm leading-7 text-blue-100 sm:text-base">
-                            {{ $course['career_pathways']['related_category'] }}
-                        </p>
+                            </div>
+
+                            <span class="text-3xl font-black text-brand-100">
+                                {{ str_pad($index + 1, 2, '0', STR_PAD_LEFT) }}
+                            </span>
+
+                        </div>
+
+                        @if($hasValue(data_get($career, 'title')))
+
+                            <h3 class="mt-5 text-base font-black text-brand-950">
+                                {{ data_get($career, 'title') }}
+                            </h3>
+
+                        @endif
+
+                        @if($hasValue(data_get($career, 'description')))
+
+                            <p class="mt-2 text-sm leading-7 text-slate-500">
+                                {{ data_get($career, 'description') }}
+                            </p>
+
+                        @endif
 
                     </div>
 
-                    <a href="#eligibility-form"
-                        class="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-white px-6 py-3.5 text-sm font-bold text-slate-900 transition hover:bg-slate-100">
-                        Browse Courses
-
-                        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" />
-                        </svg>
-
-                    </a>
-
-                </div>
+                @endforeach
 
             </div>
 
         </div>
+
     </section>
 
+@endif
 
-    {{-- =========================================================
+
+{{-- =========================================================
     FAQ SECTION
-========================================================== --}}
+========================================================= --}}
+
+@if($faqs->isNotEmpty())
+
     <section id="faq" class="bg-slate-50 py-16 sm:py-20 lg:py-24">
 
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -594,12 +706,10 @@
                 </h2>
 
                 <p class="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
-                    Find answers to the most common questions about Recognition of Prior Learning,
-                    eligibility, evidence and the qualification process.
+                    Find answers to the most common questions about this qualification.
                 </p>
 
             </div>
-
 
             {{-- FAQ GRID --}}
             <div class="mt-12 grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-10">
@@ -621,53 +731,45 @@
                             </h3>
 
                             <p class="mt-3 text-sm leading-6 text-slate-500">
-                                Our RPL specialists can help you understand the assessment process,
-                                required evidence, eligibility and next steps.
+                                Our team can help you understand the qualification, requirements and available assessment options.
                             </p>
 
-                            <a href="mailto:info@csi.com"
+                            <a href="#assessment-form"
                                 class="group mt-6 flex items-center justify-between rounded-xl border border-brand-100 bg-brand-50 p-3.5 transition hover:border-brand-200 hover:bg-brand-100">
 
                                 <span class="flex items-center gap-3">
 
-                                    <span
-                                        class="flex h-10 w-10 items-center justify-center rounded-lg bg-white text-secondary-600">
-                                        <iconify-icon icon="lucide:mail" class="text-lg"></iconify-icon>
+                                    <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-white text-secondary-600">
+                                        <iconify-icon icon="lucide:message-circle" class="text-lg"></iconify-icon>
                                     </span>
 
                                     <span>
                                         <span class="block text-[10px] font-bold uppercase tracking-wider text-slate-400">
-                                            Email Us
+                                            Contact Us
                                         </span>
 
                                         <span class="mt-0.5 block text-sm font-extrabold text-brand-900">
-                                            Our RPL Team
+                                            Our Team
                                         </span>
                                     </span>
 
                                 </span>
 
-                                <span
-                                    class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-brand-600 transition group-hover:translate-x-0.5">
-
+                                <span class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-brand-600 transition group-hover:translate-x-0.5">
                                     <iconify-icon icon="lucide:arrow-up-right" class="text-sm"></iconify-icon>
-
                                 </span>
 
                             </a>
 
                         </div>
 
-
                         {{-- Help Card --}}
                         <div class="mt-4 rounded-2xl bg-brand-900 p-6 text-white">
 
                             <div class="flex items-start gap-3">
 
-                                <div
-                                    class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-secondary-500/15">
-                                    <iconify-icon icon="lucide:headphones"
-                                        class="text-lg text-secondary-400"></iconify-icon>
+                                <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-secondary-500/15">
+                                    <iconify-icon icon="lucide:headphones" class="text-lg text-secondary-400"></iconify-icon>
                                 </div>
 
                                 <div>
@@ -677,7 +779,7 @@
                                     </p>
 
                                     <p class="mt-1 text-xs leading-5 text-brand-200">
-                                        Speak with our team about your experience and eligibility.
+                                        Speak with our team about your qualification and next steps.
                                     </p>
 
                                 </div>
@@ -699,110 +801,100 @@
 
                 </div>
 
-
                 {{-- FAQ LIST --}}
-                <div class="lg:col-span-8" x-data="{
-                    active: 0,
-                    faqs: @js($course['faq'] ?? [])
-                }">
+                <div class="lg:col-span-8"
+                    x-data="{ active: 0 }">
+
                     <div class="space-y-3">
 
-                        <template x-for="(faq, index) in faqs" :key="index">
+                        @foreach($faqs as $index => $faq)
+
+                            @php
+                                $answer = data_get($faq, 'answer');
+
+                                $answerPoints = is_array($answer)
+                                    ? collect($answer)->filter(
+                                        fn($point) => is_string($point) && trim($point) !== ''
+                                    )->values()
+                                    : collect();
+                            @endphp
 
                             <div class="overflow-hidden rounded-2xl border bg-white transition duration-200"
-                                :class="active === index ?
-                                    'border-secondary-300 shadow-sm' :
-                                    'border-slate-200 hover:border-brand-200'">
+                                :class="active === {{ $index }} ? 'border-secondary-300 shadow-sm' : 'border-slate-200 hover:border-brand-200'">
 
-                                <button type="button" class="flex w-full items-center gap-4 p-5 text-left sm:p-6"
-                                    @click="active = active === index ? null : index" :aria-expanded="active === index">
+                                <button type="button"
+                                    class="flex w-full items-center gap-4 p-5 text-left sm:p-6"
+                                    @click="active = active === {{ $index }} ? null : {{ $index }}"
+                                    :aria-expanded="active === {{ $index }}">
 
                                     {{-- Icon --}}
                                     <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl transition"
-                                        :class="active === index ?
-                                            'bg-secondary-500 text-white' :
-                                            'bg-brand-50 text-brand-500'">
+                                        :class="active === {{ $index }} ? 'bg-secondary-500 text-white' : 'bg-brand-50 text-brand-500'">
 
-                                        <iconify-icon icon="lucide:help-circle" class="text-xl">
-                                        </iconify-icon>
+                                        <iconify-icon icon="lucide:help-circle" class="text-xl"></iconify-icon>
 
                                     </div>
-
 
                                     {{-- Question --}}
                                     <span class="min-w-0 flex-1">
 
                                         <span class="mb-1 block text-[10px] font-black uppercase tracking-[0.16em]"
-                                            :class="active === index ?
-                                                'text-secondary-600' :
-                                                'text-slate-400'">
+                                            :class="active === {{ $index }} ? 'text-secondary-600' : 'text-slate-400'">
 
-                                            Question
-                                            <span x-text="String(index + 1).padStart(2, '0')"></span>
+                                            Question {{ str_pad($index + 1, 2, '0', STR_PAD_LEFT) }}
 
                                         </span>
 
-                                        <span class="block text-sm font-extrabold leading-6 text-brand-950 sm:text-base"
-                                            x-text="faq.question">
+                                        <span class="block text-sm font-extrabold leading-6 text-brand-950 sm:text-base">
+                                            {{ data_get($faq, 'question') }}
                                         </span>
 
                                     </span>
 
-
                                     {{-- Toggle --}}
-                                    <span
-                                        class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border transition duration-200"
-                                        :class="active === index ?
-                                            'rotate-180 border-secondary-300 bg-secondary-50 text-secondary-600' :
-                                            'border-slate-200 bg-white text-slate-500'">
+                                    <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border transition duration-200"
+                                        :class="active === {{ $index }} ? 'rotate-180 border-secondary-300 bg-secondary-50 text-secondary-600' : 'border-slate-200 bg-white text-slate-500'">
 
-                                        <iconify-icon icon="lucide:chevron-down" class="text-lg">
-                                        </iconify-icon>
+                                        <iconify-icon icon="lucide:chevron-down" class="text-lg"></iconify-icon>
 
                                     </span>
 
                                 </button>
 
-
                                 {{-- Answer --}}
-                            
+                                <div x-cloak
+                                    x-show="active === {{ $index }}"
+                                    x-collapse>
 
-                                <div x-show="active === index" x-collapse.duration.300ms>
                                     <div class="border-t border-slate-100 px-5 pb-6 pt-5 sm:px-6">
 
                                         <div class="flex gap-4">
 
-                                            <div class="hidden h-8 w-1 shrink-0 rounded-full bg-secondary-400 sm:block">
-                                            </div>
+                                            <div class="hidden h-8 w-1 shrink-0 rounded-full bg-secondary-400 sm:block"></div>
 
                                             <div class="min-w-0 flex-1">
 
-                                                {{-- Array → Unordered List --}}
-                                                <template x-if="Array.isArray(faq.answer)">
+                                                {{-- Array Answer --}}
+                                                @if(is_array($answer))
 
-                                                    <ul
-                                                        class="list-disc space-y-2 pl-5 text-sm leading-7 text-slate-600 sm:text-[15px]">
+                                                    <ul class="list-disc space-y-2 pl-5 text-sm leading-7 text-slate-600 sm:text-[15px]">
 
-                                                        <template x-for="(point, pointIndex) in faq.answer"
-                                                            :key="pointIndex">
+                                                        @foreach($answerPoints as $point)
 
-                                                            <li x-text="point"></li>
+                                                            <li>{{ $point }}</li>
 
-                                                        </template>
+                                                        @endforeach
 
                                                     </ul>
 
-                                                </template>
+                                                {{-- String Answer --}}
+                                                @elseif(is_string($answer) && trim($answer) !== '')
 
-
-                                                {{-- String → Paragraph --}}
-                                                <template x-if="typeof faq.answer === 'string'">
-
-                                                    <p class="text-sm leading-7 text-slate-600 sm:text-[15px]"
-                                                        x-text="faq.answer">
+                                                    <p class="whitespace-pre-line text-sm leading-7 text-slate-600 sm:text-[15px]">
+                                                        {{ $answer }}
                                                     </p>
 
-                                                </template>
+                                                @endif
 
                                             </div>
 
@@ -812,16 +904,13 @@
 
                                 </div>
 
-
-
                             </div>
 
-                        </template>
+                        @endforeach
 
                     </div>
 
                 </div>
-
 
             </div>
 
@@ -829,244 +918,228 @@
 
     </section>
 
+@endif
 
-    {{-- =========================================================
+
+{{-- =========================================================
     HOW IT WORKS
-========================================================== --}}
-    <section class="bg-white py-16 sm:py-20">
+========================================================= --}}
 
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<section class="bg-white py-16 sm:py-20">
 
-            {{-- Header --}}
-            <div class="mx-auto max-w-3xl text-center">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-                <span class="text-xs font-black uppercase tracking-[0.18em] text-brand-600">
-                    Simple 4-Step Process
-                </span>
+        {{-- Header --}}
+        <div class="mx-auto max-w-3xl text-center">
 
-                <h2 class="mt-3 text-2xl font-black tracking-tight text-brand-950 sm:text-3xl lg:text-4xl">
-                    How Career Skills Institute Works
-                </h2>
+            <span class="text-xs font-black uppercase tracking-[0.18em] text-brand-600">
+                Simple 4-Step Process
+            </span>
 
-                <p class="mt-3 text-sm font-semibold text-slate-700">
-                    All qualifications are awarded by Registered Training Organisations (RTOs) in Australia.
-                </p>
+            <h2 class="mt-3 text-2xl font-black tracking-tight text-brand-950 sm:text-3xl lg:text-4xl">
+                How Career Skills Institute Works
+            </h2>
+
+            <p class="mt-3 text-sm font-semibold text-slate-700">
+                Explore the assessment process for your qualification.
+            </p>
+
+            <p class="mt-2 text-sm leading-6 text-slate-500">
+                Understand how your existing skills and experience can be assessed against qualification requirements.
+            </p>
+
+        </div>
+
+        {{-- Steps --}}
+        <div class="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+
+            {{-- Step 1 --}}
+            <div class="relative rounded-2xl border border-brand-100 bg-brand-50/50 p-6 transition hover:-translate-y-1 hover:bg-white hover:shadow-lg">
+
+                <span class="absolute right-5 top-5 text-3xl font-black text-brand-100">01</span>
+
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500 text-sm font-black text-white">
+                    1
+                </div>
+
+                <h3 class="mt-5 text-base font-black text-brand-500">
+                    Free Skill Assessment
+                </h3>
 
                 <p class="mt-2 text-sm leading-6 text-slate-500">
-                    Our process is designed to transform your professional experience and prior learning
-                    into a pathway toward formal certification.
+                    Share your experience and existing skills to explore your qualification options.
                 </p>
 
             </div>
 
+            {{-- Step 2 --}}
+            <div class="relative rounded-2xl border border-secondary-100 bg-secondary-50/50 p-6 transition hover:-translate-y-1 hover:bg-white hover:shadow-lg">
 
-            {{-- Steps --}}
-            <div class="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+                <span class="absolute right-5 top-5 text-3xl font-black text-secondary-100">02</span>
 
-                {{-- Step 1 --}}
-                <div
-                    class="relative rounded-2xl border border-brand-100 bg-brand-50/50 p-6 transition hover:-translate-y-1 hover:bg-white hover:shadow-lg">
-
-                    <span class="absolute right-5 top-5 text-3xl font-black text-brand-100">
-                        01
-                    </span>
-
-                    <div
-                        class="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500 text-sm font-black text-white">
-                        1
-                    </div>
-
-                    <h3 class="mt-5 text-base font-black text-brand-500">
-                        Free Skill Assessment
-                    </h3>
-
-                    <p class="mt-2 text-sm leading-6 text-slate-500">
-                        Start your Career Skills Institute journey with a quick skills check
-                        to establish RPL suitability.
-                    </p>
-
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-secondary-500 text-sm font-black text-white">
+                    2
                 </div>
 
+                <h3 class="mt-5 text-base font-black text-brand-950">
+                    Build Experience Portfolio
+                </h3>
 
-                {{-- Step 2 --}}
-                <div
-                    class="relative rounded-2xl border border-secondary-100 bg-secondary-50/50 p-6 transition hover:-translate-y-1 hover:bg-white hover:shadow-lg">
+                <p class="mt-2 text-sm leading-6 text-slate-500">
+                    Prepare relevant documents and evidence of your professional experience.
+                </p>
 
-                    <span class="absolute right-5 top-5 text-3xl font-black text-secondary-100">
-                        02
-                    </span>
+            </div>
 
-                    <div
-                        class="flex h-11 w-11 items-center justify-center rounded-xl bg-secondary-500 text-sm font-black text-white">
-                        2
-                    </div>
+            {{-- Step 3 --}}
+            <div class="relative rounded-2xl border border-brand-100 bg-brand-50/50 p-6 transition hover:-translate-y-1 hover:bg-white hover:shadow-lg">
 
-                    <h3 class="mt-5 text-base font-black text-brand-950">
-                        Build Experience Portfolio
-                    </h3>
+                <span class="absolute right-5 top-5 text-3xl font-black text-brand-100">03</span>
 
-                    <p class="mt-2 text-sm leading-6 text-slate-500">
-                        Document your professional achievements with dedicated assessors
-                        assisting you with work proof and templates.
-                    </p>
-
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500 text-sm font-black text-white">
+                    3
                 </div>
 
+                <h3 class="mt-5 text-base font-black text-brand-500">
+                    Review By The RTO
+                </h3>
 
-                {{-- Step 3 --}}
-                <div
-                    class="relative rounded-2xl border border-brand-100 bg-brand-50/50 p-6 transition hover:-translate-y-1 hover:bg-white hover:shadow-lg">
+                <p class="mt-2 text-sm leading-6 text-slate-500">
+                    Your evidence and competencies are reviewed against the relevant assessment requirements.
+                </p>
 
-                    <span class="absolute right-5 top-5 text-3xl font-black text-brand-100">
-                        03
-                    </span>
+            </div>
 
-                    <div
-                        class="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500 text-sm font-black text-white">
-                        3
-                    </div>
+            {{-- Step 4 --}}
+            <div class="relative rounded-2xl border border-secondary-200 bg-secondary-50 p-6 transition hover:-translate-y-1 hover:bg-white hover:shadow-lg">
 
-                    <h3 class="mt-5 text-base font-black text-brand-500">
-                        Review By The RTO
-                    </h3>
+                <span class="absolute right-5 top-5 text-3xl font-black text-secondary-100">04</span>
 
-                    <p class="mt-2 text-sm leading-6 text-slate-500">
-                        Validate your expertise through certified RTO technical assessors
-                        via portfolio audit and competency verification.
-                    </p>
-
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-secondary-500 text-white">
+                    <iconify-icon icon="lucide:check" class="text-xl"></iconify-icon>
                 </div>
 
+                <h3 class="mt-5 text-base font-black text-brand-950">
+                    Assessment Outcome
+                </h3>
 
-                {{-- Step 4 --}}
-                <div
-                    class="relative rounded-2xl border border-secondary-200 bg-secondary-50 p-6 transition hover:-translate-y-1 hover:bg-white hover:shadow-lg">
-
-                    <span class="absolute right-5 top-5 text-3xl font-black text-secondary-100">
-                        04
-                    </span>
-
-                    <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-secondary-500 text-white">
-                        <iconify-icon icon="lucide:check" class="text-xl"></iconify-icon>
-                    </div>
-
-                    <h3 class="mt-5 text-base font-black text-brand-950">
-                        Achieve Certification
-                    </h3>
-
-                    <p class="mt-2 text-sm leading-6 text-slate-600">
-                        Receive your nationally recognised Australian qualification
-                        certificate and transcript.
-                    </p>
-
-                </div>
+                <p class="mt-2 text-sm leading-6 text-slate-600">
+                    Receive your assessment outcome and guidance on the next steps.
+                </p>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    {{-- =========================================================
+{{-- =========================================================
     FINAL CTA
-========================================================== --}}
-    <section class="bg-brand-50 py-16 sm:py-20">
+========================================================= --}}
 
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<section class="bg-brand-50 py-16 sm:py-20">
 
-            <div
-                class="relative overflow-hidden rounded-3xl bg-brand-900 px-6 py-12 text-center sm:px-10 lg:px-16 lg:py-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-                {{-- Simple Accent --}}
-                <div class="pointer-events-none absolute right-0 top-0 h-40 w-40 rounded-full bg-secondary-500/10"></div>
-                <div class="pointer-events-none absolute bottom-0 left-0 h-32 w-32 rounded-full bg-brand-500/20"></div>
+        <div class="relative overflow-hidden rounded-3xl bg-brand-900 px-6 py-12 text-center sm:px-10 lg:px-16 lg:py-16">
 
-                <div class="relative z-10">
+            {{-- Decorations --}}
+            <div class="pointer-events-none absolute right-0 top-0 h-40 w-40 rounded-full bg-secondary-500/10"></div>
+            <div class="pointer-events-none absolute bottom-0 left-0 h-32 w-32 rounded-full bg-brand-500/20"></div>
 
-                    {{-- Badge --}}
-                    <div
-                        class="inline-flex items-center gap-2 rounded-full border border-secondary-400/20 bg-white/5 px-4 py-2">
+            <div class="relative z-10">
 
-                        <span
-                            class="flex h-5 w-5 items-center justify-center rounded-full bg-secondary-500/15 text-secondary-400">
-                            <iconify-icon icon="lucide:sparkles" class="text-xs"></iconify-icon>
-                        </span>
+                {{-- Badge --}}
+                <div class="inline-flex items-center gap-2 rounded-full border border-secondary-400/20 bg-white/5 px-4 py-2">
 
-                        <span class="text-[10px] font-black uppercase tracking-[0.18em] text-secondary-300">
-                            Ready To Get Started?
-                        </span>
+                    <span class="flex h-5 w-5 items-center justify-center rounded-full bg-secondary-500/15 text-secondary-400">
+                        <iconify-icon icon="lucide:sparkles" class="text-xs"></iconify-icon>
+                    </span>
 
-                    </div>
+                    <span class="text-[10px] font-black uppercase tracking-[0.18em] text-secondary-300">
+                        Ready To Get Started?
+                    </span>
 
+                </div>
 
-                    {{-- Heading --}}
-                    <h2
-                        class="mx-auto mt-6 max-w-3xl text-3xl font-black leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
+                {{-- Heading --}}
+                <h2 class="mx-auto mt-6 max-w-3xl text-3xl font-black leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
 
-                        Turn Your Experience Into a
-                        <span class="text-secondary-400">
-                            Qualification.
-                        </span>
+                    @if($hasValue($name))
+                        Explore Your
+                        <span class="text-secondary-400">Qualification.</span>
+                    @else
+                        Take the Next Step in Your Career.
+                    @endif
 
-                    </h2>
+                </h2>
 
+                {{-- Description --}}
+                <p class="mx-auto mt-5 max-w-2xl text-sm leading-7 text-brand-100 sm:text-base lg:text-lg">
 
-                    {{-- Description --}}
-                    <p class="mx-auto mt-5 max-w-2xl text-sm leading-7 text-brand-100 sm:text-base lg:text-lg">
-                        Find out whether your existing automotive electrical skills can qualify you
-                        for RPL. It takes less than a minute and costs nothing.
-                    </p>
+                    @if($hasValue($shortDescription))
+                        {{ $shortDescription }}
+                    @elseif($hasValue($description))
+                        {{ $description }}
+                    @else
+                        Find out more about your qualification and available assessment options.
+                    @endif
 
+                </p>
 
-                    {{-- Buttons --}}
-                    <div class="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+                {{-- Buttons --}}
+                <div class="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
 
-                        <a href="#assessment-form"
-                            class="inline-flex items-center justify-center gap-2.5 rounded-xl bg-secondary-500 px-7 py-3.5 text-sm font-black text-white shadow-lg shadow-secondary-950/20 transition hover:bg-secondary-600">
+                    <a href="#assessment-form"
+                        class="inline-flex items-center justify-center gap-2.5 rounded-xl bg-secondary-500 px-7 py-3.5 text-sm font-black text-white shadow-lg shadow-secondary-950/20 transition hover:bg-secondary-600">
 
-                            Check My Eligibility
+                        Check My Eligibility
 
-                            <iconify-icon icon="lucide:arrow-right" class="text-lg"></iconify-icon>
+                        <iconify-icon icon="lucide:arrow-right" class="text-lg"></iconify-icon>
 
-                        </a>
+                    </a>
 
+                    @if($validCourseUrl)
 
-                        <a href="mailto:info@csi.com"
+                        <a href="{{ $courseUrl }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             class="inline-flex items-center justify-center gap-2.5 rounded-xl border border-white/10 bg-white/5 px-7 py-3.5 text-sm font-bold text-white transition hover:border-secondary-400/30 hover:bg-white/10">
 
-                            <iconify-icon icon="lucide:mail" class="text-lg text-secondary-400"></iconify-icon>
+                            <iconify-icon icon="lucide:external-link" class="text-lg text-secondary-400"></iconify-icon>
 
-                            Email Our Team
+                            Official Qualification Details
 
                         </a>
 
-                    </div>
+                    @endif
 
+                </div>
 
-                    {{-- Trust --}}
-                    <div class="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
+                {{-- Trust --}}
+                <div class="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
 
-                        <span class="inline-flex items-center gap-2 text-xs font-bold text-brand-200">
-                            <iconify-icon icon="lucide:shield-check" class="text-base text-secondary-400"></iconify-icon>
-                            Free assessment
-                        </span>
+                    <span class="inline-flex items-center gap-2 text-xs font-bold text-brand-200">
+                        <iconify-icon icon="lucide:shield-check" class="text-base text-secondary-400"></iconify-icon>
+                        Personalised guidance
+                    </span>
 
-                        <span class="hidden h-4 w-px bg-white/10 sm:block"></span>
+                    <span class="hidden h-4 w-px bg-white/10 sm:block"></span>
 
-                        <span class="inline-flex items-center gap-2 text-xs font-bold text-brand-200">
-                            <iconify-icon icon="lucide:clock-3" class="text-base text-secondary-400"></iconify-icon>
-                            60-second process
-                        </span>
+                    <span class="inline-flex items-center gap-2 text-xs font-bold text-brand-200">
+                        <iconify-icon icon="lucide:message-circle" class="text-base text-secondary-400"></iconify-icon>
+                        Expert assistance
+                    </span>
 
-                        <span class="hidden h-4 w-px bg-white/10 sm:block"></span>
+                    <span class="hidden h-4 w-px bg-white/10 sm:block"></span>
 
-                        <span class="inline-flex items-center gap-2 text-xs font-bold text-brand-200">
-                            <iconify-icon icon="lucide:badge-check" class="text-base text-secondary-400"></iconify-icon>
-                            Expert guidance
-                        </span>
-
-                    </div>
+                    <span class="inline-flex items-center gap-2 text-xs font-bold text-brand-200">
+                        <iconify-icon icon="lucide:graduation-cap" class="text-base text-secondary-400"></iconify-icon>
+                        Qualification guidance
+                    </span>
 
                 </div>
 
@@ -1074,5 +1147,8 @@
 
         </div>
 
-    </section>
+    </div>
+
+</section>
+
 @endsection

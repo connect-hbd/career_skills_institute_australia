@@ -107,22 +107,20 @@
                     </div>
 
 
-                    {{-- how-we-works --}}
-                    <a href=""
+                    {{-- <a href=""
                         class="relative font-medium transition-all duration-300
                         {{ request()->routeIs('how-we-works') ? 'text-brand-600 font-medium after:w-full' : 'text-neutral-600 hover:text-brand-600 after:w-0 hover:after:w-full' }}
                         after:absolute after:left-0 after:-bottom-1.5
                         after:h-0.5 after:bg-brand-600 after:transition-all after:duration-300">
                         How It Works
                     </a>
-                    {{-- patners --}}
                     <a href=""
                         class="relative font-medium transition-all duration-300
                         {{ request()->routeIs('patners') ? 'text-brand-600 font-medium after:w-full' : 'text-neutral-600 hover:text-brand-600 after:w-0 hover:after:w-full' }}
                         after:absolute after:left-0 after:-bottom-1.5
                         after:h-0.5 after:bg-brand-600 after:transition-all after:duration-300">
                         Our Partners
-                    </a>
+                    </a> --}}
 
                     {{-- contact --}}
                     <a href="{{ route('contact') }}"

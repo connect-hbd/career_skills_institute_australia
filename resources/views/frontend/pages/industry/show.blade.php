@@ -233,7 +233,7 @@
                     <div
                         class="relative rounded-2xl border border-brand-100 bg-white p-5 text-slate-900 shadow-xl shadow-brand-950/5 sm:rounded-3xl sm:p-6 md:p-8">
 
-                     
+
 
                         <h2 class="text-lg font-black leading-snug text-brand-950 sm:text-xl md:text-2xl">
                             Start Free Assessment Today!
@@ -324,118 +324,311 @@
         {{-- =========================================================
         QUALIFICATION OVERVIEW
     ========================================================= --}}
-        <section id="qualification-overview" class="relative overflow-hidden  py-16 text-slate-800 sm:py-20 lg:py-28">
+        <section id="qualification-overview"
+            class="relative overflow-hidden bg-white py-16 text-slate-900 sm:py-20 lg:py-28 border-y border-slate-100">
 
-    {{-- Subtle Background Glow Elements --}}
-    <div class="pointer-events-none absolute -left-20 top-1/2 h-80 w-80 -translate-y-1/2 rounded-full bg-[#3f8919]/15 blur-[120px] sm:h-96 sm:w-96"></div>
-    <div class="pointer-events-none absolute -right-20 top-1/4 h-72 w-72 rounded-full bg-[#9ece1b]/10 blur-[100px] sm:h-80 sm:w-80"></div>
-
-    <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center lg:gap-16">
-
-            {{-- Main Text Column --}}
-            <div class="space-y-6 lg:col-span-7">
-
-                {{-- Section Badge --}}
-                <div class="inline-flex items-center gap-2 rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3.5 py-1.5 backdrop-blur-md">
-                    <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
-                    <span class="text-[11px] font-bold uppercase tracking-widest text-emerald-300 sm:text-xs">
-                        Qualification Overview
-                    </span>
-                </div>
-
-                {{-- Section Heading --}}
-                <h2 class="text-3xl font-black tracking-tight text-white sm:text-4xl lg:text-5xl lg:leading-[1.15]">
-                    Certify Your Skills &amp; Advance Your Career
-                </h2>
-
-                {{-- Dynamic Overview Paragraph --}}
-                <div class="space-y-4 text-slate-300">
-                    <p class="whitespace-pre-line text-base leading-relaxed sm:text-lg">
-                        {{ $overview }}
-                    </p>
-                </div>
-
-                {{-- Key Qualification Badge Container --}}
-                @if ($hasValue($level) || $hasValue($name))
-                    <div class="group relative overflow-hidden rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-4 backdrop-blur-md transition-all duration-300 hover:border-emerald-500/40">
-                        <div class="flex items-center gap-3.5">
-                            <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-400 border border-emerald-500/20 transition-transform duration-300 group-hover:scale-105">
-                                <iconify-icon icon="lucide:award" class="text-2xl"></iconify-icon>
-                            </div>
-
-                            <div class="space-y-0.5">
-                                <span class="text-xs font-medium uppercase tracking-wider text-emerald-400">Target Qualification</span>
-                                @if ($hasValue($name))
-                                    <p class="text-base font-bold text-white sm:text-lg">
-                                        {{ $name }}
-                                    </p>
-                                @endif
-                            </div>
-                        </div>
-                    </div>
-                @endif
+            {{-- Light Subtle Accent Glows --}}
+            <div
+                class="pointer-events-none absolute -left-20 top-1/2 h-80 w-80 -translate-y-1/2 rounded-full bg-secondary-500/5 blur-[100px] sm:h-96 sm:w-96">
+            </div>
+            <div
+                class="pointer-events-none absolute -right-20 top-1/4 h-72 w-72 rounded-full bg-lime-500/5 blur-[90px] sm:h-80 sm:w-80">
             </div>
 
-            {{-- Highlight / Feature Sidebar Card --}}
-            <div class="lg:col-span-5">
-                <div class="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900/60 p-6 shadow-2xl backdrop-blur-xl sm:p-8">
-                    
-                    {{-- Decorative Top Accent Border --}}
-                    <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-emerald-500 via-[#3f8919] to-lime-400"></div>
+            <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center lg:gap-16">
 
-                    <h3 class="text-xl font-extrabold text-white sm:text-2xl">
-                        Why Choose This Pathway?
-                    </h3>
+                    {{-- Main Content Column --}}
+                    <div class="space-y-5 lg:col-span-7">
 
-                    <ul class="mt-6 space-y-4">
-                        <li class="flex items-start gap-3.5">
-                            <div class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 mt-0.5">
-                                <iconify-icon icon="lucide:check" class="text-sm"></iconify-icon>
-                            </div>
-                            <div>
-                                <h4 class="text-sm font-semibold text-white">Nationally Recognised</h4>
-                                <p class="text-xs text-slate-400">Aligned with AQF standards for official certification.</p>
-                            </div>
-                        </li>
+                        {{-- Pill Badge --}}
+                        <div
+                            class="inline-flex items-center gap-2.5 rounded-full border border-secondary-200 bg-secondary-50 px-4 py-1.5 shadow-sm">
+                            <span class="h-1.5 w-1.5 rounded-full bg-emerald-600"></span>
+                            <span class="text-[11px] font-bold uppercase tracking-widest text-emerald-800 sm:text-xs">
+                                Qualification Overview
+                            </span>
+                        </div>
 
-                        <li class="flex items-start gap-3.5">
-                            <div class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 mt-0.5">
-                                <iconify-icon icon="lucide:zap" class="text-sm"></iconify-icon>
-                            </div>
-                            <div>
-                                <h4 class="text-sm font-semibold text-white">RPL Credit Pathways</h4>
-                                <p class="text-xs text-slate-400">Convert your existing work experience into units.</p>
-                            </div>
-                        </li>
+                        {{-- Heading --}}
+                        <h2 class="text-2xl font-black tracking-tight text-slate-950 sm:text-3xl lg:text-[30px] ">
+                            Certify Your Skills &amp; Advance Your Career
+                        </h2>
 
-                        <li class="flex items-start gap-3.5">
-                            <div class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 mt-0.5">
-                                <iconify-icon icon="lucide:briefcase" class="text-sm"></iconify-icon>
-                            </div>
-                            <div>
-                                <h4 class="text-sm font-semibold text-white">Industry-Ready Practical Skills</h4>
-                                <p class="text-xs text-slate-400">Tailored directly for high-demand workplace applications.</p>
-                            </div>
-                        </li>
-                    </ul>
+                        {{-- Overview Text --}}
+                        <div class=" text-slate-600">
+                            <p class=" text-sm leading-relaxed sm:text-base">
+                                {{ $overview }}
+                            </p>
+                        </div>
 
-                    {{-- Quick Action CTA inside sidebar --}}
-                    <div class="mt-8 pt-6 border-t border-slate-800">
-                        <a href="#enquire" class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#3f8919] px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-[#3f8919]/25 transition-all duration-300 hover:bg-[#347416] hover:shadow-[#3f8919]/40 active:scale-[0.98]">
-                            <span>Check Your Eligibility</span>
-                            <iconify-icon icon="lucide:arrow-right" class="text-base"></iconify-icon>
-                        </a>
+                        {{-- Target Qualification Banner --}}
+                        @if ($hasValue($level) || $hasValue($name))
+                            <div
+                                class="group relative overflow-hidden rounded-2xl border border-secondary-100 bg-secondary-50/50 p-4 transition-all duration-300 hover:border-secondary-200 hover:shadow-md">
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-secondary-200 bg-white text-secondary-700 shadow-sm transition-transform duration-300 group-hover:scale-105">
+                                        <iconify-icon icon="lucide:award" class="text-2xl"></iconify-icon>
+                                    </div>
+
+                                    <div class="space-y-0.5">
+                                        <span class="text-xs font-bold uppercase tracking-wider text-secondary-700">Target
+                                            Qualification</span>
+                                        @if ($hasValue($name))
+                                            <p class="text-sm font-bold text-slate-900 sm:text-base">
+                                                {{ $name }}
+                                            </p>
+                                        @endif
+                                    </div>
+                                </div>
+                            </div>
+                        @endif
                     </div>
 
+                    {{-- Feature Sidebar Card --}}
+                    <div class="lg:col-span-5">
+                        <div class=" bg-brand-50 border border-brand-100 rounded-2xl p-6 mb-8">
+                            <h3 class="text-base font-bold text-brand-navy mb-3 flex items-center">
+                                <svg class="w-5 h-5 text-brand-500 mr-2" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                Fast Facts
+                            </h3>
+                            <ul class="space-y-2.5 text-xs text-slate-700">
+                                <li class="flex justify-between py-1 border-b border-brand-100">
+                                    <span class="text-slate-500">Code:</span>
+                                    <span class="font-bold text-brand-navy">CHC33021</span>
+                                </li>
+                                <li class="flex justify-between py-1 border-b border-brand-100">
+                                    <span class="text-slate-500">Provider:</span>
+                                    <span class="font-bold text-brand-navy">Career Skills Institute Australia</span>
+                                </li>
+                                <li class="flex justify-between py-1 border-b border-brand-100">
+                                    <span class="text-slate-500">Total Units:</span>
+                                    <span class="font-bold text-brand-navy">12 Units (6 Core, 6 Elective)</span>
+                                </li>
+                                <li class="flex justify-between py-1">
+                                    <span class="text-slate-500">Duration:</span>
+                                    <span class="font-bold text-brand-navy">4-6 Weeks</span>
+                                </li>
+                                 <li class="flex justify-between py-1">
+                                    <span class="text-slate-500">Delivery Mode:</span>
+                                    <span class="font-bold text-brand-navy">Recognition of Prior Learning (RPL)</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div
+                            class="relative overflow-hidden rounded-3xl border border-slate-200/80 bg-slate-50/70 p-6 shadow-xl shadow-slate-200/50 backdrop-blur-xl sm:p-8">
+
+                          
+
+                            <h3 class="text-xl font-extrabold text-slate-900 sm:text-2xl">
+                                Why Choose This Pathway?
+                            </h3>
+
+                            <ul class="mt-6 space-y-4">
+                                <li class="flex items-start gap-3.5">
+                                    <div
+                                        class="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-brand-200 bg-brand-100/70 text-brand-700 mt-0.5">
+                                        <iconify-icon icon="lucide:check" class="text-base font-bold"></iconify-icon>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-sm font-bold text-slate-900">Nationally Recognised</h4>
+                                        <p class="text-xs font-medium text-slate-500">Fully aligned with AQF standards for
+                                            official certification.</p>
+                                    </div>
+                                </li>
+
+                                <li class="flex items-start gap-3.5">
+                                    <div
+                                        class="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-brand-200 bg-brand-100/70 text-brand-700 mt-0.5">
+                                        <iconify-icon icon="lucide:zap" class="text-base font-bold"></iconify-icon>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-sm font-bold text-slate-900">RPL Credit Pathways</h4>
+                                        <p class="text-xs font-medium text-slate-500">Fast-track certification using
+                                            existing work experience.</p>
+                                    </div>
+                                </li>
+
+                                <li class="flex items-start gap-3.5">
+                                    <div
+                                        class="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-brand-200 bg-brand-100/70 text-brand-700 mt-0.5">
+                                        <iconify-icon icon="lucide:briefcase" class="text-base font-bold"></iconify-icon>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-sm font-bold text-slate-900">Industry-Ready Practical Skills</h4>
+                                        <p class="text-xs font-medium text-slate-500">Tailored directly for immediate
+                                            workplace application.</p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    @endif
+
+<section id="entry-requirements" class="relative overflow-hidden bg-slate-50/50 py-20 sm:py-28">
+    <!-- Subtle Background Ambient Glows -->
+    <div class="pointer-events-none absolute left-1/2 top-0 -z-10 h-[500px] w-full max-w-7xl -translate-x-1/2 opacity-40 blur-3xl" aria-hidden="true">
+        <div class="h-full w-full bg-gradient-to-tr from-brand-500/10 via-secondary-500/10 to-transparent"></div>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="mx-auto max-w-2xl text-center">
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-secondary-500/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-widest text-secondary-600 ring-1 ring-inset ring-secondary-500/20">
+                Before you apply
+            </span>
+            <h2 class="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+                Entry <span class="text-brand-500">Requirements</span>
+            </h2>
+            <p class="mt-4 text-base leading-relaxed text-slate-600">
+                Review the essential prerequisites and core competency expectations before initiating your enrolment.
+            </p>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="mt-14 grid gap-8 lg:grid-cols-2 lg:items-start">
+            
+            <!-- Left Card: Prerequisites -->
+            <div class="group relative rounded-3xl border border-slate-200/80 bg-white/80 p-6 sm:p-10 shadow-xl shadow-slate-200/40 backdrop-blur-sm transition-all duration-300 hover:border-slate-300 hover:shadow-2xl hover:shadow-slate-200/60">
+                <div class="flex items-center gap-4">
+                    <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-[#30BAFA]/20 to-[#30BAFA]/5 text-secondary-600 ring-1 ring-inset ring-secondary-500/20 shadow-sm transition-transform duration-300 group-hover:scale-105">
+                        <iconify-icon icon="lucide:clipboard-check" class="text-2xl"></iconify-icon>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">Recommended Prerequisites</h3>
+                        <p class="text-xs font-medium uppercase tracking-wider text-slate-400 mt-0.5">Applicant readiness checklist</p>
+                    </div>
+                </div>
+
+                <p class="mt-6 text-sm leading-relaxed text-slate-600">
+                    While no formal prerequisites exist within the qualification packaging rules, the college strongly recommends candidates satisfy the following criteria:
+                </p>
+
+                <ul class="mt-6 space-y-3.5">
+                    <li class="flex items-start gap-3.5 text-sm text-slate-700">
+                        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-secondary-500/10 text-secondary-600 mt-0.5">
+                            <iconify-icon icon="lucide:check" class="text-xs stroke-[3]"></iconify-icon>
+                        </span>
+                        <span class="leading-6">Be at least <strong>18 years of age</strong> at course commencement.</span>
+                    </li>
+                    <li class="flex items-start gap-3.5 text-sm text-slate-700">
+                        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-secondary-500/10 text-secondary-600 mt-0.5">
+                            <iconify-icon icon="lucide:check" class="text-xs stroke-[3]"></iconify-icon>
+                        </span>
+                        <span class="leading-6">Possess a valid <strong>Unique Student Identifier (USI)</strong>.</span>
+                    </li>
+                    <li class="flex items-start gap-3.5 text-sm text-slate-700">
+                        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-secondary-500/10 text-secondary-600 mt-0.5">
+                            <iconify-icon icon="lucide:check" class="text-xs stroke-[3]"></iconify-icon>
+                        </span>
+                        <span class="leading-6">Complete a Pre-Training Review course entry interview.</span>
+                    </li>
+                    <li class="flex items-start gap-3.5 text-sm text-slate-700">
+                        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-secondary-500/10 text-secondary-600 mt-0.5">
+                            <iconify-icon icon="lucide:check" class="text-xs stroke-[3]"></iconify-icon>
+                        </span>
+                        <span class="leading-6">Maintain basic computer literacy and regular internet access.</span>
+                    </li>
+                    <li class="flex items-start gap-3.5 text-sm text-slate-700">
+                        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-secondary-500/10 text-secondary-600 mt-0.5">
+                            <iconify-icon icon="lucide:check" class="text-xs stroke-[3]"></iconify-icon>
+                        </span>
+                        <span class="leading-6">Demonstrate suitable Language, Literacy, Numeracy & Digital (LLND) skills.</span>
+                    </li>
+                </ul>
+
+                <!-- Modern Alert Box -->
+                <div class="mt-8 relative overflow-hidden rounded-2xl border border-amber-200/80 bg-gradient-to-br from-amber-50 to-orange-50/40 p-4 sm:p-4.5">
+                    <div class="flex gap-3">
+                        <iconify-icon icon="lucide:alert-circle" class="text-amber-600 text-lg shrink-0 mt-0.5"></iconify-icon>
+                        <p class="text-xs leading-relaxed text-amber-950">
+                            <strong class="font-semibold text-amber-900">Enrolment Note:</strong> An LLND evaluation is administered during enrolment to map out your baseline skills and structure tailored learning support.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Card: Core Skills -->
+            <div class="group relative rounded-3xl border border-slate-200/80 bg-white/80 p-6 sm:p-10 shadow-xl shadow-slate-200/40 backdrop-blur-sm transition-all duration-300 hover:border-slate-300 hover:shadow-2xl hover:shadow-slate-200/60">
+                <div class="flex items-center gap-4">
+                    <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-brand-500/5 text-brand-500 ring-1 ring-inset ring-brand-500/20 shadow-sm transition-transform duration-300 group-hover:scale-105">
+                        <iconify-icon icon="lucide:brain-circuit" class="text-2xl"></iconify-icon>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">Core Skills — ACSF Level 3</h3>
+                        <p class="text-xs font-medium uppercase tracking-wider text-slate-400 mt-0.5">Expected learning capabilities</p>
+                    </div>
+                </div>
+
+                <p class="mt-6 text-sm leading-relaxed text-slate-600">
+                    Applicants should demonstrate functional competence equivalent to ACSF Level 3 across five foundational domains:
+                </p>
+
+                <!-- Skill Grid Badges -->
+                <div class="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                    <div class="flex items-center gap-3 rounded-2xl border border-slate-100 bg-slate-50/80 px-4 py-3.5 text-sm font-semibold text-slate-800 transition-colors hover:border-brand-500/30 hover:bg-white hover:shadow-sm">
+                        <div class="flex h-8 w-8 items-center justify-center rounded-xl bg-white text-secondary-500 shadow-sm ring-1 ring-slate-200/60">
+                            <iconify-icon icon="lucide:book-open" class="text-base"></iconify-icon>
+                        </div>
+                        Reading
+                    </div>
+
+                    <div class="flex items-center gap-3 rounded-2xl border border-slate-100 bg-slate-50/80 px-4 py-3.5 text-sm font-semibold text-slate-800 transition-colors hover:border-brand-500/30 hover:bg-white hover:shadow-sm">
+                        <div class="flex h-8 w-8 items-center justify-center rounded-xl bg-white text-secondary-500 shadow-sm ring-1 ring-slate-200/60">
+                            <iconify-icon icon="lucide:pen-line" class="text-base"></iconify-icon>
+                        </div>
+                        Writing
+                    </div>
+
+                    <div class="flex items-center gap-3 rounded-2xl border border-slate-100 bg-slate-50/80 px-4 py-3.5 text-sm font-semibold text-slate-800 transition-colors hover:border-brand-500/30 hover:bg-white hover:shadow-sm">
+                        <div class="flex h-8 w-8 items-center justify-center rounded-xl bg-white text-secondary-500 shadow-sm ring-1 ring-slate-200/60">
+                            <iconify-icon icon="lucide:calculator" class="text-base"></iconify-icon>
+                        </div>
+                        Numeracy
+                    </div>
+
+                    <div class="flex items-center gap-3 rounded-2xl border border-slate-100 bg-slate-50/80 px-4 py-3.5 text-sm font-semibold text-slate-800 transition-colors hover:border-brand-500/30 hover:bg-white hover:shadow-sm">
+                        <div class="flex h-8 w-8 items-center justify-center rounded-xl bg-white text-secondary-500 shadow-sm ring-1 ring-slate-200/60">
+                            <iconify-icon icon="lucide:messages-square" class="text-base"></iconify-icon>
+                        </div>
+                        Oral communication
+                    </div>
+
+                    <div class="flex items-center gap-3 rounded-2xl border border-slate-100 bg-slate-50/80 px-4 py-3.5 text-sm font-semibold text-slate-800 transition-colors hover:border-brand-500/30 hover:bg-white hover:shadow-sm sm:col-span-2">
+                        <div class="flex h-8 w-8 items-center justify-center rounded-xl bg-white text-secondary-500 shadow-sm ring-1 ring-slate-200/60">
+                            <iconify-icon icon="lucide:laptop" class="text-base"></iconify-icon>
+                        </div>
+                        Digital skills
+                    </div>
+                </div>
+
+                <!-- Mandatory Placement Requirements Footer -->
+                <div class="mt-8 space-y-3.5 border-t border-slate-100 pt-6 text-xs leading-relaxed text-slate-500">
+                    <div class="flex items-start gap-2.5">
+                        <iconify-icon icon="lucide:info" class="text-slate-400 text-sm shrink-0 mt-0.5"></iconify-icon>
+                        <p>Students must be eligible to participate in practical simulations and mandatory work placements at approved partner centers.</p>
+                    </div>
+                    <div class="flex items-start gap-2.5">
+                        <iconify-icon icon="lucide:shield-check" class="text-slate-400 text-sm shrink-0 mt-0.5"></iconify-icon>
+                        <p>National Police Checks, NDIS Worker Screening, or Working with Children Checks may be required prior to placement (associated costs paid separately).</p>
+                    </div>
                 </div>
             </div>
 
         </div>
     </div>
 </section>
-    @endif
-
 
     @if ($graduateOutcomes->isNotEmpty())
         {{-- =========================================================

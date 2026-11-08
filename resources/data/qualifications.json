@@ -5,7 +5,7 @@
         "level": "Certificate III",
         "name": "Certificate III in Individual Support",
         "slug": "certificate-iii-in-individual-support-chc33021",
-        "image": "/industry/community-services-healthcare/CHC33021.jpg",
+        "image": "/industry/community/CHC33021.jpg",
         "short_description": "Develop the practical skills and knowledge to provide person-centred support to people who require assistance due to ageing, disability or other support needs in community, home and residential care settings.",
         "hero_description": "Start a meaningful career in community and care services with the Certificate III in Individual Support (CHC33021). Build the skills to support people with dignity, respect and compassion while assisting with daily living, personal care, independence and wellbeing. This nationally recognised qualification prepares learners for support roles in residential care, home care and community-based services.",
         "key_information": {
@@ -97,7 +97,7 @@
         "level": "Certificate IV",
         "name": "Certificate IV in Ageing Support",
         "slug": "certificate-iv-in-ageing-support-chc43015",
-        "image": "/industry/community-services-healthcare/CHC43015.jpg",
+        "image": "/industry/community/CHC43015.jpg",
         "short_description": "Build specialist skills to support older people, coordinate individualised care and contribute to quality service delivery in residential, home and community aged-care settings.",
         "hero_description": "Advance your career in aged care with the Certificate IV in Ageing Support (CHC43015). Develop the knowledge and practical skills to support older people, promote independence, respond to dementia-related needs, coordinate individualised services and contribute to safe, respectful and high-quality care.",
         "key_information": {
@@ -191,7 +191,7 @@
         "level": "Diploma",
         "name": "Diploma of Counselling",
         "slug": "diploma-of-counselling-chc51015",
-        "image": "/industry/community-services-healthcare/CHC51015.jpg",
+        "image": "/industry/community/CHC51015.jpg",
         "short_description": "Develop counselling communication, interviewing and relationship-building skills to support clients with personal and psychological issues in established service settings.",
         "hero_description": "Build a career supporting individuals through life's challenges with the Diploma of Counselling (CHC51015). Learn to establish effective counselling relationships, use specialist communication and interviewing techniques, apply counselling therapies and support clients with decision-making and case management in professional service environments.",
         "key_information": {
@@ -285,7 +285,7 @@
         "level": "Diploma",
         "name": "Diploma of Mental Health",
         "slug": "diploma-of-mental-health-chc53315",
-        "image": "/industry/community-services-healthcare/CHC53315.jpg",
+        "image": "/industry/community/CHC51015.jpg",
         "short_description": "Develop specialist knowledge and practical skills to support people experiencing mental health challenges through recovery-oriented services, advocacy, referral and health promotion.",
         "hero_description": "Make a positive difference in people's lives with the Diploma of Mental Health (CHC53315). Develop specialist skills to support people experiencing mental health issues, promote recovery and wellbeing, work collaboratively with care networks, provide advocacy and connect clients with appropriate services.",
         "key_information": {
@@ -381,7 +381,7 @@
         "level": "Certificate III",
         "name": "Certificate III in Plumbing",
         "slug": "certificate-iii-in-plumbing-cpc32420",
-        "image": "/industry/building-construction/CPC32420.jpg",
+        "image": "/industry/construction/CPC32420.jpg",
         "short_description": "Gain trade skills to install, maintain and repair plumbing systems across residential, commercial and industrial environments.",
         "hero_description": "Build practical trade skills with the Certificate III in Plumbing (CPC32420). Learn to install and maintain water services, sanitary plumbing and drainage, gas systems, roofing and related plumbing services. This trade qualification supports a pathway into the plumbing industry through workplace-based training and assessment.",
         "key_information": {
@@ -475,7 +475,7 @@
         "level": "Certificate IV",
         "name": "Certificate IV in Building and Construction",
         "slug": "certificate-iv-in-building-and-construction-cpc40120",
-        "image": "/industry/building-construction/CPC40120.jpg",
+        "image": "/industry/construction/CPC40120.jpg",
         "short_description": "Develop the skills to plan, coordinate and supervise building and construction projects, manage site operations and apply building codes, contracts and safety requirements.",
         "hero_description": "Take the next step in the construction industry with the Certificate IV in Building and Construction (CPC40120). Develop practical knowledge in construction planning, site supervision, building codes, contracts, work health and safety and quality management. Elective choices support either a Building or Site Management occupational pathway.",
         "key_information": {
@@ -569,7 +569,7 @@
         "level": "Certificate IV",
         "name": "Certificate IV in Plumbing and Services",
         "slug": "certificate-iv-in-plumbing-and-services-cpc40920",
-        "image": "/industry/building-construction/CPC40920.jpg",
+        "image": "/industry/construction/CPC40120.jpg",
         "short_description": "Develop advanced plumbing and services skills in either plumbing operations or hydraulic services design, including technical planning, compliance and specialised systems.",
         "hero_description": "Advance your plumbing career with the Certificate IV in Plumbing and Services (CPC40920). Choose a pathway in Plumbing Operations or Hydraulic Services Design and build specialised skills in technical planning, plumbing systems, regulatory compliance and service delivery.",
         "key_information": {
@@ -662,7 +662,7 @@
         "level": "Diploma",
         "name": "Diploma of Building and Construction (Building)",
         "slug": "diploma-of-building-and-construction-building-cpc50220",
-        "image": "/industry/building-construction/CPC50220.jpg",
+        "image": "/industry/construction/CPC40120.jpg",
         "short_description": "Build advanced skills in managing building projects, estimating, contracts, construction risk, structural principles and quality across residential and commercial construction.",
         "hero_description": "Prepare for greater responsibility in the building industry with the Diploma of Building and Construction (Building) (CPC50220). Develop the skills to plan and manage construction projects, interpret building codes, estimate costs, administer contracts, coordinate contractors and oversee construction quality and safety.",
         "key_information": {
@@ -756,7 +756,7 @@
         "level": "Certificate IV",
         "name": "Certificate IV in Real Estate Practice",
         "slug": "certificate-iv-in-real-estate-practice-cpp41419",
-        "image": "/industry/real-estate/CPP41419.jpg",
+        "image": "/industry/construction/CPC32420.jpg",
         "short_description": "Develop the knowledge and practical skills required for professional real estate practice, including property sales, marketing, buyer and seller relationships and property management.",
         "hero_description": "Start or advance your career in real estate with the Certificate IV in Real Estate Practice (CPP41419). Learn professional and ethical practice, real estate legislation, marketing, client relationships and trust account fundamentals, with elective choices that support property sales and property management pathways.",
         "key_information": {
@@ -850,7 +850,7 @@
         "level": "Certificate IV",
         "name": "Certificate IV in Accounting and Bookkeeping",
         "slug": "certificate-iv-in-accounting-and-bookkeeping-fns40222",
-        "image": "/industry/business-accounting/FNS40222.jpg",
+        "image": "/industry/business/FNS40222.jpg",
         "short_description": "Develop practical accounting and bookkeeping skills in financial transactions, reconciliations, budgets, financial reports, payroll and business activity statements.",
         "hero_description": "Build a career in finance and bookkeeping with the Certificate IV in Accounting and Bookkeeping (FNS40222). Learn to process financial transactions, maintain ledgers, prepare budgets and financial reports, operate accounting systems and support payroll and business activity statement processes.",
         "key_information": {
@@ -944,7 +944,7 @@
         "level": "Certificate III",
         "name": "Certificate III in Engineering - Fabrication Trade",
         "slug": "certificate-iii-in-engineering-fabrication-trade-mem31925",
-        "image": "/industry/engineering-manufacturing/MEM31925.jpg",
+        "image": "/industry/manufacturing/MEM31925.jpg",
         "short_description": "Develop fabrication trade skills in interpreting technical drawings, measuring, cutting, forming, welding and assembling metal products and structures.",
         "hero_description": "Build practical metal fabrication skills with the Certificate III in Engineering – Fabrication Trade (MEM31925). Learn to interpret technical drawings, perform engineering measurements, use hand and power tools, work safely and fabricate metal components through industry-focused training and assessment.",
         "key_information": {

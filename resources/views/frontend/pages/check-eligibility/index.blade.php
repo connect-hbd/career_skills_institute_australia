@@ -10,8 +10,8 @@
     <div class="mx-auto max-w-2xl px-4 py-8 sm:px-6 lg:py-12" x-data="eligibilityForm()">
 
         <!-- =========================================================
-                 FORM CARD
-            ========================================================== -->
+                         FORM CARD
+                    ========================================================== -->
         <div class="overflow-hidden rounded-3xl border border-slate-200/80 bg-white/90 shadow-xl backdrop-blur-md">
 
             <!-- Header -->
@@ -52,8 +52,8 @@
             </div>
 
             <!-- =====================================================
-                     FORM CONTENT
-                ====================================================== -->
+                             FORM CONTENT
+                        ====================================================== -->
             <form class="p-6 sm:p-8" method="POST" action="{{ route('eligibility.submit') }}" @submit.prevent="submitForm">
                 @csrf
 
@@ -71,8 +71,8 @@
                 </template>
 
                 <!-- =================================================
-                         STEP 1
-                    ================================================== -->
+                                 STEP 1
+                            ================================================== -->
                 <div x-show="step === 1" x-cloak x-transition:enter="transition ease-out duration-300"
                     x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0"
                     class="space-y-5">
@@ -134,8 +134,8 @@
                 </div>
 
                 <!-- =================================================
-                         STEP 2
-                    ================================================== -->
+                                 STEP 2
+                            ================================================== -->
                 <div x-show="step === 2" x-cloak x-transition:enter="transition ease-out duration-300"
                     x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0"
                     class="space-y-5">
@@ -147,13 +147,16 @@
                         </label>
                         <div class="relative">
                             <select x-model="formData.industry" @change="formData.qualification = ''"
-                                class="w-full appearance-none rounded-2xl border border-slate-200 bg-slate-50/50 px-4 py-3 pr-10 text-sm font-medium text-slate-900 outline-none transition-all duration-200 focus:border-brand-500 focus:bg-white focus:ring-4 focus:ring-brand-500/10">
+                                class="w-full rounded-2xl border border-slate-200 bg-slate-50/50 px-4 py-3 text-sm outline-none focus:border-brand-500 focus:ring-4 focus:ring-brand-500/10">
                                 <option value="">Select Industry</option>
+
                                 @foreach ($industries as $industry)
-                                    <option value="{{ $industry['id'] }}">{{ $industry['name'] }}</option>
+                                    <option value="{{ $industry['slug'] }}">
+                                        {{ $industry['name'] }}
+                                    </option>
                                 @endforeach
                             </select>
-                         
+
                         </div>
                         <template x-if="errors.industry">
                             <p class="mt-1.5 text-xs font-medium text-rose-500" x-text="errors.industry[0]"></p>
@@ -167,14 +170,15 @@
                         </label>
                         <div class="relative">
                             <select x-model="formData.qualification" :disabled="!formData.industry"
-                                class="w-full appearance-none rounded-2xl border border-slate-200 bg-slate-50/50 px-4 py-3 pr-10 text-sm font-medium text-slate-900 outline-none transition-all duration-200 focus:border-brand-500 focus:bg-white focus:ring-4 focus:ring-brand-500/10 disabled:cursor-not-allowed disabled:bg-slate-100 disabled:text-slate-400">
-                                <option value=""
-                                    x-text="formData.industry ? 'Select a qualification' : 'Select an industry first'">
+                                class="w-full rounded-2xl border border-slate-200 bg-slate-50/50 px-4 py-3 text-sm outline-none focus:border-brand-500 focus:ring-4 focus:ring-brand-500/10 disabled:cursor-not-allowed disabled:bg-slate-100">
+                                <option value="">
+                                    Select Qualification
                                 </option>
+
                                 <template x-for="course in availableCourses" :key="course.code">
-                                    <option :value="course.name" x-text="`${course.code} — ${course.name}`"></option>
+                                    <option :value="course.code" x-text="`${course.code} - ${course.name}`"></option>
                                 </template>
-                            </select>                         
+                            </select>
                         </div>
                         <p x-show="formData.industry && !availableCourses.length" class="mt-1.5 text-xs text-slate-500">
                             No qualifications are currently available for this industry.
@@ -200,8 +204,8 @@
                 </div>
 
                 <!-- =================================================
-                         STEP 3
-                    ================================================== -->
+                                 STEP 3
+                            ================================================== -->
                 <div x-show="step === 3" x-cloak x-transition:enter="transition ease-out duration-300"
                     x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0"
                     class="space-y-5">
@@ -243,7 +247,7 @@
                                     <option value="{{ $code }}">{{ $stateName }}</option>
                                 @endforeach
                             </select>
-                          
+
                         </div>
                         <template x-if="errors.state">
                             <p class="mt-1.5 text-xs font-medium text-rose-500" x-text="errors.state[0]"></p>
@@ -269,8 +273,8 @@
                 </div>
 
                 <!-- =================================================
-                         ACTIONS
-                    ================================================== -->
+                                 ACTIONS
+                            ================================================== -->
                 <div class="mt-8 flex items-center justify-between border-t border-slate-100 pt-6">
 
                     <!-- Back Button -->
@@ -319,215 +323,61 @@
             </form>
         </div>
 
-    <!-- =========================================================
-             SUCCESS MODAL
-        ========================================================== -->
-    <div x-cloak x-show="successModal" x-transition:enter="transition ease-out duration-300"
-        x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
-        class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 backdrop-blur-md" role="dialog"
-        aria-modal="true" aria-labelledby="success-title" @keydown.escape.window="returnToStart()">
+        <!-- =========================================================
+                     SUCCESS MODAL
+                ========================================================== -->
+        <div x-cloak x-show="successModal" x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+            class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 backdrop-blur-md"
+            role="dialog" aria-modal="true" aria-labelledby="success-title" @keydown.escape.window="returnToStart()">
 
-        <div x-show="successModal" x-transition:enter="transition ease-out duration-300"
-            x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
-            class="w-full max-w-md transform overflow-hidden rounded-3xl bg-white p-8 text-center shadow-2xl transition-all">
+            <div x-show="successModal" x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
+                class="w-full max-w-md transform overflow-hidden rounded-3xl bg-white p-8 text-center shadow-2xl transition-all">
 
-            <div
-                class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-emerald-50 text-emerald-600 ring-8 ring-emerald-50/50">
-                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                </svg>
+                <div
+                    class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-emerald-50 text-emerald-600 ring-8 ring-emerald-50/50">
+                    <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                </div>
+
+                <p class="mt-6 text-xs font-bold uppercase tracking-wider text-emerald-600">
+                    Application Received
+                </p>
+
+                <h3 id="success-title" class="mt-1 text-2xl font-bold tracking-tight text-slate-900">
+                    Thank you for getting in touch.
+                </h3>
+
+                <p class="mt-3 text-sm leading-relaxed text-slate-600" x-text="successMessage"></p>
+
+                <p class="mt-4 text-xs font-medium text-slate-400">
+                    Returning to the first step shortly…
+                </p>
+
+                <button type="button" @click="returnToStart()"
+                    class="mt-6 w-full rounded-2xl bg-brand-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand-600/25 transition-all duration-200 hover:bg-brand-700">
+                    Start a new check
+                </button>
             </div>
-
-            <p class="mt-6 text-xs font-bold uppercase tracking-wider text-emerald-600">
-                Application Received
-            </p>
-
-            <h3 id="success-title" class="mt-1 text-2xl font-bold tracking-tight text-slate-900">
-                Thank you for getting in touch.
-            </h3>
-
-            <p class="mt-3 text-sm leading-relaxed text-slate-600" x-text="successMessage"></p>
-
-            <p class="mt-4 text-xs font-medium text-slate-400">
-                Returning to the first step shortly…
-            </p>
-
-            <button type="button" @click="returnToStart()"
-                class="mt-6 w-full rounded-2xl bg-brand-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand-600/25 transition-all duration-200 hover:bg-brand-700">
-                Start a new check
-            </button>
         </div>
-    </div>
 
-    <!-- =============================================================
-             ALPINE APPLICATION (UNCHANGED)
-        ============================================================= -->
-    <script>
-        function eligibilityForm() {
-            return {
-                step: 1,
-                loading: false,
-                successModal: false,
-                successMessage: '',
-                errors: {},
-                formError: '',
-                coursesByIndustry: @js($coursesByIndustry),
+        <!-- =============================================================
+                     ALPINE APPLICATION (UNCHANGED)
+                ============================================================= -->
+        <script>
+            function eligibilityForm() {
+                return {
+                    step: 1,
+                    loading: false,
+                    successModal: false,
+                    successMessage: '',
+                    errors: {},
+                    formError: '',
+                    coursesByIndustry: @js($coursesByIndustry),
 
-                formData: {
-                    first_name: '',
-                    last_name: '',
-                    email: '',
-                    phone: '',
-                    industry: '',
-                    qualification: '',
-                    experience_years: '',
-                    experience_location: '',
-                    has_formal_qualification: null,
-                    state: '',
-                    terms_accepted: false
-                },
-
-                get availableCourses() {
-                    return this.coursesByIndustry[this.formData.industry] || [];
-                },
-
-                nextStep() {
-                    if (this.validateCurrentStep() && this.step < 3) {
-                        this.step++;
-                    }
-                },
-
-                previousStep() {
-                    this.errors = {};
-                    this.formError = '';
-
-                    if (this.step > 1) {
-                        this.step--;
-                    }
-                },
-
-                validateCurrentStep() {
-                    this.errors = {};
-                    this.formError = '';
-
-                    const required = (field, message) => {
-                        if (this.formData[field] === '' || this.formData[field] === null || this.formData[field] === false) {
-                            this.errors[field] = [message];
-                        }
-                    };
-
-                    if (this.step === 1) {
-                        required('first_name', 'Please enter your first name.');
-                        required('last_name', 'Please enter your last name.');
-                        required('email', 'Please enter your email address.');
-                        required('phone', 'Please enter your phone number.');
-
-                        if (this.formData.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.formData.email)) {
-                            this.errors.email = ['Please enter a valid email address.'];
-                        }
-                    }
-
-                    if (this.step === 2) {
-                        required('industry', 'Please select an industry.');
-                        required('qualification', 'Please select a qualification.');
-                        required('experience_years', 'Please enter your years of experience.');
-
-                        if (this.formData.experience_years !== '' &&
-                            (!Number.isInteger(Number(this.formData.experience_years)) || Number(this.formData.experience_years) < 0 || Number(this.formData.experience_years) > 50)) {
-                            this.errors.experience_years = ['Enter a whole number between 0 and 50.'];
-                        }
-                    }
-
-                    if (this.step === 3) {
-                        if (this.formData.has_formal_qualification === null) {
-                            this.errors.has_formal_qualification = ['Please choose Yes or No.'];
-                        }
-                        required('state', 'Please select your state or territory.');
-                        if (!this.formData.terms_accepted) {
-                            this.errors.terms_accepted = ['You must accept the privacy policy to continue.'];
-                        }
-                    }
-
-                    if (Object.keys(this.errors).length) {
-                        this.formError = 'Please correct the highlighted fields before continuing.';
-                        return false;
-                    }
-
-                    return true;
-                },
-
-                async submitForm() {
-                    if (!this.validateCurrentStep()) {
-                        return;
-                    }
-
-                    this.loading = true;
-
-                    const csrfToken = document.querySelector(
-                        'input[name="_token"]'
-                    )?.value;
-
-                    try {
-                        const response = await fetch(
-                            "{{ route('eligibility.submit') }}", {
-                                method: 'POST',
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Accept': 'application/json',
-                                    'X-CSRF-TOKEN': csrfToken,
-                                    'X-Requested-With': 'XMLHttpRequest'
-                                },
-                                body: JSON.stringify(this.formData)
-                            }
-                        );
-
-                        const isJson = response.headers.get('content-type')?.includes('application/json');
-                        const data = isJson ? await response.json() : {};
-
-                        if (response.ok && data.success) {
-                            this.successMessage = data.message;
-                            this.successModal = true;
-                            window.setTimeout(() => this.resetForm(), 4000);
-                            return;
-                        }
-
-                        if (response.status === 422) {
-                            this.errors = data.errors || {};
-                            this.formError = data.message || '';
-                            return;
-                        }
-
-                        if (response.status === 419) {
-                            this.formError =
-                                'Your session has expired. Please refresh the page and try again.';
-                            return;
-                        }
-
-                        this.formError =
-                            data.message ||
-                            'Something went wrong. Please try again.';
-
-                    } catch (error) {
-                        console.error(error);
-                        this.formError =
-                            'Unable to connect to the server. Please try again.';
-                    } finally {
-                        this.loading = false;
-                    }
-                },
-
-                returnToStart() {
-                    this.resetForm();
-                },
-
-                resetForm() {
-                    this.step = 1;
-                    this.loading = false;
-                    this.successModal = false;
-                    this.successMessage = '';
-                    this.errors = {};
-                    this.formError = '';
-                    this.formData = {
+                    formData: {
                         first_name: '',
                         last_name: '',
                         email: '',
@@ -539,10 +389,166 @@
                         has_formal_qualification: null,
                         state: '',
                         terms_accepted: false
-                    };
+                    },
+
+                    get availableCourses() {
+                        return this.coursesByIndustry[this.formData.industry] || [];
+                    },
+
+                    nextStep() {
+                        if (this.validateCurrentStep() && this.step < 3) {
+                            this.step++;
+                        }
+                    },
+
+                    previousStep() {
+                        this.errors = {};
+                        this.formError = '';
+
+                        if (this.step > 1) {
+                            this.step--;
+                        }
+                    },
+
+                    validateCurrentStep() {
+                        this.errors = {};
+                        this.formError = '';
+
+                        const required = (field, message) => {
+                            if (this.formData[field] === '' || this.formData[field] === null || this.formData[field] ===
+                                false) {
+                                this.errors[field] = [message];
+                            }
+                        };
+
+                        if (this.step === 1) {
+                            required('first_name', 'Please enter your first name.');
+                            required('last_name', 'Please enter your last name.');
+                            required('email', 'Please enter your email address.');
+                            required('phone', 'Please enter your phone number.');
+
+                            if (this.formData.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.formData.email)) {
+                                this.errors.email = ['Please enter a valid email address.'];
+                            }
+                        }
+
+                        if (this.step === 2) {
+                            required('industry', 'Please select an industry.');
+                            required('qualification', 'Please select a qualification.');
+                            required('experience_years', 'Please enter your years of experience.');
+
+                            if (this.formData.experience_years !== '' &&
+                                (!Number.isInteger(Number(this.formData.experience_years)) || Number(this.formData
+                                    .experience_years) < 0 || Number(this.formData.experience_years) > 50)) {
+                                this.errors.experience_years = ['Enter a whole number between 0 and 50.'];
+                            }
+                        }
+
+                        if (this.step === 3) {
+                            if (this.formData.has_formal_qualification === null) {
+                                this.errors.has_formal_qualification = ['Please choose Yes or No.'];
+                            }
+                            required('state', 'Please select your state or territory.');
+                            if (!this.formData.terms_accepted) {
+                                this.errors.terms_accepted = ['You must accept the privacy policy to continue.'];
+                            }
+                        }
+
+                        if (Object.keys(this.errors).length) {
+                            this.formError = 'Please correct the highlighted fields before continuing.';
+                            return false;
+                        }
+
+                        return true;
+                    },
+
+                    async submitForm() {
+                        if (!this.validateCurrentStep()) {
+                            return;
+                        }
+
+                        this.loading = true;
+
+                        const csrfToken = document.querySelector(
+                            'input[name="_token"]'
+                        )?.value;
+
+                        try {
+                            const response = await fetch(
+                                "{{ route('eligibility.submit') }}", {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                        'Accept': 'application/json',
+                                        'X-CSRF-TOKEN': csrfToken,
+                                        'X-Requested-With': 'XMLHttpRequest'
+                                    },
+                                    body: JSON.stringify(this.formData)
+                                }
+                            );
+
+                            const isJson = response.headers.get('content-type')?.includes('application/json');
+                            const data = isJson ? await response.json() : {};
+
+                            if (response.ok && data.success) {
+                                this.successMessage = data.message;
+                                this.successModal = true;
+                                window.setTimeout(() => this.resetForm(), 4000);
+                                return;
+                            }
+
+                            if (response.status === 422) {
+                                this.errors = data.errors || {};
+                                this.formError = data.message || '';
+                                return;
+                            }
+
+                            if (response.status === 419) {
+                                this.formError =
+                                    'Your session has expired. Please refresh the page and try again.';
+                                return;
+                            }
+
+                            this.formError =
+                                data.message ||
+                                'Something went wrong. Please try again.';
+
+                        } catch (error) {
+                            console.error(error);
+                            this.formError =
+                                'Unable to connect to the server. Please try again.';
+                        } finally {
+                            this.loading = false;
+                        }
+                    },
+
+                    returnToStart() {
+                        this.resetForm();
+                    },
+
+                    resetForm() {
+                        this.step = 1;
+                        this.loading = false;
+                        this.successModal = false;
+                        this.successMessage = '';
+                        this.errors = {};
+                        this.formError = '';
+                        this.formData = {
+                            first_name: '',
+                            last_name: '',
+                            email: '',
+                            phone: '',
+                            industry: '',
+                            qualification: '',
+                            experience_years: '',
+                            experience_location: '',
+                            has_formal_qualification: null,
+                            state: '',
+                            terms_accepted: false
+                        };
+                    }
                 }
             }
-        }
-    </script>
-</div>
+        </script>
+    </div>
 @endsection

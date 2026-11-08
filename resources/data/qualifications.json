@@ -1,4 +1,97 @@
 [
+     {
+        "code": "AUR30620",
+        "industry_slug": "automotive",
+        "level": "Certificate III",
+        "name": "Certificate III in Light Vehicle Mechanical Technology",
+        "slug": "certificate-iii-in-light-vehicle-mechanical-technology-aur30620",
+        "image": "/industry/automotive/AUR30620.jpg",
+        "short_description": "Develop the practical skills and knowledge to provide person-centred support to people who require assistance due to ageing, disability or other support needs in community, home and residential care settings.",
+        "hero_description": "Start a meaningful career in community and care services with the Certificate III in Individual Support (AUR30620). Build the skills to support people with dignity, respect and compassion while assisting with daily living, personal care, independence and wellbeing. This nationally recognised qualification prepares learners for support roles in residential care, home care and community-based services.",
+        "key_information": {
+            "duration": "Provider-dependent. Many full-time programs are delivered over approximately 6–12 months; apprenticeship and part-time arrangements may take longer.",
+            "delivery": "A combination of classroom or online learning, practical skills training and supervised workplace-based learning. At least 120 hours of work must be completed in accordance with the unit assessment requirements.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "15 units of competency: 9 core units and 6 elective units. Specialisations are available in Ageing, Disability, and Ageing and Disability.",
+            "start_date": "09/Feb/2023",
+            "end_date": "26/Apr/2032",
+            "delivery_notification": "Delivery mode, placement arrangements, campus availability and intake dates vary by registered training provider. Confirm current availability and placement requirements with the provider."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/AUR30620/qualdetails",
+        "overview": "The Certificate III in Individual Support reflects the role of workers who provide person-centred support to people who may require assistance due to ageing, disability or other reasons. Workers may be employed in community, home or residential care settings and generally work under supervision and delegation as part of a multidisciplinary team, following an individualised plan. The qualification develops practical and procedural skills for supporting daily living, independence, wellbeing, communication, safety and individual choice. To achieve the qualification, learners complete 15 units: 9 core units and 6 electives. Elective choices can lead to specialisations in Ageing, Disability, or Ageing and Disability. Candidates must complete at least 120 hours of work as specified in the assessment requirements. There are no formal entry requirements in the national qualification; individual providers may set additional admission requirements.",
+        "graduate_outcomes": [
+            "Provide person-centred support in accordance with an individualised plan.",
+            "Assist clients with personal care and activities of daily living.",
+            "Support independence, wellbeing, choice and dignity.",
+            "Communicate effectively with clients, families and other care professionals.",
+            "Recognise and report changes in a client's health, behaviour or support needs.",
+            "Follow workplace health and safety, infection prevention and control procedures.",
+            "Identify and report risks, abuse or unsafe practices in accordance with workplace procedures.",
+            "Support people living with disability or age-related support needs."
+        ],
+        "career_pathways": [
+            {
+                "title": "Personal Care Assistant",
+                "description": "Assist people with personal care, daily living activities and wellbeing in residential or home-based care."
+            },
+            {
+                "title": "Aged Care Support Worker",
+                "description": "Provide practical and person-centred assistance to older people in aged care or community settings."
+            },
+            {
+                "title": "Disability Support Worker",
+                "description": "Support people with disability to build independence, participate in community life and achieve individual goals."
+            },
+            {
+                "title": "Home Care Assistant",
+                "description": "Deliver support to clients in their homes, helping them maintain independence and quality of life."
+            },
+            {
+                "title": "Residential Care Worker",
+                "description": "Provide daily support and assistance to residents in residential care facilities."
+            },
+            {
+                "title": "Community Support Worker",
+                "description": "Assist clients to access community services, activities and individual support programs."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is AUR30620 Certificate III in Individual Support?",
+                "answer": "AUR30620 is a nationally recognised Australian vocational qualification for people who provide person-centred support in community, home and residential care settings."
+            },
+            {
+                "question": "How many units are required?",
+                "answer": "The qualification requires 15 units: 9 core units and 6 elective units."
+            },
+            {
+                "question": "Are specialisations available?",
+                "answer": "Yes. Elective selection can lead to the Ageing, Disability, or Ageing and Disability specialisations."
+            },
+            {
+                "question": "Is work placement required?",
+                "answer": "Yes. Candidates must complete at least 120 hours of work as detailed in the assessment requirements of the units."
+            },
+            {
+                "question": "What are the entry requirements?",
+                "answer": "The national qualification has no formal entry requirements. Individual registered training providers may apply their own admission requirements."
+            },
+            {
+                "question": "What jobs can I apply for after graduation?",
+                "answer": "Potential roles include personal care assistant, aged care support worker, disability support worker, home care assistant and community support worker."
+            },
+            {
+                "question": "Can international students study this qualification?",
+                "answer": "Some providers may offer this qualification to international students. Confirm the provider's CRICOS registration, course availability, English language and admission requirements before applying."
+            },
+            {
+                "question": "Where can I check the official qualification details?",
+                "answer": "Visit the Australian National Training Register: https://training.gov.au/training/details/AUR30620/qualdetails."
+            }
+        ]
+    },
+
     {
         "code": "CHC33021",
         "industry_slug": "community-services-healthcare",

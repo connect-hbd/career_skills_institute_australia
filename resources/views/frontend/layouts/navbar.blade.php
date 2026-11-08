@@ -29,7 +29,7 @@
                 <!-- Logo -->
                 <div class=" p-1.5">
                     <a href="/" class="flex items-center gap-2 font-semibold">
-                         <img src="{{ asset('logo.png') }}" alt="Career Skills Institute" class="h-16 w-auto" width="123"
+                         <img src="{{ asset('logo.png') }}" alt="Career Skills Institute Australia" class="h-16 w-auto" width="123"
                         height="114">
                     </a>
                 </div>

@@ -35,7 +35,7 @@
                 {{-- Subtitle --}}
                 <p class="max-w-2xl text-sm leading-6 text-slate-600 sm:leading-7 md:text-base">
                     Access important student information and resources to help you understand your rights,
-                    responsibilities, enrolment procedures and learning journey at Career Skills Institute Australia.
+                    responsibilities, enrolment procedures and learning journey at Career Skills Institute Australia Australia.
                 </p>
 
                 {{-- Checklist Features --}}
@@ -101,8 +101,6 @@
                 </div>
                 <span class="text-slate-300">•</span>
                 <span>Updated: January 2025</span>
-                <span class="text-slate-300">•</span>
-                <span>Verified ASQA VET</span>
             </div>
         </div>
 

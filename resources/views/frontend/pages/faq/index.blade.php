@@ -442,7 +442,7 @@
                                     <div class="hidden h-8 w-1 shrink-0 rounded-full bg-secondary-400 sm:block"></div>
 
                                     <p class="text-sm leading-7 text-slate-600 sm:text-[15px]">
-                                        There is a pre-assessment process that is free of charge, and it takes place prior to enrolment. If you are not eligible for an Career Skills Institute, it will be determined during the pre-assessment.
+                                        There is a pre-assessment process that is free of charge, and it takes place prior to enrolment. If you are not eligible for an Career Skills Institute Australia, it will be determined during the pre-assessment.
                                     </p>
 
                                 </div>
@@ -524,7 +524,7 @@
                                         <ul class="mt-4 list-disc space-y-2 pl-5 text-sm leading-7 text-slate-600 sm:text-[15px]">
 
                                             <li>understanding the process</li>
-                                            <li>explaining the costs of the Career Skills Institute process</li>
+                                            <li>explaining the costs of the Career Skills Institute Australia process</li>
                                             <li>what is needed in terms of supporting documents</li>
                                             <li>help completing forms</li>
                                             <li>information on what you should do to apply for a building license</li>
@@ -874,7 +874,7 @@
                                 </span>
 
                                 <span class="block text-sm font-extrabold leading-6 text-brand-950 sm:text-base">
-                                    Can I apply for Career Skills Institute or training if I’m in Australia on a 457 Visa?
+                                    Can I apply for Career Skills Institute Australia or training if I’m in Australia on a 457 Visa?
                                 </span>
 
                             </div>
@@ -1022,7 +1022,7 @@
                                 </span>
 
                                 <span class="block text-sm font-extrabold leading-6 text-brand-950 sm:text-base">
-                                    How much does the Career Skills Institutecost?
+                                    How much does the Career Skills Institute Australiacost?
                                 </span>
 
                             </div>
@@ -1096,7 +1096,7 @@
                                 </span>
 
                                 <span class="block text-sm font-extrabold leading-6 text-brand-950 sm:text-base">
-                                    Can I apply for Career Skills Institute or training if I’m in Australia on a 457 Visa?
+                                    Can I apply for Career Skills Institute Australia or training if I’m in Australia on a 457 Visa?
                                 </span>
 
                             </div>

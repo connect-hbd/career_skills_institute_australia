@@ -21,7 +21,7 @@
                 <div class="mb-8 text-center sm:mb-10">
                     <h1
                         class="text-xl font-bold uppercase tracking-tight text-neutral-800 dark:text-white sm:text-2xl md:text-3xl">
-                        Register for Career Skills Institute
+                        Register for Career Skills Institute Australia
                     </h1>
 
                     <p class="mt-1.5 text-xs text-neutral-500 dark:text-neutral-400 sm:text-sm">

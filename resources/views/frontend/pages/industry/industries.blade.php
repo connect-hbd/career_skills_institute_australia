@@ -44,4 +44,6 @@
         </div>
 
     </section>
+    @include('frontend.pages.home.section.cta')
+
 @endsection

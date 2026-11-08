@@ -57,7 +57,7 @@
       </div>
 
       <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-[15px] text-slate-500 gap-4">
-        <p class="text-center text-sm md:text-sm">© 2024 Career Skills Institute. All rights reserved. Registered CRICOS Advisory Partner.</p>
+        <p class="text-center text-sm md:text-sm">© 2024 Career Skills Institute Australia. All rights reserved. Registered CRICOS Advisory Partner.</p>
         <div class="flex space-x-6 text-sm">
           <a href="{{ route('privacy-policy')}}" class="hover:text-slate-300">Privacy Policy</a>
           <a href="{{ route('terms-conditions')}}" class="hover:text-slate-300">Terms of Service</a>

@@ -35,7 +35,7 @@
                         Build a Better Future With
                         <br class="hidden sm:inline">
                         <span class="text-secondary-400">
-                            Career Skills Institute
+                            Career Skills Institute Australia
                         </span>
                     </h2>
 

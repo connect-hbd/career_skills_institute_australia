@@ -16,13 +16,13 @@
                 <a href="/" class="inline-flex items-center">
                     <img
                         src="{{ asset('logo.png') }}"
-                        alt="Career Skills Institute"
+                        alt="Career Skills Institute Australia"
                         class="h-16 w-auto object-contain"
                     >
                 </a>
 
                 <p class="mt-5 max-w-sm text-sm leading-7 text-slate-600">
-                    Career Skills Institute is a registered training organisation delivering nationally recognised
+                    Career Skills Institute Australia is a registered training organisation delivering nationally recognised
                     vocational education and compliant training across Australia.
                 </p>
 
@@ -280,7 +280,7 @@
         <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 text-center sm:flex-row sm:px-6 sm:text-left lg:px-8">
 
             <p class="text-xs font-medium leading-5 text-brand-100/80">
-                &copy; {{ date('Y') }} Career Skills Institute Australia. All rights reserved.
+                &copy; {{ date('Y') }} Career Skills Institute Australia Australia. All rights reserved.
             </p>
 
             <p class="inline-flex items-center gap-2 text-xs font-medium text-brand-100/80">

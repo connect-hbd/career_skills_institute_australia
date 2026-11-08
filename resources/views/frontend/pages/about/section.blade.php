@@ -32,7 +32,7 @@
                 </span>
 
                 <h2 class="mt-3 text-2xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-3xl lg:text-4xl">
-                    Welcome to Get Career Skills Institute Australia
+                    Welcome to Get Career Skills Institute Australia Australia
                 </h2>
 
                 <div class="mt-4 h-1 w-12 rounded-full bg-brand-500 sm:mt-5 sm:w-14"></div>
@@ -41,59 +41,68 @@
                     <strong class="text-slate-900">
                         Empowering Your Career Through Recognition:
                     </strong>
-                   Career Skills Institute Australia (RTO 45685) is committed to delivering quality vocational education and industry-relevant training that empowers individuals to achieve their career goals. We offer nationally recognised qualifications across community services, construction, plumbing, engineering, automotive, business and real estate. Through flexible learning options, experienced trainers and practical learning approaches, we help students develop the knowledge, skills and confidence needed to succeed in today's workforce.
+                   Career Skills Institute Australia Australia (RTO 45685) is committed to delivering quality vocational education and industry-relevant training that empowers individuals to achieve their career goals. We offer nationally recognised qualifications across community services, construction, plumbing, engineering, automotive, business and real estate. Through flexible learning options, experienced trainers and practical learning approaches, we help students develop the knowledge, skills and confidence needed to succeed in today's workforce.
                 
                 </p>
             </div>
         </div>
 
         {{-- Value Cards --}}
-        <div class="mt-12 grid gap-5 sm:mt-14 sm:gap-6 md:grid-cols-2 lg:mt-16">
+        <div class="mt-12 grid gap-6 sm:mt-14 md:grid-cols-2 lg:mt-16">
 
-            {{-- Card 1 --}}
-            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5 transition hover:border-brand-200 hover:bg-brand-50/40 sm:p-6">
-                <div class="flex items-start gap-4">
-
-                    <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-500 text-white sm:h-12 sm:w-12">
-                        <svg class="h-5 w-5 sm:h-6 sm:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                        </svg>
-                    </div>
-
-                    <div>
-                        <h3 class="text-sm font-extrabold text-slate-900 sm:text-base">
-                            Earn Nationally Accredited Qualifications
-                        </h3>
-                        <p class="mt-2 text-xs leading-5 text-slate-600 sm:leading-6">
-                            Let your genuine experience earn you an official Australian qualification without study.
-                            Give your career and immigration points a much-needed boost today.
-                        </p>
-                    </div>
-                </div>
+    {{-- Card 1: Qualification Info --}}
+    <div class="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-300 hover:shadow-md hover:shadow-brand-500/5 sm:p-7">
+        <div class="flex items-start gap-4 sm:gap-5">
+            {{-- Icon Container --}}
+            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600 transition-colors duration-300 group-hover:bg-brand-500 group-hover:text-white sm:h-14 sm:w-14">
+                <svg class="h-6 w-6 stroke-[1.75]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
             </div>
 
-            {{-- Card 2 --}}
-            {{-- <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5 transition hover:border-secondary-200 hover:bg-secondary-50/40 sm:p-6">
-                <div class="flex items-start gap-4">
-
-                    <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-secondary-500 text-white sm:h-12 sm:w-12">
-                        <svg class="h-5 w-5 sm:h-6 sm:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                        </svg>
-                    </div>
-
-                    <div>
-                        <h3 class="text-sm font-extrabold text-slate-900 sm:text-base">
-                            Save Money & Effort
-                        </h3>
-                        <p class="mt-2 text-xs leading-5 text-slate-600 sm:leading-6">
-                            Provide verifiable evidence of your knowledge and job experience in the relevant industry.
-                            We hold your hand and manage paperwork throughout the entire journey.
-                        </p>
-                    </div>
-                </div>
-            </div> --}}
+            {{-- Text Content --}}
+            <div class="space-y-1.5">
+                <h3 class="text-base font-bold tracking-tight text-slate-900 sm:text-lg">
+                    Earn Nationally Accredited Qualifications
+                </h3>
+                <p class="text-xs leading-relaxed text-slate-600 sm:text-sm">
+                    Let your genuine experience earn you an official Australian qualification without study. Give your career and immigration points a much-needed boost today.
+                </p>
+            </div>
         </div>
+    </div>
+
+    {{-- Card 2: Partner Accreditation Logos --}}
+    <div class="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-secondary-300 hover:shadow-md hover:shadow-secondary-500/5 sm:p-7">
+        <div class="flex flex-col justify-center space-y-4">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">
+                Official Accreditation
+            </span>
+
+            <div class="flex flex-wrap items-center gap-4">
+                {{-- Logo 1 --}}
+                <div class="flex h-20 flex-1 min-w-[120px] items-center justify-center rounded-xl border border-slate-100 bg-slate-50/50 p-4 transition-all duration-300 group-hover:border-secondary-100 group-hover:bg-white">
+                    <img
+                        src="{{ asset('patner_2.png') }}"
+                        alt="Educational accreditation logo"
+                        loading="lazy"
+                        class="max-h-12 w-auto object-contain transition-transform duration-300 hover:scale-105"
+                    >
+                </div>
+
+                {{-- Logo 2 --}}
+                <div class="flex h-20 flex-1 min-w-[120px] items-center justify-center rounded-xl border border-slate-100 bg-slate-50/50 p-4 transition-all duration-300 group-hover:border-secondary-100 group-hover:bg-white">
+                    <img
+                        src="{{ asset('patner_1.png') }}"
+                        alt="Educational accreditation logo"
+                        loading="lazy"
+                        class="max-h-12 w-auto object-contain transition-transform duration-300 hover:scale-105"
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
     </div>
 </section>

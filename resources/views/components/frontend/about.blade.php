@@ -10,11 +10,11 @@
             </div>
 
             <div class="text-sm lg:text-base text-neutral-600 leading-relaxed mt-3 md:mt-5 text-center md:text-left">
-                <p class="">Career Skills Institute is an Australia based, cutting – edge, accredited vocational education
+                <p class="">Career Skills Institute Australia is an Australia based, cutting – edge, accredited vocational education
                     provider. We offer courses in Leadership, Business and Information Technology with all our
                     qualifications focusing on workplace knowledge and practical skills that increase employability.
                     This work inspires the public to pay attention to social issues.Our students come from a diverse
-                    background. Career Skills Institute offers our students an opportunity to make great friends and learn from our
+                    background. Career Skills Institute Australia offers our students an opportunity to make great friends and learn from our
                     industry – expert trainers in an engaging classroom environment.</p>
             </div>
 
@@ -31,7 +31,7 @@
                         <h3 class="font-semibold text-base lg:text-lg text-neutral-900">Qualified Trainers</h3>
                     </div>
                     <div>
-                        <p class="text-sm lg:text-base text-neutral-600 text-center md:text-left">Career Skills Institute work with world class trainers to help
+                        <p class="text-sm lg:text-base text-neutral-600 text-center md:text-left">Career Skills Institute Australia work with world class trainers to help
                             students with their career aspirations & provide excellent environment to learn.</p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <h3 class="font-semibold text-base lg:text-lg text-neutral-900">CRICOS Registered</h3>
                     </div>
                     <div>
-                        <p class="text-sm lg:text-base text-neutral-600 text-center md:text-left">Career Skills Institute is registered on the Commonwealth
+                        <p class="text-sm lg:text-base text-neutral-600 text-center md:text-left">Career Skills Institute Australia is registered on the Commonwealth
                             Register of Institutions and Courses for Overseas Students (CRICOS).</p>
                     </div>
                 </div>
@@ -57,14 +57,14 @@
                 class=" mt-8 lg:mt-10 inline-flex items-center justify-center bg-brand-600 text-white px-5 py-3 lg:px-6 lg:py-3
                         rounded-lg  hover:bg-brand-500
                         transition duration-300">
-                About Career Skills Institute
+                About Career Skills Institute Australia
             </a>
         </div>
 
         <!-- Right Image -->
         <div class="relative">
             <div class="rounded-3xl overflow-hidden shadow-2xl">
-                <img src="{{ asset('penta-img/about.jpg') }}" alt="Career Skills Institute students collaborating"
+                <img src="{{ asset('penta-img/about.jpg') }}" alt="Career Skills Institute Australia students collaborating"
                     class="w-full h-full object-cover">
             </div>
         </div>

@@ -13,7 +13,7 @@
                 <h2 class="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
                     Why Choose
                     <span class="text-brand-500">
-                        Career Skills Institute?
+                        Career Skills Institute Australia?
                     </span>
                 </h2>
 

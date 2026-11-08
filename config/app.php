@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Career Skills Institute'),
+    'name' => env('APP_NAME', 'Career Skills Institute Australia'),
 
     /*
     |--------------------------------------------------------------------------

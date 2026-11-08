@@ -28,7 +28,7 @@
             {{-- Description --}}
             <p class="mx-auto mt-5 max-w-2xl text-sm text-neutral-500 sm:text-base">
 
-                Please review these Terms carefully before utilizing the services and operations offered by Career Skills Institute
+                Please review these Terms carefully before utilizing the services and operations offered by Career Skills Institute Australia
                 Education
                 Services.
 
@@ -194,7 +194,7 @@
                     </h3>
 
                     <p class="mt-1 text-xs leading-5 text-neutral-500">
-                        These terms govern your use of the Career Skills Institute website and associated services.
+                        These terms govern your use of the Career Skills Institute Australia website and associated services.
                     </p>
 
                 </div>
@@ -220,14 +220,14 @@
                             1. Introduction
                         </h2>
                         <p class="leading-relaxed">
-                            Welcome to Career Skills Institute (“Career Skills Institute”, “we”, “us”, or “our”).
+                            Welcome to Career Skills Institute Australia (“Career Skills Institute Australia”, “we”, “us”, or “our”).
                         </p>
                         <p class="leading-relaxed">
                             By accessing or using our website, services, or consultation programs, you agree to comply with
                             and be bound by these Terms and Conditions (“Terms”).
                         </p>
                         <p class="leading-relaxed">
-                            These Terms govern all services provided by Career Skills Institute, including but not limited to
+                            These Terms govern all services provided by Career Skills Institute Australia, including but not limited to
                             Recognition of Prior Learning consultations, qualification matching, documentation assistance,
                             and liaison with registered training organisations (RTOs).
                         </p>
@@ -240,10 +240,10 @@
                     <section id="section-2" class="scroll-mt-8 space-y-3">
                         <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">Section 02</span>
                         <h2 class="text-xl sm:text-2xl font-bold text-slate-900 border-b border-slate-100 pb-3">
-                            2. About Career Skills Institute
+                            2. About Career Skills Institute Australia
                         </h2>
                         <p class="leading-relaxed">
-                            Career Skills Institute is an independent education consultancy that provides guidance and
+                            Career Skills Institute Australia is an independent education consultancy that provides guidance and
                             qualification consultation.
                         </p>
                         <!-- Highlight Box -->
@@ -252,7 +252,7 @@
                             We are not an RTO (Registered Training Organisation) and do not issue qualifications directly.
                         </div>
                         <p class="leading-relaxed font-semibold text-slate-900 pt-2">
-                            Career Skills Institute assists individuals by:
+                            Career Skills Institute Australia assists individuals by:
                         </p>
                         <ul class="space-y-2 list-none pl-0">
                             <li class="flex items-start gap-3">
@@ -287,7 +287,7 @@
                             3. Services
                         </h2>
                         <p class="leading-relaxed font-semibold text-slate-900">
-                            Career Skills Institute provides the following services:
+                            Career Skills Institute Australia provides the following services:
                         </p>
                         <div class="grid grid-cols-1 gap-3 pt-2">
                             <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/70">
@@ -302,7 +302,7 @@
                             <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/70">
                                 <span class="font-bold text-slate-900">Documentation Support</span>
                                 <span class="text-slate-600"> – helping clients prepare and organise evidence required for
-                                    Career Skills Institute assessment.</span>
+                                    Career Skills Institute Australia assessment.</span>
                             </div>
                             <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/70">
                                 <span class="font-bold text-slate-900">RTO Liaison</span>
@@ -311,7 +311,7 @@
                             </div>
                             <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/70">
                                 <span class="font-bold text-slate-900">Ongoing Support</span>
-                                <span class="text-slate-600"> – guidance through each step of the Career Skills Institute
+                                <span class="text-slate-600"> – guidance through each step of the Career Skills Institute Australia
                                     journey until completion.</span>
                             </div>
                         </div>
@@ -330,18 +330,18 @@
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0"></span>
-                                <span>Consultation fees (if applicable) are payable prior to initiating the Career Skills Institute
+                                <span>Consultation fees (if applicable) are payable prior to initiating the Career Skills Institute Australia
                                     Education application process.</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0"></span>
-                                <span>Career Skills Institute may collect fees for consultation, administrative assistance, or
+                                <span>Career Skills Institute Australia may collect fees for consultation, administrative assistance, or
                                     document processing.</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0"></span>
                                 <span>Qualification and assessment fees are payable directly to the RTO, unless otherwise
-                                    arranged through Career Skills Institute.</span>
+                                    arranged through Career Skills Institute Australia.</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0"></span>
@@ -358,7 +358,7 @@
                             5. Refund Policy
                         </h2>
                         <p class="leading-relaxed">
-                            Career Skills Institute operates under a fair and transparent refund policy. Refunds are available
+                            Career Skills Institute Australia operates under a fair and transparent refund policy. Refunds are available
                             under the following conditions:
                         </p>
                         <ul class="space-y-3 list-none pl-0 my-3">
@@ -412,11 +412,11 @@
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0"></span>
-                                <span>Cooperate with Career Skills Institute and the RTO during the assessment process.</span>
+                                <span>Cooperate with Career Skills Institute Australia and the RTO during the assessment process.</span>
                             </li>
                         </ul>
                         <p class="leading-relaxed pt-2 text-slate-600 italic">
-                            Career Skills Institute will not be held responsible for delays or outcomes resulting from
+                            Career Skills Institute Australia will not be held responsible for delays or outcomes resulting from
                             incomplete or inaccurate client information.
                         </p>
                     </section>
@@ -428,7 +428,7 @@
                             7. Partnership with RTOs
                         </h2>
                         <p class="leading-relaxed">
-                            Career Skills Institute collaborates with multiple Australian Registered Training Organisations
+                            Career Skills Institute Australia collaborates with multiple Australian Registered Training Organisations
                             (RTOs) to ensure clients are connected with the most suitable providers.
                         </p>
                         <p class="leading-relaxed">
@@ -436,7 +436,7 @@
                             Authority) under the Australian Qualifications Framework (AQF).
                         </p>
                         <p class="leading-relaxed">
-                            Career Skills Institute does not influence or guarantee the outcome of the RTO’s final assessment.
+                            Career Skills Institute Australia does not influence or guarantee the outcome of the RTO’s final assessment.
                         </p>
                     </section>
 
@@ -447,7 +447,7 @@
                             8. Disclaimer
                         </h2>
                         <p class="leading-relaxed">
-                            Career Skills Institute does not issue qualifications and cannot guarantee the outcome of Open
+                            Career Skills Institute Australia does not issue qualifications and cannot guarantee the outcome of Open
                             School Education assessments.
                         </p>
                         <p class="leading-relaxed">
@@ -458,7 +458,7 @@
                             or professional advice.
                         </p>
                         <p class="leading-relaxed">
-                            Career Skills Institute is not liable for any loss or damage arising from reliance on information
+                            Career Skills Institute Australia is not liable for any loss or damage arising from reliance on information
                             or services provided.
                         </p>
                     </section>
@@ -475,7 +475,7 @@
                         <ul class="space-y-3 list-none pl-0">
                             <li class="flex items-start gap-3">
                                 <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0"></span>
-                                <span>Career Skills Institute shall not be liable for any indirect, incidental, or
+                                <span>Career Skills Institute Australia shall not be liable for any indirect, incidental, or
                                     consequential losses.</span>
                             </li>
                             <li class="flex items-start gap-3">
@@ -485,7 +485,7 @@
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0"></span>
-                                <span>Clients agree to indemnify Career Skills Institute against any loss or claim arising
+                                <span>Clients agree to indemnify Career Skills Institute Australia against any loss or claim arising
                                     from their use of services or provision of false information.</span>
                             </li>
                         </ul>
@@ -498,7 +498,7 @@
                             10. Privacy and Data Protection
                         </h2>
                         <p class="leading-relaxed">
-                            Career Skills Institute respects your privacy.
+                            Career Skills Institute Australia respects your privacy.
                         </p>
                         <p class="leading-relaxed">
                             All personal and professional information collected is handled in accordance with the Privacy
@@ -520,8 +520,8 @@
                             11. Intellectual Property
                         </h2>
                         <p class="leading-relaxed">
-                            All content, materials, and designs on the Career Skills Institute website — including text,
-                            graphics, videos, and logos — are the intellectual property of Career Skills Institute.
+                            All content, materials, and designs on the Career Skills Institute Australia website — including text,
+                            graphics, videos, and logos — are the intellectual property of Career Skills Institute Australia.
                         </p>
                         <p class="leading-relaxed">
                             You may not reproduce, distribute, or reuse any content without prior written consent.
@@ -535,7 +535,7 @@
                             12. Amendments to Terms
                         </h2>
                         <p class="leading-relaxed">
-                            Career Skills Institute reserves the right to modify or update these Terms at any time without
+                            Career Skills Institute Australia reserves the right to modify or update these Terms at any time without
                             prior notice.
                         </p>
                         <p class="leading-relaxed">
@@ -567,7 +567,7 @@
                             For any questions regarding these Terms, please contact:
                         </p>
                         <div class="p-6 rounded-2xl bg-slate-900 text-white space-y-3">
-                            <h3 class="text-lg font-bold">Career Skills Institute</h3>
+                            <h3 class="text-lg font-bold">Career Skills Institute Australia</h3>
                             <div class="space-y-1 text-sm text-slate-300">
                                 <p>
                                     <span class="font-medium text-slate-400">Email:</span>

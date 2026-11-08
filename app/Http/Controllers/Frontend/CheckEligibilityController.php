@@ -208,7 +208,7 @@ public function index()
                 $message
                     ->to('mannan.hbdservices@gmail.com')
                     ->subject(
-                        'New Eligibility Application - Career Skills Institute'
+                        'New Eligibility Application - Career Skills Institute Australia'
                     );
             }
         );

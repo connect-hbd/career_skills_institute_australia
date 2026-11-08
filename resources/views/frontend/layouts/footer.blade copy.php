@@ -13,11 +13,11 @@
                 <div class="flex items-center gap-2">
                     {{-- brightness-0 invert --}}
                     <a href="/" class="flex items-center gap-3 group font-semibold">
-                        Career Skills Institute
+                        Career Skills Institute Australia
                     </a>
                 </div>
                 <p class="text-sm text-neutral-500 max-w-md leading-relaxed">
-                    Career Skills Institute is a registered training organisation delivering nationally recognised
+                    Career Skills Institute Australia is a registered training organisation delivering nationally recognised
                     vocational education and compliant training across Australia.
                 </p>
                 <div class="flex flex-wrap gap-2 mt-2">
@@ -211,7 +211,7 @@
         <!-- Bottom Legal Bar -->
         <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
             <div>
-                &copy; 2026 Career Skills Institute. All rights reserved.
+                &copy; 2026 Career Skills Institute Australia. All rights reserved.
             </div>
             <div class="flex items-center gap-6">
                 <a class="hover:text-slate-900 transition-colors" href="{{ route('privacy-policy') }}">Privacy

@@ -1,37 +1,41 @@
 <section id="prospectus" class="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 sm:py-12 md:py-14 lg:px-8 lg:py-20">
 
-    <div class="grid grid-cols-1 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xl shadow-slate-900/5 sm:rounded-3xl lg:grid-cols-12">
+    <div
+        class="grid grid-cols-1 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xl shadow-slate-900/5 sm:rounded-3xl lg:grid-cols-12">
 
         {{-- LEFT CONTENT --}}
-        <div class="relative flex flex-col justify-between gap-6 overflow-hidden bg-white p-5 sm:gap-8 sm:p-8 md:p-10 lg:col-span-7">
+        <div
+            class="relative flex flex-col justify-between gap-6 overflow-hidden bg-white p-5 sm:gap-8 sm:p-8 md:p-10 lg:col-span-7">
 
             {{-- Decorative Accent --}}
-            <div class="pointer-events-none absolute -right-20 -top-20 h-56 w-56 rounded-full bg-brand-50 blur-3xl sm:-right-24 sm:-top-24 sm:h-72 sm:w-72"></div>
-            <div class="pointer-events-none absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-secondary-50 blur-3xl sm:-bottom-20 sm:-left-20 sm:h-64 sm:w-64"></div>
+            <div
+                class="pointer-events-none absolute -right-20 -top-20 h-56 w-56 rounded-full bg-brand-50 blur-3xl sm:-right-24 sm:-top-24 sm:h-72 sm:w-72">
+            </div>
+            <div
+                class="pointer-events-none absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-secondary-50 blur-3xl sm:-bottom-20 sm:-left-20 sm:h-64 sm:w-64">
+            </div>
 
             <div class="relative z-10 flex flex-col gap-4 sm:gap-5">
 
                 {{-- Category / Breadcrumb --}}
                 <div class="flex flex-wrap items-center gap-2">
                     <span class="text-[10px] font-bold uppercase tracking-[0.18em] text-brand-700">
-                        Documentation & Intakes
+                        STUDENT RESOURCES & DOCUMENTATION / STUDENT HANDBOOK
                     </span>
-                    <span class="text-slate-300">/</span>
-                    <span class="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500">
-                        2025 Calendar
-                    </span>
+
                 </div>
 
                 {{-- Main Heading --}}
-                <h3 class="max-w-2xl text-lg font-extrabold leading-tight tracking-tight text-slate-900 sm:text-xl md:text-2xl lg:text-3xl">
-                    Download the Official 2025 Course Booklet & Fee Schedule
+                <h3
+                    class="max-w-2xl text-lg font-extrabold leading-tight tracking-tight text-slate-900 sm:text-xl md:text-2xl lg:text-3xl">
+                    Get Your Student Handbook & Essential Documents
+
                 </h3>
 
                 {{-- Subtitle --}}
                 <p class="max-w-2xl text-sm leading-6 text-slate-600 sm:leading-7 md:text-base">
-                    Receive the official institutional prospectus detailing competency unit descriptions,
-                    articulation pathways, tuition breakdowns and Department of Home Affairs student visa
-                    requirements.
+                    Access important student information and resources to help you understand your rights,
+                    responsibilities, enrolment procedures and learning journey at Career Skills Institute Australia.
                 </p>
 
                 {{-- Checklist Features --}}
@@ -42,8 +46,8 @@
                             <iconify-icon icon="lucide:check-circle-2"></iconify-icon>
                         </span>
                         <span class="text-sm leading-5 text-slate-600 sm:leading-6">
-                            <strong class="font-semibold text-slate-900">Transparent Fee Schedules:</strong>
-                            Material costs, uniform fees and flexible quarterly instalment timetables.
+                            <strong class="font-semibold text-slate-900">Student Handbook:</strong>
+                            Understand our policies, student rights, responsibilities and support services.
                         </span>
                     </div>
 
@@ -52,8 +56,8 @@
                             <iconify-icon icon="lucide:check-circle-2"></iconify-icon>
                         </span>
                         <span class="text-sm leading-5 text-slate-600 sm:leading-6">
-                            <strong class="font-semibold text-slate-900">CRICOS & ESOS Standards:</strong>
-                            Mandatory hours, attendance compliance tracking and English proficiency thresholds.
+                            <strong class="font-semibold text-slate-900">Enrolment Information:</strong>
+                            Learn about admission requirements, enrolment procedures and student obligations.
                         </span>
                     </div>
 
@@ -62,15 +66,35 @@
                             <iconify-icon icon="lucide:check-circle-2"></iconify-icon>
                         </span>
                         <span class="text-sm leading-5 text-slate-600 sm:leading-6">
-                            <strong class="font-semibold text-slate-900">Work Placement Agreements:</strong>
-                            Approved employer networks in Western Sydney and regional NSW.
+                            <strong class="font-semibold text-slate-900">Student Policies:</strong>
+                            Access important information about privacy, refunds, complaints, appeals and cancellations.
+                        </span>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="mt-0.5 flex shrink-0 items-center text-lg text-brand-600 sm:text-xl">
+                            <iconify-icon icon="lucide:check-circle-2"></iconify-icon>
+                        </span>
+                        <span class="text-sm leading-5 text-slate-600 sm:leading-6">
+                            <strong class="font-semibold text-slate-900">Training & Assessment Guidelines:</strong>
+                            Understand assessment procedures, learning expectations and academic requirements.
+                        </span>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="mt-0.5 flex shrink-0 items-center text-lg text-brand-600 sm:text-xl">
+                            <iconify-icon icon="lucide:check-circle-2"></iconify-icon>
+                        </span>
+                        <span class="text-sm leading-5 text-slate-600 sm:leading-6">
+                            <strong class="font-semibold text-slate-900">Student Support Services:</strong>
+                            Find information about learning assistance, wellbeing support and available student
+                            resources.
                         </span>
                     </div>
                 </div>
             </div>
 
             {{-- Footer Meta Info --}}
-            <div class="relative z-10 flex flex-wrap items-center gap-x-3 gap-y-2 border-t border-slate-200 pt-4 text-[9px] font-bold uppercase tracking-wide text-slate-500 sm:pt-5">
+            <div
+                class="relative z-10 flex flex-wrap items-center gap-x-3 gap-y-2 border-t border-slate-200 pt-4 text-[9px] font-bold uppercase tracking-wide text-slate-500 sm:pt-5">
                 <div class="flex items-center gap-1.5">
                     <iconify-icon icon="lucide:file-text" class="text-base text-brand-600"></iconify-icon>
                     <span>PDF (3.8 MB)</span>
@@ -83,18 +107,24 @@
         </div>
 
         {{-- RIGHT FORM --}}
-        <div class="relative flex flex-col justify-center overflow-hidden bg-brand-950 p-5 sm:p-8 md:p-10 lg:col-span-5">
+        <div
+            class="relative flex flex-col justify-center overflow-hidden bg-brand-950 p-5 sm:p-8 md:p-10 lg:col-span-5">
 
             {{-- Form Background Decorations --}}
-            <div class="pointer-events-none absolute -right-20 -top-20 h-56 w-56 rounded-full bg-brand-500/20 blur-[80px] sm:-right-24 sm:-top-24 sm:h-72 sm:w-72 sm:blur-[100px]"></div>
-            <div class="pointer-events-none absolute -bottom-20 -left-20 h-48 w-48 rounded-full bg-secondary-500/10 blur-[80px] sm:-bottom-24 sm:-left-24 sm:h-64 sm:w-64 sm:blur-[100px]"></div>
+            <div
+                class="pointer-events-none absolute -right-20 -top-20 h-56 w-56 rounded-full bg-brand-500/20 blur-[80px] sm:-right-24 sm:-top-24 sm:h-72 sm:w-72 sm:blur-[100px]">
+            </div>
+            <div
+                class="pointer-events-none absolute -bottom-20 -left-20 h-48 w-48 rounded-full bg-secondary-500/10 blur-[80px] sm:-bottom-24 sm:-left-24 sm:h-64 sm:w-64 sm:blur-[100px]">
+            </div>
 
             <form class="relative z-10 flex flex-col gap-4 sm:gap-5"
-                  onsubmit="event.preventDefault(); alert('Course prospectus PDF has been dispatched to your email address.');">
+                onsubmit="event.preventDefault(); alert('Course prospectus PDF has been dispatched to your email address.');">
 
                 {{-- Form Heading --}}
                 <div class="border-b border-white/15 pb-3.5 sm:pb-4">
-                    <div class="mb-2 inline-flex items-center gap-2 rounded-full border border-secondary-400/20 bg-secondary-400/10 px-2.5 py-1 sm:px-3">
+                    <div
+                        class="mb-2 inline-flex items-center gap-2 rounded-full border border-secondary-400/20 bg-secondary-400/10 px-2.5 py-1 sm:px-3">
                         <span class="h-1.5 w-1.5 rounded-full bg-secondary-400"></span>
                         <span class="text-[9px] font-bold uppercase tracking-widest text-secondary-300">
                             Quick & Easy Access
@@ -116,7 +146,7 @@
                         Full Legal Name *
                     </label>
                     <input id="full-name" type="text" required placeholder="e.g. Alex Henderson"
-                           class="h-11 w-full rounded-xl border border-white/10 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 outline-none transition-all duration-200 focus:border-secondary-400 focus:ring-4 focus:ring-secondary-400/15 sm:h-12" />
+                        class="h-11 w-full rounded-xl border border-white/10 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 outline-none transition-all duration-200 focus:border-secondary-400 focus:ring-4 focus:ring-secondary-400/15 sm:h-12" />
                 </div>
 
                 {{-- Email --}}
@@ -125,7 +155,7 @@
                         Email Address *
                     </label>
                     <input id="email" type="email" required placeholder="name@example.com"
-                           class="h-11 w-full rounded-xl border border-white/10 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 outline-none transition-all duration-200 focus:border-secondary-400 focus:ring-4 focus:ring-secondary-400/15 sm:h-12" />
+                        class="h-11 w-full rounded-xl border border-white/10 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 outline-none transition-all duration-200 focus:border-secondary-400 focus:ring-4 focus:ring-secondary-400/15 sm:h-12" />
                 </div>
 
                 {{-- Interest --}}
@@ -133,28 +163,27 @@
                     <label for="area-interest" class="text-[10px] font-bold uppercase tracking-wider text-slate-200">
                         Area of Interest *
                     </label>
-                    <select id="area-interest" required
-                            class="h-11 w-full rounded-xl border border-white/10 bg-white px-4 py-2.5 text-sm text-slate-900 outline-none transition-all duration-200 focus:border-secondary-400 focus:ring-4 focus:ring-secondary-400/15 sm:h-12">
-                        <option value="">Select study stream...</option>
-                        <option value="trade">Trade: Carpentry & Building Construction</option>
-                        <option value="health">Health: Aged Care & Mental Health Support</option>
-                        <option value="business">Business: Leadership & Operational Management</option>
-                        <option value="all">Full Comprehensive Multi-Discipline Guide</option>
+                    <select id="area-interest" name="qualification" required
+                        class="h-11 w-full rounded-xl border border-white/10 bg-white px-4 py-2.5 text-sm text-slate-900 outline-none transition-all duration-200 focus:border-secondary-400 focus:ring-4 focus:ring-secondary-400/15 sm:h-12">
+                        <option value="">Select your qualification...</option>
+
+                        @forelse ($qualifications as $qualification)
+                            <option value="{{ $qualification['code'] }}"
+                                data-industry="{{ $qualification['industry_slug'] }}">
+                                {{ $qualification['code'] }} -
+                                {{ $qualification['title'] ?? ($qualification['name'] ?? $qualification['code']) }}
+                            </option>
+                        @empty
+                            <option value="" disabled>No qualifications available</option>
+                        @endforelse
                     </select>
                 </div>
 
-                {{-- Visa Checkbox --}}
-                <div class="flex items-start gap-2.5 pt-0.5 sm:pt-1">
-                    <input id="student-visa" type="checkbox"
-                           class="mt-0.5 h-4 w-4 shrink-0 rounded border-white/30 accent-secondary-500" />
-                    <label for="student-visa" class="cursor-pointer select-none text-xs leading-5 text-slate-300">
-                        I require Australian Subclass 500 Student Visa guidance.
-                    </label>
-                </div>
+              
 
                 {{-- Submit Button --}}
                 <button type="submit"
-                        class="mt-1 inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-xl bg-secondary-400 px-4 py-3 text-xs font-extrabold uppercase tracking-wide text-brand-950 shadow-lg shadow-secondary-500/15 transition-all duration-300
+                    class="mt-1 inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-xl bg-secondary-400 px-4 py-3 text-xs font-extrabold uppercase tracking-wide text-brand-950 shadow-lg shadow-secondary-500/15 transition-all duration-300
                                hover:-translate-y-0.5 hover:bg-secondary-300 hover:shadow-secondary-500/25
                                focus:outline-none focus:ring-4 focus:ring-secondary-400/20
                                sm:min-h-12">

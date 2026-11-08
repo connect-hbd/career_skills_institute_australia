@@ -12,6 +12,6 @@
     
     @include('frontend.pages.home.section.cta')
 
-    @include('frontend.pages.home.section.prospect-form')
+    @include('frontend.pages.home.section.prospect-form', ['qualifications' => $qualifications])
 
 @endsection

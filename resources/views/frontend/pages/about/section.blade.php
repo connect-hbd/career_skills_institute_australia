@@ -32,7 +32,7 @@
                 </span>
 
                 <h2 class="mt-3 text-2xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-3xl lg:text-4xl">
-                    Welcome to Get Career Skills Institute
+                    Welcome to Get Career Skills Institute Australia
                 </h2>
 
                 <div class="mt-4 h-1 w-12 rounded-full bg-brand-500 sm:mt-5 sm:w-14"></div>
@@ -41,23 +41,9 @@
                     <strong class="text-slate-900">
                         Empowering Your Career Through Recognition:
                     </strong>
-                    At Career Skills Institute, we specialize in transforming your real-world experience into nationally
-                    recognized qualifications.
+                   Career Skills Institute Australia (RTO 45685) is committed to delivering quality vocational education and industry-relevant training that empowers individuals to achieve their career goals. We offer nationally recognised qualifications across community services, construction, plumbing, engineering, automotive, business and real estate. Through flexible learning options, experienced trainers and practical learning approaches, we help students develop the knowledge, skills and confidence needed to succeed in today's workforce.
+                
                 </p>
-
-                <p class="mt-4 text-sm leading-6 text-slate-600 sm:leading-7">
-                    With over a decade of dedicated service, we assist professionals across diverse industries—including
-                    IT, Business, Construction, Hairdressing, and Healthcare—accelerate their careers without the need
-                    for redundant traditional study.
-                </p>
-
-                <a href="#courses"
-                   class="mt-6 inline-flex items-center gap-2 rounded-xl bg-brand-500 px-5 py-3 text-sm font-bold text-white transition hover:bg-brand-600 sm:mt-7 sm:px-6 sm:py-3.5">
-                    Read More
-                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                    </svg>
-                </a>
             </div>
         </div>
 
@@ -88,7 +74,7 @@
             </div>
 
             {{-- Card 2 --}}
-            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5 transition hover:border-secondary-200 hover:bg-secondary-50/40 sm:p-6">
+            {{-- <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5 transition hover:border-secondary-200 hover:bg-secondary-50/40 sm:p-6">
                 <div class="flex items-start gap-4">
 
                     <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-secondary-500 text-white sm:h-12 sm:w-12">
@@ -107,7 +93,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>

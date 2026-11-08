@@ -52,7 +52,7 @@
                                     </p>
 
                                     <p class="mt-1 break-all text-sm text-slate-500">
-                                        info@csi.com
+                                       admin@csia.edu.au
                                     </p>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
                                     </p>
 
                                     <p class="mt-1 text-sm text-slate-500">
-                                        +61 405 106 199
+                                        0434 299 291
                                     </p>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                                     </p>
 
                                     <p class="mt-1 text-sm leading-6 text-slate-500">
-                                        Museum Tower, 603/267-277 Castlereagh St, Sydney NSW 2000, Australia
+                                        17 Chuter St, MCMAHONS POINT, NSW, 2060
                                     </p>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@
                                     </p>
 
                                     <p class="mt-1 text-sm leading-6 text-slate-500">
-                                        Sat - Thu · 9:00 AM - 5:00 PM
+                                        Mon - Fri · 9:00 AM - 5:00 PM
                                     </p>
                                 </div>
                             </div>

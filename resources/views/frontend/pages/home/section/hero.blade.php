@@ -28,8 +28,7 @@
 
                 {{-- Subtitle --}}
                 <p class="max-w-xl text-sm font-normal leading-relaxed text-slate-600 sm:text-base">
-                    Gain real-world construction, trade, and engineering skills through flexible training and accredited
-                    RPL pathways tailored to fast-track your career.
+                   Develop practical, industry-relevant skills in construction, trades, and engineering through flexible, career-focused training designed to build your knowledge, enhance your expertise, and prepare you for real-world opportunities.
                 </p>
 
                 {{-- Action Buttons --}}

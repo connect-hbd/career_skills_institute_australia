@@ -1,4 +1,4 @@
-<section class="py-10 text-slate-900 antialiased sm:py-12 md:py-16 lg:py-20">
+<section class="py-10 bg-white text-slate-900 antialiased sm:py-12 md:py-16 lg:py-20">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
         {{-- Section Header --}}

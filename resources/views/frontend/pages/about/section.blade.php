@@ -1,4 +1,4 @@
-<section id="about" class="bg-white py-12 sm:py-16 lg:py-24">
+<section id="about" class=" py-12 sm:py-16 lg:py-24">
 
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
@@ -32,7 +32,7 @@
                 </span>
 
                 <h2 class="mt-3 text-2xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-3xl lg:text-4xl">
-                    Welcome to Get Career Skills Institute Australia Australia
+                    Welcome to Get Career Skills Institute Australia 
                 </h2>
 
                 <div class="mt-4 h-1 w-12 rounded-full bg-brand-500 sm:mt-5 sm:w-14"></div>
@@ -41,7 +41,7 @@
                     <strong class="text-slate-900">
                         Empowering Your Career Through Recognition:
                     </strong>
-                   Career Skills Institute Australia Australia (RTO 45685) is committed to delivering quality vocational education and industry-relevant training that empowers individuals to achieve their career goals. We offer nationally recognised qualifications across community services, construction, plumbing, engineering, automotive, business and real estate. Through flexible learning options, experienced trainers and practical learning approaches, we help students develop the knowledge, skills and confidence needed to succeed in today's workforce.
+                   Career Skills Institute Australia  (RTO 45685) is committed to delivering quality vocational education and industry-relevant training that empowers individuals to achieve their career goals. We offer nationally recognised qualifications across community services, construction, plumbing, engineering, automotive, business and real estate. Through flexible learning options, experienced trainers and practical learning approaches, we help students develop the knowledge, skills and confidence needed to succeed in today's workforce.
                 
                 </p>
             </div>

@@ -8,10 +8,9 @@
 
     @include('frontend.pages.about.section')
 
-    @include('frontend.pages.home.section.industries')
-    
-    @include('frontend.pages.home.section.cta')
+    @include('frontend.pages.home.section.industries')     
 
     @include('frontend.pages.home.section.prospect-form', ['qualifications' => $qualifications])
+      @include('frontend.pages.home.section.cta')
 
 @endsection

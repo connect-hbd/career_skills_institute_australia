@@ -233,11 +233,7 @@
                     <div
                         class="relative rounded-2xl border border-brand-100 bg-white p-5 text-slate-900 shadow-xl shadow-brand-950/5 sm:rounded-3xl sm:p-6 md:p-8">
 
-                        {{-- Form Ribbon Badge --}}
-                        <div
-                            class="absolute -top-3 right-5 rounded-full bg-secondary-500 px-3 py-1 text-[10px] font-black uppercase tracking-wider text-slate-950 shadow-md shadow-secondary-500/30 sm:right-6 sm:px-3.5">
-                            Fast & Free
-                        </div>
+                   
 
                         <h2 class="text-lg font-black leading-snug text-brand-950 sm:text-xl md:text-2xl">
                             Start Free Assessment Today!

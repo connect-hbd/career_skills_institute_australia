@@ -166,7 +166,7 @@
                     {{-- Heading --}}
                     @if ($hasValue($name) || $hasValue($code))
                         <h1
-                            class="text-2xl font-black leading-[1.2] tracking-tight text-brand-950 sm:text-3xl md:text-4xl lg:text-5xl">
+                            class="text-xl font-black leading-[1.2] tracking-tight text-brand-950 sm:text-2xl md:text-3xl lg:text-4xl">
                             @if ($hasValue($code))
                                 <span class="text-slate-800">{{ $code }} – </span>
                             @endif
@@ -233,11 +233,7 @@
                     <div
                         class="relative rounded-2xl border border-brand-100 bg-white p-5 text-slate-900 shadow-xl shadow-brand-950/5 sm:rounded-3xl sm:p-6 md:p-8">
 
-                        {{-- Form Ribbon Badge --}}
-                        <div
-                            class="absolute -top-3 right-5 rounded-full bg-secondary-500 px-3 py-1 text-[10px] font-black uppercase tracking-wider text-slate-950 shadow-md shadow-secondary-500/30 sm:right-6 sm:px-3.5">
-                            Fast & Free
-                        </div>
+                     
 
                         <h2 class="text-lg font-black leading-snug text-brand-950 sm:text-xl md:text-2xl">
                             Start Free Assessment Today!
@@ -328,46 +324,116 @@
         {{-- =========================================================
         QUALIFICATION OVERVIEW
     ========================================================= --}}
-        <section id="qualification-overview" class="border-y border-slate-100 bg-white py-12 sm:py-16 lg:py-24">
+        <section id="qualification-overview" class="relative overflow-hidden  py-16 text-slate-800 sm:py-20 lg:py-28">
 
-            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    {{-- Subtle Background Glow Elements --}}
+    <div class="pointer-events-none absolute -left-20 top-1/2 h-80 w-80 -translate-y-1/2 rounded-full bg-[#3f8919]/15 blur-[120px] sm:h-96 sm:w-96"></div>
+    <div class="pointer-events-none absolute -right-20 top-1/4 h-72 w-72 rounded-full bg-[#9ece1b]/10 blur-[100px] sm:h-80 sm:w-80"></div>
 
-                <div class="mx-auto max-w-4xl">
+    <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center lg:gap-16">
 
-                    <span
-                        class="inline-block rounded-lg bg-brand-50 px-3 py-1 text-xs font-extrabold uppercase tracking-[0.18em] text-brand-600">
+            {{-- Main Text Column --}}
+            <div class="space-y-6 lg:col-span-7">
+
+                {{-- Section Badge --}}
+                <div class="inline-flex items-center gap-2 rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3.5 py-1.5 backdrop-blur-md">
+                    <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+                    <span class="text-[11px] font-bold uppercase tracking-widest text-emerald-300 sm:text-xs">
                         Qualification Overview
                     </span>
+                </div>
 
-                    <h2
-                        class="mt-3 text-xl font-black tracking-tight text-brand-950 sm:mt-4 sm:text-2xl md:text-3xl lg:text-4xl">
-                        Certify Your Skills and Advance Your Career
-                    </h2>
+                {{-- Section Heading --}}
+                <h2 class="text-3xl font-black tracking-tight text-white sm:text-4xl lg:text-5xl lg:leading-[1.15]">
+                    Certify Your Skills &amp; Advance Your Career
+                </h2>
 
-                    <div class="mt-5 space-y-4 text-slate-600 sm:mt-6">
-                        <p class="whitespace-pre-line text-sm leading-relaxed sm:text-base">
-                            {{ $overview }}
-                        </p>
+                {{-- Dynamic Overview Paragraph --}}
+                <div class="space-y-4 text-slate-300">
+                    <p class="whitespace-pre-line text-base leading-relaxed sm:text-lg">
+                        {{ $overview }}
+                    </p>
+                </div>
+
+                {{-- Key Qualification Badge Container --}}
+                @if ($hasValue($level) || $hasValue($name))
+                    <div class="group relative overflow-hidden rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-4 backdrop-blur-md transition-all duration-300 hover:border-emerald-500/40">
+                        <div class="flex items-center gap-3.5">
+                            <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-400 border border-emerald-500/20 transition-transform duration-300 group-hover:scale-105">
+                                <iconify-icon icon="lucide:award" class="text-2xl"></iconify-icon>
+                            </div>
+
+                            <div class="space-y-0.5">
+                                <span class="text-xs font-medium uppercase tracking-wider text-emerald-400">Target Qualification</span>
+                                @if ($hasValue($name))
+                                    <p class="text-base font-bold text-white sm:text-lg">
+                                        {{ $name }}
+                                    </p>
+                                @endif
+                            </div>
+                        </div>
+                    </div>
+                @endif
+            </div>
+
+            {{-- Highlight / Feature Sidebar Card --}}
+            <div class="lg:col-span-5">
+                <div class="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900/60 p-6 shadow-2xl backdrop-blur-xl sm:p-8">
+                    
+                    {{-- Decorative Top Accent Border --}}
+                    <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-emerald-500 via-[#3f8919] to-lime-400"></div>
+
+                    <h3 class="text-xl font-extrabold text-white sm:text-2xl">
+                        Why Choose This Pathway?
+                    </h3>
+
+                    <ul class="mt-6 space-y-4">
+                        <li class="flex items-start gap-3.5">
+                            <div class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 mt-0.5">
+                                <iconify-icon icon="lucide:check" class="text-sm"></iconify-icon>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-white">Nationally Recognised</h4>
+                                <p class="text-xs text-slate-400">Aligned with AQF standards for official certification.</p>
+                            </div>
+                        </li>
+
+                        <li class="flex items-start gap-3.5">
+                            <div class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 mt-0.5">
+                                <iconify-icon icon="lucide:zap" class="text-sm"></iconify-icon>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-white">RPL Credit Pathways</h4>
+                                <p class="text-xs text-slate-400">Convert your existing work experience into units.</p>
+                            </div>
+                        </li>
+
+                        <li class="flex items-start gap-3.5">
+                            <div class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 mt-0.5">
+                                <iconify-icon icon="lucide:briefcase" class="text-sm"></iconify-icon>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-white">Industry-Ready Practical Skills</h4>
+                                <p class="text-xs text-slate-400">Tailored directly for high-demand workplace applications.</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    {{-- Quick Action CTA inside sidebar --}}
+                    <div class="mt-8 pt-6 border-t border-slate-800">
+                        <a href="#enquire" class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#3f8919] px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-[#3f8919]/25 transition-all duration-300 hover:bg-[#347416] hover:shadow-[#3f8919]/40 active:scale-[0.98]">
+                            <span>Check Your Eligibility</span>
+                            <iconify-icon icon="lucide:arrow-right" class="text-base"></iconify-icon>
+                        </a>
                     </div>
 
-                    @if ($hasValue($level) || $hasValue($name))
-                        <div
-                            class="mt-6 flex items-center gap-3 rounded-2xl border border-brand-100 bg-brand-50/40 p-3.5 sm:mt-8 sm:p-4">
-                            <div
-                                class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-brand-100 text-brand-700 sm:h-10 sm:w-10">
-                                <iconify-icon icon="lucide:check-circle" class="text-lg sm:text-xl"></iconify-icon>
-                            </div>
-                            <p class="text-sm font-semibold text-brand-900">
-
-                                @if ($hasValue($name))
-                                    <span class="text-slate-700">{{ $name }}</span>
-                                @endif
-                            </p>
-                        </div>
-                    @endif
                 </div>
             </div>
-        </section>
+
+        </div>
+    </div>
+</section>
     @endif
 
 

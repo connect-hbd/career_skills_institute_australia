@@ -31,7 +31,7 @@
                     </div>
 
                     {{-- Heading --}}
-                    <h2 class="text-2xl font-black tracking-tight text-white sm:text-3xl md:text-4xl lg:text-5xl">
+                    <h2 class="text-xl font-black tracking-tight text-white sm:text-2xl md:text-3xl lg:text-4xl">
                         Build a Better Future With
                         <br class="hidden sm:inline">
                         <span class="text-secondary-400">

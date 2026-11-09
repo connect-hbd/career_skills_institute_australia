@@ -149,11 +149,11 @@
             <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-14">
 
                 {{-- LEFT CONTENT --}}
-                <div class="order-1 space-y-5 sm:space-y-6 lg:col-span-7 lg:order-none">
+                <div class="order-1 space-y-5 sm:space-y-6 lg:col-span-7 lg:order-none" data-reveal="right">
 
                     {{-- Badge --}}
                     <div
-                        class="inline-flex items-center gap-2 rounded-full border border-brand-200/80 bg-white/90 px-3.5 py-1.5 shadow-sm backdrop-blur-md sm:gap-2.5 sm:px-4">
+                        data-reveal="down" class="inline-flex items-center gap-2 rounded-full border border-brand-200/80 bg-white/90 px-3.5 py-1.5 shadow-sm backdrop-blur-md sm:gap-2.5 sm:px-4">
                         <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand-100 text-brand-600">
                             <iconify-icon icon="lucide:award" class="text-xs"></iconify-icon>
                         </span>
@@ -166,7 +166,7 @@
                     {{-- Heading --}}
                     @if ($hasValue($name) || $hasValue($code))
                         <h1
-                            class="text-xl font-black leading-[1.2] tracking-tight text-brand-950 sm:text-2xl md:text-3xl lg:text-4xl">
+                            data-reveal="up" class="text-xl font-black leading-[1.2] tracking-tight text-brand-950 sm:text-2xl md:text-3xl lg:text-4xl">
                             @if ($hasValue($code))
                                 <span class="text-slate-800">{{ $code }} – </span>
                             @endif
@@ -189,13 +189,13 @@
 
                     {{-- Description --}}
                     @if ($hasValue($description))
-                        <p class="max-w-2xl text-sm leading-relaxed text-slate-600 sm:text-base">
+                        <p data-reveal="up" data-reveal-delay="100" class="max-w-2xl text-sm leading-relaxed text-slate-600 sm:text-base">
                             {{ $description }}
                         </p>
                     @endif
 
                     {{-- CTA Buttons --}}
-                    <div class="flex flex-col gap-3 pt-1 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4 sm:pt-2">
+                    <div data-reveal="up" data-reveal-delay="180" class="flex flex-col gap-3 pt-1 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4 sm:pt-2">
 
                         <a href="#assessment-form"
                             class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-brand-500 px-5 py-3.5 text-sm font-extrabold text-white shadow-lg shadow-brand-500/25 transition duration-300
@@ -228,10 +228,10 @@
                 </div>
 
                 {{-- RIGHT ASSESSMENT FORM --}}
-                <div class="order-2 lg:col-span-5 lg:order-none" id="assessment-form">
+                <div class="order-2 lg:col-span-5 lg:order-none" id="assessment-form" data-reveal="left">
 
                     <div
-                        class="relative rounded-2xl border border-brand-100 bg-white p-5 text-slate-900 shadow-xl shadow-brand-950/5 sm:rounded-3xl sm:p-6 md:p-8">
+                        data-reveal="left" class="relative rounded-2xl border border-brand-100 bg-white p-5 text-slate-900 shadow-xl shadow-brand-950/5 sm:rounded-3xl sm:p-6 md:p-8">
 
 
 
@@ -339,7 +339,7 @@
                 <div class="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center lg:gap-16">
 
                     {{-- Main Content Column --}}
-                    <div class="space-y-5 lg:col-span-7">
+                    <div class="space-y-5 lg:col-span-7" data-reveal="right">
 
                         {{-- Pill Badge --}}
                         <div
@@ -387,8 +387,8 @@
                     </div>
 
                     {{-- Feature Sidebar Card --}}
-                    <div class="lg:col-span-5">
-                        <div class=" bg-brand-50 border border-brand-100 rounded-2xl p-6 mb-8">
+                    <div class="lg:col-span-5" data-reveal="left">
+                        <div data-reveal="up" class=" bg-brand-50 border border-brand-100 rounded-2xl p-6 mb-8">
                             <h3 class="text-base font-bold text-brand-navy mb-3 flex items-center">
                                 <svg class="w-5 h-5 text-brand-500 mr-2" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24">
@@ -422,7 +422,7 @@
                         </div>
 
                         <div
-                            class="relative overflow-hidden rounded-3xl border border-slate-200/80 bg-slate-50/70 p-6 shadow-xl shadow-slate-200/50 backdrop-blur-xl sm:p-8">
+                            data-reveal="up" class="relative overflow-hidden rounded-3xl border border-slate-200/80 bg-slate-50/70 p-6 shadow-xl shadow-slate-200/50 backdrop-blur-xl sm:p-8">
 
                           
 
@@ -484,7 +484,7 @@
 
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <!-- Section Header -->
-        <div class="mx-auto max-w-2xl text-center">
+        <div data-reveal="up" class="mx-auto max-w-2xl text-center">
             <span class="inline-flex items-center gap-1.5 rounded-full bg-secondary-500/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-widest text-secondary-600 ring-1 ring-inset ring-secondary-500/20">
                 Before you apply
             </span>
@@ -500,7 +500,7 @@
         <div class="mt-14 grid gap-8 lg:grid-cols-2 lg:items-start">
             
             <!-- Left Card: Prerequisites -->
-            <div class="group relative rounded-3xl border border-slate-200/80 bg-white/80 p-6 sm:p-10 shadow-xl shadow-slate-200/40 backdrop-blur-sm transition-all duration-300 hover:border-slate-300 hover:shadow-2xl hover:shadow-slate-200/60">
+            <div data-reveal="up" class="group relative rounded-3xl border border-slate-200/80 bg-white/80 p-6 sm:p-10 shadow-xl shadow-slate-200/40 backdrop-blur-sm transition-all duration-300 hover:border-slate-300 hover:shadow-2xl hover:shadow-slate-200/60">
                 <div class="flex items-center gap-4">
                     <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-[#30BAFA]/20 to-[#30BAFA]/5 text-secondary-600 ring-1 ring-inset ring-secondary-500/20 shadow-sm transition-transform duration-300 group-hover:scale-105">
                         <iconify-icon icon="lucide:clipboard-check" class="text-2xl"></iconify-icon>
@@ -648,7 +648,7 @@
 
                 {{-- Header --}}
                 <div
-                    class="flex flex-col justify-between gap-5 border-b border-slate-200 pb-6 sm:gap-6 sm:pb-8 md:flex-row md:items-end">
+                    data-reveal="up" class="flex flex-col justify-between gap-5 border-b border-slate-200 pb-6 sm:gap-6 sm:pb-8 md:flex-row md:items-end">
 
                     <div>
                         <div
@@ -691,7 +691,7 @@
                             $isFeatured = $loop->first;
                         @endphp
 
-                        <div
+                        <div data-reveal="up" data-reveal-delay="{{ min($loop->index * 90, 450) }}"
                             class="group relative flex flex-col justify-between overflow-hidden rounded-2xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-xl sm:rounded-3xl
                         {{ $isFeatured
                             ? 'border-brand-700 bg-gradient-to-br from-brand-700 to-brand-900 p-6 shadow-lg shadow-brand-900/10 sm:p-7 md:col-span-2 md:p-8 lg:col-span-2'
@@ -769,7 +769,7 @@
 
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-                <div class="mx-auto mb-8 max-w-3xl text-center sm:mb-10 lg:mb-12">
+                <div data-reveal="up" class="mx-auto mb-8 max-w-3xl text-center sm:mb-10 lg:mb-12">
 
                     <span
                         class="inline-block rounded-lg bg-brand-100/60 px-3 py-1 text-xs font-black uppercase tracking-[0.18em] text-brand-700">
@@ -788,7 +788,7 @@
                 <div class="grid grid-cols-1 gap-4 sm:gap-5 md:grid-cols-2 md:gap-6 lg:grid-cols-3">
 
                     @foreach ($careerPathways as $index => $career)
-                        <div
+                        <div data-reveal="up" data-reveal-delay="{{ min($loop->index * 90, 450) }}"
                             class="group relative flex flex-col justify-between rounded-2xl border border-brand-100 bg-white p-5 shadow-sm transition duration-300
                                 hover:-translate-y-1 hover:border-brand-300 hover:shadow-xl
                                 sm:p-6 md:p-7">
@@ -828,5 +828,95 @@
             </div>
         </section>
     @endif
+
+
+{{-- =========================================================
+     PROFESSIONAL SCROLL REVEAL ANIMATIONS
+     Uses native CSS + IntersectionObserver (no extra library)
+========================================================= --}}
+<style>
+    [data-reveal] {
+        --reveal-distance: 26px;
+        will-change: transform, opacity;
+    }
+
+    .reveal-ready [data-reveal] {
+        opacity: 0;
+        transition:
+            opacity 700ms cubic-bezier(.22, 1, .36, 1),
+            transform 700ms cubic-bezier(.22, 1, .36, 1);
+        transition-delay: var(--reveal-delay, 0ms);
+    }
+
+    .reveal-ready [data-reveal="up"] {
+        transform: translate3d(0, var(--reveal-distance), 0);
+    }
+
+    .reveal-ready [data-reveal="down"] {
+        transform: translate3d(0, calc(var(--reveal-distance) * -1), 0);
+    }
+
+    .reveal-ready [data-reveal="left"] {
+        transform: translate3d(var(--reveal-distance), 0, 0);
+    }
+
+    .reveal-ready [data-reveal="right"] {
+        transform: translate3d(calc(var(--reveal-distance) * -1), 0, 0);
+    }
+
+    .reveal-ready [data-reveal].is-visible {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .reveal-ready [data-reveal],
+        .reveal-ready [data-reveal].is-visible {
+            opacity: 1;
+            transform: none;
+            transition: none;
+        }
+    }
+</style>
+
+<script>
+    (() => {
+        const initScrollReveal = () => {
+            const revealItems = document.querySelectorAll('[data-reveal]');
+
+            if (!revealItems.length || !('IntersectionObserver' in window)) {
+                revealItems.forEach((item) => item.classList.add('is-visible'));
+                return;
+            }
+
+            revealItems.forEach((item) => {
+                const delay = Number(item.dataset.revealDelay || 0);
+                item.style.setProperty('--reveal-delay', `${delay}ms`);
+            });
+
+            document.documentElement.classList.add('reveal-ready');
+
+            const observer = new IntersectionObserver((entries, currentObserver) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        currentObserver.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.12,
+                rootMargin: '0px 0px -45px 0px'
+            });
+
+            revealItems.forEach((item) => observer.observe(item));
+        };
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initScrollReveal, { once: true });
+        } else {
+            initScrollReveal();
+        }
+    })();
+</script>
 
 @endsection

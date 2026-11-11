@@ -1,365 +1,3241 @@
 [
-    {
-        "code": "AUR30620",
-        "industry_slug": "automotive",
-        "level": "Certificate III",
-        "name": "Certificate III in Light Vehicle Mechanical Technology",
-        "slug": "certificate-iii-in-light-vehicle-mechanical-technology-aur30620",
-        "image": "/industry/automotive/AUR30620.jpg",
-        "short_description": "Develop Your Automotive Skills. Drive Your Career Forward.",
-        "description": "Build practical automotive knowledge and technical skills with the Certificate III in Light Vehicle Mechanical Technology. Learn to inspect, service, diagnose and repair a wide range of light vehicle systems, including engines, brakes, steering, suspension and automotive electrical components.",
-        "key_information": {
-            "duration": "Provider-dependent. Duration varies depending on the registered training provider, delivery arrangements and learner experience.",
-            "delivery": "As offered by the registered training organisation (RTO). Delivery may include classroom learning, online learning and practical automotive workshop training.",
-            "usage_recommendation": "Deliver and assess",
-            "extent": "36 units of competency: 20 core units and 16 elective units.",
-            "start_date": "",
-            "end_date": "",
-            "delivery_notification": "Study mode, workshop facilities, practical training arrangements, course duration and intake dates vary by registered training provider. Confirm current availability and enrolment requirements directly with the provider."
+  {
+    "code": "AUR30620",
+    "industry_slug": "automotive",
+    "level": "Certificate III",
+    "name": "Certificate III in Light Vehicle Mechanical Technology",
+    "slug": "certificate-iii-in-light-vehicle-mechanical-technology-aur30620",
+    "image": "/industry/automotive/AUR30620.jpg",
+    "short_description": "Develop Your Automotive Skills. Drive Your Career Forward.",
+    "description": "Build practical automotive knowledge and technical skills with the Certificate III in Light Vehicle Mechanical Technology. Learn to inspect, service, diagnose and repair a wide range of light vehicle systems, including engines, brakes, steering, suspension and automotive electrical components.",
+    "key_information": {
+      "duration": "Provider-dependent. Duration varies depending on the registered training provider, delivery arrangements and learner experience.",
+      "delivery": "As offered by the registered training organisation (RTO). Delivery may include classroom learning, online learning and practical automotive workshop training.",
+      "usage_recommendation": "Deliver and assess",
+      "extent": "36 units of competency: 20 core units and 16 elective units.",
+      "start_date": "",
+      "end_date": "",
+      "delivery_notification": "Study mode, workshop facilities, practical training arrangements, course duration and intake dates vary by registered training provider. Confirm current availability and enrolment requirements directly with the provider."
+    },
+    "course_url": "https://training.gov.au/training/details/AUR30620/qualdetails",
+    "overview": {
+      "heading": "Build Your Future in the Automotive Industry",
+      "description": "The AUR30620 Certificate III in Light Vehicle Mechanical Technology is designed for individuals seeking to develop the technical knowledge and practical skills required to work in the automotive service and repair industry.",
+      "content": [
+        "This qualification covers a broad range of automotive activities, including vehicle servicing, engine diagnostics, electrical systems, braking systems, steering, suspension and mechanical repairs.",
+        "You will develop the ability to identify vehicle faults, perform diagnostic procedures, use automotive tools and equipment, and carry out repairs in accordance with workplace safety and industry standards.",
+        "Whether you are starting your automotive career or looking to have your existing mechanical experience formally recognised, this qualification can support your professional development in the light vehicle automotive sector."
+      ]
+    },
+    "why_choose": {
+      "heading": "Why Choose This Qualification?",
+      "description": "Develop industry-relevant automotive skills, build practical mechanical capabilities and prepare for opportunities across the automotive service and repair industry.",
+      "benefits": [
+        {
+          "icon": "award",
+          "title": "Nationally Recognised Qualification",
+          "description": "Gain a nationally recognised automotive qualification that demonstrates your skills and knowledge in light vehicle mechanical servicing and repair."
         },
-        "course_url": "https://training.gov.au/training/details/AUR30620/qualdetails",
-        "overview": {
-            "heading": "Build Your Future in the Automotive Industry",
-            "description": "The AUR30620 Certificate III in Light Vehicle Mechanical Technology is designed for individuals seeking to develop the technical knowledge and practical skills required to work in the automotive service and repair industry.",
-            "content": [
-                "This qualification covers a broad range of automotive activities, including vehicle servicing, engine diagnostics, electrical systems, braking systems, steering, suspension and mechanical repairs.",
-                "You will develop the ability to identify vehicle faults, perform diagnostic procedures, use automotive tools and equipment, and carry out repairs in accordance with workplace safety and industry standards.",
-                "Whether you are starting your automotive career or looking to have your existing mechanical experience formally recognised, this qualification can support your professional development in the light vehicle automotive sector."
-            ]
+        {
+          "icon": "wrench",
+          "title": "Develop Practical Mechanical Skills",
+          "description": "Build technical capabilities in vehicle maintenance, engine diagnostics, automotive electrical systems, braking and suspension repairs."
         },
-        "why_choose": {
-            "heading": "Why Choose This Qualification?",
-            "description": "Develop industry-relevant automotive skills, build practical mechanical capabilities and prepare for opportunities across the automotive service and repair industry.",
-            "benefits": [
-                {
-                    "icon": "award",
-                    "title": "Nationally Recognised Qualification",
-                    "description": "Gain a nationally recognised automotive qualification that demonstrates your skills and knowledge in light vehicle mechanical servicing and repair."
-                },
-                {
-                    "icon": "wrench",
-                    "title": "Develop Practical Mechanical Skills",
-                    "description": "Build technical capabilities in vehicle maintenance, engine diagnostics, automotive electrical systems, braking and suspension repairs."
-                },
-                {
-                    "icon": "clipboard-check",
-                    "title": "Recognition of Prior Learning",
-                    "description": "Experienced automotive workers may be able to demonstrate existing competency through an RPL assessment supported by relevant workplace evidence."
-                },
-                {
-                    "icon": "briefcase-business",
-                    "title": "Expand Your Career Opportunities",
-                    "description": "Develop the skills required for a range of automotive service, maintenance and mechanical repair roles across the automotive industry."
-                }
-            ]
+        {
+          "icon": "clipboard-check",
+          "title": "Recognition of Prior Learning",
+          "description": "Experienced automotive workers may be able to demonstrate existing competency through an RPL assessment supported by relevant workplace evidence."
         },
-        "fast_facts": [
+        {
+          "icon": "briefcase-business",
+          "title": "Expand Your Career Opportunities",
+          "description": "Develop the skills required for a range of automotive service, maintenance and mechanical repair roles across the automotive industry."
+        }
+      ]
+    },
+    "fast_facts": [
+      {
+        "label": "Qualification Code",
+        "value": "AUR30620"
+      },
+      {
+        "label": "AQF Level",
+        "value": "Certificate III"
+      },
+      {
+        "label": "Total Units",
+        "value": "36 (20 Core + 16 Elective)"
+      },
+      {
+        "label": "Industry",
+        "value": "Automotive Service and Repair"
+      },
+      {
+        "label": "Study Mode",
+        "value": "As offered by the RTO"
+      }
+    ],
+    "entry_requirements": {
+      "heading": "What Do You Need to Get Started?",
+      "qualification_requirements": {
+        "title": "Entry Requirements",
+        "description": "The official AUR30620 qualification has no formal entry requirements. However, Career Skills Institute Australia may conduct its own enrolment and pre-training checks to understand each learner's needs and suitability for the proposed delivery pathway.",
+        "items": [
+          "Unique Student Identifier (USI).",
+          "Proof of identity.",
+          "Relevant educational or employment information, where applicable.",
+          "Participation in a Language, Literacy, Numeracy and Digital Literacy (LLND) assessment.",
+          "Access to a computer and internet for online learning, where applicable.",
+          "Relevant workplace or automotive experience for Recognition of Prior Learning (RPL) applicants."
+        ]
+      },
+      "core_skills": {
+        "title": "Core Skills",
+        "description": "Learners should be prepared to develop and demonstrate the following skills:",
+        "items": [
+          {
+            "name": "Reading",
+            "description": "Understand automotive manuals, technical instructions, workshop procedures and vehicle specifications."
+          },
+          {
+            "name": "Writing",
+            "description": "Complete service reports, maintenance records, repair documentation and workplace forms."
+          },
+          {
+            "name": "Numeracy",
+            "description": "Perform measurements, calculations and basic technical assessments relevant to automotive servicing."
+          },
+          {
+            "name": "Communication",
+            "description": "Communicate effectively with customers, supervisors and other automotive professionals."
+          },
+          {
+            "name": "Digital Skills",
+            "description": "Use computers, diagnostic equipment and digital resources to access technical information and complete learning activities."
+          }
+        ]
+      }
+    },
+    "course_structure": {
+      "heading": "Course Structure – Explore What You'll Learn",
+      "description": "The AUR30620 Certificate III in Light Vehicle Mechanical Technology consists of 36 units of competency, including 20 core units and 16 elective units.",
+      "total_units": 36,
+      "core_units_count": 20,
+      "elective_units_count": 16,
+      "groups": [
+        {
+          "type": "core",
+          "title": "Core Units",
+          "description": "Mandatory units required for the qualification.",
+          "units": [
             {
-                "label": "Qualification Code",
-                "value": "AUR30620"
+              "code": "AURAEA002",
+              "title": "Follow environmental and sustainability best practice in an automotive workplace"
             },
             {
-                "label": "AQF Level",
-                "value": "Certificate III"
+              "code": "AURASA102",
+              "title": "Follow safe working practices in an automotive workplace"
             },
             {
-                "label": "Total Units",
-                "value": "36 (20 Core + 16 Elective)"
-            },
-           
-            {
-                "label": "Industry",
-                "value": "Automotive Service and Repair"
+              "code": "AURETR112",
+              "title": "Test and repair basic electrical circuits"
             },
             {
-                "label": "Study Mode",
-                "value": "As offered by the RTO"
+              "code": "AURETR123",
+              "title": "Diagnose and repair spark ignition engine management systems"
+            },
+            {
+              "code": "AURETR125",
+              "title": "Test, charge and replace batteries and jump-start vehicles"
+            },
+            {
+              "code": "AURETR129",
+              "title": "Diagnose and repair charging systems"
+            },
+            {
+              "code": "AURETR130",
+              "title": "Diagnose and repair starting systems"
+            },
+            {
+              "code": "AURETR131",
+              "title": "Diagnose and repair ignition systems"
+            },
+            {
+              "code": "AURLTB103",
+              "title": "Diagnose and repair light vehicle hydraulic braking systems"
+            },
+            {
+              "code": "AURLTD104",
+              "title": "Diagnose and repair light vehicle steering systems"
+            },
+            {
+              "code": "AURLTD105",
+              "title": "Diagnose and repair light vehicle suspension systems"
+            },
+            {
+              "code": "AURLTE102",
+              "title": "Diagnose and repair light vehicle engines"
+            },
+            {
+              "code": "AURLTZ101",
+              "title": "Diagnose and repair light vehicle emission control systems"
+            },
+            {
+              "code": "AURTTA104",
+              "title": "Carry out servicing operations"
+            },
+            {
+              "code": "AURTTA118",
+              "title": "Develop and carry out diagnostic test strategies"
+            },
+            {
+              "code": "AURTTB101",
+              "title": "Inspect and service braking systems"
+            },
+            {
+              "code": "AURTTC103",
+              "title": "Diagnose and repair cooling systems"
+            },
+            {
+              "code": "AURTTE104",
+              "title": "Inspect and service engines"
+            },
+            {
+              "code": "AURTTF101",
+              "title": "Inspect and service petrol fuel systems"
+            },
+            {
+              "code": "AURTTK102",
+              "title": "Use and maintain tools and equipment in an automotive workplace"
             }
+          ],
+          "subgroups": []
+        },
+        {
+          "type": "elective",
+          "title": "Elective Units",
+          "description": "Elective units selected as part of the qualification to develop additional automotive skills and knowledge.",
+          "units": [
+            {
+              "code": "AURACA101",
+              "title": "Respond to customer needs and enquiries in an automotive workplace"
+            },
+            {
+              "code": "AURAFA103",
+              "title": "Communicate effectively in an automotive workplace"
+            },
+            {
+              "code": "AURETR010",
+              "title": "Repair wiring harnesses and looms"
+            },
+            {
+              "code": "AURETR011",
+              "title": "Install basic ancillary electrical systems and components"
+            },
+            {
+              "code": "AURETR052",
+              "title": "Apply knowledge of Advanced Driver Assistance Systems (ADAS)"
+            },
+            {
+              "code": "AURETR120",
+              "title": "Diagnose and repair network electronic control systems"
+            },
+            {
+              "code": "AURETH101",
+              "title": "Depower and reinitialise battery electric vehicles"
+            },
+            {
+              "code": "AURETH102",
+              "title": "Inspect and maintain battery electric vehicles"
+            },
+            {
+              "code": "AURETU103",
+              "title": "Service air conditioning and HVAC systems"
+            },
+            {
+              "code": "AURLTD106",
+              "title": "Carry out light vehicle wheel alignment operations"
+            },
+            {
+              "code": "AURLTE001",
+              "title": "Remove and install light vehicle engine assemblies"
+            },
+            {
+              "code": "AURLTX101",
+              "title": "Diagnose and repair light vehicle manual transmissions"
+            },
+            {
+              "code": "AURLTX102",
+              "title": "Diagnose and repair light vehicle automatic transmissions"
+            },
+            {
+              "code": "AURLTX103",
+              "title": "Diagnose and repair light vehicle clutch systems"
+            },
+            {
+              "code": "AURTTF105",
+              "title": "Diagnose and repair engine forced-induction systems"
+            },
+            {
+              "code": "AURTTJ111",
+              "title": "Balance wheels and tyres"
+            }
+          ],
+          "subgroups": []
+        }
+      ]
+    },
+    "skills_you_will_develop": {
+      "heading": "Build Your Technical Automotive Expertise",
+      "items": [
+        {
+          "title": "Automotive Servicing and Maintenance",
+          "description": "Develop the ability to perform routine vehicle servicing, inspections and maintenance procedures according to manufacturer specifications."
+        },
+        {
+          "title": "Engine Diagnostics and Repairs",
+          "description": "Learn to identify engine faults, perform diagnostic procedures and undertake relevant mechanical repairs on light vehicle engines."
+        },
+        {
+          "title": "Automotive Electrical Systems",
+          "description": "Build skills in testing and repairing electrical circuits, batteries, charging systems, starting systems and ignition systems."
+        },
+        {
+          "title": "Brake System Inspection and Repair",
+          "description": "Understand how to inspect, service, diagnose and repair light vehicle hydraulic braking systems."
+        },
+        {
+          "title": "Steering and Suspension Systems",
+          "description": "Develop knowledge of steering and suspension components, including inspection, fault identification and repair procedures."
+        },
+        {
+          "title": "Cooling System Maintenance",
+          "description": "Learn to diagnose cooling system problems and perform relevant servicing and repair procedures."
+        },
+        {
+          "title": "Fuel and Emission Control Systems",
+          "description": "Understand petrol fuel systems, engine management and emission control technologies used in modern vehicles."
+        },
+        {
+          "title": "Automotive Diagnostic Techniques",
+          "description": "Develop the ability to select diagnostic strategies, use testing equipment and interpret technical information to identify vehicle faults."
+        },
+        {
+          "title": "Workshop Safety and Sustainability",
+          "description": "Apply safe work practices, environmental procedures and sustainable practices within an automotive workshop."
+        },
+        {
+          "title": "Automotive Tools and Equipment",
+          "description": "Learn to select, operate and maintain automotive tools, equipment and measuring instruments safely and effectively."
+        }
+      ]
+    },
+    "career_pathways": {
+      "heading": "Where Can Your Automotive Skills Take You?",
+      "description": "Completing this qualification may support career opportunities in automotive service and repair environments, depending on experience, employer requirements and demonstrated competency.",
+      "items": [
+        {
+          "title": "Light Vehicle Mechanic",
+          "description": "Perform routine maintenance, inspections, servicing and mechanical repairs on passenger cars and other light vehicles."
+        },
+        {
+          "title": "Automotive Technician",
+          "description": "Use diagnostic tools and technical knowledge to identify vehicle faults and undertake mechanical and electrical repairs."
+        },
+        {
+          "title": "Automotive Service Technician",
+          "description": "Carry out scheduled servicing, vehicle inspections and maintenance procedures in automotive service centres."
+        },
+        {
+          "title": "Automotive Repair Technician",
+          "description": "Assist with diagnosing mechanical problems and repairing vehicle components and systems."
+        },
+        {
+          "title": "Workshop Technician",
+          "description": "Support workshop operations by undertaking servicing, maintenance, inspections and repair tasks."
+        },
+        {
+          "title": "Vehicle Maintenance Technician",
+          "description": "Maintain vehicle performance and reliability through inspections, servicing and preventive maintenance activities."
+        }
+      ]
+    }
+  },
+  {
+    "code": "CHC33021",
+    "industry_slug": "community-services-healthcare",
+    "level": "Certificate III",
+    "name": "Certificate III in Individual Support",
+    "slug": "certificate-iii-in-individual-support-chc33021",
+    "image": "/industry/community/CHC33021.jpg",
+    "short_description": "Build a Rewarding Career in Individual Support",
+    "description": "Develop the knowledge and practical skills to support people living with ageing-related needs, disability or other support requirements. The CHC33021 Certificate III in Individual Support prepares you to provide person-centred care, promote independence and contribute to the wellbeing of individuals in community, home and residential care environments.",
+    "key_information": {
+      "duration": "Provider-dependent. Confirm the course duration with the registered training organisation (RTO).",
+      "delivery": "As offered by the registered training organisation (RTO). Delivery arrangements may vary by provider.",
+      "usage_recommendation": "Deliver and assess",
+      "extent": "15 units of competency: 9 core units and 6 elective units.",
+      "work_placement": "Minimum 120 hours",
+      "start_date": "",
+      "end_date": "",
+      "delivery_notification": "Study mode, course duration, work placement arrangements and intake dates may vary by registered training provider. Confirm current availability and enrolment requirements directly with the provider."
+    },
+    "course_url": "https://training.gov.au/training/details/CHC33021/qualdetails",
+    "overview": {
+      "heading": "Make a Difference Through Quality Individual Support",
+      "description": "The CHC33021 Certificate III in Individual Support is designed for individuals who want to develop the skills and knowledge required to provide person-centred assistance to people who may need support due to ageing, disability or other circumstances.",
+      "content": [
+        "This qualification focuses on supporting independence, maintaining wellbeing, recognising individual needs, communicating effectively and following safe work practices.",
+        "You will develop an understanding of individualised support plans, healthy body systems, infection prevention, legal responsibilities and ethical practices.",
+        "Graduates may pursue opportunities in community, home and residential care settings, working as part of a multidisciplinary support team."
+      ]
+    },
+    "why_choose": {
+      "heading": "Why Choose This Qualification?",
+      "benefits": [
+        {
+          "icon": "award",
+          "title": "Nationally Recognised Qualification",
+          "description": "Develop industry-relevant skills through a nationally recognised qualification aligned with Australian community services training requirements."
+        },
+        {
+          "icon": "hand-heart",
+          "title": "Practical Care Skills",
+          "description": "Learn how to provide personal assistance, support daily activities and promote independence and wellbeing."
+        },
+        {
+          "icon": "clipboard-check",
+          "title": "Recognition of Prior Learning",
+          "description": "Experienced support workers may have their existing skills and knowledge assessed through an RPL pathway."
+        },
+        {
+          "icon": "briefcase-business",
+          "title": "Meaningful Career Opportunities",
+          "description": "Explore employment opportunities in aged care, disability services, home care and community support."
+        }
+      ]
+    },
+    "fast_facts": [
+      {
+        "label": "Qualification Code",
+        "value": "CHC33021"
+      },
+      {
+        "label": "AQF Level",
+        "value": "Certificate III"
+      },
+      {
+        "label": "Total Units",
+        "value": "15 (9 core & 6 elective units)"
+      },
+      {
+        "label": "Industry",
+        "value": "Community Services and Individual Support"
+      },
+      {
+        "label": "Study Mode",
+        "value": "As offered by the RTO"
+      }
+    ],
+    "entry_requirements": {
+      "heading": "What Do You Need to Get Started?",
+      "qualification_requirements": {
+        "title": "Entry Requirements",
+        "description": "There are no formal entry requirements for CHC33021.",
+        "items": [
+          "Obtain a Unique Student Identifier (USI).",
+          "Provide valid identification.",
+          "Participate in relevant Language, Literacy, Numeracy and Digital Literacy (LLND) and pre-training assessments.",
+          "Meet the practical assessment and placement requirements.",
+          "Complete the required 120 hours of work as specified by the qualification assessment requirements."
+        ]
+      },
+      "core_skills": {
+        "title": "Core Skills",
+        "items": [
+          {
+            "name": "Reading",
+            "description": "Understand individual support plans and workplace instructions."
+          },
+          {
+            "name": "Writing",
+            "description": "Maintain accurate care records and documentation."
+          },
+          {
+            "name": "Numeracy",
+            "description": "Understand basic measurements and daily care calculations."
+          },
+          {
+            "name": "Communication",
+            "description": "Communicate respectfully with clients, families and colleagues."
+          },
+          {
+            "name": "Digital Skills",
+            "description": "Use digital tools for learning and workplace documentation."
+          }
+        ]
+      }
+    },
+    "course_structure": {
+      "heading": "Course Structure – Explore What You'll Learn",
+      "description": "The CHC33021 Certificate III in Individual Support consists of 15 units of competency, including 9 core units and 6 elective units.",
+      "total_units": 15,
+      "core_units_count": 9,
+      "elective_units_count": 6,
+      "groups": [
+        {
+          "type": "core",
+          "title": "Core Units",
+          "description": "Mandatory core units required for the qualification.",
+          "units": [
+            {
+              "code": "CHCCCS031",
+              "title": "Provide individualised support"
+            },
+            {
+              "code": "CHCCCS038",
+              "title": "Facilitate the empowerment of people receiving support"
+            },
+            {
+              "code": "CHCCCS040",
+              "title": "Support independence and wellbeing"
+            },
+            {
+              "code": "CHCCCS041",
+              "title": "Recognise healthy body systems"
+            },
+            {
+              "code": "CHCCOM005",
+              "title": "Communicate and work in health or community services"
+            },
+            {
+              "code": "CHCDIV001",
+              "title": "Work with diverse people"
+            },
+            {
+              "code": "CHCLEG001",
+              "title": "Work legally and ethically"
+            },
+            {
+              "code": "HLTINF006",
+              "title": "Apply basic principles and practices of infection prevention and control"
+            },
+            {
+              "code": "HLTWHS002",
+              "title": "Follow safe work practices for direct client care"
+            }
+          ],
+          "subgroups": []
+        },
+        {
+          "type": "elective",
+          "title": "Elective Units",
+          "description": "The supplied elective unit examples cover aged care, dementia support, palliative care and disability support.",
+          "units": [
+            {
+              "code": "CHCAGE011",
+              "title": "Provide support to people living with dementia"
+            },
+            {
+              "code": "CHCAGE013",
+              "title": "Work effectively in aged care"
+            },
+            {
+              "code": "CHCPAL003",
+              "title": "Deliver care services using a palliative approach"
+            },
+            {
+              "code": "CHCDIS011",
+              "title": "Contribute to ongoing skills development using a strengths-based approach"
+            },
+            {
+              "code": "CHCDIS012",
+              "title": "Support community participation and social inclusion"
+            },
+            {
+              "code": "CHCDIS020",
+              "title": "Work effectively in disability support"
+            }
+          ],
+          "subgroups": []
+        }
+      ]
+    },
+    "skills_you_will_develop": {
+      "heading": "Discover the Skills Behind Individual Support",
+      "items": [
+        {
+          "title": "Person-Centred Care",
+          "description": "Provide support based on individual preferences, needs and goals."
+        },
+        {
+          "title": "Personal Care",
+          "description": "Assist individuals with daily living and personal support activities."
+        },
+        {
+          "title": "Independence and Wellbeing",
+          "description": "Encourage participation and independent living."
+        },
+        {
+          "title": "Dementia Support",
+          "description": "Understand approaches to supporting people living with dementia."
+        },
+        {
+          "title": "Communication",
+          "description": "Develop effective communication with clients, families and colleagues."
+        },
+        {
+          "title": "Infection Prevention",
+          "description": "Apply appropriate infection control practices."
+        },
+        {
+          "title": "Workplace Safety",
+          "description": "Follow safe work procedures in care environments."
+        },
+        {
+          "title": "Healthy Body Systems",
+          "description": "Recognise basic body systems and health-related support needs."
+        },
+        {
+          "title": "Legal and Ethical Practice",
+          "description": "Maintain professional boundaries and respect individual rights."
+        },
+        {
+          "title": "Community Participation",
+          "description": "Support social inclusion and meaningful engagement."
+        }
+      ]
+    },
+    "career_pathways": {
+      "heading": "Where Can Your Individual Support Skills Take You?",
+      "items": [
+        {
+          "title": "Aged Care Support Worker",
+          "description": "Assist older people with daily living activities."
+        },
+        {
+          "title": "Disability Support Worker",
+          "description": "Support people with disability to achieve individual goals."
+        },
+        {
+          "title": "Personal Care Assistant",
+          "description": "Provide personal assistance in care environments."
+        },
+        {
+          "title": "Residential Care Worker",
+          "description": "Support residents in residential care facilities."
+        },
+        {
+          "title": "Home Care Worker",
+          "description": "Provide assistance within clients' homes."
+        },
+        {
+          "title": "Community Support Worker",
+          "description": "Help individuals participate in community activities."
+        }
+      ]
+    }
+  },
+  {
+    "code": "CHC43015",
+    "industry_slug": "community-services-healthcare",
+    "level": "Certificate IV",
+    "name": "Certificate IV in Ageing Support",
+    "slug": "certificate-iv-in-ageing-support-chc43015",
+    "image": "/industry/community/CHC43015.jpg",
+    "short_description": "Advance Your Career in Aged Care and Support",
+    "description": "Develop advanced knowledge and practical skills to support older people in residential and community care environments. The CHC43015 Certificate IV in Ageing Support focuses on person-centred care, service coordination, dementia support, wellbeing and the delivery of quality aged care services.",
+    "key_information": {
+      "duration": "Provider-dependent. Confirm the course duration with the registered training organisation (RTO).",
+      "delivery": "As offered by the registered training organisation (RTO). Delivery arrangements may vary by provider.",
+      "usage_recommendation": "Deliver and assess",
+      "extent": "15 units of competency: 15 core units",
+      "work_placement": "Minimum 120 hours",
+      "start_date": "",
+      "end_date": "",
+      "delivery_notification": "Study mode, course duration, work placement arrangements and intake dates may vary by registered training provider. Confirm current availability and enrolment requirements directly with the provider."
+    },
+    "course_url": "https://training.gov.au/training/details/CHC43015/qualdetails",
+    "overview": {
+      "heading": "Develop Advanced Skills in Ageing Support",
+      "description": "The CHC43015 Certificate IV in Ageing Support is designed for individuals seeking to develop the skills and knowledge required to provide support and coordinate services for older people.",
+      "content": [
+        "This qualification focuses on promoting independence, facilitating individual service planning, supporting people living with dementia, managing legal and ethical responsibilities and implementing appropriate interventions for older people at risk.",
+        "You will develop an understanding of the needs of ageing individuals and the importance of collaborative relationships with families, carers and other service providers."
+      ]
+    },
+    "why_choose": {
+      "heading": "Why Choose This Qualification?",
+      "benefits": [
+        {
+          "icon": "award",
+          "title": "Nationally Recognised Qualification",
+          "description": "Develop advanced knowledge and skills aligned with Australian aged care industry requirements."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Advanced Aged Care Knowledge",
+          "description": "Build capabilities in dementia support, service planning, client advocacy and older people's wellbeing."
+        },
+        {
+          "icon": "clipboard-check",
+          "title": "RPL Opportunities",
+          "description": "Experienced aged care professionals may be able to demonstrate their existing competency through Recognition of Prior Learning (RPL)."
+        },
+        {
+          "icon": "briefcase-business",
+          "title": "Career Development",
+          "description": "Explore opportunities in residential care, community aged care and support coordination environments."
+        }
+      ]
+    },
+    "fast_facts": [
+      {
+        "label": "Qualification Code",
+        "value": "CHC43015"
+      },
+      {
+        "label": "AQF Level",
+        "value": "Certificate IV"
+      },
+      {
+        "label": "Total Units",
+        "value": "15 (15 core units)"
+      },
+      {
+        "label": "Industry",
+        "value": "Aged Care and Community Services"
+      },
+      {
+        "label": "Study Mode",
+        "value": "As offered by the RTO"
+      }
+    ],
+    "entry_requirements": {
+      "heading": "What Do You Need to Get Started?",
+      "qualification_requirements": {
+        "title": "Entry Requirements",
+        "description": "The qualification has no formal entry requirements.",
+        "items": [
+          "Obtain a Unique Student Identifier (USI).",
+          "Provide proof of identity.",
+          "Participate in Language, Literacy, Numeracy and Digital Literacy (LLND) and pre-training assessments.",
+          "Complete required practical assessments.",
+          "Satisfy the 120-hour work requirement."
+        ]
+      },
+      "core_skills": {
+        "title": "Core Skills",
+        "items": [
+          {
+            "name": "Reading",
+            "description": "Interpret care plans, service documentation and workplace procedures."
+          },
+          {
+            "name": "Writing",
+            "description": "Prepare client records, reports and service documentation."
+          },
+          {
+            "name": "Numeracy",
+            "description": "Understand basic care measurements and service information."
+          },
+          {
+            "name": "Communication",
+            "description": "Work effectively with older people, families and care teams."
+          },
+          {
+            "name": "Digital Skills",
+            "description": "Access digital learning and workplace information."
+          }
+        ]
+      }
+    },
+    "course_structure": {
+      "heading": "Course Structure – Explore What You'll Learn",
+      "description": "The CHC43015 Certificate IV in Ageing Support consists of 18 units of competency, including 15 core units and 3 elective units.",
+      "total_units": 15,
+      "core_units_count": 15,
+      "elective_units_count": 0,
+      "groups": [
+        {
+          "type": "core",
+          "title": "Core Units",
+          "description": "The 15 core units supplied for this qualification.",
+          "units": [
+            {
+              "code": "CHCADV001",
+              "title": "Facilitate the interests and rights of clients"
+            },
+            {
+              "code": "CHCAGE001",
+              "title": "Facilitate the empowerment of older people"
+            },
+            {
+              "code": "CHCAGE003",
+              "title": "Coordinate services for older people"
+            },
+            {
+              "code": "CHCAGE004",
+              "title": "Implement interventions with older people at risk"
+            },
+            {
+              "code": "CHCAGE005",
+              "title": "Provide support to people living with dementia"
+            },
+            {
+              "code": "CHCCCS006",
+              "title": "Facilitate individual service planning and delivery"
+            },
+            {
+              "code": "CHCCCS011",
+              "title": "Meet personal support needs"
+            },
+            {
+              "code": "CHCCCS023",
+              "title": "Support independence and wellbeing"
+            },
+            {
+              "code": "CHCCCS025",
+              "title": "Support relationships with carers and families"
+            },
+            {
+              "code": "CHCDIV001",
+              "title": "Work with diverse people"
+            },
+            {
+              "code": "CHCLEG003",
+              "title": "Manage legal and ethical compliance"
+            },
+            {
+              "code": "CHCPAL001",
+              "title": "Deliver care services using a palliative approach"
+            },
+            {
+              "code": "CHCPRP001",
+              "title": "Develop and maintain networks and collaborative partnerships"
+            },
+            {
+              "code": "HLTAAP001",
+              "title": "Recognise healthy body systems"
+            },
+            {
+              "code": "HLTWHS002",
+              "title": "Follow safe work practices for direct client care"
+            }
+          ],
+          "subgroups": []
+        },
+        {
+          "type": "elective",
+          "title": "Elective Units",
+          "description": "The qualification requires 3 elective units. Elective unit codes and titles were not included in the supplied content.",
+          "units": [],
+          "subgroups": [],
+          "note": "Add the 3 selected elective units here when their codes and titles are confirmed."
+        }
+      ]
+    },
+    "skills_you_will_develop": {
+      "heading": "Develop Advanced Skills in Ageing Support",
+      "items": [
+        {
+          "title": "Older People's Support",
+          "description": "Understand the changing needs of older people."
+        },
+        {
+          "title": "Dementia Care",
+          "description": "Provide appropriate support to people living with dementia."
+        },
+        {
+          "title": "Service Coordination",
+          "description": "Assist in coordinating services for older people."
+        },
+        {
+          "title": "Individual Planning",
+          "description": "Contribute to individual service planning and delivery."
+        },
+        {
+          "title": "Client Advocacy",
+          "description": "Facilitate the interests and rights of clients."
+        },
+        {
+          "title": "Palliative Care",
+          "description": "Apply a palliative approach to support services."
+        },
+        {
+          "title": "Family Engagement",
+          "description": "Build relationships with carers and families."
+        },
+        {
+          "title": "Risk Management",
+          "description": "Recognise and respond to risks affecting older people."
+        },
+        {
+          "title": "Legal Compliance",
+          "description": "Apply legal and ethical responsibilities."
+        },
+        {
+          "title": "Collaborative Practice",
+          "description": "Work with other professionals and service providers."
+        }
+      ]
+    },
+    "career_pathways": {
+      "heading": "Where Can Your Ageing Support Skills Take You?",
+      "items": [
+        {
+          "title": "Aged Care Team Leader",
+          "description": "Support daily operations and coordinate care teams."
+        },
+        {
+          "title": "Senior Personal Care Assistant",
+          "description": "Provide advanced support to older people."
+        },
+        {
+          "title": "Residential Care Worker",
+          "description": "Deliver support in residential aged care settings."
+        },
+        {
+          "title": "Community Aged Care Worker",
+          "description": "Assist older people in community environments."
+        },
+        {
+          "title": "Care Supervisor",
+          "description": "Support the delivery and coordination of care services."
+        },
+        {
+          "title": "Care Coordinator",
+          "description": "Assist with coordinating individual support services."
+        }
+      ]
+    }
+  },
+  {
+    "code": "CHC51015",
+    "industry_slug": "community-services-healthcare",
+    "level": "Diploma",
+    "name": "Diploma of Counselling",
+    "slug": "diploma-of-counselling-chc51015",
+    "image": "/industry/community/CHC51015.jpg",
+    "short_description": "Build Your Future in Professional Counselling",
+    "description": "Develop counselling knowledge, communication skills and professional techniques to support individuals experiencing personal and psychological challenges. The CHC51015 Diploma of Counselling focuses on counselling relationships, interviewing skills, counselling therapies, case management and ethical professional practice.",
+    "key_information": {
+      "duration": "Provider-dependent. Confirm the course duration with the registered training organisation (RTO).",
+      "delivery": "As offered by the registered training organisation (RTO). Delivery arrangements may vary by provider.",
+      "usage_recommendation": "Deliver and assess",
+      "extent": "17 units of competency: 13 core units and 4 elective units.",
+      "work_placement": "Refer to mandatory workplace requirements of selected units.",
+      "start_date": "",
+      "end_date": "",
+      "delivery_notification": "Study mode, course duration, workplace requirements and intake dates may vary by registered training provider. Confirm current arrangements directly with the provider."
+    },
+    "course_url": "https://training.gov.au/training/details/CHC51015/qualdetails",
+    "overview": {
+      "heading": "Develop Skills to Support and Empower Others",
+      "description": "The CHC51015 Diploma of Counselling is designed for individuals seeking to develop the knowledge and skills required to work in supported counselling roles within established agencies and community service organisations.",
+      "content": [
+        "This qualification develops skills in counselling communication, interviewing, establishing professional relationships, understanding personality and development theories, applying counselling therapies and supporting clients through decision-making processes.",
+        "Learners also develop an understanding of ethical practice, professional boundaries, diversity, case management and reflective professional development.",
+        "The qualification prepares individuals for defined counselling roles within appropriate organisational structures and does not represent preparation for unrestricted independent counselling practice."
+      ]
+    },
+    "why_choose": {
+      "heading": "Why Choose This Qualification?",
+      "benefits": [
+        {
+          "icon": "award",
+          "title": "Nationally Recognised Qualification",
+          "description": "Develop counselling knowledge and skills aligned with the Australian Community Services Training Package."
+        },
+        {
+          "icon": "messages-square",
+          "title": "Professional Counselling Skills",
+          "description": "Build communication, interviewing and counselling relationship skills."
+        },
+        {
+          "icon": "clipboard-check",
+          "title": "RPL Assessment Opportunities",
+          "description": "Have relevant existing knowledge and competencies assessed through an evidence-based Recognition of Prior Learning (RPL) process."
+        },
+        {
+          "icon": "briefcase-business",
+          "title": "Meaningful Professional Work",
+          "description": "Explore opportunities in counselling support and community service organisations."
+        }
+      ]
+    },
+    "fast_facts": [
+      {
+        "label": "Qualification Code",
+        "value": "CHC51015"
+      },
+      {
+        "label": "AQF Level",
+        "value": "Diploma"
+      },
+      {
+        "label": "Total Units",
+        "value": "17 (13 core & 4 elective units)"
+      },
+      {
+        "label": "Industry",
+        "value": "Counselling and Community Services"
+      },
+      {
+        "label": "Study Mode",
+        "value": "As offered by the RTO"
+      }
+    ],
+    "entry_requirements": {
+      "heading": "What Do You Need to Get Started?",
+      "qualification_requirements": {
+        "title": "Entry Requirements",
+        "description": "There are no formal entry requirements for this qualification.",
+        "items": [
+          "Obtain a Unique Student Identifier (USI).",
+          "Provide valid identification.",
+          "Participate in Language, Literacy, Numeracy and Digital Literacy (LLND) and pre-training assessments.",
+          "Develop professional communication skills.",
+          "Meet all relevant assessment and mandatory workplace requirements."
+        ]
+      },
+      "core_skills": {
+        "title": "Core Skills",
+        "items": [
+          {
+            "name": "Reading",
+            "description": "Understand counselling resources, case notes and professional information."
+          },
+          {
+            "name": "Writing",
+            "description": "Prepare client documentation and case records."
+          },
+          {
+            "name": "Numeracy",
+            "description": "Interpret basic client and service-related information."
+          },
+          {
+            "name": "Communication",
+            "description": "Develop active listening, interviewing and interpersonal skills."
+          },
+          {
+            "name": "Digital Skills",
+            "description": "Use digital resources for learning and documentation."
+          }
+        ]
+      }
+    },
+    "course_structure": {
+      "heading": "Course Structure – Explore What You'll Learn",
+      "description": "The CHC51015 Diploma of Counselling consists of 17 units of competency, including 13 core units and 4 elective units.",
+      "total_units": 17,
+      "core_units_count": 13,
+      "elective_units_count": 4,
+      "groups": [
+        {
+          "type": "core",
+          "title": "Core Units",
+          "description": "The 13 core units supplied for this qualification.",
+          "units": [
+            {
+              "code": "CHCCCS019",
+              "title": "Recognise and respond to crisis situations"
+            },
+            {
+              "code": "CHCCSL001",
+              "title": "Establish and confirm the counselling relationship"
+            },
+            {
+              "code": "CHCCSL002",
+              "title": "Apply specialist interpersonal and counselling interview skills"
+            },
+            {
+              "code": "CHCCSL003",
+              "title": "Facilitate the counselling relationship and process"
+            },
+            {
+              "code": "CHCCSL004",
+              "title": "Research and apply personality and development theories"
+            },
+            {
+              "code": "CHCCSL005",
+              "title": "Apply learning theories in counselling"
+            },
+            {
+              "code": "CHCCSL006",
+              "title": "Select and use counselling therapies"
+            },
+            {
+              "code": "CHCCSL007",
+              "title": "Support counselling clients in decision-making processes"
+            },
+            {
+              "code": "CHCCSM005",
+              "title": "Develop, facilitate and review all aspects of case management"
+            },
+            {
+              "code": "CHCDIV001",
+              "title": "Work with diverse people"
+            },
+            {
+              "code": "CHCDIV002",
+              "title": "Promote Aboriginal and/or Torres Strait Islander cultural safety"
+            },
+            {
+              "code": "CHCLEG001",
+              "title": "Work legally and ethically"
+            },
+            {
+              "code": "CHCPRP003",
+              "title": "Reflect on and improve own professional practice"
+            }
+          ],
+          "subgroups": []
+        },
+        {
+          "type": "elective",
+          "title": "Elective Units",
+          "description": "The supplied elective examples are listed below. Four electives are required for the qualification.",
+          "units": [
+            {
+              "code": "CHCADV001",
+              "title": "Facilitate the interests and rights of clients"
+            },
+            {
+              "code": "CHCCCS003",
+              "title": "Increase the safety of individuals at risk of suicide"
+            },
+            {
+              "code": "CHCCCS014",
+              "title": "Provide brief interventions"
+            },
+            {
+              "code": "CHCCCS017",
+              "title": "Provide loss and grief support"
+            },
+            {
+              "code": "CHCMHS001",
+              "title": "Work with people with mental health issues"
+            },
+            {
+              "code": "CHCFAM003",
+              "title": "Support people to improve relationships"
+            }
+          ],
+          "subgroups": [],
+          "note": "Six elective examples were supplied, while the qualification requires 4 elective units. The selected 4 units should be confirmed against the applicable packaging rules and RTO delivery plan."
+        }
+      ]
+    },
+    "skills_you_will_develop": {
+      "heading": "Develop Your Counselling and Professional Support Skills",
+      "items": [
+        {
+          "title": "Counselling Relationships",
+          "description": "Establish professional and supportive client relationships."
+        },
+        {
+          "title": "Active Listening",
+          "description": "Develop effective listening and interpersonal communication skills."
+        },
+        {
+          "title": "Interviewing Techniques",
+          "description": "Apply specialist counselling interview skills."
+        },
+        {
+          "title": "Counselling Therapies",
+          "description": "Understand and select appropriate counselling approaches."
+        },
+        {
+          "title": "Crisis Response",
+          "description": "Recognise and respond to crisis situations."
+        },
+        {
+          "title": "Client Decision-Making",
+          "description": "Support clients in exploring informed decisions."
+        },
+        {
+          "title": "Case Management",
+          "description": "Contribute to coordinated client support."
+        },
+        {
+          "title": "Ethical Practice",
+          "description": "Maintain professional responsibilities and boundaries."
+        },
+        {
+          "title": "Diversity Awareness",
+          "description": "Work respectfully with people from diverse backgrounds."
+        },
+        {
+          "title": "Professional Reflection",
+          "description": "Evaluate and improve professional practice."
+        }
+      ]
+    },
+    "career_pathways": {
+      "heading": "Where Can Your Counselling Skills Take You?",
+      "items": [
+        {
+          "title": "Counselling Support Worker",
+          "description": "Assist with counselling-related services in established agencies."
+        },
+        {
+          "title": "Community Services Worker",
+          "description": "Provide support within community organisations."
+        },
+        {
+          "title": "Family Support Worker",
+          "description": "Assist individuals and families with support needs."
+        },
+        {
+          "title": "Client Support Officer",
+          "description": "Help clients access relevant support services."
+        },
+        {
+          "title": "Youth Support Worker",
+          "description": "Provide support to young people in appropriate service settings."
+        },
+        {
+          "title": "Case Support Worker",
+          "description": "Assist with client support and coordinated service delivery."
+        }
+      ]
+    }
+  },
+  {
+    "code": "CHC53315",
+    "industry_slug": "community-services-healthcare",
+    "level": "Diploma",
+    "name": "Diploma of Mental Health",
+    "slug": "diploma-of-mental-health-chc53315",
+    "image": "/industry/community/CHC51015.jpg",
+    "short_description": "Make a Difference in Mental Health Support",
+    "description": "Develop specialist knowledge and practical skills to support people experiencing mental health challenges. The CHC53315 Diploma of Mental Health focuses on recovery-oriented practice, trauma-informed care, client advocacy, wellbeing, service coordination and community-based mental health support.",
+    "key_information": {
+      "duration": "Provider-dependent. Confirm the course duration with the registered training organisation (RTO).",
+      "delivery": "As offered by the registered training organisation (RTO). Delivery arrangements may vary by provider.",
+      "usage_recommendation": "Deliver and assess",
+      "extent": "20 units of competency: 15 core units and 5 elective units.",
+      "work_placement": "Minimum 160 hours",
+      "start_date": "",
+      "end_date": "",
+      "delivery_notification": "Study mode, course duration, work requirements, workplace assessment arrangements and intake dates may vary by registered training provider. Confirm current arrangements directly with the provider."
+    },
+    "course_url": "https://training.gov.au/training/details/CHC53315/qualdetails",
+    "overview": {
+      "heading": "Develop Specialist Skills in Mental Health Support",
+      "description": "The CHC53315 Diploma of Mental Health is designed for individuals who want to develop specialist knowledge and skills to support people experiencing mental health issues.",
+      "content": [
+        "This qualification covers recovery-oriented approaches, client advocacy, trauma-informed care, wellbeing promotion, counselling support, service coordination and collaboration with families and other service providers.",
+        "You will develop an understanding of relevant legislation, mental health support services, co-existing mental health and alcohol and other drugs issues, and the importance of person-centred support.",
+        "The qualification supports professional development for individuals seeking roles in established mental health and community service organisations."
+      ]
+    },
+    "why_choose": {
+      "heading": "Why Choose This Qualification?",
+      "benefits": [
+        {
+          "icon": "brain",
+          "title": "Specialist Mental Health Knowledge",
+          "description": "Develop an understanding of recovery-oriented mental health support and client wellbeing."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Person-Centred Approaches",
+          "description": "Learn to support individual recovery goals, preferences and personal circumstances."
+        },
+        {
+          "icon": "clipboard-check",
+          "title": "RPL Opportunities",
+          "description": "Experienced community and mental health workers may be able to demonstrate their existing competencies through Recognition of Prior Learning (RPL)."
+        },
+        {
+          "icon": "briefcase-business",
+          "title": "Career Development",
+          "description": "Explore professional opportunities across mental health and community support services."
+        }
+      ]
+    },
+    "fast_facts": [
+      {
+        "label": "Qualification Code",
+        "value": "CHC53315"
+      },
+      {
+        "label": "AQF Level",
+        "value": "Diploma"
+      },
+      {
+        "label": "Total Units",
+        "value": "20 (15 core units and 5 elective units)"
+      },
+      {
+        "label": "Industry",
+        "value": "Mental Health and Community Services"
+      },
+      {
+        "label": "Study Mode",
+        "value": "As offered by the RTO"
+      }
+    ],
+    "entry_requirements": {
+      "heading": "What Do You Need to Get Started?",
+      "qualification_requirements": {
+        "title": "Entry Requirements",
+        "description": "There are no formal entry requirements for this qualification.",
+        "items": [
+          "Obtain a Unique Student Identifier (USI).",
+          "Provide proof of identity.",
+          "Participate in Language, Literacy, Numeracy and Digital Literacy (LLND) and pre-training assessments.",
+          "Develop effective communication and interpersonal skills.",
+          "Satisfy the 160-hour work requirement.",
+          "Complete required practical and workplace assessments."
+        ]
+      },
+      "core_skills": {
+        "title": "Core Skills",
+        "items": [
+          {
+            "name": "Reading",
+            "description": "Understand mental health resources, policies and support plans."
+          },
+          {
+            "name": "Writing",
+            "description": "Maintain accurate client records and wellness documentation."
+          },
+          {
+            "name": "Numeracy",
+            "description": "Interpret basic service and client-related information."
+          },
+          {
+            "name": "Communication",
+            "description": "Communicate respectfully and effectively with clients and support networks."
+          },
+          {
+            "name": "Digital Skills",
+            "description": "Access online resources and maintain digital records."
+          }
+        ]
+      }
+    },
+    "course_structure": {
+      "heading": "Course Structure – Explore What You'll Learn",
+      "description": "The CHC53315 Diploma of Mental Health consists of 20 units of competency, including 15 core units and 5 elective units.",
+      "total_units": 20,
+      "core_units_count": 15,
+      "elective_units_count": 5,
+      "groups": [
+        {
+          "type": "core",
+          "title": "Core Units",
+          "description": "The 15 core units supplied for this qualification.",
+          "units": [
+            {
+              "code": "CHCADV005",
+              "title": "Provide systems advocacy services"
+            },
+            {
+              "code": "CHCDIV001",
+              "title": "Work with diverse people"
+            },
+            {
+              "code": "CHCDIV002",
+              "title": "Promote Aboriginal and/or Torres Strait Islander cultural safety"
+            },
+            {
+              "code": "CHCMHS002",
+              "title": "Establish self-directed recovery relationships"
+            },
+            {
+              "code": "CHCMHS003",
+              "title": "Provide recovery oriented mental health services"
+            },
+            {
+              "code": "CHCMHS004",
+              "title": "Work collaboratively with the care network and other services"
+            },
+            {
+              "code": "CHCMHS005",
+              "title": "Provide services to people with co-existing mental health and alcohol and other drugs issues"
+            },
+            {
+              "code": "CHCMHS009",
+              "title": "Provide early intervention, health prevention and promotion programs"
+            },
+            {
+              "code": "CHCMHS010",
+              "title": "Implement recovery oriented approaches to complexity"
+            },
+            {
+              "code": "CHCMHS011",
+              "title": "Assess and promote social, emotional and physical wellbeing"
+            },
+            {
+              "code": "CHCMHS012",
+              "title": "Provide support to develop wellness plans and advanced directives"
+            },
+            {
+              "code": "CHCMHS013",
+              "title": "Implement trauma informed care"
+            },
+            {
+              "code": "CHCPOL003",
+              "title": "Research and apply evidence to practice"
+            },
+            {
+              "code": "CHCPRP003",
+              "title": "Reflect on and improve own professional practice"
+            },
+            {
+              "code": "HLTWHS004",
+              "title": "Manage work health and safety"
+            }
+          ],
+          "subgroups": []
+        },
+        {
+          "type": "elective",
+          "title": "Elective Units",
+          "description": "The supplied elective examples are listed below. Five elective units are required for the qualification.",
+          "units": [
+            {
+              "code": "CHCAOD001",
+              "title": "Work in an alcohol and other drugs context"
+            },
+            {
+              "code": "CHCCCS017",
+              "title": "Provide loss and grief support"
+            },
+            {
+              "code": "CHCCSL001",
+              "title": "Establish and confirm the counselling relationship"
+            },
+            {
+              "code": "CHCCSM004",
+              "title": "Coordinate complex case requirements"
+            },
+            {
+              "code": "CHCMHS006",
+              "title": "Facilitate the recovery process with the person, family and carers"
+            },
+            {
+              "code": "CHCPWK006",
+              "title": "Promote and conduct mental health peer work"
+            }
+          ],
+          "subgroups": [],
+          "note": "Six elective examples were supplied, while the qualification requires 5 elective units. Confirm the selected five units against the applicable packaging rules and RTO delivery plan."
+        }
+      ]
+    },
+    "skills_you_will_develop": {
+      "heading": "Develop Your Mental Health Support Skills",
+      "items": [
+        {
+          "title": "Recovery-Oriented Practice",
+          "description": "Support individuals in developing personal recovery goals."
+        },
+        {
+          "title": "Mental Health Awareness",
+          "description": "Understand a range of mental health support needs."
+        },
+        {
+          "title": "Trauma-Informed Care",
+          "description": "Apply sensitive and appropriate support approaches."
+        },
+        {
+          "title": "Client Advocacy",
+          "description": "Promote client rights and access to support."
+        },
+        {
+          "title": "Wellness Planning",
+          "description": "Assist individuals in developing wellness plans."
+        },
+        {
+          "title": "Crisis Awareness",
+          "description": "Recognise complex support needs and appropriate responses."
+        },
+        {
+          "title": "Collaborative Support",
+          "description": "Work with families, carers and service providers."
+        },
+        {
+          "title": "Cultural Safety",
+          "description": "Respect diverse cultural backgrounds and experiences."
+        },
+        {
+          "title": "Professional Practice",
+          "description": "Apply ethical and professional responsibilities."
+        },
+        {
+          "title": "Evidence-Based Practice",
+          "description": "Use relevant research to inform professional support."
+        }
+      ]
+    },
+    "career_pathways": {
+      "heading": "Where Can Your Mental Health Support Skills Take You?",
+      "items": [
+        {
+          "title": "Mental Health Support Worker",
+          "description": "Assist individuals experiencing mental health challenges."
+        },
+        {
+          "title": "Community Mental Health Worker",
+          "description": "Support people accessing community mental health services."
+        },
+        {
+          "title": "Mental Health Outreach Worker",
+          "description": "Assist with community-based mental health programs."
+        },
+        {
+          "title": "Recovery Support Worker",
+          "description": "Support individuals working towards personal recovery goals."
+        },
+        {
+          "title": "Mental Health Program Support Worker",
+          "description": "Assist with mental health initiatives and programs."
+        },
+        {
+          "title": "Psychosocial Support Worker",
+          "description": "Provide practical and person-centred psychosocial assistance."
+        }
+      ]
+    }
+  },
+  {
+    "code": "CPC32420",
+    "industry_slug": "building-construction",
+    "level": "Certificate III",
+    "name": "Certificate III in Plumbing",
+    "slug": "certificate-iii-in-plumbing-cpc32420",
+    "image": "/industry/construction/CPC32420.jpg",
+    "short_description": "Build Your Future in the Plumbing Industry",
+    "description": "Develop practical plumbing knowledge and trade skills with the CPC32420 Certificate III in Plumbing. Learn about water services, sanitary plumbing, drainage, gas systems, roofing and mechanical services while building the technical capabilities required for plumbing work across residential, commercial and industrial environments.",
+    "key_information": {
+      "duration": "Provider-dependent. Confirm the course duration with the registered training organisation (RTO).",
+      "delivery": "As offered by the registered training organisation (RTO). Delivery arrangements may vary by provider.",
+      "usage_recommendation": "Deliver and assess",
+      "extent": "General Plumbing 58 units; General Plumbing with Roofing 62 units; General Plumbing and Mechanical 73 units; Roofing and Mechanical 77 units.",
+      "core_units": "43",
+      "general_plumbing_units": "58",
+      "general_plumbing_with_roofing_units": "62",
+      "general_plumbing_and_mechanical_units": "73",
+      "roofing_and_mechanical_units": "77",
+      "start_date": "",
+      "end_date": "",
+      "delivery_notification": "Occupational pathway availability, study mode, course duration, workshop facilities and workplace assessment arrangements vary by RTO. Confirm the selected pathway and current delivery details with the provider."
+    },
+    "course_url": "https://training.gov.au/training/details/CPC32420/qualdetails",
+    "overview": {
+      "heading": "Develop Your Skills in Professional Plumbing",
+      "description": "The CPC32420 Certificate III in Plumbing is a trade qualification designed for individuals working or seeking to develop a career in residential, commercial and industrial plumbing environments.",
+      "content": [
+        "This qualification develops skills in assembling, installing, maintaining and repairing water services, sanitary plumbing, drainage systems, gas installations and other plumbing-related systems.",
+        "You will learn to interpret plans, calculate quantities, use plumbing tools and equipment, follow workplace safety requirements and complete plumbing tasks in accordance with relevant technical and regulatory standards.",
+        "The qualification offers different occupational pathways, including general plumbing, roofing and mechanical plumbing."
+      ]
+    },
+    "why_choose": {
+      "heading": "Why Choose This Qualification?",
+      "benefits": [
+        {
+          "icon": "award",
+          "title": "Nationally Recognised Trade Qualification",
+          "description": "Develop plumbing competencies aligned with the Australian Construction, Plumbing and Services Training Package."
+        },
+        {
+          "icon": "wrench",
+          "title": "Practical Trade Skills",
+          "description": "Build technical knowledge in plumbing installations, drainage, water services, pipework and maintenance."
+        },
+        {
+          "icon": "clipboard-check",
+          "title": "RPL Opportunities",
+          "description": "Experienced plumbing workers may be able to demonstrate their existing competencies through a Recognition of Prior Learning (RPL) assessment."
+        },
+        {
+          "icon": "briefcase-business",
+          "title": "Industry Career Opportunities",
+          "description": "Develop skills relevant to residential, commercial and industrial plumbing environments."
+        }
+      ]
+    },
+    "fast_facts": [
+      {
+        "label": "Qualification Code",
+        "value": "CPC32420"
+      },
+      {
+        "label": "AQF Level",
+        "value": "Certificate III"
+      },
+      {
+        "label": "Core Units",
+        "value": "43 (27 core & 16 elective units)"
+      },
+      {
+        "label": "Industry",
+        "value": "Construction and Plumbing"
+      },
+      {
+        "label": "Study Mode",
+        "value": "As offered by the RTO"
+      }
+    ],
+    "entry_requirements": {
+      "heading": "What Do You Need to Get Started?",
+      "qualification_requirements": {
+        "title": "Entry Requirements",
+        "description": "There are no formal entry requirements for CPC32420.",
+        "items": [
+          "Obtain a Unique Student Identifier (USI).",
+          "Provide proof of identity.",
+          "Participate in Language, Literacy, Numeracy and Digital Literacy (LLND) and pre-training assessments.",
+          "Demonstrate relevant practical competencies.",
+          "Meet workshop and workplace assessment requirements.",
+          "Complete general construction induction requirements where applicable."
+        ]
+      },
+      "core_skills": {
+        "title": "Core Skills",
+        "items": [
+          {
+            "name": "Reading",
+            "description": "Interpret plumbing drawings, plans and technical instructions."
+          },
+          {
+            "name": "Writing",
+            "description": "Complete job documentation and maintenance records."
+          },
+          {
+            "name": "Numeracy",
+            "description": "Calculate quantities, measurements, gradients and material requirements."
+          },
+          {
+            "name": "Communication",
+            "description": "Communicate effectively with supervisors, clients and trade professionals."
+          },
+          {
+            "name": "Digital Skills",
+            "description": "Access technical documentation and use relevant digital resources."
+          }
+        ]
+      }
+    },
+    "course_structure": {
+      "heading": "Course Structure – Explore What You'll Learn",
+      "description": "CPC32420 has four occupational options. General Plumbing requires 58 units, comprising 43 core units and 15 elective units. The supplied content contains an initial section of the core unit list; the remaining core units and the detailed elective unit lists have not been provided.",
+      "total_units": 58,
+      "core_units_count": 43,
+      "elective_units_count": 15,
+      "groups": [
+        {
+          "type": "core",
+          "title": "Core Units",
+          "description": "The following is the initial section of the official core unit list supplied in the source content. It is not the complete list of 43 core units.",
+          "units": [
+            {
+              "code": "CPCCCM2012",
+              "title": "Work safely at heights"
+            },
+            {
+              "code": "CPCCCM2039",
+              "title": "Carry out interactive workplace communication"
+            },
+            {
+              "code": "CPCCCM2040",
+              "title": "Read plans, calculate quantities and mark out materials"
+            },
+            {
+              "code": "CPCCCM2041",
+              "title": "Work effectively in the plumbing services sector"
+            },
+            {
+              "code": "CPCCCM2043",
+              "title": "Carry out WHS requirements"
+            },
+            {
+              "code": "CPCCCM2045",
+              "title": "Handle and store plumbing materials"
+            },
+            {
+              "code": "CPCCCM2046",
+              "title": "Use plumbing hand and power tools"
+            },
+            {
+              "code": "CPCCCM2047",
+              "title": "Carry out levelling"
+            },
+            {
+              "code": "CPCCCM2048",
+              "title": "Cut and join sheet metal"
+            },
+            {
+              "code": "CPCCCM2054",
+              "title": "Carry out simple concreting and rendering"
+            },
+            {
+              "code": "CPCCCM2055",
+              "title": "Work safely on roofs"
+            },
+            {
+              "code": "CPCCCM3021",
+              "title": "Flash penetrations through roofs and walls"
+            },
+            {
+              "code": "CPCCCM3022",
+              "title": "Weld polymer pipes using fusion method"
+            },
+            {
+              "code": "CPCCCM3023",
+              "title": "Fabricate and install non-ferrous pressure piping"
+            },
+            {
+              "code": "CPCCCM3024",
+              "title": "Prepare simple drawings"
+            },
+            {
+              "code": "CPCCCM3025",
+              "title": "Install trench support"
+            },
+            {
+              "code": "CPCPDR2021",
+              "title": "Locate and clear blockages"
+            },
+            {
+              "code": "CPCPDR2025",
+              "title": "Install stormwater and sub-soil drainage systems and drain work site"
+            },
+            {
+              "code": "CPCPDR2026",
+              "title": "Install prefabricated inspection openings and inspection chambers"
+            },
+            {
+              "code": "CPCPDR3021",
+              "title": "Plan layout and install below ground sanitary drainage systems"
+            },
+            {
+              "code": "CPCPDR3023",
+              "title": "Install on-site domestic wastewater treatment plants and disposal systems"
+            },
+            {
+              "code": "CPCPFS3031",
+              "title": "Fabricate and install fire hydrant and hose reel systems"
+            },
+            {
+              "code": "CPCPGS3048",
+              "title": "Install gas pressure control equipment"
+            }
+          ],
+          "subgroups": [],
+          "note": "23 core units were supplied in the content. The remaining 20 core units are not included because their codes and titles were not provided."
+        },
+        {
+          "type": "elective",
+          "title": "Elective Units – General Plumbing",
+          "description": "The General Plumbing elective structure requires 15 elective units.",
+          "units": [],
+          "subgroups": [
+            {
+              "group": "A",
+              "title": "Group A",
+              "required_units": 8,
+              "units": []
+            },
+            {
+              "group": "B",
+              "title": "Group B",
+              "required_units": 4,
+              "units": []
+            },
+            {
+              "group": "C",
+              "title": "Group C",
+              "required_units": 3,
+              "units": []
+            }
+          ],
+          "note": "The source content provides the required number of elective units from each group but does not provide elective unit codes or titles."
+        }
+      ],
+      "occupational_options": [
+        {
+          "name": "General Plumbing",
+          "total_units": 58,
+          "core_units": 43,
+          "elective_units": 15
+        },
+        {
+          "name": "General Plumbing with Roofing",
+          "total_units": 62
+        },
+        {
+          "name": "General Plumbing and Mechanical",
+          "total_units": 73
+        },
+        {
+          "name": "Roofing and Mechanical",
+          "total_units": 77
+        }
+      ]
+    },
+    "skills_you_will_develop": {
+      "heading": "Discover the Technical Skills Behind Plumbing",
+      "items": [
+        {
+          "title": "Plumbing Installation",
+          "description": "Install and maintain plumbing systems and components."
+        },
+        {
+          "title": "Water Services",
+          "description": "Understand water supply systems and installation procedures."
+        },
+        {
+          "title": "Sanitary Plumbing",
+          "description": "Develop skills in sanitary plumbing systems."
+        },
+        {
+          "title": "Drainage Systems",
+          "description": "Work with stormwater and sanitary drainage installations."
+        },
+        {
+          "title": "Pipework",
+          "description": "Handle, cut, join and install plumbing materials."
+        },
+        {
+          "title": "Technical Drawings",
+          "description": "Read and interpret plumbing plans and specifications."
+        },
+        {
+          "title": "Plumbing Tools",
+          "description": "Select and operate plumbing tools and equipment."
+        },
+        {
+          "title": "Workplace Safety",
+          "description": "Apply appropriate safety practices in construction environments."
+        },
+        {
+          "title": "Fault Identification",
+          "description": "Recognise and respond to plumbing faults and blockages."
+        },
+        {
+          "title": "Trade Communication",
+          "description": "Communicate effectively in plumbing workplace environments."
+        }
+      ]
+    },
+    "career_pathways": {
+      "heading": "Where Can Your Plumbing Skills Take You?",
+      "items": [
+        {
+          "title": "Plumber",
+          "description": "Install, maintain and repair plumbing systems."
+        },
+        {
+          "title": "Plumber and Drainer",
+          "description": "Work with plumbing and drainage installations."
+        },
+        {
+          "title": "Gasfitter",
+          "description": "Undertake relevant gas installation and servicing activities."
+        },
+        {
+          "title": "Roof Plumber",
+          "description": "Install and maintain roof plumbing systems."
+        },
+        {
+          "title": "Mechanical Services Plumber",
+          "description": "Work with mechanical plumbing systems."
+        },
+        {
+          "title": "Plumbing Contractor",
+          "description": "Explore contracting opportunities subject to applicable licensing and regulatory requirements."
+        }
+      ]
+    }
+  },
+  {
+    "code": "CPC40120",
+    "industry_slug": "building-construction",
+    "level": "Certificate IV",
+    "name": "Certificate IV in Building and Construction",
+    "slug": "certificate-iv-in-building-and-construction-cpc40120",
+    "image": "/industry/construction/CPC40120.jpg",
+    "short_description": "Develop the knowledge and practical skills to plan, supervise and manage building and construction projects.",
+    "description": "The CPC40120 Certificate IV in Building and Construction covers construction regulations, structural principles, contracts, estimating, workplace safety and project supervision.",
+    "key_information": {
+      "qualification_code": "CPC40120",
+      "aqf_level": "Certificate IV",
+      "total_units": 19,
+      "core_units": 11,
+      "elective_units": 8,
+      "extent": "19 units of competency: 11 core units and 8 electives. Occupational outcomes include Building or Site Management.",
+      "specialisations": "Building / Site Management",
+      "industry": "Building and Construction",
+      "study_mode": "As offered by the RTO"
+    },
+    "course_url": "https://training.gov.au/training/details/CPC40120/qualdetails",
+    "overview": {
+      "heading": "Develop the Skills to Lead Building Projects",
+      "description": "The CPC40120 Certificate IV in Building and Construction is designed for individuals seeking to develop the skills and knowledge required to supervise building work, manage construction activities and contribute to successful project delivery.",
+      "content": [
+        "This qualification covers building codes and standards, structural principles, construction contracts, cost estimating, labour and material scheduling, workplace safety and quality management.",
+        "It offers two occupational pathways depending on the selected elective units: Building and Site Management.",
+        "Learners develop an understanding of the technical, administrative and supervisory responsibilities involved in building and construction projects."
+      ]
+    },
+    "why_choose": {
+      "heading": "Why Choose This Qualification?",
+      "benefits": [
+        {
+          "icon": "award",
+          "title": "Nationally Recognised Qualification",
+          "description": "Develop construction management knowledge aligned with Australian industry standards."
+        },
+        {
+          "icon": "clipboard-list",
+          "title": "Project Management Skills",
+          "description": "Build capabilities in estimating, contracts, scheduling and construction supervision."
+        },
+        {
+          "icon": "file-check",
+          "title": "RPL Opportunities",
+          "description": "Experienced construction professionals may be able to demonstrate existing competencies through Recognition of Prior Learning (RPL)."
+        },
+        {
+          "icon": "trending-up",
+          "title": "Career Advancement",
+          "description": "Develop knowledge relevant to builder, construction supervisor and site management roles."
+        }
+      ]
+    },
+    "fast_facts": [
+      {
+        "label": "Qualification Code",
+        "value": "CPC40120"
+      },
+      {
+        "label": "AQF Level",
+        "value": "Certificate IV"
+      },
+      {
+        "label": "Total Units",
+        "value": "19 (11 core & 8 elective units)"
+      },
+      {
+        "label": "Industry",
+        "value": "Building and Construction"
+      },
+      {
+        "label": "Study Mode",
+        "value": "As offered by the RTO"
+      }
+    ],
+    "entry_requirements": {
+      "heading": "Entry Requirements",
+      "qualification_requirements": {
+        "title": "Entry Requirements",
+        "description": "There are no formal entry requirements for this qualification.",
+        "items": [
+          "Obtain a Unique Student Identifier (USI).",
+          "Provide proof of identity.",
+          "Participate in LLND and pre-training assessments.",
+          "Access relevant construction plans and documentation.",
+          "Meet practical workplace and assessment requirements."
         ],
-        "entry_requirements": {
-            "heading": "What Do You Need to Get Started?",
-            "qualification_requirements": {
-                "title": "Entry Requirements",
-                "description": "The official AUR30620 qualification has no formal entry requirements. However, Career Skills Institute Australia may conduct its own enrolment and pre-training checks to understand each learner's needs and suitability for the proposed delivery pathway.",
-                "items": [
-                    "Unique Student Identifier (USI).",
-                    "Proof of identity.",
-                    "Relevant educational or employment information, where applicable.",
-                    "Participation in a Language, Literacy, Numeracy and Digital Literacy (LLND) assessment.",
-                    "Access to a computer and internet for online learning, where applicable.",
-                    "Relevant workplace or automotive experience for Recognition of Prior Learning (RPL) applicants."
-                ]
+        "note": "General construction induction training is required for people carrying out construction work."
+      },
+      "core_skills": {
+        "title": "Core Skills",
+        "items": [
+          {
+            "name": "Reading",
+            "description": "Interpret building plans, specifications, codes and standards."
+          },
+          {
+            "name": "Writing",
+            "description": "Prepare estimates, reports, schedules and contract documentation."
+          },
+          {
+            "name": "Numeracy",
+            "description": "Calculate costs, quantities, measurements and material requirements."
+          },
+          {
+            "name": "Communication",
+            "description": "Coordinate with contractors, clients and site teams."
+          },
+          {
+            "name": "Digital Skills",
+            "description": "Use digital tools for project documentation and construction information."
+          }
+        ]
+      }
+    },
+    "course_structure": {
+      "heading": "Understand the Essentials of Building and Construction",
+      "description": "This qualification consists of 19 units: 11 core units and 8 elective units.",
+      "total_units": 19,
+      "core_units_count": 11,
+      "elective_units_count": 8,
+      "groups": [
+        {
+          "type": "core",
+          "title": "Core Units",
+          "description": "The 11 core units provide essential skills in risk and WHS management, building codes, contracts, estimating, scheduling, site administration, legal requirements, structural principles, plans and tender documentation.",
+          "units": [
+            {
+              "code": "BSBOPS504",
+              "title": "Manage business risk"
             },
-            "core_skills": {
-                "title": "Core Skills",
-                "description": "Learners should be prepared to develop and demonstrate the following skills:",
-                "items": [
-                    {
-                        "name": "Reading",
-                        "description": "Understand automotive manuals, technical instructions, workshop procedures and vehicle specifications."
-                    },
-                    {
-                        "name": "Writing",
-                        "description": "Complete service reports, maintenance records, repair documentation and workplace forms."
-                    },
-                    {
-                        "name": "Numeracy",
-                        "description": "Perform measurements, calculations and basic technical assessments relevant to automotive servicing."
-                    },
-                    {
-                        "name": "Communication",
-                        "description": "Communicate effectively with customers, supervisors and other automotive professionals."
-                    },
-                    {
-                        "name": "Digital Skills",
-                        "description": "Use computers, diagnostic equipment and digital resources to access technical information and complete learning activities."
-                    }
-                ]
+            {
+              "code": "BSBWHS513",
+              "title": "Lead WHS risk management"
+            },
+            {
+              "code": "CPCCBC4001",
+              "title": "Apply building codes and standards to the construction process for Class 1 and 10 buildings"
+            },
+            {
+              "code": "CPCCBC4003",
+              "title": "Select, prepare and administer a construction contract"
+            },
+            {
+              "code": "CPCCBC4004",
+              "title": "Identify and produce estimated costs for building and construction projects"
+            },
+            {
+              "code": "CPCCBC4005",
+              "title": "Produce labour and material schedules for ordering"
+            },
+            {
+              "code": "CPCCBC4008",
+              "title": "Supervise site communication and administration processes for building and construction projects"
+            },
+            {
+              "code": "CPCCBC4009",
+              "title": "Apply legal requirements to building and construction projects"
+            },
+            {
+              "code": "CPCCBC4010",
+              "title": "Apply structural principles to residential and commercial constructions"
+            },
+            {
+              "code": "CPCCBC4012",
+              "title": "Read and interpret plans and specifications"
+            },
+            {
+              "code": "CPCCBC4013",
+              "title": "Prepare and evaluate tender documentation"
             }
+          ]
         },
-        "course_structure": {
-            "heading": "Course Structure – Explore What You'll Learn",
-            "description": "The AUR30620 Certificate III in Light Vehicle Mechanical Technology consists of 36 units of competency, including 20 core units and 16 elective units.",
-            "total_units": 36,
-            "core_units_count": 20,
-            "elective_units_count": 16,
-            "groups": [
-                {
-                    "type": "core",
-                    "title": "Core Units",
-                    "description": "Mandatory units required for the qualification.",
-                    "units": [
-                        {
-                            "code": "AURAEA002",
-                            "title": "Follow environmental and sustainability best practice in an automotive workplace"
-                        },
-                        {
-                            "code": "AURASA102",
-                            "title": "Follow safe working practices in an automotive workplace"
-                        },
-                        {
-                            "code": "AURETR112",
-                            "title": "Test and repair basic electrical circuits"
-                        },
-                        {
-                            "code": "AURETR123",
-                            "title": "Diagnose and repair spark ignition engine management systems"
-                        },
-                        {
-                            "code": "AURETR125",
-                            "title": "Test, charge and replace batteries and jump-start vehicles"
-                        },
-                        {
-                            "code": "AURETR129",
-                            "title": "Diagnose and repair charging systems"
-                        },
-                        {
-                            "code": "AURETR130",
-                            "title": "Diagnose and repair starting systems"
-                        },
-                        {
-                            "code": "AURETR131",
-                            "title": "Diagnose and repair ignition systems"
-                        },
-                        {
-                            "code": "AURLTB103",
-                            "title": "Diagnose and repair light vehicle hydraulic braking systems"
-                        },
-                        {
-                            "code": "AURLTD104",
-                            "title": "Diagnose and repair light vehicle steering systems"
-                        },
-                        {
-                            "code": "AURLTD105",
-                            "title": "Diagnose and repair light vehicle suspension systems"
-                        },
-                        {
-                            "code": "AURLTE102",
-                            "title": "Diagnose and repair light vehicle engines"
-                        },
-                        {
-                            "code": "AURLTZ101",
-                            "title": "Diagnose and repair light vehicle emission control systems"
-                        },
-                        {
-                            "code": "AURTTA104",
-                            "title": "Carry out servicing operations"
-                        },
-                        {
-                            "code": "AURTTA118",
-                            "title": "Develop and carry out diagnostic test strategies"
-                        },
-                        {
-                            "code": "AURTTB101",
-                            "title": "Inspect and service braking systems"
-                        },
-                        {
-                            "code": "AURTTC103",
-                            "title": "Diagnose and repair cooling systems"
-                        },
-                        {
-                            "code": "AURTTE104",
-                            "title": "Inspect and service engines"
-                        },
-                        {
-                            "code": "AURTTF101",
-                            "title": "Inspect and service petrol fuel systems"
-                        },
-                        {
-                            "code": "AURTTK102",
-                            "title": "Use and maintain tools and equipment in an automotive workplace"
-                        }
-                    ],
-                    "subgroups": []
-                },
-                {
-                    "type": "elective",
-                    "title": "Elective Units",
-                    "description": "Elective units selected as part of the qualification to develop additional automotive skills and knowledge.",
-                    "units": [
-                        {
-                            "code": "AURACA101",
-                            "title": "Respond to customer needs and enquiries in an automotive workplace"
-                        },
-                        {
-                            "code": "AURAFA103",
-                            "title": "Communicate effectively in an automotive workplace"
-                        },
-                        {
-                            "code": "AURETR010",
-                            "title": "Repair wiring harnesses and looms"
-                        },
-                        {
-                            "code": "AURETR011",
-                            "title": "Install basic ancillary electrical systems and components"
-                        },
-                        {
-                            "code": "AURETR052",
-                            "title": "Apply knowledge of Advanced Driver Assistance Systems (ADAS)"
-                        },
-                        {
-                            "code": "AURETR120",
-                            "title": "Diagnose and repair network electronic control systems"
-                        },
-                        {
-                            "code": "AURETH101",
-                            "title": "Depower and reinitialise battery electric vehicles"
-                        },
-                        {
-                            "code": "AURETH102",
-                            "title": "Inspect and maintain battery electric vehicles"
-                        },
-                        {
-                            "code": "AURETU103",
-                            "title": "Service air conditioning and HVAC systems"
-                        },
-                        {
-                            "code": "AURLTD106",
-                            "title": "Carry out light vehicle wheel alignment operations"
-                        },
-                        {
-                            "code": "AURLTE001",
-                            "title": "Remove and install light vehicle engine assemblies"
-                        },
-                        {
-                            "code": "AURLTX101",
-                            "title": "Diagnose and repair light vehicle manual transmissions"
-                        },
-                        {
-                            "code": "AURLTX102",
-                            "title": "Diagnose and repair light vehicle automatic transmissions"
-                        },
-                        {
-                            "code": "AURLTX103",
-                            "title": "Diagnose and repair light vehicle clutch systems"
-                        },
-                        {
-                            "code": "AURTTF105",
-                            "title": "Diagnose and repair engine forced-induction systems"
-                        },
-                        {
-                            "code": "AURTTJ111",
-                            "title": "Balance wheels and tyres"
-                        }
-                    ],
-                    "subgroups": []
-                }
-            ]
+        {
+          "type": "elective",
+          "title": "Elective Units",
+          "description": "Eight elective units must be selected according to the chosen occupational outcome.",
+          "units": [],
+          "subgroups": [
+            {
+              "title": "Builder Pathway",
+              "description": "Select all Group A electives and permitted additional electives.",
+              "units": []
+            },
+            {
+              "title": "Site Management Pathway",
+              "description": "Select all Group B electives and permitted additional electives.",
+              "units": []
+            }
+          ],
+          "note": "The source content does not provide the elective unit codes, titles, or the detailed Group A and Group B packaging rules. Add the applicable elective units based on the selected occupational outcome and the RTO's delivery plan."
+        }
+      ],
+      "note": "The qualification totals 19 units: 11 core and 8 electives. Only the 11 core units were supplied in the source content."
+    },
+    "skills_you_will_develop": {
+      "heading": "Skills You Will Develop",
+      "items": [
+        {
+          "title": "Building Regulations",
+          "description": "Apply relevant building codes and standards."
         },
-        "skills_you_will_develop": {
-            "heading": "Build Your Technical Automotive Expertise",
+        {
+          "title": "Construction Planning",
+          "description": "Understand project planning and scheduling."
+        },
+        {
+          "title": "Cost Estimation",
+          "description": "Prepare and evaluate construction cost estimates."
+        },
+        {
+          "title": "Contract Administration",
+          "description": "Understand construction contracts and documentation."
+        },
+        {
+          "title": "Structural Principles",
+          "description": "Apply structural concepts to building projects."
+        },
+        {
+          "title": "Site Supervision",
+          "description": "Coordinate construction activities and site operations."
+        },
+        {
+          "title": "WHS Management",
+          "description": "Lead workplace health and safety practices."
+        },
+        {
+          "title": "Tender Documentation",
+          "description": "Prepare and assess tender information."
+        },
+        {
+          "title": "Material Scheduling",
+          "description": "Develop labour and material schedules."
+        },
+        {
+          "title": "Project Communication",
+          "description": "Coordinate with contractors and stakeholders."
+        }
+      ]
+    },
+    "career_pathways": {
+      "heading": "Career Pathways",
+      "items": [
+        {
+          "title": "Construction Supervisor",
+          "description": "Coordinate construction work and site activities."
+        },
+        {
+          "title": "Site Supervisor",
+          "description": "Monitor site operations and construction progress."
+        },
+        {
+          "title": "Building Supervisor",
+          "description": "Oversee building activities and compliance."
+        },
+        {
+          "title": "Leading Hand",
+          "description": "Coordinate workers and daily construction tasks."
+        },
+        {
+          "title": "Assistant Site Manager",
+          "description": "Support site management and administration."
+        },
+        {
+          "title": "Building Project Coordinator",
+          "description": "Assist with project scheduling and coordination."
+        }
+      ]
+    }
+  },
+  {
+    "code": "CPC40920",
+    "industry_slug": "building-construction",
+    "level": "Certificate IV",
+    "name": "Certificate IV in Plumbing and Services",
+    "slug": "certificate-iv-in-plumbing-and-services-cpc40920",
+    "image": "/industry/construction/CPC40120.jpg",
+    "short_description": "Develop advanced technical skills and knowledge in plumbing operations, hydraulic services design, drainage systems, water supply and plumbing project management.",
+    "description": "The CPC40920 Certificate IV in Plumbing and Services supports professional development for experienced plumbing workers and individuals pursuing hydraulic services design pathways.",
+    "key_information": {
+      "qualification_code": "CPC40920",
+      "aqf_level": "Certificate IV",
+      "total_units": 15,
+      "core_units": 10,
+      "elective_units": 5,
+      "extent": "15 units of competency: 10 core units and 5 electives. Separate occupational pathways are available for Operations and Hydraulic Services Design.",
+      "pathways": "Operations / Hydraulic Services Design",
+      "industry": "Plumbing and Construction",
+      "study_mode": "As offered by the RTO"
+    },
+    "course_url": "https://training.gov.au/training/details/CPC40920/qualdetails",
+    "overview": {
+      "heading": "Develop Advanced Plumbing and Hydraulic Design Skills",
+      "description": "The CPC40920 Certificate IV in Plumbing and Services is designed for experienced plumbing service operators and individuals undertaking advanced technical responsibilities, project design or supervision.",
+      "content": [
+        "This qualification develops knowledge and skills in plumbing regulations, workplace risk management, estimating and costing, technical drawings, drainage systems, gas installations, sanitary plumbing and water services.",
+        "It offers two main occupational pathways: Plumbing Operations and Hydraulic Services Design.",
+        "Learners develop the technical and professional capabilities required to contribute to plumbing projects, manage work activities and undertake relevant design or operational responsibilities."
+      ]
+    },
+    "why_choose": {
+      "heading": "Why Choose This Qualification?",
+      "benefits": [
+        {
+          "icon": "settings",
+          "title": "Advanced Technical Knowledge",
+          "description": "Develop specialist knowledge in plumbing systems, hydraulic services and industry regulations."
+        },
+        {
+          "icon": "briefcase-business",
+          "title": "Professional Development",
+          "description": "Build capabilities in plumbing project planning, estimating, costing and technical design."
+        },
+        {
+          "icon": "file-check",
+          "title": "RPL Opportunities",
+          "description": "Experienced plumbing professionals may be able to demonstrate their existing competencies through Recognition of Prior Learning (RPL)."
+        },
+        {
+          "icon": "route",
+          "title": "Specialised Career Pathways",
+          "description": "Explore opportunities in plumbing operations, contracting and hydraulic services design."
+        }
+      ]
+    },
+    "fast_facts": [
+      {
+        "label": "Qualification Code",
+        "value": "CPC40920"
+      },
+      {
+        "label": "AQF Level",
+        "value": "Certificate IV"
+      },
+      {
+        "label": "Total Units",
+        "value": "15 (10 core & 5 elective units)"
+      },
+      {
+        "label": "Industry",
+        "value": "Plumbing and Construction"
+      },
+      {
+        "label": "Study Mode",
+        "value": "As offered by the RTO"
+      }
+    ],
+    "entry_requirements": {
+      "heading": "Entry Requirements",
+      "qualification_requirements": {
+        "title": "Entry Requirements",
+        "description": "The official entry requirements depend on the selected pathway.",
+        "items": [
+          "Operations pathway: Applicants must hold CPC32420 Certificate III in Plumbing or be authorised to undertake plumbing work by an Australian regulator or licensing body.",
+          "Hydraulic Services Design pathway: No formal qualification entry requirements apply.",
+          "Obtain a Unique Student Identifier (USI).",
+          "Provide valid identification.",
+          "Participate in relevant LLND and pre-training assessments.",
+          "Demonstrate the technical skills required for the selected pathway."
+        ]
+      },
+      "core_skills": {
+        "title": "Core Skills",
+        "items": [
+          {
+            "name": "Reading",
+            "description": "Interpret technical plumbing drawings, plans and regulatory information."
+          },
+          {
+            "name": "Writing",
+            "description": "Prepare technical documentation, estimates and project records."
+          },
+          {
+            "name": "Numeracy",
+            "description": "Calculate quantities, dimensions, hydraulic requirements and project costs."
+          },
+          {
+            "name": "Communication",
+            "description": "Coordinate with clients, contractors and technical professionals."
+          },
+          {
+            "name": "Digital Skills",
+            "description": "Use digital tools and relevant design resources."
+          }
+        ]
+      }
+    },
+    "course_structure": {
+      "heading": "Discover Advanced Plumbing and Hydraulic Services",
+      "description": "The qualification consists of 15 units: 10 core and 5 elective units.",
+      "total_units": 15,
+      "core_units_count": 10,
+      "elective_units_count": 5,
+      "groups": [
+        {
+          "type": "core",
+          "title": "Core Units",
+          "description": "The 10 core units cover business risk, plans and specifications, work-based risk controls, estimating, plumbing regulations, and the design and sizing of drainage, gas, sanitary plumbing and water services systems.",
+          "units": [
+            {
+              "code": "BSBESB402",
+              "title": "Establish legal and risk management requirements of new business ventures"
+            },
+            {
+              "code": "CPCCBC4012",
+              "title": "Read and interpret plans and specifications"
+            },
+            {
+              "code": "CPCPCM4011",
+              "title": "Carry out work-based risk control processes"
+            },
+            {
+              "code": "CPCPCM4012",
+              "title": "Estimate and cost work"
+            },
+            {
+              "code": "CPCPCM4015",
+              "title": "Access and interpret regulatory requirements for the plumbing and services industry"
+            },
+            {
+              "code": "CPCPDR4011",
+              "title": "Design and size sanitary drainage systems"
+            },
+            {
+              "code": "CPCPDR4012",
+              "title": "Design and size stormwater drainage systems"
+            },
+            {
+              "code": "CPCPGS4011",
+              "title": "Design and size consumer gas installations"
+            },
+            {
+              "code": "CPCPSN4011",
+              "title": "Design and size sanitary plumbing systems"
+            },
+            {
+              "code": "CPCPWT4011",
+              "title": "Design and size heated and cold-water services and systems"
+            }
+          ]
+        },
+        {
+          "type": "elective",
+          "title": "Elective Units",
+          "description": "Five elective units must be selected according to the chosen occupational pathway.",
+          "units": [],
+          "subgroups": [
+            {
+              "title": "Hydraulic Services Design Pathway",
+              "description": "Select five electives from Group A, subject to the specified substitution rules.",
+              "units": []
+            },
+            {
+              "title": "Operations Pathway",
+              "description": "Select at least one elective from Group B and the remaining electives from Group A or B, subject to the specified substitution rules.",
+              "units": []
+            }
+          ],
+          "note": "The source content does not provide elective unit codes or titles. It provides elective areas only: plumbing business management, sustainable water management, plumbing system design, roof drainage design, heating and cooling system design, and compressed air system design."
+        }
+      ],
+      "note": "The qualification totals 15 units: 10 core and 5 electives. Only the 10 core units were supplied as individual unit codes and titles."
+    },
+    "skills_you_will_develop": {
+      "heading": "Skills You Will Develop",
+      "items": [
+        {
+          "title": "Hydraulic System Design",
+          "description": "Understand the design of hydraulic services systems."
+        },
+        {
+          "title": "Drainage Design",
+          "description": "Develop knowledge of sanitary and stormwater drainage."
+        },
+        {
+          "title": "Water Supply Systems",
+          "description": "Design and size water service systems."
+        },
+        {
+          "title": "Gas Installations",
+          "description": "Understand consumer gas installation design."
+        },
+        {
+          "title": "Technical Drawings",
+          "description": "Interpret plumbing and hydraulic service plans."
+        },
+        {
+          "title": "Cost Estimation",
+          "description": "Estimate and cost plumbing work."
+        },
+        {
+          "title": "Regulatory Compliance",
+          "description": "Interpret relevant plumbing regulations."
+        },
+        {
+          "title": "Risk Management",
+          "description": "Apply work-based risk control procedures."
+        },
+        {
+          "title": "Business Planning",
+          "description": "Understand legal and risk requirements of business ventures."
+        },
+        {
+          "title": "Technical Coordination",
+          "description": "Work with clients, contractors and design professionals."
+        }
+      ]
+    },
+    "career_pathways": {
+      "heading": "Career Pathways",
+      "items": [
+        {
+          "title": "Plumbing Contractor",
+          "description": "Manage plumbing work and contracting activities, subject to licensing."
+        },
+        {
+          "title": "Hydraulic Services Designer",
+          "description": "Develop hydraulic service designs in relevant professional settings."
+        },
+        {
+          "title": "Plumbing Project Supervisor",
+          "description": "Coordinate plumbing project activities."
+        },
+        {
+          "title": "Plumbing Operations Coordinator",
+          "description": "Assist with operational planning and work coordination."
+        },
+        {
+          "title": "Plumbing Estimator",
+          "description": "Prepare cost estimates for plumbing projects."
+        },
+        {
+          "title": "Plumbing Technical Officer",
+          "description": "Support technical documentation and plumbing project activities."
+        }
+      ]
+    }
+  },
+  {
+    "code": "CPC50220",
+    "industry_slug": "building-construction",
+    "level": "Diploma",
+    "name": "Diploma of Building and Construction (Building)",
+    "slug": "diploma-of-building-and-construction-building-cpc50220",
+    "image": "/industry/construction/CPC40120.jpg",
+    "short_description": "Develop advanced knowledge and professional skills in building project management, construction contracts, structural principles, estimating, risk management and site supervision.",
+    "description": "The CPC50220 Diploma of Building and Construction (Building) is designed for individuals seeking to advance their capabilities in the building and construction industry.",
+    "key_information": {
+      "qualification_code": "CPC50220",
+      "aqf_level": "Diploma",
+      "total_units": 27,
+      "core_units": 24,
+      "elective_units": 3,
+      "extent": "27 units of competency: 24 core units and 3 electives.",
+      "industry": "Building and Construction",
+      "building_scope": "Residential Class 1 and 10 up to 3 storeys; commercial Class 2–9, Type B and C",
+      "study_mode": "As offered by the RTO"
+    },
+    "course_url": "https://training.gov.au/training/details/CPC50220/qualdetails",
+    "overview": {
+      "heading": "Develop Advanced Building and Construction Management Skills",
+      "description": "The CPC50220 Diploma of Building and Construction (Building) is designed for individuals seeking to develop advanced skills in managing and overseeing building and construction projects.",
+      "content": [
+        "This qualification focuses on structural principles, construction regulations, estimating, financial and risk management, tender documentation, contracts, contractor selection and construction quality.",
+        "Learners develop the knowledge required to coordinate building activities, supervise project teams, monitor construction progress and manage important project requirements.",
+        "The qualification relates to building projects within specified National Construction Code building classifications and construction limitations."
+      ]
+    },
+    "why_choose": {
+      "heading": "Why Choose This Qualification?",
+      "benefits": [
+        {
+          "icon": "award",
+          "title": "Nationally Recognised Diploma",
+          "description": "Develop advanced building and construction knowledge aligned with Australian training requirements."
+        },
+        {
+          "icon": "clipboard-list",
+          "title": "Advanced Project Management Skills",
+          "description": "Learn about construction contracts, risk management, estimating and project coordination."
+        },
+        {
+          "icon": "file-check",
+          "title": "RPL Opportunities",
+          "description": "Experienced building professionals may be able to demonstrate existing competencies through Recognition of Prior Learning (RPL)."
+        },
+        {
+          "icon": "trending-up",
+          "title": "Professional Career Development",
+          "description": "Explore opportunities in building supervision, project management and construction operations."
+        }
+      ]
+    },
+    "fast_facts": [
+      {
+        "label": "Qualification Code",
+        "value": "CPC50220"
+      },
+      {
+        "label": "AQF Level",
+        "value": "Diploma"
+      },
+      {
+        "label": "Total Units",
+        "value": "27 (24 core & 3 elective units)"
+      },
+      {
+        "label": "Industry",
+        "value": "Building and Construction"
+      },
+      {
+        "label": "Study Mode",
+        "value": "As offered by the RTO"
+      }
+    ],
+    "entry_requirements": {
+      "heading": "Entry Requirements",
+      "qualification_requirements": {
+        "title": "Entry Requirements",
+        "description": "There are no formal entry requirements for CPC50220.",
+        "items": [
+          "Obtain a Unique Student Identifier (USI).",
+          "Provide valid identification.",
+          "Participate in LLND and pre-training assessments.",
+          "Access building plans, specifications and project documentation.",
+          "Meet the practical workplace requirements of the qualification."
+        ],
+        "note": "The construction industry requires access to a live building and construction workplace for specified assessment requirements. General construction induction training is required for people carrying out construction work."
+      },
+      "core_skills": {
+        "title": "Core Skills",
+        "items": [
+          {
+            "name": "Reading",
+            "description": "Interpret complex building plans, specifications and construction codes."
+          },
+          {
+            "name": "Writing",
+            "description": "Prepare contracts, tenders, estimates and project reports."
+          },
+          {
+            "name": "Numeracy",
+            "description": "Calculate project costs, quantities and financial information."
+          },
+          {
+            "name": "Communication",
+            "description": "Coordinate contractors, clients, workers and project stakeholders."
+          },
+          {
+            "name": "Digital Skills",
+            "description": "Use project documentation and relevant digital construction resources."
+          }
+        ]
+      }
+    },
+    "course_structure": {
+      "heading": "Discover the Knowledge Behind Successful Building Projects",
+      "description": "The qualification consists of 27 units: 24 core and 3 elective units.",
+      "total_units": 27,
+      "core_units_count": 24,
+      "elective_units_count": 3,
+      "groups": [
+        {
+          "type": "core",
+          "title": "Core Units",
+          "description": "The following are examples of the official core units supplied in the course content.",
+          "units": [
+            {
+              "code": "BSBOPS504",
+              "title": "Manage business risk"
+            },
+            {
+              "code": "BSBWHS513",
+              "title": "Lead WHS risk management"
+            },
+            {
+              "code": "CPCCBC4001",
+              "title": "Apply building codes and standards to the construction process for Class 1 and 10 buildings"
+            },
+            {
+              "code": "CPCCBC4003",
+              "title": "Select, prepare and administer a construction contract"
+            },
+            {
+              "code": "CPCCBC4004",
+              "title": "Identify and produce estimated costs for building and construction projects"
+            },
+            {
+              "code": "CPCCBC4005",
+              "title": "Produce labour and material schedules for ordering"
+            },
+            {
+              "code": "CPCCBC4008",
+              "title": "Supervise site communication and administration processes for building and construction projects"
+            },
+            {
+              "code": "CPCCBC4009",
+              "title": "Apply legal requirements to building and construction projects"
+            },
+            {
+              "code": "CPCCBC4010",
+              "title": "Apply structural principles to residential and commercial constructions"
+            },
+            {
+              "code": "CPCCBC4012",
+              "title": "Read and interpret plans and specifications"
+            },
+            {
+              "code": "CPCCBC4013",
+              "title": "Prepare and evaluate tender documentation"
+            }
+          ],
+          "note": "The source content identifies these as examples of official core units, not the complete 24-unit list. The remaining core units were not supplied."
+        },
+        {
+          "type": "elective",
+          "title": "Elective Units",
+          "description": "Three elective units must be selected from the current CPC50220 Release 4 qualification document and its applicable packaging rules.",
+          "units": [],
+          "note": "The source content does not provide the elective unit codes or titles. Confirm the permitted elective choices against the current qualification document and applicable packaging rules."
+        }
+      ],
+      "note": "The qualification totals 27 units: 24 core and 3 electives. The supplied content lists 11 core-unit examples only; the remaining 13 core units and all 3 elective unit details were not provided."
+    },
+    "skills_you_will_develop": {
+      "heading": "Skills You Will Develop",
+      "items": [
+        {
+          "title": "Construction Management",
+          "description": "Understand the management of building projects."
+        },
+        {
+          "title": "Structural Principles",
+          "description": "Apply structural concepts to residential and commercial construction."
+        },
+        {
+          "title": "Cost Estimation",
+          "description": "Identify and estimate project costs."
+        },
+        {
+          "title": "Contract Administration",
+          "description": "Prepare and administer building contracts."
+        },
+        {
+          "title": "Tender Management",
+          "description": "Prepare and evaluate tender documentation."
+        },
+        {
+          "title": "Risk Management",
+          "description": "Identify and manage construction project risks."
+        },
+        {
+          "title": "Quality Management",
+          "description": "Monitor construction quality requirements."
+        },
+        {
+          "title": "Contractor Coordination",
+          "description": "Select and coordinate contractors."
+        },
+        {
+          "title": "Construction Compliance",
+          "description": "Understand relevant legal and building requirements."
+        },
+        {
+          "title": "Site Supervision",
+          "description": "Oversee construction activities and project progress."
+        }
+      ]
+    },
+    "career_pathways": {
+      "heading": "Career Pathways",
+      "items": [
+        {
+          "title": "Builder",
+          "description": "Manage building projects subject to applicable licensing requirements."
+        },
+        {
+          "title": "General Foreperson",
+          "description": "Supervise construction workers and daily site operations."
+        },
+        {
+          "title": "Building Inspector",
+          "description": "Undertake relevant building inspection functions subject to applicable requirements."
+        },
+        {
+          "title": "Construction Project Coordinator",
+          "description": "Assist in planning and coordinating construction projects."
+        },
+        {
+          "title": "Construction Supervisor",
+          "description": "Monitor construction progress and site activities."
+        },
+        {
+          "title": "Building Project Manager",
+          "description": "Coordinate project delivery, contractors and construction requirements."
+        }
+      ]
+    }
+  },
+  {
+    "code": "CPP41419",
+    "industry_slug": "real-estate",
+    "level": "Certificate IV",
+    "name": "Certificate IV in Real Estate Practice",
+    "slug": "certificate-iv-in-real-estate-practice-cpp41419",
+    "image": "/industry/real-estate/CPP41419.jpg",
+    "short_description": "Develop professional knowledge and practical skills in property sales, real estate operations, property management and agency practice.",
+    "description": "The CPP41419 Certificate IV in Real Estate Practice covers real estate legislation, ethical responsibilities, marketing, client relationships and property transactions.",
+    "key_information": {
+      "qualification_code": "CPP41419",
+      "aqf_level": "Certificate IV",
+      "total_units": 18,
+      "core_units": 5,
+      "elective_units": 13,
+      "extent": "18 units of competency: 5 core units and 13 electives. Electives are selected from at least two elective groups to support the intended vocational outcome.",
+      "industry": "Real Estate and Property Services",
+      "study_mode": "As offered by the RTO"
+    },
+    "course_url": "https://training.gov.au/training/details/CPP41419/qualdetails",
+    "overview": {
+      "heading": "Develop the Skills to Succeed in Real Estate",
+      "description": "The CPP41419 Certificate IV in Real Estate Practice is designed for individuals seeking to develop the knowledge and skills required to perform professional real estate functions across residential and commercial property environments.",
+      "content": [
+        "This qualification focuses on real estate legislation, ethical practice, agency operations, property marketing, client relationships and trust account responsibilities.",
+        "Learners develop an understanding of property sales, leasing, property management, buyer and seller relationships, business broking and other real estate activities.",
+        "The qualification supports professional development for individuals interested in working within real estate agencies and property services organisations."
+      ]
+    },
+    "why_choose": {
+      "heading": "Why Choose This Qualification?",
+      "benefits": [
+        {
+          "icon": "award",
+          "title": "Nationally Recognised Qualification",
+          "description": "Develop real estate knowledge aligned with Australian property services training requirements."
+        },
+        {
+          "icon": "briefcase-business",
+          "title": "Practical Industry Knowledge",
+          "description": "Understand property sales, marketing, leasing, agency operations and client relationships."
+        },
+        {
+          "icon": "file-check",
+          "title": "RPL Opportunities",
+          "description": "Experienced real estate professionals may be able to demonstrate existing competencies through Recognition of Prior Learning (RPL)."
+        },
+        {
+          "icon": "trending-up",
+          "title": "Career Development",
+          "description": "Explore opportunities in real estate sales, property management and property services."
+        }
+      ]
+    },
+    "fast_facts": [
+      {
+        "label": "Qualification Code",
+        "value": "CPP41419"
+      },
+      {
+        "label": "AQF Level",
+        "value": "Certificate IV"
+      },
+      {
+        "label": "Total Units",
+        "value": "18 (5 core units and 13 elective units)"
+      },
+      {
+        "label": "Core Units",
+        "value": "5"
+      },
+      {
+        "label": "Elective Units",
+        "value": "13"
+      },
+      {
+        "label": "Industry",
+        "value": "Real Estate and Property Services"
+      },
+      {
+        "label": "Study Mode",
+        "value": "As offered by the RTO"
+      }
+    ],
+    "entry_requirements": {
+      "heading": "Entry Requirements",
+      "qualification_requirements": {
+        "title": "Entry Requirements",
+        "description": "There are no formal entry requirements for CPP41419.",
+        "items": [
+          "Obtain a Unique Student Identifier (USI).",
+          "Provide valid identification.",
+          "Participate in LLND and pre-training assessments.",
+          "Develop professional communication skills.",
+          "Understand the importance of ethical conduct and regulatory compliance."
+        ],
+        "note": "State and territory licensing requirements may apply to real estate occupations and must be checked separately."
+      },
+      "core_skills": {
+        "title": "Core Skills",
+        "items": [
+          {
+            "name": "Reading",
+            "description": "Interpret property legislation, contracts and real estate documentation."
+          },
+          {
+            "name": "Writing",
+            "description": "Prepare property advertisements, reports and transaction documentation."
+          },
+          {
+            "name": "Numeracy",
+            "description": "Understand property prices, rental figures and basic financial information."
+          },
+          {
+            "name": "Communication",
+            "description": "Communicate effectively with buyers, sellers, tenants and landlords."
+          },
+          {
+            "name": "Digital Skills",
+            "description": "Use online property platforms and digital communication tools."
+          }
+        ]
+      }
+    },
+    "course_structure": {
+      "heading": "Discover the Foundations of Professional Real Estate Practice",
+      "description": "The qualification consists of 18 units: 5 core and 13 elective units.",
+      "total_units": 18,
+      "core_units_count": 5,
+      "elective_units_count": 13,
+      "groups": [
+        {
+          "type": "core",
+          "title": "Core Units",
+          "description": "The five core units cover professional practice, ethical practice, real estate legislation, marketing and communication profiles, and trust account preparation.",
+          "units": [
+            {
+              "code": "CPPREP4001",
+              "title": "Prepare for professional practice in real estate"
+            },
+            {
+              "code": "CPPREP4002",
+              "title": "Access and interpret ethical practice in real estate"
+            },
+            {
+              "code": "CPPREP4003",
+              "title": "Access and interpret legislation in real estate"
+            },
+            {
+              "code": "CPPREP4004",
+              "title": "Establish marketing and communication profiles in real estate"
+            },
+            {
+              "code": "CPPREP4005",
+              "title": "Prepare to work with real estate trust accounts"
+            }
+          ]
+        },
+        {
+          "type": "elective",
+          "title": "Elective Units",
+          "description": "Electives are selected from the qualification's specialised elective groups. The final selection must follow the official packaging rules and the RTO's approved delivery scope.",
+          "units": [
+            {
+              "code": "CPPREP4101",
+              "title": "Appraise property for sale or lease"
+            },
+            {
+              "code": "CPPREP4102",
+              "title": "Market property"
+            },
+            {
+              "code": "CPPREP4103",
+              "title": "Establish vendor relationships"
+            },
+            {
+              "code": "CPPREP4104",
+              "title": "Establish buyer relationships"
+            },
+            {
+              "code": "CPPREP4105",
+              "title": "Sell property"
+            },
+            {
+              "code": "CPPREP4121",
+              "title": "Establish landlord relationships"
+            }
+          ],
+          "subgroups": [
+            {
+              "title": "Specialised Elective Groups",
+              "description": "Other elective groups cover residential property management, commercial property, business broking, stock and station agency and related real estate activities.",
+              "units": []
+            }
+          ],
+          "note": "Six elective examples were supplied. The remaining seven elective unit codes and titles were not provided. The supplied content states that electives must be selected from any two specified elective groups (Groups A–L), with the remaining units selected according to the official packaging rules and the RTO's approved delivery scope."
+        }
+      ],
+      "note": "The qualification totals 18 units: 5 core and 13 electives. All 5 core units and 6 elective examples are listed here; the remaining 7 elective unit details were not supplied."
+    },
+    "skills_you_will_develop": {
+      "heading": "Skills You Will Develop",
+      "items": [
+        {
+          "title": "Real Estate Legislation",
+          "description": "Understand relevant property laws and regulatory requirements."
+        },
+        {
+          "title": "Ethical Practice",
+          "description": "Apply ethical standards in professional real estate activities."
+        },
+        {
+          "title": "Property Marketing",
+          "description": "Develop property marketing and communication strategies."
+        },
+        {
+          "title": "Property Appraisal",
+          "description": "Understand property appraisal for sale or lease."
+        },
+        {
+          "title": "Sales Techniques",
+          "description": "Develop skills in managing property sales activities."
+        },
+        {
+          "title": "Client Relationships",
+          "description": "Build professional relationships with buyers and sellers."
+        },
+        {
+          "title": "Property Management",
+          "description": "Understand landlord and tenant relationships."
+        },
+        {
+          "title": "Trust Account Knowledge",
+          "description": "Develop knowledge of real estate trust account requirements."
+        },
+        {
+          "title": "Contract Awareness",
+          "description": "Understand real estate transaction documentation and procedures."
+        },
+        {
+          "title": "Agency Operations",
+          "description": "Understand professional real estate agency practices."
+        }
+      ]
+    },
+    "career_pathways": {
+      "heading": "Career Pathways",
+      "items": [
+        {
+          "title": "Real Estate Salesperson",
+          "description": "Assist buyers and sellers with property transactions, subject to applicable licensing."
+        },
+        {
+          "title": "Property Manager",
+          "description": "Coordinate rental properties and landlord and tenant relationships."
+        },
+        {
+          "title": "Real Estate Representative",
+          "description": "Support property sales and real estate agency activities."
+        },
+        {
+          "title": "Buyer's Agent",
+          "description": "Assist clients with property acquisition activities."
+        },
+        {
+          "title": "Property Portfolio Officer",
+          "description": "Support the administration of property portfolios."
+        },
+        {
+          "title": "Business Broker",
+          "description": "Assist with business sales and related transactions, subject to applicable regulatory requirements."
+        }
+      ]
+    }
+  },
+  {
+    "code": "FNS40222",
+    "industry_slug": "business-accounting",
+    "level": "Certificate IV",
+    "name": "Certificate IV in Accounting and Bookkeeping",
+    "slug": "certificate-iv-in-accounting-and-bookkeeping-fns40222",
+    "image": "/industry/business/FNS40222.jpg",
+    "short_description": "Develop professional knowledge and practical skills in accounting, bookkeeping, payroll administration and financial reporting. The FNS40222 Certificate IV in Accounting and Bookkeeping covers financial transactions, business activity statements, budgeting, financial reports, computerised accounting systems and payroll operations.",
+    "description": "Build Your Career in Accounting and Bookkeeping",
+    "key_information": {
+        "extent": "13 units of competency: 10 core units and 3 elective units.",
+        "qualification_code": "FNS40222",
+        "aqf_level": "Certificate IV",
+        "total_units": "13",
+        "core_units": "10",
+        "elective_units": "3",
+        "industry": "Financial Services, Accounting and Bookkeeping",
+        "study_mode": "As offered by the RTO"
+    },
+    "overview": {
+        "heading": "Develop the Skills to Succeed in Accounting and Bookkeeping",
+        "description": "The FNS40222 Certificate IV in Accounting and Bookkeeping is designed for individuals seeking to develop the knowledge and practical skills required to perform accounting and bookkeeping functions across businesses and organisations.",
+        "content": [
+            "This qualification focuses on processing financial transactions, maintaining accounting records, preparing financial statements, managing payroll systems, preparing operational budgets and completing business activity and instalment activity statements.",
+            "Learners develop an understanding of financial reporting, computerised accounting systems, subsidiary accounts, reconciliations and end-of-year financial adjustments.",
+            "The qualification supports professional development for individuals interested in working as bookkeepers, accounts officers, payroll officers and other accounting support professionals.",
+            "It also provides an educational pathway towards meeting the education requirements for registration as a Business Activity Statement (BAS) agent, subject to the additional requirements of the Tax Practitioners Board (TPB)."
+        ]
+    },
+    "why_choose": {
+        "heading": "Why Choose This Qualification?",
+        "description": "Develop practical accounting and bookkeeping capabilities for professional growth in the financial services industry.",
+        "benefits": [
+            {
+                "icon": "award",
+                "title": "Nationally Recognised Qualification",
+                "description": "Develop accounting and bookkeeping knowledge aligned with the Australian Financial Services Training Package."
+            },
+            {
+                "icon": "calculator",
+                "title": "Practical Financial Skills",
+                "description": "Learn to process financial transactions, prepare reports, manage payroll and maintain accurate financial records."
+            },
+            {
+                "icon": "file-check-2",
+                "title": "RPL Opportunities",
+                "description": "Experienced accounting and bookkeeping professionals may be able to demonstrate their existing competencies through Recognition of Prior Learning."
+            },
+            {
+                "icon": "trending-up",
+                "title": "Career Development",
+                "description": "Explore opportunities in bookkeeping, accounts administration, payroll and financial support roles."
+            }
+        ]
+    },
+    "fast_facts": [
+        {
+            "label": "Qualification Code",
+            "value": "FNS40222"
+        },
+        {
+            "label": "AQF Level",
+            "value": "Certificate IV"
+        },
+        {
+            "label": "Total Units",
+            "value": "13 (10 core & 3 elective units)"
+        },
+        
+        {
+            "label": "Industry",
+            "value": "Financial Services, Accounting and Bookkeeping"
+        },
+        {
+            "label": "Study Mode",
+            "value": "As offered by the RTO"
+        }
+    ],
+    "entry_requirements": {
+        "heading": "Entry Requirements",
+        "qualification_requirements": {
+            "title": "Entry Requirements",
+            "description": "There are no formal entry requirements for FNS40222. Applicants should be prepared to:",
+            "items": [
+                "Obtain a USI.",
+                "Provide valid identification.",
+                "Participate in LLND and pre-training assessments.",
+                "Develop basic accounting and numerical skills.",
+                "Use computers and accounting software for learning and assessment activities.",
+                "Understand the importance of accuracy, confidentiality and professional conduct when handling financial information."
+            ],
+            "note": "Individuals providing BAS services for a fee or other reward must register with the Tax Practitioners Board (TPB). Completing this qualification alone does not automatically grant BAS agent registration. Additional requirements, including relevant experience, apply."
+        },
+        "core_skills": {
+            "title": "Core Skills",
             "items": [
                 {
-                    "title": "Automotive Servicing and Maintenance",
-                    "description": "Develop the ability to perform routine vehicle servicing, inspections and maintenance procedures according to manufacturer specifications."
+                    "name": "Reading",
+                    "description": "Interpret financial documents, accounting records, taxation information and business reports."
                 },
                 {
-                    "title": "Engine Diagnostics and Repairs",
-                    "description": "Learn to identify engine faults, perform diagnostic procedures and undertake relevant mechanical repairs on light vehicle engines."
+                    "name": "Writing",
+                    "description": "Prepare financial statements, budgets, bookkeeping records and business documentation."
                 },
                 {
-                    "title": "Automotive Electrical Systems",
-                    "description": "Build skills in testing and repairing electrical circuits, batteries, charging systems, starting systems and ignition systems."
+                    "name": "Numeracy",
+                    "description": "Perform financial calculations, reconciliations, budgeting and payroll calculations."
                 },
                 {
-                    "title": "Brake System Inspection and Repair",
-                    "description": "Understand how to inspect, service, diagnose and repair light vehicle hydraulic braking systems."
+                    "name": "Communication",
+                    "description": "Communicate effectively with clients, business owners, employees and financial professionals."
                 },
                 {
-                    "title": "Steering and Suspension Systems",
-                    "description": "Develop knowledge of steering and suspension components, including inspection, fault identification and repair procedures."
-                },
-                {
-                    "title": "Cooling System Maintenance",
-                    "description": "Learn to diagnose cooling system problems and perform relevant servicing and repair procedures."
-                },
-                {
-                    "title": "Fuel and Emission Control Systems",
-                    "description": "Understand petrol fuel systems, engine management and emission control technologies used in modern vehicles."
-                },
-                {
-                    "title": "Automotive Diagnostic Techniques",
-                    "description": "Develop the ability to select diagnostic strategies, use testing equipment and interpret technical information to identify vehicle faults."
-                },
-                {
-                    "title": "Workshop Safety and Sustainability",
-                    "description": "Apply safe work practices, environmental procedures and sustainable practices within an automotive workshop."
-                },
-                {
-                    "title": "Automotive Tools and Equipment",
-                    "description": "Learn to select, operate and maintain automotive tools, equipment and measuring instruments safely and effectively."
-                }
-            ]
-        },
-        "career_pathways": {
-            "heading": "Where Can Your Automotive Skills Take You?",
-            "description": "Completing this qualification may support career opportunities in automotive service and repair environments, depending on experience, employer requirements and demonstrated competency.",
-            "items": [
-                {
-                    "title": "Light Vehicle Mechanic",
-                    "description": "Perform routine maintenance, inspections, servicing and mechanical repairs on passenger cars and other light vehicles."
-                },
-                {
-                    "title": "Automotive Technician",
-                    "description": "Use diagnostic tools and technical knowledge to identify vehicle faults and undertake mechanical and electrical repairs."
-                },
-                {
-                    "title": "Automotive Service Technician",
-                    "description": "Carry out scheduled servicing, vehicle inspections and maintenance procedures in automotive service centres."
-                },
-                {
-                    "title": "Automotive Repair Technician",
-                    "description": "Assist with diagnosing mechanical problems and repairing vehicle components and systems."
-                },
-                {
-                    "title": "Workshop Technician",
-                    "description": "Support workshop operations by undertaking servicing, maintenance, inspections and repair tasks."
-                },
-                {
-                    "title": "Vehicle Maintenance Technician",
-                    "description": "Maintain vehicle performance and reliability through inspections, servicing and preventive maintenance activities."
+                    "name": "Digital Skills",
+                    "description": "Use computerised accounting systems, spreadsheets and digital financial management tools."
                 }
             ]
         }
+    },
+    "course_structure": {
+        "heading": "Discover the Foundations of Professional Accounting and Bookkeeping",
+        "description": "The qualification consists of 13 units: 10 core and 3 elective units.",
+        "total_units": 13,
+        "core_units_count": 10,
+        "elective_units_count": 3,
+        "groups": [
+            {
+                "type": "core",
+                "title": "Core Units",
+                "description": "Complete all 10 core units required for this qualification.",
+                "units": [
+                    {
+                        "code": "BSBTEC302",
+                        "title": "Design and produce spreadsheets"
+                    },
+                    {
+                        "code": "FNSACC321",
+                        "title": "Process financial transactions and extract interim reports"
+                    },
+                    {
+                        "code": "FNSACC322",
+                        "title": "Administer subsidiary accounts and ledgers"
+                    },
+                    {
+                        "code": "FNSACC412",
+                        "title": "Prepare operational budgets"
+                    },
+                    {
+                        "code": "FNSACC414",
+                        "title": "Prepare financial statements for non-reporting entities"
+                    },
+                    {
+                        "code": "FNSACC418",
+                        "title": "Work effectively in the accounting and bookkeeping industry"
+                    },
+                    {
+                        "code": "FNSACC421",
+                        "title": "Prepare financial reports"
+                    },
+                    {
+                        "code": "FNSACC426",
+                        "title": "Set up and operate computerised accounting systems"
+                    },
+                    {
+                        "code": "FNSTPB411",
+                        "title": "Complete business activity and instalment activity statements"
+                    },
+                    {
+                        "code": "FNSTPB412",
+                        "title": "Establish and maintain payroll systems"
+                    }
+                ]
+            },
+            {
+                "type": "elective",
+                "title": "Elective Units",
+                "description": "Electives are selected according to the learner's occupational interests and the qualification packaging requirements.",
+                "units": [
+                    {
+                        "code": "BSBESB402",
+                        "title": "Establish legal and risk management requirements of new business ventures"
+                    },
+                    {
+                        "code": "BSBESB403",
+                        "title": "Plan finances for new business ventures"
+                    },
+                    {
+                        "code": "BSBOPS404",
+                        "title": "Implement customer service strategies"
+                    },
+                    {
+                        "code": "BSBTEC402",
+                        "title": "Design and produce complex spreadsheets"
+                    },
+                    {
+                        "code": "FNSACC323",
+                        "title": "Perform financial calculations"
+                    },
+                    {
+                        "code": "FNSACC407",
+                        "title": "Produce job costing information"
+                    },
+                    {
+                        "code": "FNSACC411",
+                        "title": "Process business tax requirements"
+                    },
+                    {
+                        "code": "FNSORG506",
+                        "title": "Prepare financial forecasts and projections"
+                    },
+                    {
+                        "code": "FNSPAY512",
+                        "title": "Process superannuation payments in payroll"
+                    },
+                    {
+                        "code": "FNSPAY514",
+                        "title": "Interpret and apply knowledge of industrial regulations relevant to payroll"
+                    }
+                ],
+                "note": "The qualification requires 3 electives. At least 2 must come from the official FNS40222 elective list. Up to 1 may be selected from another currently endorsed Certificate III or higher qualification or accredited course, subject to the packaging rules and relevance requirements. The final selection must be confirmed against the RTO's approved delivery scope. The units listed above are examples; they are not a prescribed selection of the 3 electives."
+            }
+        ]
+    },
+    "skills_you_will_develop": {
+        "heading": "Skills You Will Develop",
+        "items": [
+            {
+                "title": "Financial Transaction Processing",
+                "description": "Process financial transactions and maintain accurate accounting records."
+            },
+            {
+                "title": "Bookkeeping",
+                "description": "Administer subsidiary accounts, ledgers and financial records."
+            },
+            {
+                "title": "Financial Reporting",
+                "description": "Prepare financial reports and statements for business operations."
+            },
+            {
+                "title": "Budget Preparation",
+                "description": "Develop and monitor operational budgets."
+            },
+            {
+                "title": "Computerised Accounting",
+                "description": "Set up and operate accounting software systems."
+            },
+            {
+                "title": "Payroll Administration",
+                "description": "Establish and maintain payroll systems."
+            },
+            {
+                "title": "BAS Preparation",
+                "description": "Prepare business activity and instalment activity statements."
+            },
+            {
+                "title": "Financial Reconciliation",
+                "description": "Maintain accurate financial records and reconcile accounts."
+            },
+            {
+                "title": "Spreadsheet Management",
+                "description": "Design and produce spreadsheets for financial activities."
+            },
+            {
+                "title": "Professional Practice",
+                "description": "Apply industry standards, ethical conduct and confidentiality in accounting and bookkeeping."
+            }
+        ]
+    },
+    "career_pathways": {
+        "heading": "Career Pathways",
+        "description": "This qualification can support career opportunities across bookkeeping, accounts administration, payroll and financial support roles.",
+        "items": [
+            {
+                "title": "Bookkeeper",
+                "description": "Maintain financial records, process transactions and manage bookkeeping activities."
+            },
+            {
+                "title": "Accounts Officer",
+                "description": "Assist with accounts payable, accounts receivable and financial administration."
+            },
+            {
+                "title": "Payroll Officer",
+                "description": "Process payroll, employee payments and payroll records."
+            },
+            {
+                "title": "Accounts Administrator",
+                "description": "Support daily financial and administrative operations."
+            },
+            {
+                "title": "Financial Accounts Assistant",
+                "description": "Assist with financial reporting and accounting activities."
+            },
+            {
+                "title": "BAS Agent",
+                "description": "Provide eligible BAS services after obtaining the required Tax Practitioners Board registration."
+            },
+            {
+                "title": "Assistant Accountant",
+                "description": "Support financial reporting, reconciliations and accounting functions."
+            },
+            {
+                "title": "Accounting Clerk",
+                "description": "Maintain financial documentation and assist with accounting operations."
+            }
+        ]
     }
+}
 ]

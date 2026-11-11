@@ -75,7 +75,8 @@
     $hasRequirements =
         filled($qualificationRequirements['title'] ?? null) ||
         filled($qualificationRequirements['description'] ?? null) ||
-        !empty(array_filter($requirementItems, fn($item) => is_string($item) && filled($item)));
+        !empty(array_filter($requirementItems, fn($item) => is_string($item) && filled($item))) ||
+        filled($qualificationRequirements['note'] ?? null);
 
     $hasCoreSkills =
         filled($coreSkills['title'] ?? null) ||
@@ -106,7 +107,9 @@
     $hasCourseStructure =
         $hasCourseGroups ||
         filled($courseStructure['heading'] ?? null) ||
-        filled($courseStructure['description'] ?? null);
+        filled($courseStructure['description'] ?? null) ||
+        filled($courseStructure['note'] ?? null) ||
+        !empty($groups);
 
     $hasSkills = !empty(
         array_filter(
@@ -166,19 +169,16 @@
 
                         @if (filled($qualification['short_description'] ?? null))
                             <p class="max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
+                                {{ $qualification['short_description'] }}
+                            </p>
+                        @elseif (filled($qualification['description'] ?? null))
+                            <p class="max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
                                 {{ $qualification['description'] }}
                             </p>
                         @endif
 
-                        {{-- @if (filled($qualification['course_url'] ?? null))
-                            <div>
-                                <a href="{{ $qualification['course_url'] }}" target="_blank" rel="noopener noreferrer"
-                                    class="inline-flex items-center gap-2 rounded-xl bg-brand-600 px-5 py-3 text-sm font-bold text-white shadow-lg shadow-brand-600/20 transition hover:bg-brand-700">
-                                    Official Qualification Details
-                                    <iconify-icon icon="lucide:external-link" class="text-lg"></iconify-icon>
-                                </a>
-                            </div>
-                        @endif --}}
+                       
+
                         <div class="grid grid-cols-2 gap-6 sm:grid-cols-2 w-full md:w-[60%]">
                             <div
                                 class="group flex items-center justify-center rounded-2xl p-3  bg-white border border-neutral-300 transition-all duration-300 ">
@@ -192,20 +192,24 @@
                             </div>
                         </div>
 
-                        <div
-                            class="flex items-start gap-3 rounded-2xl border border-brand-100 bg-white p-4 shadow-sm sm:col-span-2">
+                        @if (filled($keyInformation['extent'] ?? null))
                             <div
-                                class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600">
-                                <iconify-icon icon="lucide:layers" class="text-xl"></iconify-icon>
+                                class="flex items-start gap-3 rounded-2xl border border-brand-100 bg-white p-4 shadow-sm sm:col-span-2">
+                                <div
+                                    class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600">
+                                    <iconify-icon icon="lucide:layers" class="text-xl"></iconify-icon>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-bold uppercase tracking-wider text-slate-400">
+                                        Qualification Structure</p>
+                                    <p class="mt-1 text-sm font-semibold leading-relaxed text-slate-800">
+                                        {{ $keyInformation['extent'] }}
+                                    </p>
+                                </div>
                             </div>
-                            <div>
-                                <p class="text-xs font-bold uppercase tracking-wider text-slate-400">
-                                    Qualification Structure</p>
-                                <p class="mt-1 text-sm font-semibold leading-relaxed text-slate-800">
-                                    {{ $keyInformation['extent'] }}
-                                </p>
-                            </div>
-                        </div>
+                        @endif
+
+                     
 
 
 
@@ -425,9 +429,7 @@
                                 </div>
                             @endif
 
-
-                            {{-- Why Choose --}}
-                            <div data-reveal="up"
+<div data-reveal="up"
                                 class="relative overflow-hidden rounded-3xl border border-slate-200/80 bg-slate-50/70 p-6 shadow-xl shadow-slate-200/50 backdrop-blur-xl sm:p-8 is-visible"
                                 style="--reveal-delay: 0ms;">
 
@@ -479,6 +481,7 @@
                                 </ul>
 
                             </div>
+                         
 
                         </div>
 
@@ -490,6 +493,90 @@
         </section>
 
     @endif
+
+
+    @if (!empty($benefits))
+<section class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+
+    {{-- Header Section --}}
+    <div class="text-center max-w-3xl mx-auto mb-14">
+
+        <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider text-brand-500 bg-brand-50 border border-brand-100 mb-4">
+            <iconify-icon icon="lucide:award" class="text-base"></iconify-icon>
+            Course Benefits
+        </span>
+
+        @if (filled($whyChoose['heading'] ?? null))
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+                {{ $whyChoose['heading'] }}
+            </h2>
+        @endif
+
+        @if (filled($whyChoose['description'] ?? null))
+            <p class="mt-3 text-base sm:text-lg text-slate-600">
+                {{ $whyChoose['description'] }}
+            </p>
+        @endif
+
+    </div>
+
+    {{-- Benefits Cards --}}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        @foreach ($benefits as $benefit)
+
+            <div class="group relative bg-white rounded-2xl p-7 border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between overflow-hidden">
+             
+                <div>
+
+                    {{-- Icon --}}
+                    <div class="w-14 h-14 rounded-xl bg-brand-50 text-brand-500 flex items-center justify-center mb-6 group-hover:bg-brand-500 group-hover:text-white transition-colors duration-300 shadow-sm">
+
+                        <iconify-icon
+                            icon="lucide:{{ $benefit['icon'] ?? 'award' }}"
+                            width="28"
+                            height="28">
+                        </iconify-icon>
+
+                    </div>
+
+                    {{-- Benefit Number --}}
+                    <span class="text-xs font-bold text-brand-500 uppercase tracking-wider">
+                        Benefit {{ str_pad($loop->iteration, 2, '0', STR_PAD_LEFT) }}
+                    </span>
+
+                    {{-- Title --}}
+                    @if (filled($benefit['title'] ?? null))
+                        <h3 class="text-sm sm:text-base font-bold text-slate-900 mt-1 mb-3 group-hover:text-brand-500 transition-colors">
+                            {{ $benefit['title'] }}
+                        </h3>
+                    @endif
+
+                    {{-- Description --}}
+                    @if (filled($benefit['description'] ?? null))
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            {{ $benefit['description'] }}
+                        </p>
+                    @endif
+
+                </div>
+
+                {{-- Optional Footer (only if JSON contains footer) --}}
+                @if (filled($benefit['footer'] ?? null))
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs font-semibold text-brand-500 gap-1 group-hover:gap-2 transition-all">
+                        <span>{{ $benefit['footer'] }}</span>
+                        <iconify-icon icon="lucide:arrow-right" class="text-sm"></iconify-icon>
+                    </div>
+                @endif
+
+            </div>
+
+        @endforeach
+
+    </div>
+
+</section>
+@endif
 
 
     {{-- ENTRY REQUIREMENTS + CORE SKILLS --}}
@@ -575,6 +662,12 @@
                                         @endforeach
 
                                     </ul>
+                                @endif
+
+                                @if (filled($qualificationRequirements['note'] ?? null))
+                                    <p class="mt-5 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm leading-relaxed text-amber-900">
+                                        {{ $qualificationRequirements['note'] }}
+                                    </p>
                                 @endif
 
                             </div>
@@ -800,11 +893,56 @@
 
                                     </div>
 
+                                    @if (!empty($group['subgroups']) && is_array($group['subgroups']))
+                                        <div class="mt-6 space-y-4">
+                                            @foreach ($group['subgroups'] as $subgroup)
+                                                @if (is_array($subgroup) && (filled($subgroup['title'] ?? null) || filled($subgroup['description'] ?? null) || !empty($subgroup['units'])))
+                                                    <div class="rounded-2xl border border-amber-100 bg-amber-50/40 p-4">
+                                                        @if (filled($subgroup['title'] ?? null))
+                                                            <h4 class="text-sm font-bold text-slate-900">
+                                                                {{ $subgroup['title'] }}
+                                                            </h4>
+                                                        @endif
+                                                        @if (filled($subgroup['description'] ?? null))
+                                                            <p class="mt-1 text-sm leading-relaxed text-slate-600">
+                                                                {{ $subgroup['description'] }}
+                                                            </p>
+                                                        @endif
+                                                        @if (!empty($subgroup['units']) && is_array($subgroup['units']))
+                                                            <ul class="mt-3 space-y-2">
+                                                                @foreach ($subgroup['units'] as $subgroupUnit)
+                                                                    @if (is_array($subgroupUnit) && (filled($subgroupUnit['code'] ?? null) || filled($subgroupUnit['title'] ?? null)))
+                                                                        <li class="text-sm text-slate-700">
+                                                                            @if (filled($subgroupUnit['code'] ?? null))
+                                                                                <span class="font-bold text-brand-700">{{ $subgroupUnit['code'] }}</span>
+                                                                            @endif
+                                                                            {{ $subgroupUnit['title'] ?? '' }}
+                                                                        </li>
+                                                                    @endif
+                                                                @endforeach
+                                                            </ul>
+                                                        @endif
+                                                    </div>
+                                                @endif
+                                            @endforeach
+                                        </div>
+                                    @endif
+
+                                    @if (filled($group['note'] ?? null))
+                                        <p class="mt-5 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm leading-relaxed text-amber-900">
+                                            {{ $group['note'] }}
+                                        </p>
+                                    @endif
                                 </div>
                             @endif
                         @endforeach
 
                     </div>
+                @endif
+                @if (filled($courseStructure['note'] ?? null))
+                    <p class="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm leading-relaxed text-amber-900">
+                        {{ $courseStructure['note'] }}
+                    </p>
                 @endif
 
             </div>
@@ -950,6 +1088,9 @@
             </div>
         </section>
     @endif
+
+
+    
 
 
 

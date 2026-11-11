@@ -32,7 +32,7 @@ Route::get('/terms-conditions', [FrontendController::class, 'termsConditions'])-
 Route::post('/inquiry-us', [ContactController::class, 'store'])->name('contact.store');
 
 Route::get('/qualifications', [IndustryController::class, 'index'])->name('qualifications.index');
-Route::get('/qualifications/industry/{industrySlug}', [IndustryController::class, 'industryQualification'])->name('industry');
+Route::get('industries/qualifications/{industrySlug}', [IndustryController::class, 'industryQualification'])->name('industry');
 Route::get('/qualifications/{qualificationSlug}', [IndustryController::class, 'show'])->name('qualification.show');
 
 

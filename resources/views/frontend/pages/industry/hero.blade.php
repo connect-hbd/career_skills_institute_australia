@@ -78,7 +78,7 @@
             <div class="hidden lg:col-span-5 lg:block">
                 <div class="group relative overflow-hidden rounded-2xl border border-white bg-slate-white/50 p-2 shadow-2xl backdrop-blur-sm transition-all duration-500 hover:border-slate-700">
                     <div class="relative overflow-hidden rounded-xl">
-                        <img src="{{ asset($industry['image']) }}" alt="{{ $industry['title'] ?? 'Industry' }}"
+                        <img src="{{ asset(!empty($industry['image']) ? $industry['image'] : 'images/leadership.png') }}"
                             class="h-[420px] w-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent"></div>
                     </div>

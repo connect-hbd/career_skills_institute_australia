@@ -1,0 +1,1262 @@
+[
+   {
+    "code": "AUR30620",
+    "industry_slug": "automotive",
+    "level": "Certificate III",
+    "name": "Certificate III in Light Vehicle Mechanical Technology",
+    "slug": "certificate-iii-in-light-vehicle-mechanical-technology-aur30620",
+    "image": "/industry/automotive/AUR30620.jpg",
+    "short_description": "Develop practical automotive knowledge and technical skills to inspect, service, diagnose and repair light vehicle systems.",
+    "hero_description": "Build practical automotive knowledge and technical skills with the Certificate III in Light Vehicle Mechanical Technology. Learn to inspect, service, diagnose and repair a wide range of light vehicle systems, including engines, brakes, steering, suspension and automotive electrical components.",
+    "key_information": {
+        "duration": "Provider-dependent. Duration varies depending on the registered training provider, delivery arrangements and learner experience.",
+        "delivery": "As offered by the registered training organisation (RTO). Delivery may include classroom learning, online learning and practical automotive workshop training.",
+        "usage_recommendation": "Deliver and assess",
+        "extent": "36 units of competency: 20 core units and 16 elective units.",
+        "start_date": "",
+        "end_date": "",
+        "delivery_notification": "Study mode, workshop facilities, practical training arrangements, course duration and intake dates vary by registered training provider. Confirm current availability and enrolment requirements directly with the provider."
+    },
+    "providers": [],
+    "course_url": "https://training.gov.au/training/details/AUR30620/qualdetails",
+    "overview": {
+        "heading": "Build Your Future in the Automotive Industry",
+        "description": "The AUR30620 Certificate III in Light Vehicle Mechanical Technology is designed for individuals seeking to develop the technical knowledge and practical skills required to work in the automotive service and repair industry.",
+        "content": [
+            "This qualification covers a broad range of automotive activities, including vehicle servicing, engine diagnostics, electrical systems, braking systems, steering, suspension and mechanical repairs.",
+            "You will develop the ability to identify vehicle faults, perform diagnostic procedures, use automotive tools and equipment, and carry out repairs in accordance with workplace safety and industry standards.",
+            "Whether you are starting your automotive career or looking to have your existing mechanical experience formally recognised, this qualification can support your professional development in the light vehicle automotive sector."
+        ]
+    },
+    "fast_facts": [
+        {
+            "label": "AQF Level",
+            "value": "Certificate III"
+        },
+        {
+            "label": "Total Units",
+            "value": "36"
+        },
+        {
+            "label": "Core Units",
+            "value": "20"
+        },
+        {
+            "label": "Elective Units",
+            "value": "16"
+        },
+        {
+            "label": "Industry",
+            "value": "Automotive Service and Repair"
+        },
+        {
+            "label": "Study Mode",
+            "value": "As offered by the RTO"
+        }
+    ],
+    "entry_requirements": {
+        "heading": "What Do You Need to Get Started?",
+        "qualification_requirements": {
+            "title": "Entry Requirements",
+            "description": "The official AUR30620 qualification has no formal entry requirements. However, Career Skills Institute Australia may conduct its own enrolment and pre-training checks to understand each learner's needs and suitability for the proposed delivery pathway.",
+            "items": [
+                "Unique Student Identifier (USI).",
+                "Proof of identity.",
+                "Relevant educational or employment information, where applicable.",
+                "Participation in a Language, Literacy, Numeracy and Digital Literacy (LLND) assessment.",
+                "Access to a computer and internet for online learning, where applicable.",
+                "Relevant workplace or automotive experience for Recognition of Prior Learning (RPL) applicants."
+            ]
+        },
+        "core_skills": {
+            "title": "Core Skills",
+            "description": "Learners should be prepared to develop and demonstrate the following skills:",
+            "items": [
+                {
+                    "name": "Reading",
+                    "description": "Understand automotive manuals, technical instructions, workshop procedures and vehicle specifications."
+                },
+                {
+                    "name": "Writing",
+                    "description": "Complete service reports, maintenance records, repair documentation and workplace forms."
+                },
+                {
+                    "name": "Numeracy",
+                    "description": "Perform measurements, calculations and basic technical assessments relevant to automotive servicing."
+                },
+                {
+                    "name": "Communication",
+                    "description": "Communicate effectively with customers, supervisors and other automotive professionals."
+                },
+                {
+                    "name": "Digital Skills",
+                    "description": "Use computers, diagnostic equipment and digital resources to access technical information and complete learning activities."
+                }
+            ]
+        }
+    },
+    "skills_you_will_develop": {
+        "heading": "Build Your Technical Automotive Expertise",
+        "items": [
+            {
+                "title": "Automotive Servicing and Maintenance",
+                "description": "Develop the ability to perform routine vehicle servicing, inspections and maintenance procedures according to manufacturer specifications."
+            },
+            {
+                "title": "Engine Diagnostics and Repairs",
+                "description": "Learn to identify engine faults, perform diagnostic procedures and undertake relevant mechanical repairs on light vehicle engines."
+            },
+            {
+                "title": "Automotive Electrical Systems",
+                "description": "Build skills in testing and repairing electrical circuits, batteries, charging systems, starting systems and ignition systems."
+            },
+            {
+                "title": "Brake System Inspection and Repair",
+                "description": "Understand how to inspect, service, diagnose and repair light vehicle hydraulic braking systems."
+            },
+            {
+                "title": "Steering and Suspension Systems",
+                "description": "Develop knowledge of steering and suspension components, including inspection, fault identification and repair procedures."
+            },
+            {
+                "title": "Cooling System Maintenance",
+                "description": "Learn to diagnose cooling system problems and perform relevant servicing and repair procedures."
+            },
+            {
+                "title": "Fuel and Emission Control Systems",
+                "description": "Understand petrol fuel systems, engine management and emission control technologies used in modern vehicles."
+            },
+            {
+                "title": "Automotive Diagnostic Techniques",
+                "description": "Develop the ability to select diagnostic strategies, use testing equipment and interpret technical information to identify vehicle faults."
+            },
+            {
+                "title": "Workshop Safety and Sustainability",
+                "description": "Apply safe work practices, environmental procedures and sustainable practices within an automotive workshop."
+            },
+            {
+                "title": "Automotive Tools and Equipment",
+                "description": "Learn to select, operate and maintain automotive tools, equipment and measuring instruments safely and effectively."
+            }
+        ]
+    },
+    "career_pathways": {
+        "heading": "Where Can Your Automotive Skills Take You?",
+        "description": "Completing this qualification may support career opportunities in automotive service and repair environments, depending on experience, employer requirements and demonstrated competency.",
+        "items": [
+            {
+                "title": "Light Vehicle Mechanic",
+                "description": "Perform routine maintenance, inspections, servicing and mechanical repairs on passenger cars and other light vehicles."
+            },
+            {
+                "title": "Automotive Technician",
+                "description": "Use diagnostic tools and technical knowledge to identify vehicle faults and undertake mechanical and electrical repairs."
+            },
+            {
+                "title": "Automotive Service Technician",
+                "description": "Carry out scheduled servicing, vehicle inspections and maintenance procedures in automotive service centres."
+            },
+            {
+                "title": "Automotive Repair Technician",
+                "description": "Assist with diagnosing mechanical problems and repairing vehicle components and systems."
+            },
+            {
+                "title": "Workshop Technician",
+                "description": "Support workshop operations by undertaking servicing, maintenance, inspections and repair tasks."
+            },
+            {
+                "title": "Vehicle Maintenance Technician",
+                "description": "Maintain vehicle performance and reliability through inspections, servicing and preventive maintenance activities."
+            }
+        ]
+    },
+    "graduate_outcomes": [
+        "Perform routine servicing and maintenance of light vehicles.",
+        "Inspect and diagnose faults in automotive mechanical systems.",
+        "Carry out engine servicing, testing and repair procedures.",
+        "Test and repair automotive electrical and electronic systems.",
+        "Inspect, service and repair braking systems.",
+        "Inspect and maintain steering and suspension systems.",
+        "Diagnose and maintain cooling, fuel and emission control systems.",
+        "Use automotive diagnostic tools and workshop equipment.",
+        "Apply workplace health and safety procedures in automotive workshops.",
+        "Follow environmental and sustainable work practices."
+    ],
+    "faq": [
+        {
+            "question": "What is AUR30620 Certificate III in Light Vehicle Mechanical Technology?",
+            "answer": "AUR30620 is an Australian vocational qualification designed to develop the technical knowledge and practical skills required to service, diagnose and repair light vehicle mechanical and electrical systems."
+        },
+        {
+            "question": "How many units are required to complete this qualification?",
+            "answer": "The qualification requires 36 units of competency, consisting of 20 core units and 16 elective units."
+        },
+        {
+            "question": "What will I learn in this course?",
+            "answer": "You will develop skills in automotive servicing, engine diagnostics, electrical systems, braking systems, steering, suspension, cooling systems, fuel systems, workshop safety and the use of automotive tools and equipment."
+        },
+        {
+            "question": "What are the entry requirements?",
+            "answer": "The official qualification has no formal entry requirements. However, individual registered training providers may conduct enrolment assessments and apply additional admission requirements."
+        },
+        {
+            "question": "What study modes are available?",
+            "answer": "Study modes depend on the registered training provider. Options may include classroom learning, online learning and practical automotive workshop training."
+        },
+        {
+            "question": "What skills will I develop after completing this qualification?",
+            "answer": "You will develop practical skills in vehicle servicing, fault diagnosis, mechanical repairs, automotive electrical systems, workshop safety and preventive maintenance."
+        },
+        {
+            "question": "What jobs can I apply for after graduation?",
+            "answer": "Potential career opportunities include Light Vehicle Mechanic, Automotive Technician, Automotive Service Technician, Automotive Repair Technician, Workshop Technician and Vehicle Maintenance Technician."
+        },
+        {
+            "question": "Can international students study this qualification?",
+            "answer": "Some providers may offer this qualification to international students. Confirm the provider's CRICOS registration, course availability, English language and admission requirements before applying."
+        },
+        {
+            "question": "Where can I check the official qualification details?",
+            "answer": "Visit the Australian National Training Register: https://training.gov.au/training/details/AUR30620/qualdetails."
+        }
+    ]
+},
+
+    {
+        "code": "CHC33021",
+        "industry_slug": "community-services-healthcare",
+        "level": "Certificate III",
+        "name": "Certificate III in Individual Support",
+        "slug": "certificate-iii-in-individual-support-chc33021",
+        "image": "/industry/community/CHC33021.jpg",
+        "short_description": "Develop the practical skills and knowledge to provide person-centred support to people who require assistance due to ageing, disability or other support needs in community, home and residential care settings.",
+        "hero_description": "Start a meaningful career in community and care services with the Certificate III in Individual Support (CHC33021). Build the skills to support people with dignity, respect and compassion while assisting with daily living, personal care, independence and wellbeing. This nationally recognised qualification prepares learners for support roles in residential care, home care and community-based services.",
+        "key_information": {
+            "duration": "Provider-dependent. Many full-time programs are delivered over approximately 6–12 months; apprenticeship and part-time arrangements may take longer.",
+            "delivery": "A combination of classroom or online learning, practical skills training and supervised workplace-based learning. At least 120 hours of work must be completed in accordance with the unit assessment requirements.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "15 units of competency: 9 core units and 6 elective units. Specialisations are available in Ageing, Disability, and Ageing and Disability.",
+            "start_date": "09/Feb/2023",
+            "end_date": "26/Apr/2032",
+            "delivery_notification": "Delivery mode, placement arrangements, campus availability and intake dates vary by registered training provider. Confirm current availability and placement requirements with the provider."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/CHC33021/qualdetails",
+        "overview": "The Certificate III in Individual Support reflects the role of workers who provide person-centred support to people who may require assistance due to ageing, disability or other reasons. Workers may be employed in community, home or residential care settings and generally work under supervision and delegation as part of a multidisciplinary team, following an individualised plan. The qualification develops practical and procedural skills for supporting daily living, independence, wellbeing, communication, safety and individual choice. To achieve the qualification, learners complete 15 units: 9 core units and 6 electives. Elective choices can lead to specialisations in Ageing, Disability, or Ageing and Disability. Candidates must complete at least 120 hours of work as specified in the assessment requirements. There are no formal entry requirements in the national qualification; individual providers may set additional admission requirements.",
+        "graduate_outcomes": [
+            "Provide person-centred support in accordance with an individualised plan.",
+            "Assist clients with personal care and activities of daily living.",
+            "Support independence, wellbeing, choice and dignity.",
+            "Communicate effectively with clients, families and other care professionals.",
+            "Recognise and report changes in a client's health, behaviour or support needs.",
+            "Follow workplace health and safety, infection prevention and control procedures.",
+            "Identify and report risks, abuse or unsafe practices in accordance with workplace procedures.",
+            "Support people living with disability or age-related support needs."
+        ],
+        "career_pathways": [
+            {
+                "title": "Personal Care Assistant",
+                "description": "Assist people with personal care, daily living activities and wellbeing in residential or home-based care."
+            },
+            {
+                "title": "Aged Care Support Worker",
+                "description": "Provide practical and person-centred assistance to older people in aged care or community settings."
+            },
+            {
+                "title": "Disability Support Worker",
+                "description": "Support people with disability to build independence, participate in community life and achieve individual goals."
+            },
+            {
+                "title": "Home Care Assistant",
+                "description": "Deliver support to clients in their homes, helping them maintain independence and quality of life."
+            },
+            {
+                "title": "Residential Care Worker",
+                "description": "Provide daily support and assistance to residents in residential care facilities."
+            },
+            {
+                "title": "Community Support Worker",
+                "description": "Assist clients to access community services, activities and individual support programs."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is CHC33021 Certificate III in Individual Support?",
+                "answer": "CHC33021 is a nationally recognised Australian vocational qualification for people who provide person-centred support in community, home and residential care settings."
+            },
+            {
+                "question": "How many units are required?",
+                "answer": "The qualification requires 15 units: 9 core units and 6 elective units."
+            },
+            {
+                "question": "Are specialisations available?",
+                "answer": "Yes. Elective selection can lead to the Ageing, Disability, or Ageing and Disability specialisations."
+            },
+            {
+                "question": "Is work placement required?",
+                "answer": "Yes. Candidates must complete at least 120 hours of work as detailed in the assessment requirements of the units."
+            },
+            {
+                "question": "What are the entry requirements?",
+                "answer": "The national qualification has no formal entry requirements. Individual registered training providers may apply their own admission requirements."
+            },
+            {
+                "question": "What jobs can I apply for after graduation?",
+                "answer": "Potential roles include personal care assistant, aged care support worker, disability support worker, home care assistant and community support worker."
+            },
+            {
+                "question": "Can international students study this qualification?",
+                "answer": "Some providers may offer this qualification to international students. Confirm the provider's CRICOS registration, course availability, English language and admission requirements before applying."
+            },
+            {
+                "question": "Where can I check the official qualification details?",
+                "answer": "Visit the Australian National Training Register: https://training.gov.au/training/details/CHC33021/qualdetails."
+            }
+        ]
+    },
+    {
+        "code": "CHC43015",
+        "industry_slug": "community-services-healthcare",
+        "level": "Certificate IV",
+        "name": "Certificate IV in Ageing Support",
+        "slug": "certificate-iv-in-ageing-support-chc43015",
+        "image": "/industry/community/CHC43015.jpg",
+        "short_description": "Build specialist skills to support older people, coordinate individualised care and contribute to quality service delivery in residential, home and community aged-care settings.",
+        "hero_description": "Advance your career in aged care with the Certificate IV in Ageing Support (CHC43015). Develop the knowledge and practical skills to support older people, promote independence, respond to dementia-related needs, coordinate individualised services and contribute to safe, respectful and high-quality care.",
+        "key_information": {
+            "duration": "Provider-dependent. Full-time delivery commonly takes approximately 12–18 months; part-time and workplace-based arrangements may take longer.",
+            "delivery": "Classroom or blended learning, practical skills development and supervised workplace-based learning. A minimum of 120 hours of work placement is required.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "18 units of competency: 15 core units and 3 elective units.",
+            "start_date": "29/Oct/2026",
+            "end_date": "26/Apr/2032",
+            "delivery_notification": "Work placement, delivery mode, campus availability and intake dates are determined by the registered training provider. Confirm current arrangements before enrolment."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/CHC43015/qualdetails",
+        "overview": "The Certificate IV in Ageing Support reflects the role of support workers who perform specialised tasks and functions in aged services in residential, home or community-based environments. Workers take responsibility for their own outputs within organisational guidelines and maintain quality service delivery through individualised service planning and support. The role may also involve limited leadership and responsibility for the work of others. The qualification requires 18 units: 15 core units and 3 electives. Candidates must complete at least 120 hours of work as detailed in the assessment requirements. There are no formal entry requirements and no licensing, legislative or certification requirements apply to the qualification at the time of publication. Individual providers may set additional admission requirements.",
+        "graduate_outcomes": [
+            "Support older people to maintain independence, dignity and quality of life.",
+            "Facilitate the rights, interests and empowerment of older people.",
+            "Contribute to individual service planning and delivery.",
+            "Provide support to people living with dementia.",
+            "Recognise and respond to risks affecting older people.",
+            "Coordinate support services in aged-care settings.",
+            "Apply palliative approaches to care where appropriate to the role.",
+            "Work effectively with families, carers and multidisciplinary teams.",
+            "Apply legal, ethical, workplace safety and infection-control requirements.",
+            "Contribute to quality service delivery and workplace collaboration."
+        ],
+        "career_pathways": [
+            {
+                "title": "Aged Care Team Leader",
+                "description": "Coordinate daily support activities and guide care staff within an aged-care service."
+            },
+            {
+                "title": "Senior Personal Care Assistant",
+                "description": "Provide specialised personal support and assist with complex daily care needs."
+            },
+            {
+                "title": "Residential Care Worker",
+                "description": "Deliver individualised care and support to residents in aged-care facilities."
+            },
+            {
+                "title": "Community Aged Care Worker",
+                "description": "Support older people living at home to maintain independence and access community services."
+            },
+            {
+                "title": "Care Supervisor",
+                "description": "Monitor support delivery and help maintain service quality within organisational guidelines."
+            },
+            {
+                "title": "Care Coordinator",
+                "description": "Assist with coordinating individualised support plans, services and communication with families and providers."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is CHC43015 Certificate IV in Ageing Support?",
+                "answer": "It is a nationally recognised qualification for workers who provide specialised support to older people in residential, home and community-based aged services."
+            },
+            {
+                "question": "How many units are required?",
+                "answer": "The qualification requires 18 units: 15 core units and 3 electives."
+            },
+            {
+                "question": "Is work placement required?",
+                "answer": "Yes. Candidates must complete at least 120 hours of work as specified in the unit assessment requirements."
+            },
+            {
+                "question": "Are there entry requirements?",
+                "answer": "There are no formal entry requirements for the national qualification, although providers may have additional admission criteria."
+            },
+            {
+                "question": "What skills will I develop?",
+                "answer": "You will develop skills in individualised service planning, supporting older people, dementia care, risk response, service coordination, legal and ethical practice, and workplace safety."
+            },
+            {
+                "question": "What jobs can this qualification lead to?",
+                "answer": "Potential roles include senior personal care assistant, aged care team leader, residential care worker, community aged care worker and care supervisor."
+            },
+            {
+                "question": "Does the qualification require a licence?",
+                "answer": "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+            },
+            {
+                "question": "Where can I find official details?",
+                "answer": "Visit https://training.gov.au/training/details/CHC43015/qualdetails."
+            }
+        ]
+    },
+    {
+        "code": "CHC51015",
+        "industry_slug": "community-services-healthcare",
+        "level": "Diploma",
+        "name": "Diploma of Counselling",
+        "slug": "diploma-of-counselling-chc51015",
+        "image": "/industry/community/CHC51015.jpg",
+        "short_description": "Develop counselling communication, interviewing and relationship-building skills to support clients with personal and psychological issues in established service settings.",
+        "hero_description": "Build a career supporting individuals through life's challenges with the Diploma of Counselling (CHC51015). Learn to establish effective counselling relationships, use specialist communication and interviewing techniques, apply counselling therapies and support clients with decision-making and case management in professional service environments.",
+        "key_information": {
+            "duration": "Provider-dependent. Diploma programs commonly take approximately 12–24 months depending on study load, delivery mode and timetable.",
+            "delivery": "Classroom, online or blended learning with practical counselling skills development, role-play and assessment. Workplace requirements may apply to selected units.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "17 units of competency: 13 core units and 4 elective units.",
+            "start_date": "29/Oct/2026",
+            "end_date": "26/Apr/2032",
+            "delivery_notification": "Delivery mode, practical assessment arrangements, campus availability and intake dates vary by provider. Confirm current course and placement requirements directly with the provider."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/CHC51015/qualdetails",
+        "overview": "The Diploma of Counselling reflects the role of counsellors who work with clients on personal and psychological issues using established counselling modalities. Counsellors use communication, micro-counselling and interviewing skills and draw on counselling therapies to assist clients. At this qualification level, work is undertaken in defined and supported counselling roles in established agencies rather than independent practice. The qualification requires 17 units: 13 core units and 4 electives. There are no formal entry requirements in the national qualification and no licensing, legislative or certification requirements apply at the time of publication. Providers may have additional admission or practical assessment requirements.",
+        "graduate_outcomes": [
+            "Establish and maintain professional counselling relationships.",
+            "Use specialist interpersonal and counselling interview skills.",
+            "Facilitate the counselling relationship and process.",
+            "Apply personality, development and learning theories in counselling.",
+            "Select and use appropriate counselling therapies within the role and scope of practice.",
+            "Support clients to make informed decisions.",
+            "Recognise and respond to crisis situations.",
+            "Contribute to case management and referral processes.",
+            "Work ethically and respectfully with clients from diverse backgrounds.",
+            "Reflect on and improve professional practice."
+        ],
+        "career_pathways": [
+            {
+                "title": "Counselling Support Worker",
+                "description": "Provide supported counselling assistance and client support within established agencies."
+            },
+            {
+                "title": "Community Services Worker",
+                "description": "Assist clients to access support services and work toward personal and social wellbeing goals."
+            },
+            {
+                "title": "Intake and Assessment Officer",
+                "description": "Gather initial client information and help connect individuals with suitable support services."
+            },
+            {
+                "title": "Family Support Worker",
+                "description": "Support individuals and families through relationship, wellbeing and life challenges within the role's scope."
+            },
+            {
+                "title": "Welfare Support Worker",
+                "description": "Provide information, referrals and practical support to people experiencing personal or social difficulties."
+            },
+            {
+                "title": "Case Support Worker",
+                "description": "Assist with coordinating client support, referrals and service plans under organisational procedures."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is CHC51015 Diploma of Counselling?",
+                "answer": "It is a nationally recognised qualification that develops counselling communication, interviewing and relationship skills for supported counselling roles in established agencies."
+            },
+            {
+                "question": "How many units are required?",
+                "answer": "The qualification requires 17 units: 13 core units and 4 electives."
+            },
+            {
+                "question": "What will I learn?",
+                "answer": "You will study counselling relationships, interviewing skills, counselling therapies, personality and learning theories, decision-making support, crisis response and case management."
+            },
+            {
+                "question": "Does this qualification allow independent counselling practice?",
+                "answer": "The qualification describes supported counselling roles in established agencies rather than independent practice. Check professional, employer and jurisdictional requirements before offering counselling services."
+            },
+            {
+                "question": "Are there entry requirements?",
+                "answer": "The national qualification has no formal entry requirements. Individual providers may apply additional admission requirements."
+            },
+            {
+                "question": "What jobs may be available after graduation?",
+                "answer": "Possible roles include counselling support worker, community services worker, intake and assessment officer, family support worker and case support worker, depending on employer requirements and experience."
+            },
+            {
+                "question": "Does the qualification have licensing requirements?",
+                "answer": "No licensing, legislative or certification requirements apply to the qualification at the time of publication."
+            },
+            {
+                "question": "Where can I find official details?",
+                "answer": "Visit https://training.gov.au/training/details/CHC51015/qualdetails."
+            }
+        ]
+    },
+    {
+        "code": "CHC53315",
+        "industry_slug": "community-services-healthcare",
+        "level": "Diploma",
+        "name": "Diploma of Mental Health",
+        "slug": "diploma-of-mental-health-chc53315",
+        "image": "/industry/community/CHC51015.jpg",
+        "short_description": "Develop specialist knowledge and practical skills to support people experiencing mental health challenges through recovery-oriented services, advocacy, referral and health promotion.",
+        "hero_description": "Make a positive difference in people's lives with the Diploma of Mental Health (CHC53315). Develop specialist skills to support people experiencing mental health issues, promote recovery and wellbeing, work collaboratively with care networks, provide advocacy and connect clients with appropriate services.",
+        "key_information": {
+            "duration": "Provider-dependent. Diploma delivery commonly takes approximately 12–24 months depending on study mode, timetable and workplace requirements.",
+            "delivery": "Classroom, online or blended learning with practical activities and workplace-based assessment. A minimum of 160 hours of work is specified in the qualification assessment requirements.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "20 units of competency: 15 core units and 5 elective units.",
+            "start_date": "29/Oct/2026",
+            "end_date": "26/Apr/2032",
+            "delivery_notification": "Confirm current delivery arrangements, workplace requirements, campus availability and intake dates with the registered training provider."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/CHC53315/qualdetails",
+        "overview": "The Diploma of Mental Health reflects the role of workers who provide services to clients in relation to mental health issues. Work may include counselling support, referral, advocacy and education or health-promotion services. The role requires specialist knowledge of mental health-related legislation, available services and health issues associated with mental health. The qualification requires 20 units: 15 core units and 5 electives. At least 3 electives must be selected from the listed elective units, with up to 2 additional units permitted from the listed electives, another endorsed Training Package or an accredited course where relevant to the work outcome. The qualification includes a minimum work requirement of 160 hours as specified in the assessment requirements. Check the current National Training Register and provider for applicable delivery and assessment arrangements.",
+        "graduate_outcomes": [
+            "Establish self-directed and recovery-oriented relationships with clients.",
+            "Provide recovery-oriented mental health services.",
+            "Work collaboratively with care networks and other services.",
+            "Support people with co-existing mental health and alcohol or other drug issues.",
+            "Contribute to early intervention, health prevention and promotion programs.",
+            "Respond to complex mental health support needs using recovery-oriented approaches.",
+            "Assess and promote social, emotional and physical wellbeing.",
+            "Support the development of wellness plans and advance directives.",
+            "Apply trauma-informed care principles.",
+            "Provide systems advocacy and promote culturally safe practice.",
+            "Research and apply evidence to professional practice.",
+            "Manage work health and safety in service environments."
+        ],
+        "career_pathways": [
+            {
+                "title": "Mental Health Support Worker",
+                "description": "Provide practical, recovery-oriented support to people experiencing mental health challenges."
+            },
+            {
+                "title": "Community Rehabilitation Worker",
+                "description": "Support clients to build daily living skills, independence and community participation."
+            },
+            {
+                "title": "Mental Health Outreach Worker",
+                "description": "Connect with clients in community settings and assist them to access appropriate support."
+            },
+            {
+                "title": "Psychosocial Support Worker",
+                "description": "Assist people to work toward personal recovery goals and improve social and emotional wellbeing."
+            },
+            {
+                "title": "Mental Health Services Coordinator",
+                "description": "Assist with coordinating support activities and connecting clients with service networks."
+            },
+            {
+                "title": "Welfare Support Worker",
+                "description": "Provide information, advocacy and referral support to individuals experiencing complex needs."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is CHC53315 Diploma of Mental Health?",
+                "answer": "It is a vocational qualification for workers who provide support services to people experiencing mental health issues, including recovery support, advocacy, referral and health promotion."
+            },
+            {
+                "question": "How many units are required?",
+                "answer": "The qualification requires 20 units: 15 core units and 5 electives."
+            },
+            {
+                "question": "Is work placement required?",
+                "answer": "The qualification specifies a minimum work requirement of 160 hours in its assessment requirements. Confirm the arrangements with the provider."
+            },
+            {
+                "question": "What topics are covered?",
+                "answer": "Topics include recovery-oriented practice, mental health support, trauma-informed care, co-existing mental health and alcohol or other drug issues, advocacy, wellbeing and collaborative service delivery."
+            },
+            {
+                "question": "What are the entry requirements?",
+                "answer": "Check the current National Training Register and the selected provider for entry and admission requirements. Providers may set their own requirements."
+            },
+            {
+                "question": "What career opportunities are available?",
+                "answer": "Potential roles include mental health support worker, community rehabilitation worker, mental health outreach worker, psychosocial support worker and welfare support worker."
+            },
+            {
+                "question": "Does this qualification make someone a registered psychologist or counsellor?",
+                "answer": "No. This vocational qualification does not itself confer registration as a psychologist or authorise practice in a separately regulated profession."
+            },
+            {
+                "question": "Where can I find official details?",
+                "answer": "Visit https://training.gov.au/training/details/CHC53315/qualdetails."
+            }
+        ]
+    },
+    {
+        "code": "CPC32420",
+        "industry_slug": "building-construction",
+        "level": "Certificate III",
+        "name": "Certificate III in Plumbing",
+        "slug": "certificate-iii-in-plumbing-cpc32420",
+        "image": "/industry/construction/CPC32420.jpg",
+        "short_description": "Gain trade skills to install, maintain and repair plumbing systems across residential, commercial and industrial environments.",
+        "hero_description": "Build practical trade skills with the Certificate III in Plumbing (CPC32420). Learn to install and maintain water services, sanitary plumbing and drainage, gas systems, roofing and related plumbing services. This trade qualification supports a pathway into the plumbing industry through workplace-based training and assessment.",
+        "key_information": {
+            "duration": "Provider- and apprenticeship-dependent. An Australian apprenticeship commonly takes approximately 4 years; other approved delivery arrangements may differ.",
+            "delivery": "Workplace-based training and assessment supported by practical training. The qualification requires delivery and assessment in a real or closely simulated workplace environment.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "The qualification has four occupational options. General Plumber requires 58 units (43 core and 15 electives); other options require 62, 73 or 77 units depending on roofing and mechanical specialisations.",
+            "start_date": "29/Oct/2026",
+            "end_date": "26/Apr/2032",
+            "delivery_notification": "Plumbing is a licensed occupation. Licensing requirements vary by state and territory. Confirm the occupational option, apprenticeship arrangements, workplace assessment and local licensing requirements with the provider and regulator."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/CPC32420/qualdetails",
+        "overview": "The Certificate III in Plumbing is a trade qualification for plumbers working in residential, industrial and commercial environments. It covers assembling, installing and maintaining water services, sanitary plumbing and sanitary drainage, gas, roofing and mechanical services in new and existing construction. The qualification has four occupational options: General Plumbing; General Plumbing and Roofing; General Plumbing and Mechanical; and General Plumbing, Roofing and Mechanical. The General Plumber option requires 58 units, comprising 43 core units and 15 electives. Other options require 62, 73 or 77 units depending on the selected occupational outcome. Training and assessment must take place in a real or closely simulated workplace environment. The qualification is suitable for an Australian Apprenticeship pathway. There are no national entry requirements, but plumbing is a licensed occupation and state or territory requirements apply. Construction induction training is required before entering a construction work site.",
+        "graduate_outcomes": [
+            "Read plans, calculate quantities and mark out plumbing materials.",
+            "Use plumbing hand and power tools safely.",
+            "Install and maintain water supply services and plumbing fixtures.",
+            "Install and maintain sanitary plumbing and drainage systems.",
+            "Locate and clear drainage blockages.",
+            "Install and maintain gas services and appliances where covered by the selected occupational option.",
+            "Perform plumbing work in accordance with relevant codes, standards and workplace procedures.",
+            "Apply work health and safety requirements and work safely at heights.",
+            "Weld and join plumbing materials using approved methods.",
+            "Complete practical plumbing work in real or closely simulated workplace environments."
+        ],
+        "career_pathways": [
+            {
+                "title": "Plumber",
+                "description": "Install, maintain and repair water supply, sanitary plumbing and drainage systems."
+            },
+            {
+                "title": "Plumber and Drainer",
+                "description": "Install and maintain plumbing and drainage infrastructure in residential and commercial properties."
+            },
+            {
+                "title": "Gasfitter",
+                "description": "Work with gas piping and appliances where appropriately trained and licensed."
+            },
+            {
+                "title": "Roof Plumber",
+                "description": "Install and maintain roof drainage, flashings and related roofing plumbing systems."
+            },
+            {
+                "title": "Mechanical Services Plumber",
+                "description": "Work on plumbing-related mechanical services in buildings, subject to the selected occupational option and licensing."
+            },
+            {
+                "title": "Plumbing Apprentice",
+                "description": "Develop trade skills through structured workplace training and supervised assessment."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is CPC32420 Certificate III in Plumbing?",
+                "answer": "It is an Australian trade qualification for people who install, maintain and repair plumbing systems in residential, commercial and industrial settings."
+            },
+            {
+                "question": "How many units are required?",
+                "answer": "The number depends on the occupational option: 58 units for General Plumber, 62 for General Plumber and Roofing, 73 for General Plumber and Mechanical, or 77 for General Plumber, Roofing and Mechanical."
+            },
+            {
+                "question": "Is this qualification suitable for an apprenticeship?",
+                "answer": "Yes. The qualification is suitable for an Australian Apprenticeship pathway."
+            },
+            {
+                "question": "Does plumbing require a licence in Australia?",
+                "answer": "Yes. Plumbing is a licensed occupation. Licensing and regulatory requirements differ between states and territories, so check with the relevant regulator."
+            },
+            {
+                "question": "Is workplace training required?",
+                "answer": "Yes. The qualification requires units to be delivered and assessed in a real or closely simulated workplace environment."
+            },
+            {
+                "question": "Are there entry requirements?",
+                "answer": "The national qualification has no formal entry requirements. Apprenticeship employers and providers may have their own requirements."
+            },
+            {
+                "question": "What jobs can I pursue?",
+                "answer": "Depending on the selected occupational option and licensing, pathways may include plumber, plumber and drainer, gasfitter, roof plumber and mechanical services plumber."
+            },
+            {
+                "question": "Where can I find official details?",
+                "answer": "Visit https://training.gov.au/training/details/CPC32420/qualdetails."
+            }
+        ]
+    },
+    {
+        "code": "CPC40120",
+        "industry_slug": "building-construction",
+        "level": "Certificate IV",
+        "name": "Certificate IV in Building and Construction",
+        "slug": "certificate-iv-in-building-and-construction-cpc40120",
+        "image": "/industry/construction/CPC40120.jpg",
+        "short_description": "Develop the skills to plan, coordinate and supervise building and construction projects, manage site operations and apply building codes, contracts and safety requirements.",
+        "hero_description": "Take the next step in the construction industry with the Certificate IV in Building and Construction (CPC40120). Develop practical knowledge in construction planning, site supervision, building codes, contracts, work health and safety and quality management. Elective choices support either a Building or Site Management occupational pathway.",
+        "key_information": {
+            "duration": "Provider-dependent. Full-time programs commonly take approximately 12–24 months; part-time and workplace-based study may take longer.",
+            "delivery": "Classroom, online or blended learning with project-based assessments and practical construction industry activities. Delivery varies by provider.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "19 units of competency: 11 core units and 8 electives. Occupational outcomes include Building or Site Management.",
+            "start_date": "29/Oct/2026",
+            "end_date": "26/Apr/2032",
+            "delivery_notification": "Elective selection determines the occupational outcome. Builder and site supervisor licensing varies by state and territory; confirm local requirements with the relevant regulator."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/CPC40120/qualdetails",
+        "overview": "The Certificate IV in Building and Construction reflects the role of builders, site managers and managers of small to medium building businesses. It develops skills in applying structural principles, building codes, standards and legal requirements, planning and supervising safe construction work, preparing and administering contracts and applying quality principles to building projects. The qualification supports two occupational outcomes: Certificate IV in Building and Construction (Building) and Certificate IV in Building and Construction (Site Management). To achieve the qualification, candidates complete 19 units: 11 core units and 8 electives selected according to the chosen occupational pathway. There are no national entry requirements. Construction induction training is required for people carrying out construction work. Builder and site supervisor licensing requirements vary across Australian states and territories and may require additional conditions beyond this qualification.",
+        "graduate_outcomes": [
+            "Interpret and apply relevant building codes, standards and regulatory requirements.",
+            "Plan building and construction work and coordinate resources.",
+            "Manage work health and safety on construction sites.",
+            "Supervise site communication and administrative processes.",
+            "Apply structural principles relevant to the selected construction classes.",
+            "Prepare and administer construction contracts.",
+            "Monitor construction quality and compliance.",
+            "Coordinate subcontractors, materials, labour and project activities.",
+            "Identify and manage construction risks.",
+            "Apply project planning and problem-solving skills."
+        ],
+        "career_pathways": [
+            {
+                "title": "Building Supervisor",
+                "description": "Coordinate construction activities and monitor site progress, quality and compliance."
+            },
+            {
+                "title": "Construction Site Supervisor",
+                "description": "Supervise day-to-day site operations, workers, subcontractors and safety procedures."
+            },
+            {
+                "title": "Assistant Builder",
+                "description": "Support building project planning, coordination, documentation and site activities."
+            },
+            {
+                "title": "Site Manager",
+                "description": "Coordinate site resources, schedules, contractors and construction delivery."
+            },
+            {
+                "title": "Leading Hand",
+                "description": "Guide work crews and coordinate trade activities on construction projects."
+            },
+            {
+                "title": "Small Building Business Manager",
+                "description": "Apply construction, contract and business knowledge to manage a small building operation, subject to licensing requirements."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is CPC40120 Certificate IV in Building and Construction?",
+                "answer": "It is a nationally recognised qualification for people who plan, coordinate and supervise building and construction work."
+            },
+            {
+                "question": "How many units are required?",
+                "answer": "The qualification requires 19 units: 11 core units and 8 electives."
+            },
+            {
+                "question": "What specialisations are available?",
+                "answer": "The qualification supports two occupational outcomes: Building and Site Management. Elective selection determines the pathway."
+            },
+            {
+                "question": "Are there entry requirements?",
+                "answer": "There are no formal entry requirements for the national qualification. Providers may set additional admission requirements."
+            },
+            {
+                "question": "Does this qualification provide a builder's licence?",
+                "answer": "Not automatically. Builder and site supervisor licensing varies by state and territory, and additional requirements may apply."
+            },
+            {
+                "question": "What jobs can I pursue?",
+                "answer": "Potential roles include building supervisor, construction site supervisor, assistant builder, site manager and leading hand, depending on electives and local licensing requirements."
+            },
+            {
+                "question": "Is construction induction training required?",
+                "answer": "People carrying out construction work must complete the general construction induction training program. CPCWHS1001 is the relevant unit identified for this requirement."
+            },
+            {
+                "question": "Where can I find official details?",
+                "answer": "Visit https://training.gov.au/training/details/CPC40120/qualdetails."
+            }
+        ]
+    },
+    {
+        "code": "CPC40920",
+        "industry_slug": "building-construction",
+        "level": "Certificate IV",
+        "name": "Certificate IV in Plumbing and Services",
+        "slug": "certificate-iv-in-plumbing-and-services-cpc40920",
+        "image": "/industry/construction/CPC40120.jpg",
+        "short_description": "Develop advanced plumbing and services skills in either plumbing operations or hydraulic services design, including technical planning, compliance and specialised systems.",
+        "hero_description": "Advance your plumbing career with the Certificate IV in Plumbing and Services (CPC40920). Choose a pathway in Plumbing Operations or Hydraulic Services Design and build specialised skills in technical planning, plumbing systems, regulatory compliance and service delivery.",
+        "key_information": {
+            "duration": "Provider-dependent. Programs commonly take approximately 12–24 months, with duration affected by the selected pathway, prerequisites and study mode.",
+            "delivery": "Classroom, online or blended learning with technical and practical assessments. Operations pathway training may include workplace-based activities.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "15 units of competency: 10 core units and 5 electives. Separate occupational pathways are available for Operations and Hydraulic Services Design.",
+            "start_date": "29/Oct/2026",
+            "end_date": "26/Apr/2032",
+            "delivery_notification": "The Operations pathway requires a Certificate III in Plumbing or authorisation to undertake plumbing work by an Australian regulator/licensing body. The Hydraulic Services Design pathway has no formal entry requirements. Licensing rules vary by jurisdiction."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/CPC40920/qualdetails",
+        "overview": "The Certificate IV in Plumbing and Services provides advanced vocational skills for plumbing and services work. It has two occupational pathways: Plumbing Operations and Hydraulic Services Design. The qualification requires 15 units, comprising 10 core units and 5 electives. For the Operations pathway, candidates must hold a Certificate III in Plumbing or be authorised to undertake plumbing work by an Australian regulator or licensing body. The Hydraulic Services Design pathway has no formal entry requirements. Elective packaging differs between the two pathways and must follow the qualification rules. This is a licensed occupation in some jurisdictions; licensing, legislative and regulatory requirements vary across states and territories. Candidates should check current requirements with the relevant regulator and registered training provider.",
+        "graduate_outcomes": [
+            "Apply technical knowledge to plumbing and services work.",
+            "Interpret plans, specifications, codes and relevant standards.",
+            "Plan and coordinate plumbing operations or hydraulic services design tasks.",
+            "Select appropriate materials, systems and installation methods.",
+            "Apply work health and safety and risk management procedures.",
+            "Prepare technical documentation and communicate with relevant stakeholders.",
+            "Identify compliance requirements for plumbing and building services.",
+            "Contribute to quality assurance and project coordination.",
+            "Apply pathway-specific skills in plumbing operations or hydraulic services design."
+        ],
+        "career_pathways": [
+            {
+                "title": "Plumbing Operations Supervisor",
+                "description": "Coordinate plumbing work activities, monitor job progress and support safe and compliant operations."
+            },
+            {
+                "title": "Plumbing Services Coordinator",
+                "description": "Assist with planning and coordinating plumbing service projects and technical work."
+            },
+            {
+                "title": "Hydraulic Services Designer",
+                "description": "Assist in designing hydraulic services systems and preparing related technical documentation."
+            },
+            {
+                "title": "Hydraulic Design Drafting Technician",
+                "description": "Prepare and interpret drawings and documentation for hydraulic services projects."
+            },
+            {
+                "title": "Senior Plumbing Tradesperson",
+                "description": "Apply advanced trade knowledge to complex plumbing tasks, subject to relevant licensing."
+            },
+            {
+                "title": "Plumbing Project Coordinator",
+                "description": "Support scheduling, documentation, resources and communication across plumbing projects."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is CPC40920 Certificate IV in Plumbing and Services?",
+                "answer": "It is a Certificate IV qualification with pathways in Plumbing Operations and Hydraulic Services Design."
+            },
+            {
+                "question": "How many units are required?",
+                "answer": "The qualification requires 15 units: 10 core units and 5 electives."
+            },
+            {
+                "question": "What pathways are available?",
+                "answer": "The two occupational pathways are Plumbing Operations and Hydraulic Services Design."
+            },
+            {
+                "question": "What are the entry requirements for Operations?",
+                "answer": "Candidates must hold a Certificate III in Plumbing or be authorised to undertake plumbing work by an Australian regulator or licensing body."
+            },
+            {
+                "question": "Does Hydraulic Services Design have entry requirements?",
+                "answer": "The national qualification specifies no formal entry requirements for the Hydraulic Services Design pathway. Providers may have their own admission criteria."
+            },
+            {
+                "question": "Is plumbing licensing required?",
+                "answer": "Licensing requirements apply in some jurisdictions and vary by state or territory. Check with the relevant regulator."
+            },
+            {
+                "question": "What careers may follow this qualification?",
+                "answer": "Depending on the pathway and regulatory requirements, roles may include plumbing operations supervisor, plumbing services coordinator, hydraulic services designer and plumbing project coordinator."
+            },
+            {
+                "question": "Where can I find official details?",
+                "answer": "Visit https://training.gov.au/training/details/CPC40920/qualdetails."
+            }
+        ]
+    },
+    {
+        "code": "CPC50220",
+        "industry_slug": "building-construction",
+        "level": "Diploma",
+        "name": "Diploma of Building and Construction (Building)",
+        "slug": "diploma-of-building-and-construction-building-cpc50220",
+        "image": "/industry/construction/CPC40120.jpg",
+        "short_description": "Build advanced skills in managing building projects, estimating, contracts, construction risk, structural principles and quality across residential and commercial construction.",
+        "hero_description": "Prepare for greater responsibility in the building industry with the Diploma of Building and Construction (Building) (CPC50220). Develop the skills to plan and manage construction projects, interpret building codes, estimate costs, administer contracts, coordinate contractors and oversee construction quality and safety.",
+        "key_information": {
+            "duration": "Provider-dependent. Diploma programs commonly take approximately 12–24 months depending on study mode, prior experience and assessment arrangements.",
+            "delivery": "Classroom, online or blended learning with project-based assessments and construction industry scenarios.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "27 units of competency: 24 core units and 3 electives.",
+            "start_date": "29/Oct/2026",
+            "end_date": "26/Apr/2032",
+            "delivery_notification": "Builder licensing varies across Australian states and territories. Additional experience, assessment or regulatory requirements may apply beyond completion of the qualification."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/CPC50220/qualdetails",
+        "overview": "The Diploma of Building and Construction (Building) reflects the role of building professionals who apply knowledge of structural principles, risk and financial management, estimating, preparing and administering building and construction contracts, selecting contractors, overseeing work and monitoring quality. The qualification applies to building projects that may include residential and commercial construction, subject to the scope and limitations described in the training package. To achieve the qualification, candidates complete 27 units: 24 core units and 3 electives. There are no formal entry requirements in the national qualification. Builder licensing varies across states and territories, and additional requirements may apply beyond attainment of this qualification. Candidates should confirm licensing and registration requirements with the relevant state or territory authority.",
+        "graduate_outcomes": [
+            "Plan and manage building and construction projects.",
+            "Apply building codes, standards and structural principles.",
+            "Estimate project costs, materials and resources.",
+            "Prepare, interpret and administer construction contracts.",
+            "Manage construction risks and work health and safety.",
+            "Select and coordinate contractors and subcontractors.",
+            "Monitor construction progress, quality and compliance.",
+            "Manage project finances and business risks.",
+            "Coordinate project documentation and stakeholder communication.",
+            "Oversee residential and commercial building work within applicable regulatory limits."
+        ],
+        "career_pathways": [
+            {
+                "title": "Building Project Manager",
+                "description": "Coordinate construction projects, budgets, contractors, schedules and project delivery."
+            },
+            {
+                "title": "Builder",
+                "description": "Manage building projects and construction activities subject to applicable state or territory licensing."
+            },
+            {
+                "title": "Construction Manager",
+                "description": "Oversee construction operations, resources, safety, quality and project performance."
+            },
+            {
+                "title": "Site Manager",
+                "description": "Manage site operations, subcontractors, schedules and construction standards."
+            },
+            {
+                "title": "Construction Estimator",
+                "description": "Prepare cost estimates, quantities and resource forecasts for building projects."
+            },
+            {
+                "title": "Contract Administrator",
+                "description": "Prepare, review and administer construction contracts and related project documentation."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is CPC50220 Diploma of Building and Construction (Building)?",
+                "answer": "It is a nationally recognised qualification for building professionals who manage construction projects, contracts, costs, contractors, risks and quality."
+            },
+            {
+                "question": "How many units are required?",
+                "answer": "The qualification requires 27 units: 24 core units and 3 electives."
+            },
+            {
+                "question": "Are there entry requirements?",
+                "answer": "The national qualification has no formal entry requirements. Individual providers may apply admission requirements."
+            },
+            {
+                "question": "What skills will I gain?",
+                "answer": "You will develop skills in construction planning, estimating, contracts, building codes, structural principles, risk management, contractor coordination and quality control."
+            },
+            {
+                "question": "Does this diploma provide a builder's licence?",
+                "answer": "Not automatically. Builder licensing requirements vary across states and territories and may include additional experience or regulatory requirements."
+            },
+            {
+                "question": "What career opportunities are available?",
+                "answer": "Potential roles include building project manager, builder, construction manager, site manager, construction estimator and contract administrator, subject to licensing and employer requirements."
+            },
+            {
+                "question": "Can I work on commercial and residential projects?",
+                "answer": "The qualification covers building projects including residential and commercial work within the scope and limitations stated in the training package and applicable regulations."
+            },
+            {
+                "question": "Where can I find official details?",
+                "answer": "Visit https://training.gov.au/training/details/CPC50220/qualdetails."
+            }
+        ]
+    },
+    {
+        "code": "CPP41419",
+        "industry_slug": "real-estate",
+        "level": "Certificate IV",
+        "name": "Certificate IV in Real Estate Practice",
+        "slug": "certificate-iv-in-real-estate-practice-cpp41419",
+        "image": "/industry/construction/CPC32420.jpg",
+        "short_description": "Develop the knowledge and practical skills required for professional real estate practice, including property sales, marketing, buyer and seller relationships and property management.",
+        "hero_description": "Start or advance your career in real estate with the Certificate IV in Real Estate Practice (CPP41419). Learn professional and ethical practice, real estate legislation, marketing, client relationships and trust account fundamentals, with elective choices that support property sales and property management pathways.",
+        "key_information": {
+            "duration": "Provider-dependent. Full-time programs commonly take approximately 6–12 months; part-time delivery may take longer.",
+            "delivery": "Classroom, online or blended learning with property scenarios, practical assessments and role-based activities.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "18 units of competency: 5 core units and 13 electives. Electives are selected from at least two elective groups to support the intended vocational outcome.",
+            "start_date": "29/Oct/2026",
+            "end_date": "26/Apr/2032",
+            "delivery_notification": "Real estate registration and licensing requirements vary across Australian states and territories. Confirm current local requirements with the relevant regulator before undertaking regulated work."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/CPP41419/qualdetails",
+        "overview": "The Certificate IV in Real Estate Practice develops the skills and knowledge used in professional real estate work. The qualification includes professional practice, ethical conduct, legislation, marketing and communication profiles, and preparation to work with real estate trust accounts. It requires 18 units: 5 core units and 13 electives. Electives must include all units from any two elective groups, with remaining units selected from the general electives or the CPP Property Services Training Package in accordance with the packaging rules. The qualification can support occupational outcomes in areas such as residential property sales and property management, depending on elective selection. There are no formal entry requirements specified in the qualification. State and territory registration or licensing requirements may apply to real estate work and should be checked with the relevant regulator.",
+        "graduate_outcomes": [
+            "Apply ethical and professional standards in real estate practice.",
+            "Interpret legislation and regulatory requirements relevant to real estate.",
+            "Develop marketing and communication profiles for real estate services.",
+            "Understand the requirements for working with real estate trust accounts.",
+            "Appraise property for sale or lease where included in selected electives.",
+            "Develop relationships with buyers, sellers and landlords.",
+            "Market and sell residential property where included in selected electives.",
+            "Support residential property management activities where included in selected electives.",
+            "Maintain professional client communication and records.",
+            "Apply relevant workplace and consumer protection requirements."
+        ],
+        "career_pathways": [
+            {
+                "title": "Real Estate Sales Assistant",
+                "description": "Support property sales activities, client communication, marketing and administrative tasks."
+            },
+            {
+                "title": "Property Manager",
+                "description": "Coordinate rental property activities, landlord and tenant communication and property administration, subject to local requirements."
+            },
+            {
+                "title": "Leasing Consultant",
+                "description": "Assist with property inspections, rental enquiries, applications and leasing administration."
+            },
+            {
+                "title": "Residential Sales Consultant",
+                "description": "Build buyer and seller relationships and support residential property marketing and sales, subject to registration or licensing."
+            },
+            {
+                "title": "Real Estate Administrator",
+                "description": "Maintain property records, coordinate appointments and support agency operations."
+            },
+            {
+                "title": "Property Services Officer",
+                "description": "Assist with property-related services and client support within an agency."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is CPP41419 Certificate IV in Real Estate Practice?",
+                "answer": "It is a nationally recognised qualification that develops professional, legal, marketing and client service skills for real estate practice."
+            },
+            {
+                "question": "How many units are required?",
+                "answer": "The qualification requires 18 units: 5 core units and 13 electives."
+            },
+            {
+                "question": "Can I specialise in property sales or property management?",
+                "answer": "Yes. Elective groups can be selected to support different real estate outcomes, including residential property sales and residential property management."
+            },
+            {
+                "question": "Are there entry requirements?",
+                "answer": "The national qualification has no formal entry requirements. Individual providers may have their own admission criteria."
+            },
+            {
+                "question": "Does this qualification automatically provide a real estate licence?",
+                "answer": "No. Registration and licensing requirements differ across Australian states and territories. Check the relevant regulator for the state where you intend to work."
+            },
+            {
+                "question": "What jobs may be available after graduation?",
+                "answer": "Potential roles include real estate sales assistant, property manager, leasing consultant, residential sales consultant and real estate administrator, subject to local requirements."
+            },
+            {
+                "question": "What will I study?",
+                "answer": "Core topics include professional practice, ethics, legislation, marketing and communication, and trust account preparation. Electives cover selected real estate practice areas."
+            },
+            {
+                "question": "Where can I find official details?",
+                "answer": "Visit https://training.gov.au/training/details/CPP41419/qualdetails."
+            }
+        ]
+    },
+    {
+        "code": "FNS40222",
+        "industry_slug": "business-accounting",
+        "level": "Certificate IV",
+        "name": "Certificate IV in Accounting and Bookkeeping",
+        "slug": "certificate-iv-in-accounting-and-bookkeeping-fns40222",
+        "image": "/industry/business/FNS40222.jpg",
+        "short_description": "Develop practical accounting and bookkeeping skills in financial transactions, reconciliations, budgets, financial reports, payroll and business activity statements.",
+        "hero_description": "Build a career in finance and bookkeeping with the Certificate IV in Accounting and Bookkeeping (FNS40222). Learn to process financial transactions, maintain ledgers, prepare budgets and financial reports, operate accounting systems and support payroll and business activity statement processes.",
+        "key_information": {
+            "duration": "Provider-dependent. Full-time programs commonly take approximately 6–12 months; part-time and flexible study arrangements may take longer.",
+            "delivery": "Classroom, online or blended learning with accounting software exercises, financial case studies and practical assessments.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "13 units of competency: 10 core units and 3 electives.",
+            "start_date": "29/Oct/2026",
+            "end_date": "26/Apr/2032",
+            "delivery_notification": "Confirm software, assessment, campus and intake arrangements with the provider. Registration requirements may apply to individuals providing tax agent or BAS services."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/FNS40222/qualdetails",
+        "overview": "The Certificate IV in Accounting and Bookkeeping reflects the role of individuals working in the accounting and bookkeeping industry, including contract bookkeepers and employees who perform bookkeeping tasks across a range of organisations. Skills include processing financial data, reconciling accounts, preparing budgets and financial reports, completing end-of-period adjustments and supporting business activity statement and payroll processes. The qualification requires 13 units: 10 core units and 3 electives. At least 2 electives must be selected from the listed elective units, while up to 1 may be selected from another eligible Certificate III or higher qualification or accredited course, subject to packaging rules. The national qualification has no formal entry requirements. Individuals providing BAS or tax agent services should check applicable registration and regulatory requirements.",
+        "graduate_outcomes": [
+            "Process financial transactions and extract interim reports.",
+            "Administer subsidiary accounts and ledgers.",
+            "Prepare operational budgets and financial statements.",
+            "Prepare financial reports for business decision-making.",
+            "Operate computerised accounting systems.",
+            "Complete business activity and instalment activity statements within the scope of training.",
+            "Establish and maintain payroll systems.",
+            "Perform reconciliations and maintain accurate financial records.",
+            "Use spreadsheets and accounting software to manage financial information.",
+            "Apply professional and ethical practices in accounting and bookkeeping work."
+        ],
+        "career_pathways": [
+            {
+                "title": "Bookkeeper",
+                "description": "Maintain financial records, process transactions and reconcile accounts for businesses and organisations."
+            },
+            {
+                "title": "Accounts Officer",
+                "description": "Support accounts payable, accounts receivable, reconciliations and financial administration."
+            },
+            {
+                "title": "Payroll Officer",
+                "description": "Process payroll transactions and maintain payroll records in accordance with workplace procedures."
+            },
+            {
+                "title": "Accounts Administrator",
+                "description": "Maintain accounting records, prepare reports and support routine finance operations."
+            },
+            {
+                "title": "Assistant Accountant",
+                "description": "Assist with budgets, reconciliations, financial statements and month-end processes under appropriate supervision."
+            },
+            {
+                "title": "BAS Support Officer",
+                "description": "Assist with business activity statement processes within the individual's training, authority and applicable registration requirements."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is FNS40222 Certificate IV in Accounting and Bookkeeping?",
+                "answer": "It is a nationally recognised qualification for people performing bookkeeping and accounting support tasks in businesses and organisations."
+            },
+            {
+                "question": "How many units are required?",
+                "answer": "The qualification requires 13 units: 10 core units and 3 electives."
+            },
+            {
+                "question": "What skills will I learn?",
+                "answer": "You will learn financial transaction processing, ledger administration, budgeting, financial reporting, computerised accounting, payroll and business activity statement processes."
+            },
+            {
+                "question": "Are there entry requirements?",
+                "answer": "The national qualification has no formal entry requirements. Providers may set additional admission or digital literacy requirements."
+            },
+            {
+                "question": "What software will I use?",
+                "answer": "Training providers may use computerised accounting systems and spreadsheet software. Confirm the specific software with your chosen provider."
+            },
+            {
+                "question": "What jobs can I pursue?",
+                "answer": "Potential roles include bookkeeper, accounts officer, payroll officer, accounts administrator and assistant accountant."
+            },
+            {
+                "question": "Does this qualification make me a registered BAS or tax agent?",
+                "answer": "No. Additional registration requirements apply to people providing BAS or tax agent services. Check the Tax Practitioners Board for current requirements."
+            },
+            {
+                "question": "Where can I find official details?",
+                "answer": "Visit https://training.gov.au/training/details/FNS40222/qualdetails."
+            }
+        ]
+    },
+    {
+        "code": "MEM31925",
+        "industry_slug": "engineering-manufacturing",
+        "level": "Certificate III",
+        "name": "Certificate III in Engineering - Fabrication Trade",
+        "slug": "certificate-iii-in-engineering-fabrication-trade-mem31925",
+        "image": "/industry/manufacturing/MEM31925.jpg",
+        "short_description": "Develop fabrication trade skills in interpreting technical drawings, measuring, cutting, forming, welding and assembling metal products and structures.",
+        "hero_description": "Build practical metal fabrication skills with the Certificate III in Engineering – Fabrication Trade (MEM31925). Learn to interpret technical drawings, perform engineering measurements, use hand and power tools, work safely and fabricate metal components through industry-focused training and assessment.",
+        "key_information": {
+            "duration": "Provider- and apprenticeship-dependent. A fabrication trade apprenticeship commonly takes approximately 3–4 years; other approved arrangements may differ.",
+            "delivery": "Practical workshop and workplace-based training and assessment, supported by technical instruction and supervised fabrication activities.",
+            "usage_recommendation": "Deliver and assess",
+            "extent": "Competency is measured using a points-based packaging model. Candidates must achieve 96 points, including all core units worth 33 points, at least 40 elective points from Groups A–G and up to 23 additional elective points from Group H.",
+            "start_date": "Not specified in the supplied scope data",
+            "end_date": "Not specified in the supplied scope data",
+            "delivery_notification": "Unit selection and points must comply with the current qualification packaging rules. Confirm apprenticeship, workshop facilities, welding requirements and current delivery availability with the registered training provider."
+        },
+        "providers": [],
+        "course_url": "https://training.gov.au/training/details/MEM31925/qualdetails",
+        "overview": "The Certificate III in Engineering – Fabrication Trade is a trade qualification for people undertaking fabrication work in the manufacturing and engineering industries. It develops the skills and knowledge required to interpret technical drawings, perform engineering measurements and computations, plan work, use hand and power tools, communicate information and work safely in a fabrication environment. The qualification uses a points-based packaging model rather than a simple fixed unit count. Candidates must achieve 96 points, including all core units totalling 33 points, a minimum of 40 elective points from Groups A to G, and up to 23 additional elective points from Group H. Prerequisite units must be met where specified. There are no formal entry requirements in the national qualification. Some units may relate to licensing or regulatory requirements in particular jurisdictions, so local requirements should be checked.",
+        "graduate_outcomes": [
+            "Interpret technical drawings and fabrication specifications.",
+            "Perform engineering measurements and computations.",
+            "Plan and organise fabrication work activities.",
+            "Use hand tools and power tools safely.",
+            "Select and prepare materials for fabrication tasks.",
+            "Apply workplace health, safety and environmental procedures.",
+            "Communicate and organise technical information.",
+            "Carry out fabrication processes and tasks aligned with selected elective units.",
+            "Work effectively in manufacturing and engineering environments.",
+            "Follow quality requirements and workplace procedures when producing fabricated components."
+        ],
+        "career_pathways": [
+            {
+                "title": "Metal Fabricator",
+                "description": "Cut, shape, form and assemble metal components and structures using fabrication tools and processes."
+            },
+            {
+                "title": "Boilermaker",
+                "description": "Fabricate, assemble and repair metal products, equipment and structural components in industrial settings."
+            },
+            {
+                "title": "Sheet Metal Worker",
+                "description": "Measure, cut, form and assemble sheet metal components for industrial and commercial applications."
+            },
+            {
+                "title": "Engineering Tradesperson (Fabrication)",
+                "description": "Complete fabrication and metalworking tasks to technical drawings and workplace specifications."
+            },
+            {
+                "title": "Welding Trades Assistant",
+                "description": "Support welding and fabrication operations while working within the required training and supervision arrangements."
+            },
+            {
+                "title": "Workshop Fabrication Technician",
+                "description": "Prepare materials, operate workshop equipment and assist with the manufacture of fabricated products."
+            }
+        ],
+        "faq": [
+            {
+                "question": "What is MEM31925 Certificate III in Engineering - Fabrication Trade?",
+                "answer": "It is a nationally recognised engineering trade qualification that develops fabrication skills for manufacturing and engineering workplaces."
+            },
+            {
+                "question": "How is this qualification structured?",
+                "answer": "It uses a points-based packaging model. Candidates must achieve 96 points, including all core units worth 33 points, at least 40 elective points from Groups A–G and up to 23 points from Group H."
+            },
+            {
+                "question": "Does the qualification have a fixed number of units?",
+                "answer": "No single fixed unit count applies because units carry different point values. The selected units must satisfy the qualification's 96-point packaging rules."
+            },
+            {
+                "question": "Are there entry requirements?",
+                "answer": "The national qualification has no formal entry requirements. Individual providers or apprenticeship employers may have additional requirements."
+            },
+            {
+                "question": "What practical skills will I learn?",
+                "answer": "Skills include technical drawing interpretation, engineering measurement, computations, work planning, safe tool use and fabrication tasks selected through the elective packaging rules."
+            },
+            {
+                "question": "Is this qualification suitable for an apprenticeship?",
+                "answer": "Fabrication trade training is commonly delivered through an apprenticeship pathway. Confirm available arrangements with the employer and registered training provider."
+            },
+            {
+                "question": "What jobs can I pursue?",
+                "answer": "Potential roles include metal fabricator, boilermaker, sheet metal worker, engineering tradesperson (fabrication) and workshop fabrication technician."
+            },
+            {
+                "question": "Are there licensing requirements?",
+                "answer": "No licensing, legislative or certification requirements apply to the qualification at the time of publication, but individual units or work activities may have jurisdiction-specific requirements."
+            },
+            {
+                "question": "Where can I find official details?",
+                "answer": "Visit https://training.gov.au/training/details/MEM31925/qualdetails."
+            }
+        ]
+    }
+]

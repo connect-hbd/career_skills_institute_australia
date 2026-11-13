@@ -225,6 +225,126 @@
 
     </section>
 
+{{-- RTO Summary Card Component --}}
+<section class="max-w-7xl mx-auto my-8 px-4 sm:px-6">
+    <div class="bg-white rounded-xl border border-slate-200/80 shadow-sm overflow-hidden">
+        
+        {{-- Card Header --}}
+        <div class="px-6 py-5 border-b border-slate-200/80 bg-slate-50/60 flex items-center justify-between">
+            <div>
+                <h2 class="text-lg sm:text-xl md:text-3xl font-semibold text-slate-900 tracking-tight">Summary</h2>
+                <p class="text-xs text-slate-500 mt-0.5">Registered Training Organisation (RTO) registration details</p>
+            </div>
+            
+            {{-- Status Badge in Header (Optional quick-glance) --}}
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 ring-1 ring-inset ring-emerald-600/20">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                {{ $rto->status ?? 'Current' }}
+            </span>
+        </div>
 
+        {{-- Definition List Grid --}}
+        <dl class="divide-y divide-slate-100">
+            
+            {{-- Code --}}
+            <div class="px-6 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center hover:bg-slate-50/70 transition-colors">
+                <dt class="text-sm font-medium text-slate-500">Code</dt>
+                <dd class="mt-1 text-sm font-semibold text-slate-900 sm:col-span-2 sm:mt-0 font-mono">
+                    {{ $rto->code ?? '45685' }}
+                </dd>
+            </div>
+
+            {{-- Legal Name --}}
+            <div class="px-6 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center hover:bg-slate-50/70 transition-colors">
+                <dt class="text-sm font-medium text-slate-500">Legal name</dt>
+                <dd class="mt-1 text-sm font-medium text-slate-900 sm:col-span-2 sm:mt-0">
+                    {{ $rto->legal_name ?? 'Career Skills Institute Australia' }}
+                </dd>
+            </div>
+
+            {{-- Business Name(s) --}}
+            <div class="px-6 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center hover:bg-slate-50/70 transition-colors">
+                <dt class="text-sm font-medium text-slate-500">Business name(s)</dt>
+                <dd class="mt-1 text-sm text-slate-800 sm:col-span-2 sm:mt-0">
+                    {{ $rto->business_name ?? 'CAREER SKILLS INSTITUTE AUSTRALIA' }}
+                </dd>
+            </div>
+
+            {{-- Status --}}
+            <div class="px-6 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center hover:bg-slate-50/70 transition-colors">
+                <dt class="text-sm font-medium text-slate-500">Status</dt>
+                <dd class="mt-1 sm:col-span-2 sm:mt-0">
+                    @php
+                        $isCurrent = strtolower($rto->status ?? 'current') === 'current';
+                    @endphp
+                    <span @class([
+                        'inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium ring-1 ring-inset',
+                        'bg-emerald-50 text-emerald-700 ring-emerald-600/20' => $isCurrent,
+                        'bg-amber-50 text-amber-700 ring-amber-600/20' => !$isCurrent,
+                    ])>
+                        <span @class([
+                            'w-1.5 h-1.5 rounded-full',
+                            'bg-emerald-500' => $isCurrent,
+                            'bg-amber-500' => !$isCurrent,
+                        ])></span>
+                        {{ $rto->status ?? 'Current' }}
+                    </span>
+                </dd>
+            </div>
+
+            {{-- ABN --}}
+            <div class="px-6 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center hover:bg-slate-50/70 transition-colors">
+                <dt class="text-sm font-medium text-slate-500">ABN</dt>
+                <dd class="mt-1 text-sm sm:col-span-2 sm:mt-0">
+                    <a href="https://abr.business.gov.au/ABN/View?id={{ str_replace(' ', '', $rto->abn ?? '31626754069') }}" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center gap-1 font-medium text-[#1968b2] hover:text-[#155b9d] hover:underline transition-colors">
+                        <span>{{ $rto->abn ?? '31 626 754 069' }}</span>
+                        <svg class="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </a>
+                </dd>
+            </div>
+
+            {{-- ACN --}}
+            <div class="px-6 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center hover:bg-slate-50/70 transition-colors">
+                <dt class="text-sm font-medium text-slate-500">ACN</dt>
+                <dd class="mt-1 text-sm text-slate-800 sm:col-span-2 sm:mt-0 font-mono">
+                    {{ $rto->acn ?? '626 754 069' }}
+                </dd>
+            </div>
+
+            {{-- RTO Type --}}
+            <div class="px-6 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start hover:bg-slate-50/70 transition-colors">
+                <dt class="text-sm font-medium text-slate-500">RTO type</dt>
+                <dd class="mt-1 text-sm text-slate-800 sm:col-span-2 sm:mt-0 leading-relaxed">
+                    {{ $rto->rto_type ?? 'Education/training Business Or Centre: Privately Operated Registered Training Organisation' }}
+                </dd>
+            </div>
+
+            {{-- Web Address --}}
+            <div class="px-6 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center hover:bg-slate-50/70 transition-colors">
+                <dt class="text-sm font-medium text-slate-500">Web address</dt>
+                <dd class="mt-1 text-sm sm:col-span-2 sm:mt-0">
+                    @php
+                        $website = $rto->web_address ?? 'http://www.csia.com.au';
+                    @endphp
+                    <a href="{{ $website }}" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center gap-1 font-medium text-[#1968b2] hover:text-[#155b9d] hover:underline break-all transition-colors">
+                        <span>{{ $website }}</span>
+                        <svg class="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </a>
+                </dd>
+            </div>
+
+        </dl>
+    </div>
+</section>
 
 @endsection

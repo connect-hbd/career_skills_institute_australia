@@ -25,7 +25,7 @@
                         <span class="relative inline-flex h-2 w-2 rounded-full bg-brand-600"></span>
                     </span>
 
-                    <span>01 Disciplines & Sectors</span>
+                    <span>Enrolments are Open</span>
                 </div>
 
                 {{-- Heading --}}

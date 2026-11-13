@@ -92,16 +92,7 @@
                 </div>
             </div>
 
-            {{-- Footer Meta Info --}}
-            <div
-                class="relative z-10 flex flex-wrap items-center gap-x-3 gap-y-2 border-t border-slate-200 pt-4 text-[9px] font-bold uppercase tracking-wide text-slate-500 sm:pt-5">
-                <div class="flex items-center gap-1.5">
-                    <iconify-icon icon="lucide:file-text" class="text-base text-brand-600"></iconify-icon>
-                    <span>PDF (3.8 MB)</span>
-                </div>
-                <span class="text-slate-300">•</span>
-                <span>Updated: January 2025</span>
-            </div>
+           
         </div>
 
         {{-- RIGHT FORM --}}
@@ -144,6 +135,15 @@
                         Full Legal Name *
                     </label>
                     <input id="full-name" type="text" required placeholder="e.g. Alex Henderson"
+                        class="h-11 w-full rounded-xl border border-white/10 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 outline-none transition-all duration-200 focus:border-secondary-400 focus:ring-4 focus:ring-secondary-400/15 sm:h-12" />
+                </div>
+
+               {{-- Phone No --}}
+               <div class="flex flex-col gap-1.5 sm:gap-2">
+                    <label for="phone" class="text-[10px] font-bold uppercase tracking-wider text-slate-200">
+                       Phone Number *
+                    </label>
+                    <input id="phone" type="number" required placeholder="0434 299 291"
                         class="h-11 w-full rounded-xl border border-white/10 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 outline-none transition-all duration-200 focus:border-secondary-400 focus:ring-4 focus:ring-secondary-400/15 sm:h-12" />
                 </div>
 

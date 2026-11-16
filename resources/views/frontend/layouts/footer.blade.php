@@ -43,7 +43,7 @@
                         WhatsApp Us
                     </a>
 
-                    <a href="{{ route('contact') }}"
+                    <a href="https://api.leadconnectorhq.com/widget/form/fdOLF5N3csV09U0JD5KA"
                         class="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-brand-950 px-4 py-3 text-sm font-bold text-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-brand-800 hover:shadow-md">
 
                         <iconify-icon icon="lucide:calendar-check" class="text-lg"></iconify-icon>
@@ -84,7 +84,7 @@
                     </li>
 
                     <li>
-                        <a href="https://www.advancecollege.edu.au/ndis-worker-screening-check/"
+                        <a href="#"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="group flex items-center gap-3 text-sm font-medium text-slate-600 transition-colors duration-200 hover:text-brand-700">
@@ -252,12 +252,12 @@
             {{-- Legal Links --}}
             <div class="flex flex-wrap items-center gap-x-6 gap-y-3 text-xs font-semibold text-slate-600">
 
-                <a href="{{ route('privacy-policy') }}"
+                <a href="#"
                     class="transition-colors hover:text-brand-700">
                     Privacy Policy
                 </a>
 
-                <a href="{{ route('terms-conditions') }}"
+                <a href="#"
                     class="transition-colors hover:text-brand-700">
                     Refund Policy
                 </a>

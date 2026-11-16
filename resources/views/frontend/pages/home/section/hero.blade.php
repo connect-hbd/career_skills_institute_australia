@@ -89,7 +89,7 @@
                                 <iconify-icon icon="lucide:check-circle-2"
                                     class="text-base text-secondary-400 sm:text-lg"></iconify-icon>
                                 <span class="text-[11px] font-medium text-white sm:text-xs">
-                                    RPL Pathways
+                                     AQF
                                 </span>
                             </div>
                             <span
@@ -122,7 +122,7 @@
                         </div>
                         <div>
                             <p class="text-[11px] font-bold text-brand-950 sm:text-xs">
-                                ISO Certified
+                                NRT ACCREDITED
                             </p>
                             <p class="text-[9px] text-slate-500 sm:text-[10px]">
                                 100% Recognized
@@ -182,7 +182,7 @@
                         </div>
 
                         <button type="button" @click="consultationModal = false"
-                            class="rounded-lg p-1.5 text-slate-400 transition-colors hover:bg-brand-100/60 hover:text-brand-800">
+                            class="rounded-lg p-1.5 w-8 h-8 flex items-center justify-center text-slate-400 transition-colors hover:bg-brand-100/60 hover:text-brand-800">
                             <span class="sr-only">Close modal</span>
                             <iconify-icon icon="lucide:x" class="text-xl"></iconify-icon>
                         </button>

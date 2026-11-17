@@ -76,7 +76,7 @@
                     {{-- Image 1: Main Featured Tile --}}
                     <div
                         class="group relative col-span-7 row-span-2 overflow-hidden rounded-xl border border-brand-200 bg-brand-100 shadow-xl shadow-brand-900/10 transition-all duration-500 hover:border-brand-400 sm:rounded-2xl sm:shadow-2xl">
-                        <img src="{{ asset('images/courses/constructions.png') }}"
+                        <img src="{{ asset('images/hero/constructions.png') }}"
                             alt="Construction engineering project"
                             class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
@@ -102,14 +102,14 @@
                     {{-- Image 2: Top Right Tile --}}
                     <div
                         class="group relative col-span-5 row-span-1 overflow-hidden rounded-xl border border-brand-200 bg-brand-100 shadow-lg shadow-brand-900/10 transition-all duration-500 hover:border-brand-400 sm:rounded-2xl sm:shadow-xl">
-                        <img src="{{ asset('images/courses/plumbering.png') }}" alt="On-site technical training"
+                        <img src="{{ asset('images/hero/plumbering.png') }}" alt="On-site technical training"
                             class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
                     </div>
 
                     {{-- Image 3: Bottom Right Tile --}}
                     <div
                         class="group relative col-span-5 row-span-1 overflow-hidden rounded-xl border border-brand-200 bg-brand-100 shadow-lg shadow-brand-900/10 transition-all duration-500 hover:border-brand-400 sm:rounded-2xl sm:shadow-xl">
-                        <img src="{{ asset('images/courses/agening-support.png') }}" alt="Hands-on skills application"
+                        <img src="{{ asset('images/hero/agening-support.png') }}" alt="Hands-on skills application"
                             class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
                     </div>
 

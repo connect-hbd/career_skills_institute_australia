@@ -3240,7 +3240,7 @@
 },
 {
     "code": "MEM31925",
-    "industry_slug": "engineering-fabrication",
+    "industry_slug": "engineering-manufacturing",
     "level": "Certificate III",
     "name": "Certificate III in Engineering – Fabrication Trade",
     "slug": "certificate-iii-in-engineering-fabrication-trade-mem31925",
@@ -3307,20 +3307,12 @@
             "value": "96 points"
         },
         {
-            "label": "Core Units",
-            "value": "12 units (33 points)"
-        },
-        {
-            "label": "Elective Units",
-            "value": "Selected to meet the 96-point packaging requirements"
-        },
-        {
             "label": "Industry",
             "value": "Manufacturing, Engineering and Fabrication"
         },
         {
             "label": "Study Mode",
-            "value": "Training Contract or formal trade recognition assessment"
+            "value": "Training Contract"
         }
     ],
     "entry_requirements": {

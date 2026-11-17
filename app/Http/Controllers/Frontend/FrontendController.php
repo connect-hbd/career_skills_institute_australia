@@ -74,4 +74,8 @@ class FrontendController extends Controller
       public function faqs(){
         return view('frontend.pages.faq.index');
     }
+
+    public function ndisCheck(){
+        return view('frontend.pages.check-eligibility.ndis-check');
+    }
 }

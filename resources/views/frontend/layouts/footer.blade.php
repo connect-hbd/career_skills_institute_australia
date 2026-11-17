@@ -84,7 +84,7 @@
                     </li>
 
                     <li>
-                        <a href="#"
+                        <a href="{{route('ndis-check')}}"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="group flex items-center gap-3 text-sm font-medium text-slate-600 transition-colors duration-200 hover:text-brand-700">

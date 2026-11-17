@@ -30,6 +30,7 @@ Route::get('/privacy-policy', [FrontendController::class, 'privacyPolicy'])->nam
 Route::get('/terms-conditions', [FrontendController::class, 'termsConditions'])->name('terms-conditions');
 
 Route::post('/inquiry-us', [ContactController::class, 'store'])->name('contact.store');
+Route::get('/ndis-check', [FrontendController::class, 'ndisCheck'])->name('ndis-check');
 
 Route::get('/qualifications', [IndustryController::class, 'index'])->name('qualifications.index');
 Route::get('industries/qualifications/{industrySlug}', [IndustryController::class, 'industryQualification'])->name('industry');

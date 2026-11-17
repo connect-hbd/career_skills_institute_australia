@@ -3237,5 +3237,362 @@
             }
         ]
     }
+},
+{
+    "code": "MEM31925",
+    "industry_slug": "engineering-fabrication",
+    "level": "Certificate III",
+    "name": "Certificate III in Engineering – Fabrication Trade",
+    "slug": "certificate-iii-in-engineering-fabrication-trade-mem31925",
+    "image": "/images/qualifications/certificate-iii-in-engineering-fabrication-trade.png",
+    "short_description": "Develop practical trade skills and technical knowledge in metal fabrication, welding, boilermaking and engineering workshop operations. The MEM31925 Certificate III in Engineering – Fabrication Trade covers technical drawing interpretation, engineering measurements, fabrication processes, metalworking, welding and safe workshop practices.",
+    "description": "Build Your Career in Engineering Fabrication",
+    "key_information": {
+        "extent": "96 points: 12 core units worth 33 points and elective units selected to meet the qualification packaging requirements.",
+        "qualification_code": "MEM31925",
+        "aqf_level": "Certificate III",
+        "total_units": "96 points",
+        "core_units": "12 units (33 points)",
+        "elective_units": "Selected to meet the 96-point packaging requirements",
+        "industry": "Manufacturing, Engineering and Fabrication",
+        "study_mode": "Training Contract or formal trade recognition assessment"
+    },
+    "overview": {
+        "heading": "Develop the Skills to Succeed in Engineering Fabrication",
+        "description": "The MEM31925 Certificate III in Engineering – Fabrication Trade is designed for individuals seeking to develop the practical skills and technical knowledge required to work in metal fabrication, engineering, manufacturing and related industries.",
+        "content": [
+            "This qualification focuses on interpreting technical drawings, performing engineering measurements and calculations, using hand and power tools, planning work activities and applying safe work practices in engineering environments.",
+            "Learners develop trade-related capabilities in fabrication processes, metalworking, welding and other specialist activities through the selection of elective units aligned with their occupational pathway.",
+            "The qualification includes pathways in general fabrication, boilermaking, welding, sheetmetal working, blacksmithing and surface finishing.",
+            "It is intended to be undertaken through a Training Contract or a formal trade recognition assessment process. Applicants with existing industry experience may be able to explore the formal trade recognition pathway, subject to eligibility and assessment requirements."
+        ]
+    },
+    "why_choose": {
+        "heading": "Why Choose This Qualification?",
+        "description": "Develop practical engineering fabrication capabilities and trade-related skills for opportunities across manufacturing, engineering and metalworking industries.",
+        "benefits": [
+            {
+                "icon": "award",
+                "title": "Nationally Recognised Qualification",
+                "description": "Develop engineering fabrication knowledge and trade skills aligned with the Australian Manufacturing and Engineering Training Package."
+            },
+            {
+                "icon": "wrench",
+                "title": "Practical Engineering Skills",
+                "description": "Build capabilities in interpreting technical drawings, measuring materials, using engineering tools, applying fabrication techniques and following workplace safety procedures."
+            },
+            {
+                "icon": "file-check-2",
+                "title": "Trade Recognition Opportunities",
+                "description": "Experienced fabrication and engineering workers may be able to have their existing skills and knowledge assessed through a formal trade recognition assessment process."
+            },
+            {
+                "icon": "trending-up",
+                "title": "Career Development",
+                "description": "Explore occupational opportunities in metal fabrication, welding, boilermaking, sheetmetal work, structural steel and other engineering specialisations."
+            }
+        ]
+    },
+    "fast_facts": [
+        {
+            "label": "Qualification Code",
+            "value": "MEM31925"
+        },
+        {
+            "label": "AQF Level",
+            "value": "Certificate III"
+        },
+        {
+            "label": "Total Points",
+            "value": "96 points"
+        },
+        {
+            "label": "Core Units",
+            "value": "12 units (33 points)"
+        },
+        {
+            "label": "Elective Units",
+            "value": "Selected to meet the 96-point packaging requirements"
+        },
+        {
+            "label": "Industry",
+            "value": "Manufacturing, Engineering and Fabrication"
+        },
+        {
+            "label": "Study Mode",
+            "value": "Training Contract or formal trade recognition assessment"
+        }
+    ],
+    "entry_requirements": {
+        "heading": "Entry Requirements",
+        "qualification_requirements": {
+            "title": "Entry Requirements",
+            "description": "There are no formal entry requirements for MEM31925 under the national qualification. However, this qualification must be undertaken through a Training Contract or formal trade recognition assessment process. Applicants should be prepared to:",
+            "items": [
+                "Obtain a Unique Student Identifier (USI).",
+                "Provide valid identification.",
+                "Participate in LLND and pre-training assessments where required by the RTO.",
+                "Demonstrate an understanding of basic measurements and calculations.",
+                "Follow engineering workplace health and safety procedures.",
+                "Use relevant tools, equipment and materials safely.",
+                "Participate in practical training or assessment activities as required.",
+                "Provide relevant employment and trade experience evidence if applying through formal trade recognition."
+            ],
+            "note": "Some units require evidence of performance in a functioning workplace, with an appropriate range of tasks and materials. Applicants must demonstrate competency against the full requirements of the qualification. Providing employment documents or photographs alone does not guarantee competency or qualification completion."
+        },
+        "core_skills": {
+            "title": "Core Skills",
+            "items": [
+                {
+                    "name": "Reading",
+                    "description": "Interpret engineering drawings, work instructions, technical specifications and workplace safety information."
+                },
+                {
+                    "name": "Writing",
+                    "description": "Complete workplace documentation, work records, technical notes and relevant engineering reports."
+                },
+                {
+                    "name": "Numeracy",
+                    "description": "Perform engineering measurements, calculations, material measurements and dimensional checks."
+                },
+                {
+                    "name": "Communication",
+                    "description": "Communicate effectively with supervisors, tradespeople, team members and other workplace personnel."
+                },
+                {
+                    "name": "Digital Skills",
+                    "description": "Use basic computing technology and digital tools relevant to engineering and manufacturing activities."
+                },
+                {
+                    "name": "Practical Skills",
+                    "description": "Use hand tools, power tools and relevant workshop equipment while following safe work procedures."
+                }
+            ]
+        }
+    },
+    "course_structure": {
+        "heading": "Discover the Foundations of Engineering Fabrication",
+        "description": "The MEM31925 Certificate III in Engineering – Fabrication Trade requires learners to complete units of competency totalling 96 points. This includes 12 core units worth 33 points and the required elective units selected according to the relevant occupational pathway.",
+        "total_units": 96,
+        "core_units_count": 12,
+        "elective_units_count": null,
+        "groups": [
+            {
+                "type": "core",
+                "title": "Core Units – 12 Units",
+                "description": "Complete all 12 core units, totalling 33 points.",
+                "units": [
+                    {
+                        "code": "MEM09002",
+                        "title": "Interpret technical drawing"
+                    },
+                    {
+                        "code": "MEM11011",
+                        "title": "Undertake manual handling"
+                    },
+                    {
+                        "code": "MEM12023",
+                        "title": "Perform engineering measurements"
+                    },
+                    {
+                        "code": "MEM12024",
+                        "title": "Perform computations"
+                    },
+                    {
+                        "code": "MEM13015",
+                        "title": "Work safely and effectively in manufacturing and engineering"
+                    },
+                    {
+                        "code": "MEM14006",
+                        "title": "Plan work activities"
+                    },
+                    {
+                        "code": "MEM16006",
+                        "title": "Organise and communicate information"
+                    },
+                    {
+                        "code": "MEM16008",
+                        "title": "Interact with computing technology"
+                    },
+                    {
+                        "code": "MEM17003",
+                        "title": "Assist in the provision of on-the-job training"
+                    },
+                    {
+                        "code": "MEM18001",
+                        "title": "Use hand tools"
+                    },
+                    {
+                        "code": "MEM18002",
+                        "title": "Use power tools/hand held operations"
+                    },
+                    {
+                        "code": "MSMENV272",
+                        "title": "Participate in environmentally sustainable work practices"
+                    }
+                ]
+            },
+            {
+                "type": "elective",
+                "title": "Elective Units",
+                "description": "Electives are selected according to the learner's chosen specialisation, occupational requirements and qualification packaging rules.",
+                "units": [
+                    {
+                        "code": "MEM05003",
+                        "title": "Perform soft soldering"
+                    },
+                    {
+                        "code": "MEM05004",
+                        "title": "Perform routine oxy fuel gas welding"
+                    },
+                    {
+                        "code": "MEM05005",
+                        "title": "Carry out mechanical cutting"
+                    },
+                    {
+                        "code": "MEM05006",
+                        "title": "Perform brazing and/or silver soldering"
+                    },
+                    {
+                        "code": "MEM05007",
+                        "title": "Perform manual heating and thermal cutting"
+                    },
+                    {
+                        "code": "MEM05009",
+                        "title": "Perform automated thermal cutting"
+                    },
+                    {
+                        "code": "MEM05010",
+                        "title": "Apply fabrication, forming and shaping techniques"
+                    },
+                    {
+                        "code": "MEM05012",
+                        "title": "Perform routine manual metal arc welding"
+                    },
+                    {
+                        "code": "MEM05014",
+                        "title": "Monitor quality of production welding/fabrications"
+                    },
+                    {
+                        "code": "MEM05037",
+                        "title": "Perform geometric development"
+                    },
+                    {
+                        "code": "MEM05049",
+                        "title": "Perform routine gas tungsten arc welding"
+                    },
+                    {
+                        "code": "MEM05050",
+                        "title": "Perform routine gas metal arc welding"
+                    },
+                    {
+                        "code": "MEM05052",
+                        "title": "Apply safe welding practices"
+                    },
+                    {
+                        "code": "MEM05089",
+                        "title": "Assemble fabricated components"
+                    },
+                    {
+                        "code": "MEM06010",
+                        "title": "Perform hand forging"
+                    }
+                ],
+                "note": "The qualification requires 96 points in total. All 12 core units must be completed, totalling 33 points. At least 40 elective points must come from the relevant occupational groups (Groups A–G). Up to 23 elective points may be selected from Group H. A maximum of 8 elective points may be selected from another Certificate III qualification or accredited course, subject to relevance and the applicable requirements. Unit prerequisites must be met where applicable. The units listed above are examples; they are not a prescribed selection. The final elective selection must meet the official packaging rules and be confirmed against the RTO's approved scope and delivery arrangements."
+            }
+        ]
+    },
+    "skills_you_will_develop": {
+        "heading": "Skills You Will Develop",
+        "items": [
+            {
+                "title": "Technical Drawing Interpretation",
+                "description": "Interpret engineering drawings, symbols, dimensions and technical specifications."
+            },
+            {
+                "title": "Engineering Measurements",
+                "description": "Perform measurements and dimensional checks using appropriate engineering instruments."
+            },
+            {
+                "title": "Engineering Calculations",
+                "description": "Apply mathematical and computational skills to engineering and fabrication activities."
+            },
+            {
+                "title": "Metal Fabrication",
+                "description": "Develop practical knowledge of cutting, forming, shaping and assembling metal components."
+            },
+            {
+                "title": "Welding Techniques",
+                "description": "Develop knowledge and practical skills in relevant welding processes according to the selected specialisation."
+            },
+            {
+                "title": "Tool Operation",
+                "description": "Use hand tools and power tools safely and effectively in engineering environments."
+            },
+            {
+                "title": "Workplace Safety",
+                "description": "Identify hazards and follow safe work procedures in manufacturing and engineering workplaces."
+            },
+            {
+                "title": "Work Planning",
+                "description": "Organise work activities, materials, equipment and tasks to meet workplace requirements."
+            },
+            {
+                "title": "Technical Communication",
+                "description": "Interpret instructions, communicate workplace information and maintain relevant work documentation."
+            },
+            {
+                "title": "Environmental Practices",
+                "description": "Apply environmentally sustainable work practices in engineering and manufacturing activities."
+            }
+        ]
+    },
+    "career_pathways": {
+        "heading": "Career Pathways",
+        "description": "This qualification can support occupational opportunities across metal fabrication, welding, boilermaking, sheetmetal work and other engineering specialisations.",
+        "items": [
+            {
+                "title": "Engineering Tradesperson – Fabrication",
+                "description": "Perform fabrication activities involving metal components, engineering materials and workshop processes."
+            },
+            {
+                "title": "Metal Fabricator",
+                "description": "Cut, shape, form and assemble metal components according to technical drawings and specifications."
+            },
+            {
+                "title": "Boilermaker",
+                "description": "Fabricate, assemble and repair metal structures, equipment and industrial components."
+            },
+            {
+                "title": "Welder",
+                "description": "Join metal components using relevant welding processes and workplace procedures."
+            },
+            {
+                "title": "Sheetmetal Worker",
+                "description": "Measure, cut, form and assemble sheetmetal products and components."
+            },
+            {
+                "title": "Structural Steel Fabricator",
+                "description": "Prepare and assemble structural steel components for construction and industrial applications."
+            },
+            {
+                "title": "Blacksmith",
+                "description": "Shape and form metal using forging and other metalworking techniques."
+            },
+            {
+                "title": "Surface Finishing Tradesperson",
+                "description": "Prepare and finish metal surfaces using relevant treatment and finishing processes."
+            },
+            {
+                "title": "Fabrication Workshop Tradesperson",
+                "description": "Carry out fabrication, assembly, workshop operations and related engineering activities."
+            },
+            {
+                "title": "Manufacturing Fabrication Worker",
+                "description": "Support metalworking and production activities within engineering and manufacturing environments."
+            }
+        ],
+        "note": "Career opportunities depend on the learner's selected occupational specialisation, completed units, practical experience and employer requirements. Some workplace activities may also be subject to local regulatory or licensing requirements. The qualification itself does not automatically provide a licence or authorisation to perform regulated work."
+    }
 }
 ]

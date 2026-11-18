@@ -151,6 +151,12 @@
                             class="break-all text-sm font-bold text-brand-950 transition-colors hover:text-brand-600">
                             enrol@csia.edu.au
                         </a>
+                         <a href="tel:0485094999"
+                            class="mt-1 inline-flex items-center gap-2 text-sm font-bold text-brand-600 transition-colors hover:text-brand-800">
+
+                            <iconify-icon icon="lucide:phone" class="text-sm"></iconify-icon>
+                           0485094999
+                        </a>
 
                     </div>
 
@@ -170,12 +176,7 @@
                             class="break-all text-sm font-bold text-brand-950 transition-colors hover:text-brand-600">
                             info@csia.edu.au
                         </a>
-                         <a href="tel:0485094999"
-                            class="mt-1 inline-flex items-center gap-2 text-sm font-bold text-brand-600 transition-colors hover:text-brand-800">
-
-                            <iconify-icon icon="lucide:phone" class="text-sm"></iconify-icon>
-                           0485094999
-                        </a>
+                        
 
                     </div>
 
@@ -199,12 +200,7 @@
                            17 Chuter St, MCMAHONS POINT, NSW, 2060
                         </p>
 
-                        {{-- <a href="tel:+61286773600"
-                            class="mt-1 inline-flex items-center gap-2 text-sm font-bold text-brand-600 transition-colors hover:text-brand-800">
-
-                            <iconify-icon icon="lucide:phone" class="text-sm"></iconify-icon>
-                           0434 299 291
-                        </a> --}}
+                       
 
                     </div>
 

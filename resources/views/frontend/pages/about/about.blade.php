@@ -329,7 +329,7 @@
                 <dt class="text-sm font-medium text-slate-500">Web address</dt>
                 <dd class="mt-1 text-sm sm:col-span-2 sm:mt-0">
                     @php
-                        $website = $rto->web_address ?? 'http://www.csia.com.au';
+                        $website = $rto->web_address ?? 'https://csia.edu.au';
                     @endphp
                     <a href="{{ $website }}" 
                        target="_blank" 

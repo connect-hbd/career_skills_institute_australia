@@ -8,7 +8,7 @@
             <div class="order-1 lg:col-span-6 lg:order-none">
                 <div class="relative overflow-hidden rounded-2xl bg-slate-100 sm:rounded-3xl">
 
-                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxkwcEdlCoRsjFLoTLA03kn1AnpfE8152dyNbSRlmMqdVILqgdDPl7rpiEw3YaMGpWFLp0Pht3hMmkrRE8NdvH5WWJ0d-hwLmpqONwn4Cy1c-8XJEa2-Voq985mbHZuZxHo2LGnZrLoMeMb-a7wezGLeLDqHP8Lu82nAqfa8o-F9rUxncQslCeThHMGq9OOsGMRUCIHih53hoioIL4POOjBvX3wEu22n1e2lhhit5p1lTtAuTmxQP8EA"
+                    <img src="{{ asset('images/about-us.png') }}"
                          alt="Students studying together in modern campus library"
                          class="h-64 w-full object-cover sm:h-80 lg:h-[420px]">
 
